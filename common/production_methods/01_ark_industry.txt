@@ -3214,7 +3214,7 @@ pm_no_nomandic_city_structure = {
 	texture = "gfx/interface/icons/production_method_icons/no_nomandic_city_structure.dds"
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_housing_add = 2
+			goods_output_housing_add = 1
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3241,7 +3241,7 @@ pm_early_nomandic_city_structure = {
 			goods_input_originite_prime_add = 2
 			goods_input_land_ships_add = 2
 			goods_input_engines_add = 1
-			goods_output_housing_add = 4
+			goods_output_housing_add = 2
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3270,7 +3270,7 @@ pm_improved_nomandic_city_structure = {
 			goods_input_land_ships_add = 2
 			goods_input_crystalline_circuit_add = 1
 			goods_input_engines_add = 2
-			goods_output_housing_add = 5
+			goods_output_housing_add = 3
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3300,7 +3300,7 @@ pm_advanced_nomandic_city_structure = {
 			goods_input_land_ships_add = 4
 			goods_input_crystalline_circuit_add = 2
 			goods_input_engines_add = 4
-			goods_output_housing_add = 10
+			goods_output_housing_add = 4
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3330,7 +3330,7 @@ pm_modern_nomandic_city_structure = {
 			goods_input_land_ships_add = 4
 			goods_input_crystalline_circuit_add = 3
 			goods_input_engines_add = 6
-			goods_output_housing_add = 15
+			goods_output_housing_add = 5
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -6037,3 +6037,4 @@ pm_brand_customization = {
 		}
 	}
 }
+
