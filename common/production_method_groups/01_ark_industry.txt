@@ -543,6 +543,15 @@ pmg_commercial_city_structure = {
 	}
 }
 
+pmg_commercial_city_structure_1 = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_infrastructure_1.dds"
+	production_methods = {
+		pm_single_deck_generic_city_structure_0
+		pm_double_deck_generic_city_structure_1
+		pm_triple_deck_generic_city_structure_2
+	}
+}
+
 pmg_generic_city_structure = {
 	texture = "gfx/interface/icons/generic_icons/mixed_icon_infrastructure.dds"
 	production_methods = {

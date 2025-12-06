@@ -19,7 +19,7 @@ building_port = {
 	terrain_manipulator = urban_port
 
 	potential = {
-		is_coastal = yes
+		#is_coastal = yes
 	}
 
 	ownership_type = self

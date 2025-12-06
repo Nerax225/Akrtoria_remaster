@@ -67,6 +67,7 @@ building_commercial_nomandic_district = {
 
 	production_method_groups = {
 		pmg_commercial_city_structure
+		pmg_commercial_city_structure_1
 	}
 	downsizeable = no
 	required_construction = construction_cost_nomandic_district

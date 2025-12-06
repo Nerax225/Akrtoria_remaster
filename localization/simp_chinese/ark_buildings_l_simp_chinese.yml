@@ -379,13 +379,17 @@
  pm_orginium_network_armory_production_complex: "源石网络"
  #商业移动地块
  building_commercial_nomandic_district: "商业移动地块"
- pmg_commercial_city_structure: "商业城市结构"
+ pmg_commercial_city_structure: "商业城市模式"
+ pmg_commercial_city_structure_1: "商业城市结构"
  pm_market_stalls: "集市摊位"
  pm_market_squares: "集市广场"
  pm_covered_markets: "室内广场"
  pm_arcade: "购物拱廊"
  pm_supermarkets: "超市"
  pm_shopping_malls: "购物中心"
+ pm_single_deck_generic_city_structure_0: "单层结构"
+ pm_single_deck_generic_city_structure_1: "双层结构"
+ pm_single_deck_generic_city_structure_2: "三层结构"
  
  #通用移动地块
  building_generic_nomandic_district: "通用移动地块"

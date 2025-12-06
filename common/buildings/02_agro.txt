@@ -156,7 +156,7 @@ building_grain_farm = { #谷物农场
 		pmg_grain_farm_harvesting
 	}
 
-	required_construction = construction_cost_medium
+	required_construction = construction_cost_low
 
 	terrain_manipulator = farmland_wheat
 	ownership_type = self
