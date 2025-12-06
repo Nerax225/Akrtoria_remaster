@@ -1,0 +1,625 @@
+pmg_base_building_carbon_extraction_plant = {
+	production_methods = {
+		pm_primitive_solvent
+		pm_semi_natural_solvent
+		pm_refined_solvent
+	}
+}
+
+pmg_catalyst_building_carbon_extraction_plant = {
+	production_methods = {
+		pm_no_catalyst
+		pm_light_manganese_catalyst
+		pm_trihydrate_manganese_catalyst
+	}
+}
+
+pmg_alternative_building_carbon_extraction_plant = {
+	production_methods = {
+		pm_no_alternative
+		pm_wood_alternative
+	}
+}
+
+pmg_automation_building_carbon_extraction_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_chemical_plant = {
+	production_methods = {
+		pm_primitive_solvent
+		pm_semi_natural_solvent
+		pm_refined_solvent
+	}
+}
+
+pmg_catalyst_building_chemical_plant = {
+	production_methods = {
+		pm_no_catalyst
+		pm_light_manganese_catalyst
+		pm_trihydrate_manganese_catalyst
+	}
+}
+
+pmg_automation_building_chemical_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_carbon_synthesis_plant = {
+	production_methods = {
+		pm_carbon_synthesis
+		pm_carbon_group_synthesis
+		pm_basic_reinforced_materials
+		pm_advanced_reinforced_materials
+		pm_high_grade_reinforced_materials
+	}
+}
+
+pmg_automation_building_carbon_synthesis_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_sugar_plant = {
+	production_methods = {
+		pm_sugar_substitute
+		pm_sugar
+		pm_sugar_group
+		pm_sugar_block
+	}
+}
+
+pmg_catalyst_building_sugar_plant = {
+	production_methods = {
+		pm_no_catalyst
+		pm_light_manganese_catalyst
+		pm_trihydrate_manganese_catalyst
+	}
+}
+
+pmg_automation_building_sugar_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_ester_synthesis_plant = {
+	production_methods = {
+		pm_ester_raw_material
+		pm_polyester
+		pm_polyester_group
+		pm_polyester_block
+	}
+}
+
+pmg_catalyst_building_ester_synthesis_plant = {
+	production_methods = {
+		pm_no_catalyst
+		pm_light_manganese_catalyst
+		pm_trihydrate_manganese_catalyst
+	}
+}
+
+pmg_automation_building_ester_synthesis_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_ketone_synthesis_plant = {
+	production_methods = {
+		pm_diketone
+		pm_ketone_condensation
+		pm_ketone_condensation_group
+		pm_ketone_array
+	}
+}
+
+pmg_catalyst_building_ketone_synthesis_plant = {
+	production_methods = {
+		pm_no_catalyst
+		pm_light_manganese_catalyst
+		pm_trihydrate_manganese_catalyst
+	}
+}
+
+pmg_automation_building_ketone_synthesis_plant = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+
+pmg_base_building_clothing_factory = {
+	production_methods = {
+		pm_handmade_clothes
+		pm_dye_workshop
+		pm_sewing_machine
+		pm_polyester_technology
+		pm_improved_polyester_technology
+		pm_advanced_polyester_technology
+	}
+}
+
+pmg_automation_building_clothing_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_furniture_factory = {
+	production_methods = {
+		pm_hand_tools
+		pm_lathe_processing
+		pm_mechanical_workshop
+		pm_carbon_furniture
+		pm_carbon_composite_furniture
+	}
+}
+
+pmg_automation_building_furniture_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_steel_mill = {
+	production_methods = {
+		pm_bubble_steel_method
+		pm_converter_steel_method
+		pm_open_hearth_steel_method
+		pm_oxygen_blowing_steel_method
+		pm_reblow_steel_method
+		pm_electric_arc_furnace_steel_method
+	}
+}
+
+pmg_automation_building_steel_mill = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_crystal_component_factory = {
+	production_methods = {
+		pm_burnt_nuclear_crystal
+		pm_gel
+		pm_polymer_gel
+	}
+}
+
+pmg_automation_building_crystal_component_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_crystal_circuit_factory = {
+	production_methods = {
+		pm_burnt_nuclear_crystal_circuit
+		pm_gel_circuit
+		pm_polymer_gel_circuit
+	}
+}
+
+pmg_automation_building_crystal_circuit_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_consumer_electronics_factory = {
+	production_methods = {
+		pm_basic_consumer_electronics
+		pm_advanced_consumer_electronics
+		pm_high_end_consumer_electronics
+	}
+}
+
+pmg_automation_building_consumer_electronics_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_device_factory = {
+	production_methods = {
+		pm_crude_device
+		pm_cast_iron_device
+		pm_steel_device
+		pm_mechanized_device
+		pm_new_device
+		pm_improved_device
+	}
+}
+
+pmg_automation_building_device_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_crystal_electronic_unit_factory = {
+	production_methods = {
+		pm_manufactured_unit
+		pm_red_alloy_unit
+		pm_red_alloy_block_unit
+	}
+}
+
+pmg_automation_building_crystal_electronic_unit_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_double_nanosheet_factory = {
+	production_methods = {
+		pm_white_horse_alcohol
+		pm_advanced_white_horse_alcohol
+		pm_high_end_white_horse_alcohol
+	}
+}
+
+pmg_automation_building_double_nanosheet_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_real_estate = {
+	production_methods = {
+		pm_basic_housing
+		pm_cozy_housing
+		pm_modern_housing
+		pm_large_house
+		pm_apartment
+		pm_pigeon_cage
+	}
+}
+
+pmg_automation_building_real_estate = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+
+pmg_base_building_synthetic_food_factory = {
+	production_methods = {
+		pm_bakery
+		pm_sweetener
+		pm_canned_food
+		pm_fast_food
+		pm_prepared_food
+	}
+}
+
+pmg_automation_building_synthetic_food_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_military_industrial_complex = {
+	production_methods = {
+		pm_traditional_weapons
+		pm_semi_traditional_weapons
+		pm_isoiron_weapons
+		pm_automatic_weapons
+		pm_d32_steel_weapons
+		pm_mechanical_weapons
+		pm_energy_weapons
+	}
+}
+
+pmg_automation_building_military_industrial_complex = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_engine_factory = {
+	production_methods = {
+		pm_source_stone_engine
+		pm_electric_engine
+		pm_source_stone_internal_combustion_engine
+		pm_source_stone_engine_advanced
+	}
+}
+
+pmg_automation_building_engine_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_construction_department = {
+	production_methods = {
+		pm_wood_construction
+		pm_iron_construction
+		pm_steel_construction
+		pm_welding_construction
+		pm_prefabricated_panel_construction
+		pm_carbon_composite_construction
+		pm_drone_carbon_composite_construction
+	}
+}
+
+pmg_automation_building_construction_department = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_drug_synthesis_factory = {
+	production_methods = {
+		pm_ordinary_drugs
+		pm_innovative_drugs
+		pm_ai_innovative_drugs
+	}
+}
+
+pmg_automation_building_drug_synthesis_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+
+pmg_base_building_chemical_reagent_factory = {
+	production_methods = {
+		pm_primitive_solvent
+		pm_semi_natural_solvent
+		pm_refined_solvent
+	}
+}
+
+pmg_automation_building_chemical_reagent_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_car_factory = {
+	production_methods = {
+		pm_basic_car
+		pm_advanced_car
+		pm_high_end_car
+	}
+}
+
+pmg_automation_building_car_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_unmanned_factory = {
+	production_methods = {
+		pm_basic_unmanned
+		pm_advanced_unmanned
+		pm_high_end_unmanned
+	}
+}
+
+pmg_automation_building_unmanned_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+
+pmg_base_building_source_stone_refinery = {
+	production_methods = {
+		pm_source_stone_refining
+		pm_advanced_source_stone_refining
+		pm_high_end_source_stone_refining
+	}
+}
+
+pmg_automation_building_source_stone_refinery = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_home_appliance_factory = {
+	production_methods = {
+		pm_basic_home_appliance
+		pm_advanced_home_appliance
+		pm_high_end_home_appliance
+	}
+}
+
+pmg_automation_building_home_appliance_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+
+pmg_base_building_synthetic_jade_factory = {
+	production_methods = {
+		pm_basic_synthetic_jade
+		pm_advanced_synthetic_jade
+		pm_high_end_synthetic_jade
+	}
+}
+
+pmg_automation_building_synthetic_jade_factory = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}
+
+
+pmg_base_building_pure_source_stone_refinery = {
+	production_methods = {
+		pm_basic_pure_source_stone_refining
+		pm_advanced_pure_source_stone_refining
+		pm_high_end_pure_source_stone_refining
+	}
+}
+
+pmg_automation_building_pure_source_stone_refinery = {
+	production_methods = {
+		pm_water_pipe_boiler
+		pm_source_stone_engine
+		pm_assembly_line
+		pm_automatic_control
+		pm_source_stone_network_control
+	}
+}

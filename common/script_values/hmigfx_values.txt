@@ -1,0 +1,11 @@
+﻿frontend_main_menu_x_position = {
+	if = {
+		limit = {
+			OR = {
+				has_game_rule = wallpaper_AndreaDoria
+				has_game_rule = wallpaper_Lexington
+			}
+		}
+		value = 1200
+	}
+}

@@ -1,0 +1,518 @@
+﻿accessory_genes = {
+	hmprops_1 = {
+		gene_wsg_blank_1 = {
+			index = 0
+			male = {
+				1 = empty
+			}
+			female = male
+			boy = male
+			girl = male
+		}
+		generic_female = {
+			index = 1
+			male = { 1 = generic_male }
+			female = { 1 = generic_female }
+			boy = male
+			girl = female
+		}
+		generic_male = {
+			index = 2
+			male = { 1 = generic_male }
+			female = { 1 = generic_female }
+			boy = male
+			girl = female
+		}
+		aegir_female = {
+			index = 3
+			male = { 1 = aegir_male }
+			female = { 1 = aegir_female }
+			boy = male
+			girl = female
+		}
+		aegir_male = {
+			index = 4
+			male = { 1 = aegir_male }
+			female = { 1 = aegir_female }
+			boy = male
+			girl = female
+		}
+		anaty_female = {
+			index = 5
+			male = { 1 = anaty_male }
+			female = { 1 = anaty_female }
+			boy = male
+			girl = female
+		}
+		anaty_male = {
+			index = 6
+			male = { 1 = anaty_male }
+			female = { 1 = anaty_female }
+			boy = male
+			girl = female
+		}
+		anura_female = {
+			index = 7
+			male = { 1 = anura_male }
+			female = { 1 = anura_female }
+			boy = male
+			girl = female
+		}
+		anura_male = {
+			index = 8
+			male = { 1 = anura_male }
+			female = { 1 = anura_female }
+			boy = male
+			girl = female
+		}
+		archosauria_female = {
+			index = 9
+			male = { 1 = archosauria_male }
+			female = { 1 = archosauria_female }
+			boy = male
+			girl = female
+		}
+		archosauria_male = {
+			index = 10
+			male = { 1 = archosauria_male }
+			female = { 1 = archosauria_female }
+			boy = male
+			girl = female
+		}
+		caprinae_female = {
+			index = 11
+			male = { 1 = caprinae_male }
+			female = { 1 = caprinae_female }
+			boy = male
+			girl = female
+		}
+		caprinae_male = {
+			index = 12
+			male = { 1 = caprinae_male }
+			female = { 1 = caprinae_female }
+			boy = male
+			girl = female
+		}
+		cautus_female = {
+			index = 13
+			male = { 1 = cautus_male }
+			female = { 1 = cautus_female }
+			boy = male
+			girl = female
+		}
+		cautus_male = {
+			index = 14
+			male = { 1 = cautus_male }
+			female = { 1 = cautus_female }
+			boy = male
+			girl = female
+		}
+		cerato_female = {
+			index = 15
+			male = { 1 = cerato_male }
+			female = { 1 = cerato_female }
+			boy = male
+			girl = female
+		}
+		cerato_male = {
+			index = 16
+			male = { 1 = cerato_male }
+			female = { 1 = cerato_female }
+			boy = male
+			girl = female
+		}
+		draco_female = {
+			index = 17
+			male = { 1 = draco_male }
+			female = { 1 = draco_female }
+			boy = male
+			girl = female
+		}
+		draco_male = {
+			index = 18
+			male = { 1 = draco_male }
+			female = { 1 = draco_female }
+			boy = male
+			girl = female
+		}
+		durin_female = {
+			index = 19
+			male = { 1 = durin_male }
+			female = { 1 = durin_female }
+			boy = male
+			girl = female
+		}
+		durin_male = {
+			index = 20
+			male = { 1 = durin_male }
+			female = { 1 = durin_female }
+			boy = male
+			girl = female
+		}
+		elafia_female = {
+			index = 21
+			male = { 1 = elafia_male }
+			female = { 1 = elafia_female }
+			boy = male
+			girl = female
+		}
+		elafia_male = {
+			index = 22
+			male = { 1 = elafia_male }
+			female = { 1 = elafia_female }
+			boy = male
+			girl = female
+		}
+		feline_female = {
+			index = 23
+			male = { 1 = feline_male }
+			female = { 1 = feline_female }
+			boy = male
+			girl = female
+		}
+		feline_male = {
+			index = 24
+			male = { 1 = feline_male }
+			female = { 1 = feline_female }
+			boy = male
+			girl = female
+		}
+		forte_female = {
+			index = 25
+			male = { 1 = forte_male }
+			female = { 1 = forte_female }
+			boy = male
+			girl = female
+		}
+		forte_male = {
+			index = 26
+			male = { 1 = forte_male }
+			female = { 1 = forte_female }
+			boy = male
+			girl = female
+		}
+		hippogryph_female = {
+			index = 27
+			male = { 1 = hippogryph_male }
+			female = { 1 = hippogryph_female }
+			boy = male
+			girl = female
+		}
+		hippogryph_male = {
+			index = 28
+			male = { 1 = hippogryph_male }
+			female = { 1 = hippogryph_female }
+			boy = male
+			girl = female
+		}
+		infected_female = {
+			index = 29
+			male = { 1 = infected_male }
+			female = { 1 = infected_female }
+			boy = male
+			girl = female
+		}
+		infected_male = {
+			index = 30
+			male = { 1 = infected_male }
+			female = { 1 = infected_female }
+			boy = male
+			girl = female
+		}
+		itra_female = {
+			index = 31
+			male = { 1 = itra_male }
+			female = { 1 = itra_female }
+			boy = male
+			girl = female
+		}
+		itra_male = {
+			index = 32
+			male = { 1 = itra_male }
+			female = { 1 = itra_female }
+			boy = male
+			girl = female
+		}
+		kuranta_female = {
+			index = 33
+			male = { 1 = kuranta_male }
+			female = { 1 = kuranta_female }
+			boy = male
+			girl = female
+		}
+		kuranta_male = {
+			index = 34
+			male = { 1 = kuranta_male }
+			female = { 1 = kuranta_female }
+			boy = male
+			girl = female
+		}
+		kylin_female = {
+			index = 35
+			male = { 1 = kylin_male }
+			female = { 1 = kylin_female }
+			boy = male
+			girl = female
+		}
+		kylin_male = {
+			index = 36
+			male = { 1 = kylin_male }
+			female = { 1 = kylin_female }
+			boy = male
+			girl = female
+		}
+		liberi_female = {
+			index = 37
+			male = { 1 = liberi_male }
+			female = { 1 = liberi_female }
+			boy = male
+			girl = female
+		}
+		liberi_male = {
+			index = 38
+			male = { 1 = liberi_male }
+			female = { 1 = liberi_female }
+			boy = male
+			girl = female
+		}
+		lung_female = {
+			index = 39
+			male = { 1 = lung_male }
+			female = { 1 = lung_female }
+			boy = male
+			girl = female
+		}
+		lung_male = {
+			index = 40
+			male = { 1 = lung_male }
+			female = { 1 = lung_female }
+			boy = male
+			girl = female
+		}
+		lupo_female = {
+			index = 41
+			male = { 1 = lupo_male }
+			female = { 1 = lupo_female }
+			boy = male
+			girl = female
+		}
+		lupo_male = {
+			index = 42
+			male = { 1 = lupo_male }
+			female = { 1 = lupo_female }
+			boy = male
+			girl = female
+		}
+		manticore_female = {
+			index = 43
+			male = { 1 = manticore_male }
+			female = { 1 = manticore_female }
+			boy = male
+			girl = female
+		}
+		manticore_male = {
+			index = 44
+			male = { 1 = manticore_male }
+			female = { 1 = manticore_female }
+			boy = male
+			girl = female
+		}
+		perro_female = {
+			index = 45
+			male = { 1 = perro_male }
+			female = { 1 = perro_female }
+			boy = male
+			girl = female
+		}
+		perro_male = {
+			index = 46
+			male = { 1 = perro_male }
+			female = { 1 = perro_female }
+			boy = male
+			girl = female
+		}
+		pilosa_female = {
+			index = 47
+			male = { 1 = pilosa_male }
+			female = { 1 = pilosa_female }
+			boy = male
+			girl = female
+		}
+		pilosa_male = {
+			index = 48
+			male = { 1 = pilosa_male }
+			female = { 1 = pilosa_female }
+			boy = male
+			girl = female
+		}
+		pythia_female = {
+			index = 49
+			male = { 1 = pythia_male }
+			female = { 1 = pythia_female }
+			boy = male
+			girl = female
+		}
+		pythia_male = {
+			index = 50
+			male = { 1 = pythia_male }
+			female = { 1 = pythia_female }
+			boy = male
+			girl = female
+		}
+		rebbah_female = {
+			index = 51
+			male = { 1 = rebbah_male }
+			female = { 1 = rebbah_female }
+			boy = male
+			girl = female
+		}
+		rebbah_male = {
+			index = 52
+			male = { 1 = rebbah_male }
+			female = { 1 = rebbah_female }
+			boy = male
+			girl = female
+		}
+		sankta_female = {
+			index = 53
+			male = { 1 = sankta_male }
+			female = { 1 = sankta_female }
+			boy = male
+			girl = female
+		}
+		sankta_male = {
+			index = 54
+			male = { 1 = sankta_male }
+			female = { 1 = sankta_female }
+			boy = male
+			girl = female
+		}
+		sarkaz_female = {
+			index = 55
+			male = { 1 = sarkaz_male }
+			female = { 1 = sarkaz_female }
+			boy = male
+			girl = female
+		}
+		sarkaz_male = {
+			index = 56
+			male = { 1 = sarkaz_male }
+			female = { 1 = sarkaz_female }
+			boy = male
+			girl = female
+		}
+		savra_female = {
+			index = 57
+			male = { 1 = savra_male }
+			female = { 1 = savra_female }
+			boy = male
+			girl = female
+		}
+		savra_male = {
+			index = 58
+			male = { 1 = savra_male }
+			female = { 1 = savra_female }
+			boy = male
+			girl = female
+		}
+		ursus_female = {
+			index = 59
+			male = { 1 = ursus_male }
+			female = { 1 = ursus_female }
+			boy = male
+			girl = female
+		}
+		ursus_male = {
+			index = 60
+			male = { 1 = ursus_male }
+			female = { 1 = ursus_female }
+			boy = male
+			girl = female
+		}
+		vouivre_female = {
+			index = 61
+			male = { 1 = vouivre_male }
+			female = { 1 = vouivre_female }
+			boy = male
+			girl = female
+		}
+		vouivre_male = {
+			index = 62
+			male = { 1 = vouivre_male }
+			female = { 1 = vouivre_female }
+			boy = male
+			girl = female
+		}
+		vulpo_female = {
+			index = 63
+			male = { 1 = vulpo_male }
+			female = { 1 = vulpo_female }
+			boy = male
+			girl = female
+		}
+		vulpo_male = {
+			index = 64
+			male = { 1 = vulpo_male }
+			female = { 1 = vulpo_female }
+			boy = male
+			girl = female
+		}
+		zalak_female = {
+			index = 65
+			male = { 1 = zalak_male }
+			female = { 1 = zalak_female }
+			boy = male
+			girl = female
+		}
+		zalak_male = {
+			index = 66
+			male = { 1 = zalak_male }
+			female = { 1 = zalak_female }
+			boy = male
+			girl = female
+		}
+		# Feline Sargon Variants
+		feline_female_sargon_high = {
+			index = 67
+			male = { 1 = feline_male_sargon_high }
+			female = { 1 = feline_female_sargon_high }
+			boy = male
+			girl = female
+		}
+		feline_male_sargon_high = {
+			index = 68
+			male = { 1 = feline_male_sargon_high }
+			female = { 1 = feline_female_sargon_high }
+			boy = male
+			girl = female
+		}
+		feline_female_sargon_mid = {
+			index = 69
+			male = { 1 = feline_male_sargon_mid }
+			female = { 1 = feline_female_sargon_mid }
+			boy = male
+			girl = female
+		}
+		feline_male_sargon_mid = {
+			index = 70
+			male = { 1 = feline_male_sargon_mid }
+			female = { 1 = feline_female_sargon_mid }
+			boy = male
+			girl = female
+		}
+		feline_female_sargon_low = {
+			index = 71
+			male = { 1 = feline_male_sargon_low }
+			female = { 1 = feline_female_sargon_low }
+			boy = male
+			girl = female
+		}
+		feline_male_sargon_low = {
+			index = 72
+			male = { 1 = feline_male_sargon_low }
+			female = { 1 = feline_female_sargon_low }
+			boy = male
+			girl = female
+		}
+	}
+}

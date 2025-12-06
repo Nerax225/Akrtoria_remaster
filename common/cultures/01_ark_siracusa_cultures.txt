@@ -1,0 +1,246 @@
+siracusa_lupo={ #鲁帕
+	color={ 111 43 171 }
+	religion = pistole_e_ordine
+	heritage = lupo_heritage
+	language = language_siracusa
+	traditions = { tradition_siracusa }
+	male_common_first_names={
+		Giovanni
+		Lorenzo
+		Alessandro
+		Francesco
+		Matteo
+		Antonio
+		Marco
+		Giorgio
+		Stefano
+		Riccardo
+		Davide
+		Simone
+		Federico
+		Niccolò
+		Luigi
+		Carlo
+		Roberto
+		Salvatore
+		Michele
+		Pietro
+	}
+	female_common_first_names = {
+		Giulia
+		Francesca
+		Alessandra
+		Martina
+		Chiara
+		Sara
+		Valentina
+		Elena
+		Anna
+		Silvia
+		Federica
+		Laura
+		Angela
+		Ilaria
+		Roberta
+		Lucia
+		Paola
+		Simona
+		Veronica
+		Beatrice
+	}	
+	noble_last_names = {
+		Medici
+		Borgia
+		Colonna
+		Orsini
+		Sforza
+		Gonzaga
+		Barbarigo
+		Contarini
+		Doria
+		Este
+		Farnese
+		Malatesta
+		Pallavicini
+		Rospigliosi
+		Savelli
+		Visconti
+		Zeno
+		Grimaldi
+		Cornaro
+		Pisani
+	}
+	common_last_names={
+		Rossi
+		Russo
+		Ferrari
+		Esposito
+		Bianchi
+		Romano
+		Colombo
+		Ricci
+		Marino
+		Greco
+		Bruno
+		Gallo
+		Conti
+		De Luca
+		Mancini
+		Costa
+		Giordano
+		Rizzo
+		Lombardi
+		Moretti
+	}
+	male_regal_first_names = {
+		Vittorio
+		Umberto
+		Emanuele
+		Carlo
+		Filippo
+		Alfonso
+		Federico
+		Francesco
+		Giovanni
+		Antonio
+	}
+	female_regal_first_names = {
+		Maria
+		Elisabetta
+		Caterina
+		Isabella
+		Beatrice
+		Lucrezia
+		Giulia
+		Francesca
+		Anna
+		Eleonora
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+siracusa_vulpo={ #叙拉古沃尔珀
+	color={ 126 41 173 }
+	religion = pistole_e_ordine
+	heritage = vulpo_heritage
+	language = language_siracusa
+	traditions = { tradition_siracusa }
+	male_common_first_names={
+		Giovanni
+		Lorenzo
+		Alessandro
+		Francesco
+		Matteo
+		Antonio
+		Marco
+		Giorgio
+		Stefano
+		Riccardo
+		Davide
+		Simone
+		Federico
+		Niccolò
+		Luigi
+		Carlo
+		Roberto
+		Salvatore
+		Michele
+		Pietro
+	}
+	female_common_first_names = {
+		Giulia
+		Francesca
+		Alessandra
+		Martina
+		Chiara
+		Sara
+		Valentina
+		Elena
+		Anna
+		Silvia
+		Federica
+		Laura
+		Angela
+		Ilaria
+		Roberta
+		Lucia
+		Paola
+		Simona
+		Veronica
+		Beatrice
+	}	
+	noble_last_names = {
+		Medici
+		Borgia
+		Colonna
+		Orsini
+		Sforza
+		Gonzaga
+		Barbarigo
+		Contarini
+		Doria
+		Este
+		Farnese
+		Malatesta
+		Pallavicini
+		Rospigliosi
+		Savelli
+		Visconti
+		Zeno
+		Grimaldi
+		Cornaro
+		Pisani
+	}
+	common_last_names={
+		Rossi
+		Russo
+		Ferrari
+		Esposito
+		Bianchi
+		Romano
+		Colombo
+		Ricci
+		Marino
+		Greco
+		Bruno
+		Gallo
+		Conti
+		De Luca
+		Mancini
+		Costa
+		Giordano
+		Rizzo
+		Lombardi
+		Moretti
+	}
+	male_regal_first_names = {
+		Vittorio
+		Umberto
+		Emanuele
+		Carlo
+		Filippo
+		Alfonso
+		Federico
+		Francesco
+		Giovanni
+		Antonio
+	}
+	female_regal_first_names = {
+		Maria
+		Elisabetta
+		Caterina
+		Isabella
+		Beatrice
+		Lucrezia
+		Giulia
+		Francesca
+		Anna
+		Eleonora
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

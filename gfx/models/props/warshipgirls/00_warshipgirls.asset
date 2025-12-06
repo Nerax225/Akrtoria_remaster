@@ -1,0 +1,1297 @@
+﻿
+pdxmesh = {
+	name = "generic_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "generic_female.dds"
+		texture_specular = "generic_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "generic_female_entity"
+	pdxmesh = "generic_female_mesh"
+}
+
+pdxmesh = {
+	name = "generic_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "generic_male.dds"
+		texture_specular = "generic_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "generic_male_entity"
+	pdxmesh = "generic_male_mesh"
+}
+
+pdxmesh = {
+	name = "aegir_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aegir_female.dds"
+		texture_specular = "aegir_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aegir_female_entity"
+	pdxmesh = "aegir_female_mesh"
+}
+
+pdxmesh = {
+	name = "aegir_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "aegir_male.dds"
+		texture_specular = "aegir_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "aegir_male_entity"
+	pdxmesh = "aegir_male_mesh"
+}
+
+pdxmesh = {
+	name = "anaty_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "anaty_female.dds"
+		texture_specular = "anaty_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "anaty_female_entity"
+	pdxmesh = "anaty_female_mesh"
+}
+
+pdxmesh = {
+	name = "anaty_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "anaty_male.dds"
+		texture_specular = "anaty_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "anaty_male_entity"
+	pdxmesh = "anaty_male_mesh"
+}
+
+pdxmesh = {
+	name = "anura_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "anura_female.dds"
+		texture_specular = "anura_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "anura_female_entity"
+	pdxmesh = "anura_female_mesh"
+}
+
+pdxmesh = {
+	name = "anura_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "anura_male.dds"
+		texture_specular = "anura_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "anura_male_entity"
+	pdxmesh = "anura_male_mesh"
+}
+
+pdxmesh = {
+	name = "archosauria_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "archosauria_female.dds"
+		texture_specular = "archosauria_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "archosauria_female_entity"
+	pdxmesh = "archosauria_female_mesh"
+}
+
+pdxmesh = {
+	name = "archosauria_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "archosauria_male.dds"
+		texture_specular = "archosauria_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "archosauria_male_entity"
+	pdxmesh = "archosauria_male_mesh"
+}
+
+pdxmesh = {
+	name = "caprinae_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "caprinae_female.dds"
+		texture_specular = "caprinae_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "caprinae_female_entity"
+	pdxmesh = "caprinae_female_mesh"
+}
+
+pdxmesh = {
+	name = "caprinae_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "caprinae_male.dds"
+		texture_specular = "caprinae_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "caprinae_male_entity"
+	pdxmesh = "caprinae_male_mesh"
+}
+
+pdxmesh = {
+	name = "cautus_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "cautus_female.dds"
+		texture_specular = "cautus_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "cautus_female_entity"
+	pdxmesh = "cautus_female_mesh"
+}
+
+pdxmesh = {
+	name = "cautus_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "cautus_male.dds"
+		texture_specular = "cautus_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "cautus_male_entity"
+	pdxmesh = "cautus_male_mesh"
+}
+
+pdxmesh = {
+	name = "cerato_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "cerato_female.dds"
+		texture_specular = "cerato_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "cerato_female_entity"
+	pdxmesh = "cerato_female_mesh"
+}
+
+pdxmesh = {
+	name = "cerato_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "cerato_male.dds"
+		texture_specular = "cerato_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "cerato_male_entity"
+	pdxmesh = "cerato_male_mesh"
+}
+
+pdxmesh = {
+	name = "draco_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "draco_female.dds"
+		texture_specular = "draco_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "draco_female_entity"
+	pdxmesh = "draco_female_mesh"
+}
+
+pdxmesh = {
+	name = "draco_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "draco_male.dds"
+		texture_specular = "draco_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "draco_male_entity"
+	pdxmesh = "draco_male_mesh"
+}
+
+pdxmesh = {
+	name = "durin_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "durin_female.dds"
+		texture_specular = "durin_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "durin_female_entity"
+	pdxmesh = "durin_female_mesh"
+}
+
+pdxmesh = {
+	name = "durin_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "durin_male.dds"
+		texture_specular = "durin_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "durin_male_entity"
+	pdxmesh = "durin_male_mesh"
+}
+
+pdxmesh = {
+	name = "elafia_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "elafia_female.dds"
+		texture_specular = "elafia_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "elafia_female_entity"
+	pdxmesh = "elafia_female_mesh"
+}
+
+pdxmesh = {
+	name = "elafia_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "elafia_male.dds"
+		texture_specular = "elafia_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "elafia_male_entity"
+	pdxmesh = "elafia_male_mesh"
+}
+
+pdxmesh = {
+	name = "feline_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_female.dds"
+		texture_specular = "feline_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_female_entity"
+	pdxmesh = "feline_female_mesh"
+}
+
+pdxmesh = {
+	name = "feline_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_male.dds"
+		texture_specular = "feline_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_male_entity"
+	pdxmesh = "feline_male_mesh"
+}
+
+pdxmesh = {
+	name = "forte_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "forte_female.dds"
+		texture_specular = "forte_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "forte_female_entity"
+	pdxmesh = "forte_female_mesh"
+}
+
+pdxmesh = {
+	name = "forte_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "forte_male.dds"
+		texture_specular = "forte_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "forte_male_entity"
+	pdxmesh = "forte_male_mesh"
+}
+
+pdxmesh = {
+	name = "hippogryph_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "hippogryph_female.dds"
+		texture_specular = "hippogryph_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "hippogryph_female_entity"
+	pdxmesh = "hippogryph_female_mesh"
+}
+
+pdxmesh = {
+	name = "hippogryph_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "hippogryph_male.dds"
+		texture_specular = "hippogryph_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "hippogryph_male_entity"
+	pdxmesh = "hippogryph_male_mesh"
+}
+
+pdxmesh = {
+	name = "infected_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "infected_female.dds"
+		texture_specular = "infected_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "infected_female_entity"
+	pdxmesh = "infected_female_mesh"
+}
+
+pdxmesh = {
+	name = "infected_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "infected_male.dds"
+		texture_specular = "infected_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "infected_male_entity"
+	pdxmesh = "infected_male_mesh"
+}
+
+pdxmesh = {
+	name = "itra_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "itra_female.dds"
+		texture_specular = "itra_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "itra_female_entity"
+	pdxmesh = "itra_female_mesh"
+}
+
+pdxmesh = {
+	name = "itra_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "itra_male.dds"
+		texture_specular = "itra_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "itra_male_entity"
+	pdxmesh = "itra_male_mesh"
+}
+
+pdxmesh = {
+	name = "kuranta_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kuranta_female.dds"
+		texture_specular = "kuranta_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kuranta_female_entity"
+	pdxmesh = "kuranta_female_mesh"
+}
+
+pdxmesh = {
+	name = "kuranta_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kuranta_male.dds"
+		texture_specular = "kuranta_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kuranta_male_entity"
+	pdxmesh = "kuranta_male_mesh"
+}
+
+pdxmesh = {
+	name = "kylin_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kylin_female.dds"
+		texture_specular = "kylin_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kylin_female_entity"
+	pdxmesh = "kylin_female_mesh"
+}
+
+pdxmesh = {
+	name = "kylin_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "kylin_male.dds"
+		texture_specular = "kylin_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "kylin_male_entity"
+	pdxmesh = "kylin_male_mesh"
+}
+
+pdxmesh = {
+	name = "liberi_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "liberi_female.dds"
+		texture_specular = "liberi_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "liberi_female_entity"
+	pdxmesh = "liberi_female_mesh"
+}
+
+pdxmesh = {
+	name = "liberi_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "liberi_male.dds"
+		texture_specular = "liberi_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "liberi_male_entity"
+	pdxmesh = "liberi_male_mesh"
+}
+
+pdxmesh = {
+	name = "lung_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lung_female.dds"
+		texture_specular = "lung_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lung_female_entity"
+	pdxmesh = "lung_female_mesh"
+}
+
+pdxmesh = {
+	name = "lung_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lung_male.dds"
+		texture_specular = "lung_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lung_male_entity"
+	pdxmesh = "lung_male_mesh"
+}
+
+pdxmesh = {
+	name = "lupo_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lupo_female.dds"
+		texture_specular = "lupo_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lupo_female_entity"
+	pdxmesh = "lupo_female_mesh"
+}
+
+pdxmesh = {
+	name = "lupo_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "lupo_male.dds"
+		texture_specular = "lupo_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "lupo_male_entity"
+	pdxmesh = "lupo_male_mesh"
+}
+
+pdxmesh = {
+	name = "manticore_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "manticore_female.dds"
+		texture_specular = "manticore_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "manticore_female_entity"
+	pdxmesh = "manticore_female_mesh"
+}
+
+pdxmesh = {
+	name = "manticore_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "manticore_male.dds"
+		texture_specular = "manticore_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "manticore_male_entity"
+	pdxmesh = "manticore_male_mesh"
+}
+
+pdxmesh = {
+	name = "perro_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "perro_female.dds"
+		texture_specular = "perro_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "perro_female_entity"
+	pdxmesh = "perro_female_mesh"
+}
+
+pdxmesh = {
+	name = "perro_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "perro_male.dds"
+		texture_specular = "perro_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "perro_male_entity"
+	pdxmesh = "perro_male_mesh"
+}
+
+pdxmesh = {
+	name = "pilosa_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "pilosa_female.dds"
+		texture_specular = "pilosa_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "pilosa_female_entity"
+	pdxmesh = "pilosa_female_mesh"
+}
+
+pdxmesh = {
+	name = "pilosa_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "pilosa_male.dds"
+		texture_specular = "pilosa_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "pilosa_male_entity"
+	pdxmesh = "pilosa_male_mesh"
+}
+
+pdxmesh = {
+	name = "pythia_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "pythia_female.dds"
+		texture_specular = "pythia_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "pythia_female_entity"
+	pdxmesh = "pythia_female_mesh"
+}
+
+pdxmesh = {
+	name = "pythia_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "pythia_male.dds"
+		texture_specular = "pythia_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "pythia_male_entity"
+	pdxmesh = "pythia_male_mesh"
+}
+
+pdxmesh = {
+	name = "rebbah_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "rebbah_female.dds"
+		texture_specular = "rebbah_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "rebbah_female_entity"
+	pdxmesh = "rebbah_female_mesh"
+}
+
+pdxmesh = {
+	name = "rebbah_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "rebbah_male.dds"
+		texture_specular = "rebbah_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "rebbah_male_entity"
+	pdxmesh = "rebbah_male_mesh"
+}
+
+pdxmesh = {
+	name = "sankta_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sankta_female.dds"
+		texture_specular = "sankta_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sankta_female_entity"
+	pdxmesh = "sankta_female_mesh"
+}
+
+pdxmesh = {
+	name = "sankta_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sankta_male.dds"
+		texture_specular = "sankta_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sankta_male_entity"
+	pdxmesh = "sankta_male_mesh"
+}
+
+pdxmesh = {
+	name = "sarkaz_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sarkaz_female.dds"
+		texture_specular = "sarkaz_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sarkaz_female_entity"
+	pdxmesh = "sarkaz_female_mesh"
+}
+
+pdxmesh = {
+	name = "sarkaz_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "sarkaz_male.dds"
+		texture_specular = "sarkaz_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "sarkaz_male_entity"
+	pdxmesh = "sarkaz_male_mesh"
+}
+
+pdxmesh = {
+	name = "savra_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "savra_female.dds"
+		texture_specular = "savra_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "savra_female_entity"
+	pdxmesh = "savra_female_mesh"
+}
+
+pdxmesh = {
+	name = "savra_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "savra_male.dds"
+		texture_specular = "savra_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "savra_male_entity"
+	pdxmesh = "savra_male_mesh"
+}
+
+pdxmesh = {
+	name = "ursus_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ursus_female.dds"
+		texture_specular = "ursus_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ursus_female_entity"
+	pdxmesh = "ursus_female_mesh"
+}
+
+pdxmesh = {
+	name = "ursus_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "ursus_male.dds"
+		texture_specular = "ursus_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "ursus_male_entity"
+	pdxmesh = "ursus_male_mesh"
+}
+
+pdxmesh = {
+	name = "vouivre_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vouivre_female.dds"
+		texture_specular = "vouivre_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vouivre_female_entity"
+	pdxmesh = "vouivre_female_mesh"
+}
+
+pdxmesh = {
+	name = "vouivre_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vouivre_male.dds"
+		texture_specular = "vouivre_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vouivre_male_entity"
+	pdxmesh = "vouivre_male_mesh"
+}
+
+pdxmesh = {
+	name = "vulpo_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vulpo_female.dds"
+		texture_specular = "vulpo_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vulpo_female_entity"
+	pdxmesh = "vulpo_female_mesh"
+}
+
+pdxmesh = {
+	name = "vulpo_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "vulpo_male.dds"
+		texture_specular = "vulpo_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "vulpo_male_entity"
+	pdxmesh = "vulpo_male_mesh"
+}
+
+pdxmesh = {
+	name = "zalak_female_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "zalak_female.dds"
+		texture_specular = "zalak_female.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "zalak_female_entity"
+	pdxmesh = "zalak_female_mesh"
+}
+
+pdxmesh = {
+	name = "zalak_male_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "zalak_male.dds"
+		texture_specular = "zalak_male.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "zalak_male_entity"
+	pdxmesh = "zalak_male_mesh"
+}
+
+# Feline Sargon Variants
+pdxmesh = {
+	name = "feline_female_sargon_high_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_female_sargon_high.dds"
+		texture_specular = "feline_female_sargon_high.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_female_sargon_high_entity"
+	pdxmesh = "feline_female_sargon_high_mesh"
+}
+
+pdxmesh = {
+	name = "feline_female_sargon_mid_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_female_sargon_mid.dds"
+		texture_specular = "feline_female_sargon_mid.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_female_sargon_mid_entity"
+	pdxmesh = "feline_female_sargon_mid_mesh"
+}
+
+pdxmesh = {
+	name = "feline_female_sargon_low_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_female_sargon_low.dds"
+		texture_specular = "feline_female_sargon_low.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_female_sargon_low_entity"
+	pdxmesh = "feline_female_sargon_low_mesh"
+}
+
+pdxmesh = {
+	name = "feline_male_sargon_high_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_male_sargon_high.dds"
+		texture_specular = "feline_male_sargon_high.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_male_sargon_high_entity"
+	pdxmesh = "feline_male_sargon_high_mesh"
+}
+
+pdxmesh = {
+	name = "feline_male_sargon_mid_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_male_sargon_mid.dds"
+		texture_specular = "feline_male_sargon_mid.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_male_sargon_mid_entity"
+	pdxmesh = "feline_male_sargon_mid_mesh"
+}
+
+pdxmesh = {
+	name = "feline_male_sargon_low_mesh"
+	file = "hm_prophet.mesh"
+	scale = 1.5
+	meshsettings = {
+		name = "prophet_shieldShape"
+		index = 0
+		texture_diffuse = "feline_male_sargon_low.dds"
+		texture_specular = "feline_male_sargon_low.dds"
+		shader = "portrait_attachment_alpha_to_coverage"
+		shader_file = "gfx/hmportrait.shader"
+	}
+}
+entity = {
+	name = "feline_male_sargon_low_entity"
+	pdxmesh = "feline_male_sargon_low_mesh"
+}

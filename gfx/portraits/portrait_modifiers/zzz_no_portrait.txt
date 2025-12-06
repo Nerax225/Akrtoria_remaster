@@ -1,0 +1,324 @@
+﻿no_portrait = {
+	usage = game
+	#selection_behavior = weighted_random
+	#fallback = no_portrait
+
+	no_portrait = {
+		dna_modifiers = {
+
+			accessory = {
+				mode = replace
+				gene = misc
+				template = no_misc
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = misc
+				template = no_misc
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = medals
+				template = no_medals
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = medals
+				template = no_medals
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = sashes
+				template = no_sash
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = sashes
+				template = no_sash
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = epaulettes
+				template = no_epaulette
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = epaulettes
+				template = no_epaulette
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = outfits
+				template = no_outfit
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = outfits
+				template = no_outfit
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = belts
+				template = no_belt
+				value = 1
+			}
+
+			 accessory = {
+				mode = add
+				gene = belts
+				template = no_belt
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = waistcoats
+				template = no_waistcoat
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = waistcoats
+				template = no_waistcoat
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = top_layer
+				template = no_top_layer
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = top_layer
+				template = no_top_layer
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = necklaces
+				template = no_necklace
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = necklaces
+				template = no_necklace
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = legwear
+				template = no_legwear
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = legwear
+				template = no_legwear
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = shirt
+				template = no_shirts
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = shirt
+				template = no_shirts
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = coats
+				template = no_coat
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = coats
+				template = no_coat
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = civilian_coats
+				template = no_civilian_coat
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = civilian_coats
+				template = no_civilian_coat
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = aiguillettes
+				template = no_aiguillettes
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = aiguillettes
+				template = no_aiguillettes
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = eye_accessory
+				template = no_eyes
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = eye_accessory
+				template = no_eyes
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = hairstyles
+				template = no_hairstyles
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = hairstyles
+				template = no_hairstyles
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = headgear
+				template = no_headgear
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = headgear
+				template = no_headgear
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = beards
+				template = no_beard
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = beards
+				template = no_beard
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = mustaches
+				template = no_mustache
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = mustaches
+				template = no_mustache
+				value = 1
+			}
+			accessory = {
+				mode = replace
+				gene = teeth_accessory
+				template = no_teeth
+				value = 0.5
+			}
+
+			accessory = {
+				mode = replace
+				gene = hairstyles
+				template = no_hairstyles
+				value = 1
+			}
+			accessory = {
+				mode = replace
+				gene = gene_nudity
+				template = nudity
+				value = 1
+			}
+
+			accessory = {
+				mode = replace
+				gene = props
+				template = no_prop
+				value = 1
+			}
+
+			accessory = {
+				mode = add
+				gene = props
+				template = no_prop
+				value = 1
+			}
+
+			morph = {
+				mode = replace
+				gene = gene_no_portrait
+				template = no_portrait
+				value = 1
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000000
+
+				no_portrait_trigger = yes
+			}
+		}
+	}
+}

@@ -1,0 +1,511 @@
+C01 = {
+  color = { 226 228 91 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0001
+}
+
+C02 = {
+  color = { 201 202 76 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0003
+}
+
+C03 = {
+  color = { 214 155 93 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0004
+}
+
+C04 = {
+  color = { 211 161 92 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0006
+}
+
+C05 = {
+  color = { 179 229 10 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0013
+}
+
+C06 = {
+  color = { 225 186 51 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0014
+}
+
+C07 = {
+  color = { 180 166 17 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0016
+}
+
+C08 = {
+  color = { 221 151 96 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0017
+}
+
+C09 = {
+  color = { 188 203 37 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0019
+}
+
+C10 = {
+  color = { 224 166 48 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0020
+}
+
+C11 = {
+  color = { 222 194 12 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0023
+}
+
+C12 = {
+  color = { 184 158 91 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0026
+}
+
+C13 = {
+  color = { 223 182 81 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0029
+}
+
+C14 = {
+  color = { 165 193 82 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0034
+}
+
+C15 = {
+  color = { 207 214 17 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0039
+}
+
+C16 = {
+  color = { 191 225 41 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0040
+}
+
+C17 = {
+  color = { 172 190 36 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0044
+}
+
+C18 = {
+  color = { 178 187 84 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0045
+}
+
+C19 = {
+  color = { 159 153 54 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0046
+}
+
+C20 = {
+  color = { 162 221 44 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0050
+}
+
+C21 = {
+  color = { 158 226 79 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0051
+}
+
+C22 = {
+  color = { 156 195 18 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0052
+}
+
+C23 = {
+  color = { 209 202 14 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0057
+}
+
+C24 = {
+  color = { 182 189 61 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0060
+}
+
+C25 = {
+  color = { 198 199 77 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0062
+}
+
+C26 = {
+  color = { 216 184 61 }
+  country_type = decentralized
+  tier = principality
+  cultures = { victoria_feline }
+  capital = STATE_C0064
+}
+
+E01 = {
+  color = { 28 196 32 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0002
+}
+
+E02 = {
+  color = { 62 205 15 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0010
+}
+
+E03 = {
+  color = { 59 166 95 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0017
+}
+
+E04 = {
+  color = { 45 161 61 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0022
+}
+
+E05 = {
+  color = { 72 227 61 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0030
+}
+
+E06 = {
+  color = { 73 158 14 }
+  country_type = decentralized
+  tier = principality
+  cultures = { yan_feline }
+  capital = STATE_E0035
+}
+
+N01 = {
+  color = { 59 51 181 }
+  country_type = decentralized
+  tier = principality
+  cultures = { ursus_ursus }
+  capital = STATE_N0001
+}
+
+N02 = {
+  color = { 65 86 224 }
+  country_type = decentralized
+  tier = principality
+  cultures = { ursus_ursus }
+  capital = STATE_N0008
+}
+
+N03 = {
+  color = { 95 75 218 }
+  country_type = decentralized
+  tier = principality
+  cultures = { ursus_ursus }
+  capital = STATE_N0013
+}
+
+N04 = {
+  color = { 69 27 151 }
+  country_type = decentralized
+  tier = principality
+  cultures = { ursus_ursus }
+  capital = STATE_N0019
+}
+
+S01 = {
+  color = { 196 179 45 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0001
+}
+
+S02 = {
+  color = { 207 184 10 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0002
+}
+
+S03 = {
+  color = { 155 222 22 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0007
+}
+
+S04 = {
+  color = { 160 192 78 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0013
+}
+
+S05 = {
+  color = { 185 165 37 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0017
+}
+
+S06 = {
+  color = { 151 207 17 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0022
+}
+
+S07 = {
+  color = { 164 198 65 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0027
+}
+
+S08 = {
+  color = { 200 179 68 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0036
+}
+
+S09 = {
+  color = { 206 223 49 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0040
+}
+
+S10 = {
+  color = { 208 168 64 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0042
+}
+
+S11 = {
+  color = { 192 225 84 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0048
+}
+
+S12 = {
+  color = { 227 191 11 }
+  country_type = decentralized
+  tier = principality
+  cultures = { sargon_aslan }
+  capital = STATE_S0057
+}
+
+W01 = {
+  color = { 33 170 209 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0001
+}
+
+W02 = {
+  color = { 27 230 176 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0007
+}
+
+W03 = {
+  color = { 38 152 204 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0011
+}
+
+W04 = {
+  color = { 78 152 217 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0018
+}
+
+W05 = {
+  color = { 15 217 162 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0023
+}
+
+W06 = {
+  color = { 31 221 229 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0024
+}
+
+W07 = {
+  color = { 65 183 173 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0025
+}
+
+W08 = {
+  color = { 27 190 190 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0033
+}
+
+W09 = {
+  color = { 27 168 192 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0038
+}
+
+W10 = {
+  color = { 61 202 165 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0044
+}
+
+W11 = {
+  color = { 80 156 165 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0047
+}
+
+W12 = {
+  color = { 56 158 172 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0048
+}
+
+W13 = {
+  color = { 87 203 172 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0049
+}
+
+W14 = {
+  color = { 89 191 174 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0050
+}
+
+W15 = {
+  color = { 55 158 219 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0051
+}
+
+W16 = {
+  color = { 81 203 167 }
+  country_type = decentralized
+  tier = principality
+  cultures = { columbia_feline }
+  capital = STATE_W0052
+}

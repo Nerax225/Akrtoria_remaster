@@ -1,0 +1,495 @@
+﻿BUILDINGS = {
+	s:STATE_CHERNOBOG = {
+		region_state:URS={
+						create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:URS"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+	}
+	s:STATE_LONGMEN = {
+		region_state:URS={
+						create_building={
+				building="building_port"
+				add_ownership={
+					country={
+						country="c:URS"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_basic_port" }
+			}
+		}
+	}
+
+	s:STATE_SLIVERASH = {
+		region_state:KJG = {
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_SLIVERASH
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_device_factory"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:KJG
+						region = STATE_SLIVERASH
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_SLIVERASH
+						levels = 1
+					}
+				}
+				activate_production_methods = {
+					"pm_saw_mills"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:KJG
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_SLIVERASH
+						levels = 2
+					}
+				}
+				activate_production_methods = {
+					"pm_tools"
+				}
+			}
+		}
+	}
+	s:STATE_BROWNTAIL = {
+		region_state:KJG = {
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_BROWNTAIL
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_BROWNTAIL
+						levels = 2
+					}
+				}
+			}
+		}
+	}
+	s:STATE_PALEROCHE = {
+		region_state:KJG = {
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:KJG
+						region = STATE_PALEROCHE
+						levels = 2
+					}
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						{
+							type = building_manor_house
+							country = c:KJG
+							region = STATE_PALEROCHE
+							levels = 2
+						}
+						{
+							type = building_manor_house
+							country = c:KJG
+							region = STATE_BROWNTAIL
+							levels = 1
+						}
+					}
+				}
+			}
+		}
+	}
+	s:STATE_OROTHERA = {
+		region_state:MIN = {
+			create_building = {
+				building = "building_university"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 2
+					}
+				}
+				activate_production_methods = {
+					"pm_philosophy_department"
+				}
+			}
+			create_building = {
+				building = "building_paper_mills"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:MIN
+						region = STATE_OROTHERA
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_OROTHERA
+						levels = 3
+					}
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:MIN
+						region = STATE_OROTHERA
+						levels = 3
+					}
+				}
+			}
+		}
+	}
+	s:STATE_AGROCHORA = {
+		region_state:MIN = {
+			create_building = {
+				building = "building_construction_sector"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 1
+					}
+				}
+				activate_production_methods = {
+					"pm_iron_frame_buildings"
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_AGROCHORA
+						levels = 1
+					}
+				}
+			}
+			create_building = {
+				building = "building_livestock_ranch"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_AGROCHORA
+						levels = 3
+					}
+				}
+			}
+			create_building = {
+				building = "building_iron_mine"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:MIN
+						region = STATE_AGROCHORA
+						levels = 2
+					}
+				}
+			}
+			create_building = {
+				building = "building_device_factory"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:MIN
+						region = STATE_AGROCHORA
+						levels = 1
+					}
+				}
+			}
+		}
+	}
+	s:STATE_NIKEPHORA = {
+		region_state:MIN = {
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_NIKEPHORA
+						levels = 3
+					}
+				}
+			}
+		}
+	}
+	s:STATE_MYRINASSA = {
+		region_state:MIN = {
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_MYRINASSA
+						levels = 2
+					}
+				}
+			}
+		}
+	}
+	s:STATE_ZENOPOLIS = {
+		region_state:MIN = {
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_manor_house
+						country = c:MIN
+						region = STATE_OROTHERA
+						levels = 2
+					}
+				}
+			}
+		}
+	}
+	s:STATE_SIESTACORE = {
+		region_state:STA = {
+			create_building = {
+				building = "building_government_administration"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 6
+					}
+				}
+				activate_production_methods = {
+					"pm_vertical_filing_cabinets"
+				}
+			}
+			create_building = {
+				building = "building_construction_sector"
+				reserves = 1
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 1
+					}
+				}
+				activate_production_methods = {
+					"pm_iron_frame_buildings"
+				}
+			}
+			create_building = {
+				building = "building_university"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 2
+					}
+				}
+				activate_production_methods = {
+					"pm_philosophy_department"
+				}
+			}
+			create_building = {
+				building = "building_paper_mills"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 2
+					}
+				}
+				activate_production_methods = {
+					"pm_sulfite_pulping"
+				}
+			}
+			create_building = {
+				building = "building_device_factory"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 1
+					}
+				}
+				activate_production_methods = {
+					"pm_pig_iron"
+				}
+			}
+			create_building = {
+				building = "building_iron_mine"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 2
+					}
+				}
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_iron_mine"
+				}
+			}
+			create_building = {
+				building = "building_coal_mine"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 1
+					}
+				}
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_coal_mine"
+				}
+			}
+			create_building = {
+				building = "building_grain_farm"
+				reserves = add_ownership
+				add_ownership = {
+					country = {
+						country = c:STA
+						levels = 5
+					}
+					building = {
+						type = building_manor_house
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 5
+					}
+				}
+				activate_production_methods = {
+					"pm_simple_farming" "pm_tools" "pm_no_secondary"
+				}
+			}
+			create_building = {
+				building = "building_logging_camp"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						type = building_financial_district
+						country = c:STA
+						region = STATE_SIESTACORE
+						levels = 3
+					}
+				}
+				activate_production_methods = {
+					"pm_saw_mills" "pm_no_hardwood" "pm_no_equipment" "pm_road_carts"
+				}
+			}
+		}
+	}
+	s:STATE_OUTTERSIESTA = {
+		region_state:STA = {
+			create_building = {
+				building = "building_sulfur_mine"
+				reserves = add_ownership
+				add_ownership = {
+					building = {
+						{
+							type = building_financial_district
+							country = c:STA
+							region = STATE_SIESTACORE
+							levels = 1
+						}
+						{
+							type = building_financial_district
+							country = c:STA
+							region = STATE_OUTTERSIESTA
+							levels = 1
+						}
+					}
+				}
+				activate_production_methods = {
+					"pm_atmospheric_engine_pump_building_sulfur_mine"
+				}
+			}
+		}
+	}
+}

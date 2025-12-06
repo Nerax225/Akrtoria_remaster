@@ -1,0 +1,978 @@
+yan_aegir={ #炎阿戈尔
+	color={ 195 15 14 }
+	religion = confucian
+	heritage = aegir_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 
+		Ah4_Feng1 Ah4_Fu2 Ah4_Gan1 Ah4_Hock1 Ah4_Hong2 Ah4_Hui4 Ah4_Kang1 
+		Ah4_Keong2 Ah4_Kong3 Ah4_Kwang1 Ah4_Lai2 Ah4_Leong2 Ah4_Liang2 
+		Ah4_Ming2 Ah4_Peng2 Ah4_Seng1 Ah4_Sing1 Ah4_Tang2 Ah4_Teck4 Ah4_Thiam1 
+		Ah4_Ting1 Ah4_Tong2 Ah4_Wah4 Ah4_Wei2 Ah4_Wen2 Ah4_Xiang1 Ah4_Yong2 
+		Boon1_Hwa2 Boon1_Keng1 Boon1_Leong2 Chee2_Beng1 Chee2_Keong2 
+		Chee2_Seng1 Chong2_Meng2 Chun1_Hua2 Guo2_Rong2 Hock4_Leong2 
+		Hon2_Keong2 Huat4_Chye2 Jian4_Hua2 Jin1_Long2 Kai3_Sheng4 Kheng1_Leong2 
+		Kim1_Hock4 Kim1_Kiat4 Kim1_Seng1 Kok4_Leong2 Kong3_Wah4 Kwong3_Ming2 
+		Ming2_Zhe2 Peng2_Huat4 San1_Bao3 Seng1_Kee2 Shi4_Long2 Siang4_Lin2 
+		Soon1_Hock4 Tai4_Feng1 Teck4_Chai2 Tian1_Bao3 Wei2_Ming2 Wen2_Hui4 
+		Xiang4_Lin2 Xiao3_Long2 Yong3_Qiang2 Yu4_Ming2 Zhong1_Yi4 Zi3_Qiang2
+	}
+	female_common_first_names = {
+		A1_Feng1 A1_Hong2 A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 
+		A1_Lin2 A1_Mei2 A1_Ping2 A1_Qing2 A1_Ru2 A1_Xiang1 A1_Xiu2 A1_Ying2 
+		A1_Yun2 A1_Zhen1 Ah4_Geok4 Ah4_Hong2 Ah4_Hoon2 Ah4_Huay2 Ah4_Kiew2 
+		Ah4_Kim1 Ah4_Leng2 Ah4_Lian2 Ah4_Mei2 Ah4_Poh2 Ah4_Sim2 Ah4_Tee2 
+		Bei3_Yu4 Bie2_Yu4 Cai3_Feng1 Cui4_Ping2 Feng1_Jiao1 Feng1_Ying2 
+		Gui4_Ying2 Hui2_Lian2 Jing1_Hua2 Kim1_Huay2 Lan2_Ying2 Li2_Hua2 
+		Li2_Mei2 Lian2_Hua2 Mei2_Feng1 Mei2_Hui2 Mei2_Hua2 Mei2_Lan2 
+		Pei2_Shan1 Poh2_Lian2 Qing2_Hua2 Rui4_Hua2 Shu4_Fen1 Shu4_Hui2 
+		Shu4_Ying2 Swee2_Lian2 Xiang1_Lan2 Xiu4_Lan2 Xiu4_Mei2 Xiu4_Ying2 
+		Yan2_Hong2 Yu4_Lan2 Yue4_Ying2
+	}	
+	noble_last_names = {
+		Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2 Chiong2 
+		Chong2 Chou1 Chow2 Chu2 Chua2 Chuang1 Chui4 Fan2 Foo2 Gan1 Goh1 
+		Ho2 Hoh4 Hon2 Hong2 Huang2 Hui4 Hwang2 Kao1 Kee2 Khoo2 Khu1 Koay2 
+		Koh2 Kong3 Koo2 Kueh2 Kwek4 Kwok3 Lai2 Lam2 Lee2 Lian2 Liang2 Liem2 
+		Liew3 Lim2 Lin2 Lo2 Lu2 Ng2 Ng4 Ong2 Ou1 Pan4 Phua4 Poon4 Shen3 
+		Shih4 Sin1 Soo2 Suen1 Tam2 Tan2 Tang2 Tay2 Teo2 Tong2 Tsai2 Tse4 
+		Wang2 Wong2 Wu2 Xu2 Yao2 Yau4 Yaw4 Yeh2 Yeo2 Yong2 Yu2 Yuen4 Zheng4
+	}
+	common_last_names={
+		Boo2 Booi2 Cai2 Chai2 Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2 Chiang4 
+		Chin2 Ching4 Chiu1 Cho2 Choo2 Chou2 Chow4 Chu4 Chua4 Chuah4 Chui2 
+		Eng1 Fam4 Fan4 Fang1 Feng2 Fok3 Foo4 Fu2 Fung1 Goh4 Guan1 Gui1 
+		Guo1 Han4 Hau4 He2 Heng2 Hiu1 Ho4 Hong2 Hou2 Hsu2 Hu2 Hua2 Huang4 
+		Hui2 Hung2 Huo4 Jin1 Kan3 Kang1 Kao4 Kee4 Keh4 Khaw2 Kim1 Koh4 
+		Kong1 Kow4 Ku3 Kua2 Kuan1 Kuang4 Kuo2 Kwai4 Kwan1 Kwok2 Lai4 Lam4 
+		Lan2 Lang4 Lau2 Law2 Lee4 Lei2 Leong2 Leow2 Leung2 Li2 Liew2 Lin4 
+		Ling2 Liu2 Lo4 Lock4 Lok4 Long2 Lou2 Lu4 Lui2 Luk4 Lung2 Ma3 Mah4 
+		Mai4 Mak4 Man4 Mao2 Meng2 Miao3 Min2 Mo2 Mok4 Ng2 Ngan4 Nie4 Niu2 
+		Pan2 Pang2 Pao2 Pau4 Peh4 Pei2 Phang1 Phoon2 Phua2 Pin2 Po2 Poh4 
+		Poon2 Pu3 Quah4 Quek4 Seah4 See2 Seow2 Shang1 Shen2 Sheng4 Shi2 
+		Shum4 Sia4 Siah4 Siao4 Sim2 Sin4 Sit4 So3 Soh4 Song4 Soo4 Soon2 
+		Su4 Sun3 Sung4 Tai4 Tam4 Tan4 Tang4 Tao2 Tay4 Teh4 Tek4 Teng2 Teo4 
+		Teoh4 Thia1 Thio2 Tian2 To4 Toh4 Tong4 Tsang4 Tsao2 Tsui4 Tung2 
+		Wan2 Wei2 Weng1 Wing4 Wong4 Woo2 Wu4 Xi2 Xia2 Xiang2 Xiao3 Xie2 
+		Xiong2 Xu4 Xue2 Yam4 Yan2 Yang2 Yao4 Yap4 Yau2 Yeh4 Yeo4 Yeoh4 
+		Yeung4 Yew2 Yim4 Yin2 Ying2 Yip4 Yong4 You2 Yu4 Yuan2 Yue4 Yuen2 
+		Yun2 Yung2 Zeng1 Zhan4 Zhang1 Zhao4 Zheng2 Zhong1 Zhou1 Zhu1 Zhuang1
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_elafia={ #炎埃拉菲亚
+	color={ 200 26 13 }
+	religion = confucian
+	heritage = elafia_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		An1_Ren2 An1_Yi4 Bao3_Rong2 Bo2_Yue4 Chang2_Qing1 Chang2_Wen2 
+		Chao2_Yang2 Chen2_Yu4 Cheng2_En1 Cheng2_Feng1 Chu2_Xiang2 Da4_Wei2 
+		Dai4_Zhang1 De2_Ming2 De2_Xiang2 De2_Yu4 Ding1_Bang4 En1_Feng1 
+		Fei1_Yang2 Feng1_Ming2 Feng1_Xiang2 Fu2_Gui4 Fu2_Sheng4 Fu4_Cheng2 
+		Gao1_Yang2 Gong1_Ming2 Gong1_Sun1 Guan4_Yu3 Gui1_Ying2 Han2_Yu4 
+		He2_Ping2 Hong2_Yi4 Hua2_Long2 Hui4_Ming2 Jian4_Feng1 Jin1_Ming2 
+		Jin1_Tao2 Jing1_Yi4 Jun1_Yu4 Kai1_Ming2 Kai1_Wen2 Kang1_Ming2 
+		Li3_Ming2 Liang2_Yi4 Long2_Wei2 Ming2_De2 Ming2_Feng1 Ming2_Hui4 
+		Ning2_Zhao4 Pei2_Yuan2 Qi2_Feng1 Qian2_Long2 Qing2_Yuan2 Rong2_Hua2 
+		Rui4_Zhong1 Shang1_Yi4 Shi3_Chang2 Shi4_Long2 Si4_Kong1 Si4_Ming2 
+		Tai4_Yi4 Tian1_Fu2 Tian1_Ming2 Wei1_Yang2 Wen2_Ming2 Wen2_Zhong1 
+		Wu3_Ming2 Wu3_Ying2 Xi1_Zhong1 Xian1_Zhang1 Xiang2_Long2 Xiao1_Ming2 
+		Xin1_Ming2 Xiong2_Ba4 Xu1_Ming2 Xuan1_Ye4 Yan2_Ming2 Yang2_Ming2 
+		Yi4_Ming2 Ying2_Zheng4 You2_Ming2 Yu4_Ming2 Yuan2_Ming2 Yue4_Ming2 
+		Yun2_Long2 Zhen3_Ming2 Zheng1_De2 Zhi4_Ming2 Zhong1_He2 Zhong1_Shan1
+	}
+	female_common_first_names = {
+		Ai4_Lin2 An1_Qi2 Bai2_He4 Bi4_Yun2 Bi4_Yue4 Cai3_Hong2 Cai3_Wei2 
+		Chang2_Qing1 Chen2_Xi1 Chun1_Feng1 Chun1_Mei2 Chun1_Yan2 Chun1_Ying2 
+		Cui4_Ying2 Dan1_Qing1 Dan1_Xia2 Feng1_Juan1 Feng1_Ying2 Fu2_Rong2 
+		Gui1_Ying2 Hai3_Tang2 He2_Ying2 Hong2_Li4 Hong2_Xue3 Hua2_Mei2 
+		Hui1_Er2 Hui2_Wen2 Ji1_Xiang2 Jin1_Er2 Jin1_Feng1 Jin1_Xuan1 
+		Jing1_Fei1 Ju2_Hua1 Jun1_Ying2 Lan2_Xiang1 Li4_Hua2 Li4_Juan1 
+		Ling2_Feng1 Liu2_Yue4 Man2_Di4 Mei2_Feng1 Mei2_Ling2 Ming2_Yue4 
+		Mu4_Dan1 Ning2_Xiang1 Pei4_Lin2 Qian2_Wen2 Qing1_Er2 Qing1_Yun2 
+		Qiu2_Yue4 Rong2_Hua2 Ru2_Yi4 Rui4_Xue3 Shu1_Fang1 Shu4_Yuan2 
+		Si4_Qi2 Su4_Yan2 Tian1_Yi1 Wei2_Xuan1 Wen2_Qi2 Wu2_Mei2 Xi1_Yue4 
+		Xia4_Mei2 Xian2_Yun2 Xiang1_Yun2 Xiao1_He2 Xiao1_Yue4 Xin1_Yue4 
+		Xue3_Mei2 Yan2_Er2 Yan2_Feng1 Yang2_Gui1 Yi1_Ning2 Yi4_Lin2 
+		Ying1_Hua1 Yu4_Jing1 Yu4_Xi1 Yuan2_Fen1 Yue4_Ying2 Yun2_Er2 
+		Yun2_Xiang1 Zhen1_Er2 Zhi3_Ying2 Zi3_Wei2
+	}	
+	noble_last_names = {
+		An1 Bai2 Ban4 Bei3 Bi4 Bian1 Bo2 Cai4 Cao2 Chang4 Chen4 Cheng4 
+		Chi4 Chu3 Cong2 Cui1 Deng1 Di1 Ding4 Du2 Duan4 Fan4 Fang4 Fei3 
+		Feng4 Fu3 Gao4 Ge2 Geng1 Gong4 Gu3 Guan1 Gui4 Guo4 Han4 Hao2 
+		He4 Hou2 Hu4 Hua4 Huan2 Huang4 Ji2 Jia3 Jian3 Jiang3 Jin4 Jing3 
+		Ju3 Kong3 Lai4 Lang2 Lei3 Li3 Lin4 Liu4 Long2 Lu3 Luo4 Ma4 Mao4 
+		Meng4 Mi4 Ming2 Mo4 Mu4 Nan2 Ning4 Pan2 Pang2 Pei2 Peng4 Qi2 
+		Qian4 Qiao2 Qin2 Qiu2 Qu1 Quan2 Ren4 Rong2 Ruan3 Shang4 Shen4 
+		Shi3 Shu3 Song4 Su1 Sun3 Tang2 Tao4 Tian4 Tong2 Tu2 Wang4 Wei4 
+		Wen2 Wu4 Xi1 Xia4 Xiang4 Xiao3 Xie4 Xiong4 Xu3 Xuan2 Xue3 Yan4 
+		Yang4 Yao2 Ye4 Yi2 Yin3 You4 Yu3 Yuan4 Yue4 Zeng4 Zhang4 Zhao4 
+		Zheng4 Zhou4 Zhu4 Zhuan4 Zhuo2 Zi1 Zou4 Zuo3
+	}
+	common_last_names={
+		Ai3 Ao4 Ba1 Bao3 Bei4 Bi3 Bing3 Bo1 Can2 Ce4 Chang2 Chao2 Chen2 
+		Cheng2 Chi2 Chu2 Chuai4 Chuan2 Cong1 Cun4 Dai4 Dan4 Dang1 Dao4 
+		Deng4 Di4 Diao4 Ding1 Dong1 Du4 Duan1 Dun4 Er3 Fan2 Fang1 Fei2 
+		Feng2 Fu2 Gang3 Gao1 Ge1 Gen4 Geng4 Gong1 Gu1 Guan4 Gui1 Guo1 
+		Han1 Hao4 He2 Hong2 Hou4 Hu2 Hua2 Huan4 Hui2 Ji4 Jia1 Jian1 
+		Jiang4 Jin1 Jing1 Ju1 Jue2 Kan3 Kong1 Kuang4 Lan4 Lang4 Lei2 
+		Li2 Lian2 Lin2 Liu2 Lu2 Luan2 Luo2 Ma3 Man4 Mao2 Mei4 Meng2 Mi2 
+		Min2 Mo2 Mu2 Na4 Nai4 Nei4 Nie2 Ning2 Nu3 Pan4 Pei4 Peng2 Pi2 
+		Po4 Pu3 Qi1 Qian2 Qiang2 Qin4 Qing4 Qiu1 Qu4 Quan4 Que4 Ran2 
+		Rang4 Ren2 Rong4 Ru2 Rui4 San1 Sha4 Shan4 She2 Shen2 Sheng4 
+		Shi2 Shou3 Shu2 Shuan4 Shun4 Si1 Song2 Su4 Sui2 Sun1 Ta4 Tai2 
+		Tang4 Te4 Teng2 Ti4 Tian2 Tiao2 Tong4 Tu4 Tuan2 Wan2 Wang2 Wei2 
+		Wen4 Wu2 Xi4 Xia2 Xian2 Xiang2 Xiao1 Xin1 Xiong2 Xu1 Xuan4 Xun2 
+		Yan2 Yang2 Yao4 Yi4 Yin1 Ying4 You2 Yu2 Yuan2 Yue2 Yun4 Zai4 
+		Zan4 Zang4 Zao4 Zen1 Zeng1 Zhang1 Zhao2 Zhe2 Zhen3 Zheng1 Zhou1 
+		Zhu1 Zhuan1 Zhuo1 Zi3 Zong1 Zou1 Zu2 Zuan1 Zui4 Zun1
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+
+yan_pythia={ #炎斐迪亚
+	color={ 204 37 12 }
+	religion = confucian
+	heritage = pythia_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Bao3_Cheng2
+		Cheng2_Xuan1
+		Dao4_Ming2
+		Fu2_Sheng4
+		Guo2_Yi4
+		Han4_Yu2
+		Ji2_Xiang2
+		Kang1_Ning2
+		Long2_Wei2
+		Ming2_Jing4
+		Pei2_Yuan2
+		Qi2_Yuan2
+		Shi4_Xuan2
+		Tai4_Ping2
+		Wei2_Zhen1
+		Xian1_Feng1
+		Yi4_Zhong1
+		Yun2_Long2
+		Zhen1_Guo2
+		Zhi4_Ming2
+	}
+	female_common_first_names = {
+		Bai2_Yue4
+		Chun1_Mei2
+		Dong1_Yun2
+		Feng1_Xian2
+		He2_Ying2
+		Jing1_Yue4
+		Li2_Xiang1
+		Mei2_Zhen1
+		Qiu1_Yue4
+		Rui4_Fang1
+		Shui3_Ying2
+		Ting2_Yun2
+		Xue3_Mei2
+		Ying1_Hua2
+		Zhi3_Yan2
+	}	
+	noble_last_names = {
+		Cao2
+		Sima4
+		Wang2
+		Yang2
+		Zhu1
+	}
+	common_last_names={
+		Bai2
+		Cheng2
+		Du4
+		Gao1
+		Han2
+		Jia1
+		Kong3
+		Lang2
+		Pan1
+		Qin2
+		Ren2
+		Shi1
+		Tang2
+		Xue2
+		Yu3
+		Zeng1
+		Zou1
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_feline={ #炎菲林
+	color={ 209 49 11 }
+	religion = confucian
+	heritage = feline_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chang2_Qian2
+		Duan4_Yu2
+		Feng1_Tai4
+		Gong1_Sun1
+		Hui4_Yuan2
+		Jian4_Feng1
+		Kun1_Lun2
+		Lei2_Ming2
+		Meng4_Hao4
+		Ning2_Yuan2
+		Ping2_An1
+		Qian1_Feng1
+		Ruo4_Shi4
+		Shao4_Wei2
+		Tian1_Bao3
+		Wei4_Ming2
+		Xuan1_Zhang1
+		Yu4_Chi2
+		Zhao4_Yun2
+		Zhong1_Shan1
+	}
+	female_common_first_names = {
+		Bi4_Yun2
+		Chan2_Juan1
+		Die2_Ying2
+		E4_Mei2
+		Fei1_Yan4
+		Hui1_Yue4
+		Ju1_Hua1
+		Ling2_Long2
+		Man4_Yi2
+		Ning2_Zhen1
+		Qiong2_Yu4
+		Shu4_Yun2
+		Wan2_Er2
+		Xiang1_Yun2
+		Yu4_Rong2
+	}	
+	noble_last_names = {
+		Dou1
+		Fan4
+		Gu1
+		Ouyang2
+		Zhuge2
+	}
+	common_last_names={
+		Dai4
+		Fu4
+		Ge1
+		Hou2
+		Ji3
+		Kuang2
+		Lei2
+		Mo4
+		Nie4
+		Qu1
+		Su4
+		Tong2
+		Wan1
+		Xiong2
+		Yan2
+		Zhuo2
+		Zong1
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_forte={ #炎丰蹄
+	color={ 213 60 9 }
+	religion = confucian
+	heritage = forte_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_liberi={ #炎黎博利
+	color={ 218 71 8 }
+	religion = confucian
+	heritage = liberi_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_lung={ #龙
+	color={ 223 93 7 }
+	religion = confucian
+	heritage = lung_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_perro={ #炎佩洛
+	color={ 227 94 6 }
+	religion = confucian
+	heritage = perro_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_kylin={ #麒麟
+	color={ 232 105 5 }
+	religion = confucian
+	heritage = kylin_heritage
+	language = language_yan
+	traditions = { tradition_yan tradition_elder }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_anasa={ #阿纳萨
+	color={ 236 116 4 }
+	religion = confucian
+	heritage = sarkaz_heritage
+	language = language_yan
+	traditions = { tradition_yan tradition_teekaz }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_ursus={ #炎乌萨斯
+	color={ 241 128 2 }
+	religion = confucian
+	heritage = ursus_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_itra={ #炎依特拉
+	color={ 245 139 1 }
+	religion = confucian
+	heritage = itra_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+yan_zalak={ #炎扎拉克
+	color={ 250 150 0 }
+	religion = confucian
+	heritage = zalak_heritage
+	language = language_yan
+	traditions = { tradition_yan }
+	male_common_first_names={
+		Chong1_Hui4
+		Dong1_Hai3
+		Fu4_Lin2
+		Gao1_Xing4
+		He2_Ping2
+		Jing4_Xian1
+		Liang2_Yi4
+		Ming2_Wu3
+		Nian2_Zu2
+		Qi1_Yun2
+		Rong2_Hua2
+		Shi2_Jie2
+		Tian1_Yi4
+		Wei1_Xin1
+		Xiang2_Long2
+		Yan4_Feng1
+		Yu3_Zhang1
+		Zhen3_Ming2
+		Zhong1_Yuan2
+		Zi3_Long2
+	}
+	female_common_first_names = {
+		Cai3_Yun2
+		Feng4_Huang2
+		Han2_Mei2
+		Lan2_Xiang1
+		Ming2_Yue4
+		Pei4_Wen2
+		Qing2_He2
+		Rong2_Wei2
+		Shu1_Juan1
+		Xiao3_Yue4
+		Yan2_Fei1
+		Yue4_Hua2
+		Zhen1_Lian2
+		Zi3_Rong2
+		Yi1_Ning2
+	}	
+	noble_last_names = {
+		Dongfang1
+		Murong2
+		Situ4
+		Xiangyu3
+		Yuchi4
+	}
+	common_last_names={
+		Bian4
+		Chi4
+		Dong4
+		Fei4
+		Guan1
+		Hao4
+		Jiao1
+		Lian2
+		Mao2
+		Niu2
+		Qi4
+		Shao4
+		Tian3
+		Xing2
+		Yuan2
+		Zhai2
+		Zou4
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}

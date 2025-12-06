@@ -1,0 +1,8 @@
+﻿# This is executed last among all history
+GLOBAL = {
+	# 测试地图不应该被用来完成成就
+	every_country = {
+		limit = { NOT = { has_law = law_type:law_slavery_banned } }
+		ig:ig_landowners = { add_ideology = ideology_pro_slavery }
+	}
+}

@@ -1,0 +1,194 @@
+pmg_base_building_sugar_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_sugar_plantation.dds"
+	production_methods = {
+		pm_sugar_plantation_base
+		pm_sugar_plantation_automatic
+	}
+}
+pmg_sugar_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_sugar_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_tobacco_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_tobacco_plantation.dds"
+	production_methods = {
+		pm_tobacco_plantation_base
+		pm_tobacco_plantation_automatic
+	}
+}
+pmg_tobacco_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_tobacco_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_tea_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_tea_plantation.dds"
+	production_methods = {
+		pm_tea_plantation_base
+		pm_tea_plantation_automatic
+	}
+}
+pmg_tea_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_tea_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_coffee_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_coffee_plantation.dds"
+	production_methods = {
+		pm_coffee_plantation_base
+		pm_coffee_plantation_automatic
+	}
+}
+pmg_coffee_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_coffee_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_wine_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_wine_plantation.dds"
+	production_methods = {
+		pm_wine_plantation_base
+		pm_wine_plantation_automatic
+	}
+}
+pmg_wine_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_wine_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_opium_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_opium_plantation.dds"
+	production_methods = {
+		pm_opium_plantation_base
+		pm_opium_plantation_automatic
+	}
+}
+pmg_opium_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_opium_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_base_building_fruit_plantation = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_base_building_fruit_plantation.dds"
+	production_methods = {
+		pm_fruit_plantation_base
+		pm_fruit_plantation_automatic
+	}
+}
+pmg_fruit_plantation_transportation = { #运输
+	texture = "gfx/interface/icons/generic_icons/pmg_fruit_plantation_transportation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport
+	}
+}
+pmg_grain_farm_base = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_grain_farm_base.dds"
+	production_methods = {
+		#pm_grain_farm_simple_farming
+		pm_grain_farm_soil_enriching_farming
+		pm_grain_farm_fertilization
+		pm_grain_farm_chemical
+		pm_grain_farm_genetically
+	}
+}
+
+pmg_grain_farm_khol = { #醇类
+	texture = "gfx/interface/icons/generic_icons/pmg_grain_farm_khol.dds"
+	production_methods = {
+		pm_grain_farm_no_kohl
+		pm_grain_farm_kohl
+		pm_grain_farm_twist_kohl
+	}
+}
+
+pmg_grain_farm_harvesting = { #收获方式
+	texture = "gfx/interface/icons/generic_icons/pmg_grain_farm_harvesting.dds"
+	production_methods = {
+		pm_grain_farm_tools_disabled
+		pm_grain_farm_tools
+		pm_grain_farm_originium_threshers
+		pm_grain_farm_tractors
+		pm_grain_farm_originium_tractors
+		pm_grain_farm_combine_harvester
+		pm_grain_farm_drone
+	}
+}
+pmg_potato_farm_base = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_potato_farm_base.dds"
+	production_methods = {
+		#pm_potato_farm_simple_farming
+		pm_potato_farm_soil_enriching_farming
+		pm_potato_farm_fertilization
+		pm_potato_farm_chemical
+		pm_potato_farm_genetically
+	}
+}
+
+pmg_potato_farm_khol = { #醇类
+	texture = "gfx/interface/icons/generic_icons/pmg_potato_farm_khol.dds"
+	production_methods = {
+		pm_potato_farm_no_kohl
+		pm_potato_farm_kohl
+		pm_potato_farm_twist_kohl
+	}
+}
+
+pmg_potato_farm_harvesting = { #收获方式
+	texture = "gfx/interface/icons/generic_icons/pmg_potato_farm_harvesting.dds"
+	production_methods = {
+		pm_potato_farm_tools_disabled
+		pm_potato_farm_tools
+		pm_potato_farm_originium_threshers
+		pm_potato_farm_tractors
+		pm_potato_farm_originium_tractors
+		pm_potato_farm_combine_harvester
+		pm_potato_farm_drone
+	}
+}
+pmg_nomadic_village_base = { #基础
+	texture = "gfx/interface/icons/generic_icons/pmg_nomadic_village_base.dds"
+	production_methods = {
+		pm_nomadic_village_base_freeman 
+		pm_nomadic_village_fertilization
+	}
+	
+}
+pmg_nomadic_village_management = { #管理方式
+	texture = "gfx/interface/icons/generic_icons/pmg_nomadic_village_base.dds"
+	production_methods = {
+		pm_nomadic_village_not
+		pm_nomadic_village_low
+		pm_nomadic_village_medium
+		pm_nomadic_village_high
+	}
+}
+pmg_nomadic_village_mode_mobility = { #移动方式
+	texture = "gfx/interface/icons/generic_icons/pmg_nomadic_village_base.dds"
+	production_methods = {
+		pm_nomadic_village_mode_mobility_0
+		pm_nomadic_village_mode_mobility_1
+	}
+}
+pmg_nomadic_village_harvesting = { #收获方式
+	texture = "gfx/interface/icons/generic_icons/pmg_nomadic_village_base.dds"
+	production_methods = {
+		pm_nomadic_village_harvesting_0
+		pm_nomadic_village_harvesting_1
+		pm_nomadic_village_harvesting_2
+	}
+}

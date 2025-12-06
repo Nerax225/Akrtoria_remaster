@@ -1,0 +1,11 @@
+[]finish height map
+[]finish terrian map
+[]finish river
+[]finish land provience
+	[] one states for each country
+	[] divide into 6-12 more states
+	[] record the colour and mapping
+[] finish ocean provience
+	[] some river should considered as ocean for trade routes
+
+[]learn 3d modeling and try to add a cat ear to a human.

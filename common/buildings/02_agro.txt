@@ -1,0 +1,215 @@
+﻿building_sugar_plantation = { #糖种植园
+	building_group = bg_sugar_plantations
+
+	icon = "gfx/interface/icons/building_icons/building_sugar_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_sugar_plantation
+		pmg_sugar_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_tobacco_plantation = { #烟草种植园
+	building_group = bg_tobacco_plantations
+
+	icon = "gfx/interface/icons/building_icons/building_tobacco_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_tobacco_plantation
+		pmg_tobacco_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_tea_plantation = { #茶叶种植园
+	building_group = bg_tea_plantations
+
+	icon = "gfx/interface/icons/building_icons/building_tea_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_tea_plantation
+		pmg_tea_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_coffee_plantation = { #咖啡种植园
+	building_group = bg_coffee_plantations
+
+	icon = "gfx/interface/icons/building_icons/building_coffee_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_coffee_plantation
+		pmg_coffee_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_wine_plantation = { #葡萄酒种植园
+	building_group = bg_wine_plantation
+
+	icon = "gfx/interface/icons/building_icons/building_wine_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_wine_plantation
+		pmg_wine_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_opium_plantation = { #鸦片种植园
+	building_group = bg_opium_plantations
+
+	icon = "gfx/interface/icons/building_icons/building_opium_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_opium_plantation
+		pmg_opium_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_fruit_plantation = { #水果种植园
+	building_group = bg_fruit_plantation
+
+	icon = "gfx/interface/icons/building_icons/building_fruit_plantation.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_fruit_plantation
+		pmg_fruit_plantation_transportation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_grain_farm = { #谷物农场
+	building_group = bg_grain_farm
+
+	icon = "gfx/interface/icons/building_icons/building_grain_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_grain_farm_base 
+		pmg_grain_farm_khol 
+		pmg_grain_farm_harvesting
+	}
+
+	required_construction = construction_cost_medium
+
+	terrain_manipulator = farmland_wheat
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+building_potato_farm = { #土豆农场
+	building_group = bg_potato_farm
+
+	icon = "gfx/interface/icons/building_icons/building_potato_farm.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_potato_farm_base 
+		pmg_potato_farm_khol 
+		pmg_potato_farm_harvesting
+	}
+
+	required_construction = construction_cost_medium
+
+	terrain_manipulator = farmland_rice
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+#building_nomadic_village = { #半游牧村庄
+#	building_group = bg_nomadic_village
+
+#	icon = "gfx/interface/icons/building_icons/building_nomadic_village.dds"
+
+#	city_type = farm
+#	levels_per_mesh = 50
+
+#	unlocking_technologies = {
+#		enclosure
+#	}
+
+#	production_method_groups = {
+#		pmg_nomadic_village_base 
+#		pmg_nomadic_village_management
+#		pmg_nomadic_village_mode_mobility
+#	}
+#
+#	required_construction = 100
+#
+#	terrain_manipulator = farmland_wheat
+#	ownership_type = self
+#
+#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+#}

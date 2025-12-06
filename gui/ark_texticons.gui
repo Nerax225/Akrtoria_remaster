@@ -1,0 +1,107 @@
+﻿texticon = {
+  icon = casters
+  iconsize = {
+    offset = { 0 50 }
+    texture = "gfx/interface/icons/pops_icons/casters.dds"
+    fontsize = 250
+  }
+}
+
+texticon = {
+  icon = casters
+  iconsize = {
+    offset = { 0 5 }
+    texture = "gfx/interface/icons/pops_icons/casters_15.dds"
+    fontsize = 30
+  }
+}
+
+# =============================================================
+# Arktoria Goods Text Icons (placeholder sizes & textures)
+# size = { 25 25 } per request; offset standardized { 0 7 }; fontsize 18
+# Replace texture paths with actual dds icons when available.
+# Suggested final path convention:
+#   gfx/interface/icons/goods/<good>.dds  (you can batch export)
+# =============================================================
+
+# Helper note: If a texture is missing, the engine will show a pink/black square.
+# You can progressively replace placeholder textures without changing this file.
+
+# =============== Military ===============
+texticon = { icon = artillery           iconsize = { texture = "gfx/interface/icons/goods_icons/artillery.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = heavy_armored_vehicle iconsize = { texture = "gfx/interface/icons/goods_icons/heavy_armored_vehicle.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = land_ships          iconsize = { texture = "gfx/interface/icons/goods_icons/land_ships.dds"        size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = personal_ration     iconsize = { texture = "gfx/interface/icons/goods_icons/personal_ration.dds"   size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = small_arms          iconsize = { texture = "gfx/interface/icons/goods_icons/small_arms.dds"        size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+# =============== Staple ===============
+texticon = { icon = clothes             iconsize = { texture = "gfx/interface/icons/goods_icons/clothes.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = electricity         iconsize = { texture = "gfx/interface/icons/goods_icons/electricity.dds"       size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = fish                iconsize = { texture = "gfx/interface/icons/goods_icons/fish.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = furniture_parts     iconsize = { texture = "gfx/interface/icons/goods_icons/furniture_parts.dds"   size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = grain               iconsize = { texture = "gfx/interface/icons/goods_icons/grain.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = housing             iconsize = { texture = "gfx/interface/icons/goods_icons/housing.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = medicine            iconsize = { texture = "gfx/interface/icons/goods_icons/medicine.dds"          size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = services            iconsize = { texture = "gfx/interface/icons/goods_icons/services.dds"          size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = transportation      iconsize = { texture = "gfx/interface/icons/goods_icons/transportation.dds"    size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = wood                iconsize = { texture = "gfx/interface/icons/goods_icons/wood.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+# =============== Industrial ===============
+texticon = { icon = kohl                iconsize = { texture = "gfx/interface/icons/goods_icons/kohl.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = bipolar_nanoflake   iconsize = { texture = "gfx/interface/icons/goods_icons/bipolar_nanoflake.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = carbon_brick        iconsize = { texture = "gfx/interface/icons/goods_icons/carbon_brick.dds"      size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = carbon_stick        iconsize = { texture = "gfx/interface/icons/goods_icons/carbon_stick.dds"      size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = chemical_solution   iconsize = { texture = "gfx/interface/icons/goods_icons/chemical_solution.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = crystalline_circuit iconsize = { texture = "gfx/interface/icons/goods_icons/crystalline_circuit.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = crystalline_component iconsize = { texture = "gfx/interface/icons/goods_icons/crystalline_component.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = crystalline_unit    iconsize = { texture = "gfx/interface/icons/goods_icons/crystalline_unit.dds"  size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = device              iconsize = { texture = "gfx/interface/icons/goods_icons/device.dds"            size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = drone               iconsize = { texture = "gfx/interface/icons/goods_icons/drone.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = engines             iconsize = { texture = "gfx/interface/icons/goods_icons/engines.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = ester               iconsize = { texture = "gfx/interface/icons/goods_icons/ester.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = grind_stone         iconsize = { texture = "gfx/interface/icons/goods_icons/grind_stone.dds"       size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = iron                iconsize = { texture = "gfx/interface/icons/goods_icons/iron.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = ketone              iconsize = { texture = "gfx/interface/icons/goods_icons/ketone.dds"            size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = light_manganese     iconsize = { texture = "gfx/interface/icons/goods_icons/light_manganese.dds"   size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = originite_prime     iconsize = { texture = "gfx/interface/icons/goods_icons/originite_prime.dds"   size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = originium           iconsize = { texture = "gfx/interface/icons/goods_icons/originium.dds"         size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = originium_ingot     iconsize = { texture = "gfx/interface/icons/goods_icons/originium_ingot.dds"   size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = orirock             iconsize = { texture = "gfx/interface/icons/goods_icons/orirock.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = oriron              iconsize = { texture = "gfx/interface/icons/goods_icons/oriron.dds"            size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = orundum             iconsize = { texture = "gfx/interface/icons/goods_icons/orundum.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = RMA                 iconsize = { texture = "gfx/interface/icons/goods_icons/RMA.dds"               size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = steel               iconsize = { texture = "gfx/interface/icons/goods_icons/steel.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = truck               iconsize = { texture = "gfx/interface/icons/goods_icons/truck.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = urban_space         iconsize = { texture = "gfx/interface/icons/goods_icons/urban_space.dds"       size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = merchant_landships  iconsize = { texture = "gfx/interface/icons/goods_icons/merchant_landships.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+# =============== Luxury ===============
+texticon = { icon = automobiles         iconsize = { texture = "gfx/interface/icons/goods_icons/automobiles.dds"       size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = business_product    iconsize = { texture = "gfx/interface/icons/goods_icons/business_product.dds"  size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = coffee              iconsize = { texture = "gfx/interface/icons/goods_icons/coffee.dds"            size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = consumer_electronics iconsize = { texture = "gfx/interface/icons/goods_icons/consumer_electronics.dds" size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = fine_art            iconsize = { texture = "gfx/interface/icons/goods_icons/fine_art.dds"          size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = fruit               iconsize = { texture = "gfx/interface/icons/goods_icons/fruit.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = groceries           iconsize = { texture = "gfx/interface/icons/goods_icons/groceries.dds"         size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = liquor              iconsize = { texture = "gfx/interface/icons/goods_icons/liquor.dds"            size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = luxury_items        iconsize = { texture = "gfx/interface/icons/goods_icons/luxury_items.dds"      size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = animal_product                iconsize = { texture = "gfx/interface/icons/goods_icons/animal_product.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = online_product      iconsize = { texture = "gfx/interface/icons/goods_icons/online_product.dds"    size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = opium               iconsize = { texture = "gfx/interface/icons/goods_icons/opium.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = precision_wear      iconsize = { texture = "gfx/interface/icons/goods_icons/precision_wear.dds"    size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = small_appliances    iconsize = { texture = "gfx/interface/icons/goods_icons/small_appliances.dds"  size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = sugar               iconsize = { texture = "gfx/interface/icons/goods_icons/sugar.dds"             size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+texticon = { icon = tea                 iconsize = { texture = "gfx/interface/icons/goods_icons/tea.dds"               size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = tobacco             iconsize = { texture = "gfx/interface/icons/goods_icons/tobacco.dds"           size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+texticon = { icon = wine                iconsize = { texture = "gfx/interface/icons/goods_icons/wine.dds"              size = { 25 25 } offset = { 0 7 } fontsize = 18 } }
+
+# =============== Extra (Non-good example already existed) ===============
+# infectors kept from original file.

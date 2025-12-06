@@ -1,0 +1,63 @@
+﻿ideology_infectors_rejection_leader = {
+	icon = "gfx/interface/icons/ideology_icons/infectors_rejection_leader.dds"
+
+	priority = 100
+
+	lawgroup_infected_rights = {
+		law_no_infected_rights = strongly_approve
+		law_excluded_infected_rights = approve
+		law_ignored_infected_rights = approve
+		law_low_infected_rights = neutral
+		law_standard_infected_rights = disapprove
+		law_high_infected_rights = disapprove
+		law_full_infected_rights = strongly_disapprove
+	}
+}
+
+ideology_infectors_ignorism_leader = {
+	icon = "gfx/interface/icons/ideology_icons/infectors_ignorism_leader.dds"
+
+	priority = 100
+
+	lawgroup_infected_rights = {
+		law_no_infected_rights = neutral
+		law_excluded_infected_rights = approve
+		law_ignored_infected_rights = strongly_approve
+		law_low_infected_rights = approve
+		law_standard_infected_rights = neutral
+		law_high_infected_rights = disapprove
+		law_full_infected_rights = strongly_disapprove
+	}
+}
+
+ideology_infectors_moderatism_leader = {
+	icon = "gfx/interface/icons/ideology_icons/infectors_moderatism_leader.dds"
+
+	priority = 100
+
+	lawgroup_infected_rights = {
+		law_no_infected_rights = strongly_disapprove
+		law_excluded_infected_rights = disapprove
+		law_ignored_infected_rights = neutral
+		law_low_infected_rights = approve
+		law_standard_infected_rights = approve
+		law_high_infected_rights = neutral
+		law_full_infected_rights = neutral
+	}
+}
+
+ideology_infectors_acceptism_leader = {
+	icon = "gfx/interface/icons/ideology_icons/infectors_acceptism_leader.dds"
+
+	priority = 100
+
+	lawgroup_infected_rights = {
+		law_no_infected_rights = strongly_disapprove
+		law_excluded_infected_rights = disapprove
+		law_ignored_infected_rights = disapprove
+		law_low_infected_rights = neutral
+		law_standard_infected_rights = approve
+		law_high_infected_rights = approve
+		law_full_infected_rights = strongly_approve
+	}
+}

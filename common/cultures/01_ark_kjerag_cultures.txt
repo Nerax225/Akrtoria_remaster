@@ -1,0 +1,190 @@
+kjerag_liberi={ #谢拉格黎博利
+	color={ 134 165 243 }
+	religion = kjeragandr_belief
+	heritage = liberi_heritage
+	language = language_kjerag
+	traditions = { tradition_kjerag }
+	male_common_first_names={
+	Erik Lars Nils Bjorn Anders Sven Gustav Henrik Magnus Oskar
+	Johan Karl Per Knut Leif Rune Sten Torben Ulf Vidar Alf
+	Einar Håkon Jørgen Morten Olav Pål Rolf Sigurd Trygve
+	Øyvind Åke
+	}
+	female_common_first_names = {
+	Anna Ingrid Astrid Birgitte Camilla Dagny Elise Frida Greta
+	Helga Ida Johanna Karin Liv Maja Nora Ragnhild Sigrid
+	Solveig Tove Unni Åsa Åse Beate Ebba Gunhild Hanne
+	Ingeborg Kirsten Malin
+	}	
+	noble_last_names = {
+	Stenstrøm Bjørnsen Håkansson Lindberg Norberg Eriksson
+	Svensson Gustafsson Henriksen Magnussen Oskarsson
+	Johansen Karlsson Persson Knutsen Leifsson Runesson
+	Stensen Torbensen Ulfsson Vidarsson Alfsson Einarsen
+	Håkonsen Jørgensen Mortensen Olavsen Pålsen Rolfsen
+	Sigurdsson Trygvesen Øyvindsen Åkesson
+	}
+	common_last_names={
+	Andersen Berg Dahl Eide Foss Hagen Hansen Haugen
+	Holmen Isaksen Jakobsen Knutsen Kristiansen Larsen
+	Lien Lie Lunde Madsen Moe Nilsen Pedersen Sandvik
+	Simonsen Solberg Strand Sørensen Thomassen Torgersen
+	Viken Østby Ås
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+kjerag_feline={ #谢拉格菲林
+	color={ 156 167 246 }
+	religion = kjeragandr_belief
+	heritage = feline_heritage
+	language = language_kjerag
+	traditions = { tradition_kjerag }
+	male_common_first_names={
+	Erik Lars Nils Bjorn Anders Sven Gustav Henrik Magnus Oskar
+	Johan Karl Per Knut Leif Rune Sten Torben Ulf Vidar Alf
+	Einar Håkon Jørgen Morten Olav Pål Rolf Sigurd Trygve
+	Øyvind Åke
+	}
+	female_common_first_names = {
+	Anna Ingrid Astrid Birgitte Camilla Dagny Elise Frida Greta
+	Helga Ida Johanna Karin Liv Maja Nora Ragnhild Sigrid
+	Solveig Tove Unni Åsa Åse Beate Ebba Gunhild Hanne
+	Ingeborg Kirsten Malin
+	}	
+	noble_last_names = {
+	Stenstrøm Bjørnsen Håkansson Lindberg Norberg Eriksson
+	Svensson Gustafsson Henriksen Magnussen Oskarsson
+	Johansen Karlsson Persson Knutsen Leifsson Runesson
+	Stensen Torbensen Ulfsson Vidarsson Alfsson Einarsen
+	Håkonsen Jørgensen Mortensen Olavsen Pålsen Rolfsen
+	Sigurdsson Trygvesen Øyvindsen Åkesson
+	}
+	common_last_names={
+	Andersen Berg Dahl Eide Foss Hagen Hansen Haugen
+	Holmen Isaksen Jakobsen Knutsen Kristiansen Larsen
+	Lien Lie Lunde Madsen Moe Nilsen Pedersen Sandvik
+	Simonsen Solberg Strand Sørensen Thomassen Torgersen
+	Viken Østby Ås
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+kjerag_zalak={ #谢拉格扎拉克
+	color={ 175 170 247 }
+	religion = kjeragandr_belief
+	heritage = zalak_heritage
+	language = language_kjerag
+	traditions = { tradition_kjerag }
+	male_common_first_names={
+	Erik Lars Nils Bjorn Anders Sven Gustav Henrik Magnus Oskar
+	Johan Karl Per Knut Leif Rune Sten Torben Ulf Vidar Alf
+	Einar Håkon Jørgen Morten Olav Pål Rolf Sigurd Trygve
+	Øyvind Åke
+	}
+	female_common_first_names = {
+	Anna Ingrid Astrid Birgitte Camilla Dagny Elise Frida Greta
+	Helga Ida Johanna Karin Liv Maja Nora Ragnhild Sigrid
+	Solveig Tove Unni Åsa Åse Beate Ebba Gunhild Hanne
+	Ingeborg Kirsten Malin
+	}	
+	noble_last_names = {
+	Stenstrøm Bjørnsen Håkansson Lindberg Norberg Eriksson
+	Svensson Gustafsson Henriksen Magnussen Oskarsson
+	Johansen Karlsson Persson Knutsen Leifsson Runesson
+	Stensen Torbensen Ulfsson Vidarsson Alfsson Einarsen
+	Håkonsen Jørgensen Mortensen Olavsen Pålsen Rolfsen
+	Sigurdsson Trygvesen Øyvindsen Åkesson
+	}
+	common_last_names={
+	Andersen Berg Dahl Eide Foss Hagen Hansen Haugen
+	Holmen Isaksen Jakobsen Knutsen Kristiansen Larsen
+	Lien Lie Lunde Madsen Moe Nilsen Pedersen Sandvik
+	Simonsen Solberg Strand Sørensen Thomassen Torgersen
+	Viken Østby Ås
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+kjerag_ursus={ #谢拉格乌萨斯
+    color={ 193 173 247 }
+	religion = kjeragandr_belief
+	heritage = ursus_heritage
+	language = language_kjerag
+	traditions = { tradition_kjerag }
+	male_common_first_names={
+		Erik Lars Nils Bjorn Anders Sven Gustav Henrik Magnus Oskar
+		Johan Karl Per Knut Leif Rune Sten Torben Ulf Vidar Alf
+		Einar Håkon Jørgen Morten Olav Pål Rolf Sigurd Trygve
+		Øyvind Åke
+	}
+	female_common_first_names = {
+		Anna Ingrid Astrid Birgitte Camilla Dagny Elise Frida Greta
+		Helga Ida Johanna Karin Liv Maja Nora Ragnhild Sigrid
+		Solveig Tove Unni Åsa Åse Beate Ebba Gunhild Hanne
+		Ingeborg Kirsten Malin
+	}	
+	noble_last_names = {
+		Stenstrøm Bjørnsen Håkansson Lindberg Norberg Eriksson
+		Svensson Gustafsson Henriksen Magnussen Oskarsson
+		Johansen Karlsson Persson Knutsen Leifsson Runesson
+		Stensen Torbensen Ulfsson Vidarsson Alfsson Einarsen
+		Håkonsen Jørgensen Mortensen Olavsen Pålsen Rolfsen
+		Sigurdsson Trygvesen Øyvindsen Åkesson
+	}
+	common_last_names={
+		Andersen Berg Dahl Eide Foss Hagen Hansen Haugen
+		Holmen Isaksen Jakobsen Knutsen Kristiansen Larsen
+		Lien Lie Lunde Madsen Moe Nilsen Pedersen Sandvik
+		Simonsen Solberg Strand Sørensen Thomassen Torgersen
+		Viken Østby Ås
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+kjerag_itra={ #谢拉格依特拉
+	color={ 210 176 247 }
+	religion = kjeragandr_belief
+	heritage = itra_heritage
+	language = language_kjerag
+	traditions = { tradition_kjerag }
+	male_common_first_names={
+	Erik Lars Nils Bjorn Anders Sven Gustav Henrik Magnus Oskar
+	Johan Karl Per Knut Leif Rune Sten Torben Ulf Vidar Alf
+	Einar Håkon Jørgen Morten Olav Pål Rolf Sigurd Trygve
+	Øyvind Åke
+	}
+	female_common_first_names = {
+	Anna Ingrid Astrid Birgitte Camilla Dagny Elise Frida Greta
+	Helga Ida Johanna Karin Liv Maja Nora Ragnhild Sigrid
+	Solveig Tove Unni Åsa Åse Beate Ebba Gunhild Hanne
+	Ingeborg Kirsten Malin
+	}	
+	noble_last_names = {
+	Stenstrøm Bjørnsen Håkansson Lindberg Norberg Eriksson
+	Svensson Gustafsson Henriksen Magnussen Oskarsson
+	Johansen Karlsson Persson Knutsen Leifsson Runesson
+	Stensen Torbensen Ulfsson Vidarsson Alfsson Einarsen
+	Håkonsen Jørgensen Mortensen Olavsen Pålsen Rolfsen
+	Sigurdsson Trygvesen Øyvindsen Åkesson
+	}
+	common_last_names={
+	Andersen Berg Dahl Eide Foss Hagen Hansen Haugen
+	Holmen Isaksen Jakobsen Knutsen Kristiansen Larsen
+	Lien Lie Lunde Madsen Moe Nilsen Pedersen Sandvik
+	Simonsen Solberg Strand Sørensen Thomassen Torgersen
+	Viken Østby Ås
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

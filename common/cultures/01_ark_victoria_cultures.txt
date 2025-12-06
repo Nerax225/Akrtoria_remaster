@@ -1,0 +1,866 @@
+victoria_feline={ #维多利亚菲林
+	color={ 242 183 5 }
+	religion = central_terra_native_belief
+	heritage = feline_heritage
+	language = language_victoria
+	traditions = { tradition_victoria }
+	male_common_first_names={
+		Edward
+		William
+		Henry
+		George
+		Charles
+		Richard
+		John
+		Thomas
+		James
+		Robert
+		Alfred
+		Arthur
+		Albert
+		Frederick
+		Edmund
+		Harold
+		Walter
+		Hugh
+		Ralph
+		Geoffrey
+		Cedric
+		Edwin
+		Oswald
+		Edgar
+		Stephen
+	}
+	female_common_first_names = {
+		Victoria
+		Elizabeth
+		Mary
+		Anne
+		Catherine
+		Margaret
+		Jane
+		Eleanor
+		Alice
+		Emma
+		Matilda
+		Beatrice
+		Adelaide
+		Charlotte
+		Sophia
+		Caroline
+		Augusta
+		Helena
+		Louise
+		Florence
+	}	
+	noble_last_names = {
+		Windsor
+		Tudor
+		Stuart
+		Plantagenet
+		Lancaster
+		York
+		Howard
+		Percy
+		FitzAlan
+		Beaufort
+		Mortimer
+		Neville
+		Stanley
+		Berkeley
+		Courtenay
+		Hastings
+		Beauchamp
+		Montagu
+		Talbot
+		Somerset
+	}
+	common_last_names={
+		Smith
+		Brown
+		Taylor
+		Wilson
+		Johnson
+		Davies
+		Robinson
+		Wright
+		Thompson
+		White
+		Walker
+		Green
+		Hughes
+		Edwards
+		Morris
+		Turner
+		Cooper
+		Ward
+		Morgan
+		Baker
+	}
+	male_regal_first_names = {
+		Edward
+		William
+		Henry
+		George
+		Charles
+		Richard
+		John
+		James
+		Arthur
+		Alfred
+	}
+	female_regal_first_names = {
+		Victoria
+		Elizabeth
+		Mary
+		Anne
+		Catherine
+		Margaret
+		Jane
+		Matilda
+		Adelaide
+		Caroline
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+victoria_aslan={ #阿斯兰
+	color={ 242 195 13 }
+	religion = central_terra_native_belief
+	heritage = feline_heritage
+	language = language_victoria
+	traditions = { tradition_victoria tradition_aslan }
+	male_common_first_names={
+		Aethelred
+		Aethelstan
+		Cerdic
+		Cynewulf
+		Dunstan
+		Eadmund
+		Eadwig
+		Ecgbert
+		Godwin
+		Leofric
+		Oswald
+		Uhtred
+		Wulfstan
+		Aelfric
+		Beornwulf
+		Ceolwulf
+		Ealdred
+		Guthrum
+		Hereward
+		Sigebert
+	}
+	female_common_first_names = {
+		Aethelflaed
+		Eadgyth
+		Aelfgifu
+		Aethelhild
+		Cyneburg
+		Eadburh
+		Frithugyth
+		Hilda
+		Seaxburh
+		Wulfthryth
+		Aethelburh
+		Cyneburh
+		Eadgith
+		Godgifu
+		Leofrun
+		Mildthryth
+		Osthryth
+		Raedburh
+		Thetburga
+		Wynflaed
+	}	
+	noble_last_names = {
+		Ætheling
+		Beorning
+		Cynning
+		Dayraven
+		Ealdwine
+		Folcwine
+		Godricson
+		Hrothgar
+		Ironside
+		Kenning
+		Leofwine
+		Merewalh
+		Northwine
+		Osricson
+		Peadason
+		Readwulf
+		Sigeric
+		Theodric
+		Wigmund
+		Wulfhere
+	}
+	common_last_names={
+		Archer
+		Bowman
+		Carter
+		Drake
+		Forester
+		Granger
+		Hunter
+		Miller
+		Shepherd
+		Thatcher
+		Weaver
+		Fisher
+		Fletcher
+		Potter
+		Skinner
+		Smith
+		Tanner
+		Wheeler
+		Wright
+		Young
+	}
+	male_regal_first_names = {
+		Aethelred
+		Aethelstan
+		Ecgbert
+		Edmund
+		Edward
+		Harold
+		Alfred
+		Cnut
+		Edgar
+		Edwin
+	}
+	female_regal_first_names = {
+		Aethelflaed
+		Eadgyth
+		Aelfgifu
+		Emma
+		Matilda
+		Edith
+		Margaret
+		Aethelburh
+		Cynewise
+		Seaxburh
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+victoria_draco={ #维多利亚德拉克
+	color={ 242 208 21 }
+	religion = central_terra_native_belief
+	heritage = draco_heritage
+	language = language_victoria
+	traditions = {tradition_victoria }
+	male_common_first_names={
+		Arthur
+		Bedivere
+		Galahad
+		Gawain
+		Kay
+		Lancelot
+		Merlin
+		Percival
+		Tristan
+		Gareth
+		Gaheris
+		Lamorak
+		Bors
+		Lionel
+		Agravain
+		Geraint
+		Mordred
+		Palamedes
+		Safir
+		Yvain
+	}
+	female_common_first_names = {
+		Guinevere
+		Morgan
+		Elaine
+		Isolde
+		Lynette
+		Nimue
+		Enide
+		Igraine
+		Laudine
+		Ragnell
+		Morgause
+		Vivian
+		Lunete
+		Blanchefleur
+		Clarissant
+		Dindraine
+		Hellawes
+		Lyonesse
+		Sebille
+		Iseult
+	}	
+	noble_last_names = {
+		Pendragon
+		Orkney
+		Cornwall
+		Lothian
+		Garlot
+		Camelot
+		Lyonesse
+		Tintagel
+		Carbonek
+		Listinoise
+		Avalon
+		Carlion
+		Logres
+		Albion
+		Caledonia
+		Cumbria
+		Gorre
+		Leonesse
+		Norgales
+		Northumbria
+	}
+	common_last_names={
+		Knight
+		Squire
+		Page
+		Herald
+		Archer
+		Bowman
+		Swordsmith
+		Fletcher
+		Armorer
+		Mason
+		Carpenter
+		Fisher
+		Hunter
+		Miller
+		Potter
+		Smith
+		Tanner
+		Thatcher
+		Wheeler
+		Wright
+	}
+	male_regal_first_names = {
+		Arthur
+		Uther
+		Constantine
+		Vortigern
+		Aurelius
+		Lot
+		Mark
+		Pellinore
+		Claudas
+		Rience
+	}
+	female_regal_first_names = {
+		Guinevere
+		Igraine
+		Morgan
+		Morgause
+		Anna
+		Elaine
+		Isolde
+		Helena
+		Laudine
+		Morgana
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+victoria_vouivre={ #维多利亚瓦伊凡
+	color={ 242 221 30 }
+	religion = central_terra_native_belief
+	heritage = vouivre_heritage
+	language = language_victoria
+	traditions = {tradition_victoria }
+	male_common_first_names={
+		Alpin
+		Kenneth
+		Malcolm
+		Duncan
+		Macbeth
+		Donald
+		Alexander
+		Robert
+		James
+		William
+		David
+		Andrew
+		Colin
+		Douglas
+		Gordon
+		Graham
+		Hamish
+		Ian
+		Keith
+		Ross
+	}
+	female_common_first_names = {
+		Margaret
+		Mary
+		Elizabeth
+		Janet
+		Agnes
+		Isabella
+		Catherine
+		Helen
+		Jean
+		Marion
+		Marjorie
+		Euphemia
+		Flora
+		Fiona
+		Aileen
+		Moira
+		Eileen
+		Sheena
+		Heather
+		Catriona
+	}	
+	noble_last_names = {
+		Stewart
+		Bruce
+		MacAlpin
+		Campbell
+		Douglas
+		Gordon
+		Graham
+		Hamilton
+		Kennedy
+		Lindsay
+		MacDonald
+		MacKenzie
+		Murray
+		Ross
+		Sinclair
+		Sutherland
+		Wallace
+		Cameron
+		Fraser
+		Grant
+	}
+	common_last_names={
+		Anderson
+		Campbell
+		MacDonald
+		Robertson
+		Stewart
+		Thomson
+		MacKenzie
+		Ferguson
+		Ross
+		Murray
+		MacDougall
+		Graham
+		Davidson
+		Reid
+		Morrison
+		Fraser
+		Cameron
+		Johnston
+		Duncan
+		Grant
+	}
+	male_regal_first_names = {
+		Kenneth
+		Malcolm
+		Duncan
+		Alexander
+		David
+		Robert
+		James
+		Charles
+		William
+		Donald
+	}
+	female_regal_first_names = {
+		Margaret
+		Mary
+		Elizabeth
+		Euphemia
+		Joan
+		Matilda
+		Isabella
+		Marie
+		Anne
+		Catherine
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+victoria_liberi={ #维多利亚黎博利
+	color={ 242 233 38 }
+	religion = central_terra_native_belief
+	heritage = liberi_heritage
+	language = language_victoria
+	traditions = { tradition_victoria }
+	male_common_first_names={
+		Owain
+		Rhys
+		Gruffydd
+		Llywelyn
+		Dafydd
+		Hywel
+		Ieuan
+		Madog
+		Cadwgan
+		Morgan
+		Rhodri
+		Iorwerth
+		Caradog
+		Meredydd
+		Gwilym
+		Einion
+		Bleddyn
+		Cynan
+		Maredudd
+		Gwyn
+	}
+	female_common_first_names = {
+		Gwenhwyfar
+		Angharad
+		Nest
+		Gwladys
+		Morfudd
+		Elen
+		Gwenllian
+		Tangwystl
+		Siwan
+		Marged
+		Catrin
+		Lleuca
+		Margred
+		Elinor
+		Arianwen
+		Rhiannon
+		Branwen
+		Cerys
+		Myfanwy
+		Sioned
+	}	
+	noble_last_names = {
+		ap Gruffydd
+		ap Rhys
+		ap Owain
+		ap Hywel
+		ap Morgan
+		ap Llywelyn
+		ap Dafydd
+		ap Caradog
+		ap Iorwerth
+		ap Rhodri
+		ap Madog
+		ap Maredudd
+		ap Cadwgan
+		ap Bleddyn
+		ap Gwilym
+		ap Einion
+		ap Cynan
+		ap Meredydd
+		ap Gwyn
+		ap Ieuan
+	}
+	common_last_names={
+		Jones
+		Williams
+		Davies
+		Evans
+		Thomas
+		Roberts
+		Hughes
+		Lewis
+		Morgan
+		Griffiths
+		Edwards
+		Morris
+		James
+		Price
+		Phillips
+		Richards
+		Jenkins
+		Owen
+		Powell
+		Lloyd
+	}
+	male_regal_first_names = {
+		Llywelyn
+		Owain
+		Gruffydd
+		Rhys
+		Hywel
+		Rhodri
+		Cadwaladr
+		Maredudd
+		Cynan
+		Cadwgan
+	}
+	female_regal_first_names = {
+		Gwenhwyfar
+		Gwenllian
+		Angharad
+		Nest
+		Gwladys
+		Siwan
+		Morfudd
+		Elen
+		Tangwystl
+		Marged
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+tara_feline={ #塔拉菲林
+	color={ 69 191 85 }
+	religion = central_terra_native_belief
+	heritage = feline_heritage
+	language = language_tara
+	traditions = { tradition_tara }
+	male_common_first_names={
+		Conn
+		Cormac
+		Fionn
+		Oisin
+		Oscar
+		Diarmuid
+		Aengus
+		Fergus
+		Conall
+		Niall
+		Eoghan
+		Brian
+		Donnchadh
+		Cathal
+		Ruaidri
+		Tadgh
+		Domnall
+		Muirchertach
+		Lorcan
+		Malachy
+	}
+	female_common_first_names = {
+		Aoife
+		Deirdre
+		Grainne
+		Maeve
+		Siobhan
+		Brigid
+		Eithne
+		Fionnuala
+		Sorcha
+		Aine
+		Ciara
+		Roisin
+		Saoirse
+		Orlaith
+		Niamh
+		Caoimhe
+		Cliona
+		Eimear
+		Muireann
+		Sadhbh
+	}	
+	noble_last_names = {
+		O'Neill
+		O'Brien
+		O'Connor
+		O'Donnell
+		McCarthy
+		O'Rourke
+		O'Flaherty
+		O'Dowd
+		O'Kelly
+		O'Reilly
+		MacMurrough
+		O'Carroll
+		O'Malley
+		O'Donoghue
+		MacCarthy
+		O'Doherty
+		O'Higgins
+		O'Byrne
+		O'Toole
+		FitzGerald
+	}
+	common_last_names={
+		Murphy
+		Kelly
+		O'Sullivan
+		Walsh
+		O'Brien
+		Byrne
+		Ryan
+		O'Connor
+		O'Neill
+		O'Reilly
+		Doyle
+		McCarthy
+		Gallagher
+		Doherty
+		Kennedy
+		Lynch
+		Murray
+		Quinn
+		Moore
+		McLoughlin
+	}
+	male_regal_first_names = {
+		Brian
+		Niall
+		Conn
+		Aed
+		Domnall
+		Diarmait
+		Ruaidri
+		Toirdelbach
+		Muirchertach
+		Conchobar
+	}
+	female_regal_first_names = {
+		Maeve
+		Gormlaith
+		Derbforgaill
+		Mor
+		Dubhchobhlaigh
+		Lasairfhiona
+		Bebinn
+		Orlaith
+		Sadhbh
+		Etain
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+tara_draco={ #塔拉德拉克
+	color={ 100 202 113 }
+	religion = central_terra_native_belief
+	heritage = draco_heritage
+	language = language_tara
+	traditions = { tradition_tara }
+	male_common_first_names={
+		Caradoc
+		Bran
+		Taliesin
+		Myrddin
+		Pryderi
+		Gwydion
+		Culhwch
+		Bendigeidfran
+		Manawydan
+		Llyr
+		Beli
+		Math
+		Arawn
+		Hafgan
+		Pwyll
+		Gwyn
+		Amaethon
+		Govannon
+		Nudd
+		Lludd
+	}
+	female_common_first_names = {
+		Rhiannon
+		Branwen
+		Arianrhod
+		Blodeuwedd
+		Ceridwen
+		Eigr
+		Olwen
+		Creiddylad
+		Penardun
+		Essyllt
+		Modron
+		Goewin
+		Penarddun
+		Aranrhod
+		Tegau
+		Emerchred
+		Cigfa
+		Creirwy
+		Dwynwen
+		Eluned
+	}	
+	noble_last_names = {
+		ap Llyr
+		ap Beli
+		ap Nudd
+		ap Don
+		ap Math
+		ap Gwydion
+		ap Arawn
+		ap Pwyll
+		ap Hefydd
+		ap Tegid
+		ap Caradog
+		ap Bran
+		ap Manawydan
+		ap Pryderi
+		ap Taliesin
+		ap Myrddin
+		ap Culhwch
+		ap Gwyn
+		ap Lludd
+		ap Amaethon
+	}
+	common_last_names={
+		Mabinogi
+		Gwynedd
+		Dyfed
+		Powys
+		Ceredigion
+		Gwent
+		Morgannwg
+		Deheubarth
+		Aberffraw
+		Dinefwr
+		Mathrafal
+		Caerleon
+		Dinas
+		Caernarfon
+		Llanfair
+		Pendragon
+		Castell
+		Mynydd
+		Afon
+		Bryn
+	}
+	male_regal_first_names = {
+		Bran
+		Llyr
+		Math
+		Pwyll
+		Arawn
+		Gwydion
+		Pryderi
+		Manawydan
+		Bendigeidfran
+		Beli
+	}
+	female_regal_first_names = {
+		Rhiannon
+		Branwen
+		Arianrhod
+		Ceridwen
+		Modron
+		Blodeuwedd
+		Creiddylad
+		Penardun
+		Goewin
+		Olwen
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

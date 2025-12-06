@@ -1,0 +1,484 @@
+﻿pm_building_originmum_mine_fragment = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_fragment.dds"
+	
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 2
+			goods_output_originium_add = 20
+		}
+		level_scaled = {
+			building_employment_laborers_add = 10000
+		}
+	}
+}
+
+pm_building_originmum_mine_mine = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_mine.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_transportation_add = 5
+			goods_output_originium_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 10000
+		}
+	}
+}
+pm_building_originmum_mine_crystal = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_crystal.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 8
+			goods_input_transportation_add = 5
+			goods_output_originium_add = 60
+		}
+		level_scaled = {
+			building_employment_laborers_add = 10000
+		}
+	}
+}
+pm_building_originmum_mine_prime = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_prime.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 16
+			goods_input_transportation_add = 5
+			goods_output_originium_add = 100
+		}
+		level_scaled = {
+			building_employment_laborers_add = 10000
+		}
+	}
+}
+pm_building_originmum_mine_no_orirock = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_no_orirock.dds"
+}
+pm_building_originmum_mine_excavate_orirock = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_excavate_orirock.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_output_orirock_add = 40
+		}
+	}
+}
+pm_building_originmum_mine_fixed_orirock = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_fixed_orirock.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 8
+			goods_output_orirock_add = 70
+		}
+	}
+}
+pm_building_originmum_mine_combination_orirock = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_combination_orirock.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 16
+			goods_input_transportation_add = 5
+			goods_output_orirock_add = 90
+		}
+	}
+}
+pm_building_originmum_mine_purify_orirock = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_purify_orirock.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 32
+			goods_input_transportation_add = 5
+			goods_output_orirock_add = 120
+		}
+	}
+}
+pm_building_originmum_mine_train = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_train.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_originmum_mine_steam = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_steam.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_originium_add = 2
+			goods_input_device_add = 1
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_originmum_mine_truck = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_truck.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_truck_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_originmum_mine_management_1 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_truck.dds"
+
+	building_modifiers = {
+	}
+}
+pm_building_originmum_mine_management_2 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_truck.dds"
+
+	building_modifiers = {
+		unscaled = {
+			building_laborers_mortality_mult = 0.15
+		}
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+	}
+}
+pm_building_originmum_mine_management_3 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_truck.dds"
+
+	building_modifiers = {
+		unscaled = {
+			building_laborers_mortality_mult = 0.3
+		}
+		level_scaled = {
+			building_employment_laborers_add = -5000
+		}
+	}
+}
+pm_building_RMA_mine_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 3
+			goods_input_originium_add = 6
+			goods_output_RMA_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_RMA_mine_device = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_device.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 8
+			goods_output_RMA_add = 65
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_RMA_mine_originmum = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_originmum.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 10
+			goods_output_RMA_add = 90
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_RMA_mine_train = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_train.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_RMA_mine_steam = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_steam.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_originium_add = 2
+			goods_input_device_add = 1
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_RMA_mine_truck = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_RMA_mine_truck.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_truck_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_iron_mine_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 3
+			goods_input_originium_add = 6
+			goods_output_iron_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_iron_mine_device = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_device.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 8
+			goods_output_iron_add = 65
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_iron_mine_originmum = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_originmum.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 10
+			goods_output_iron_add = 90
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_iron_mine_train = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_train.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_iron_mine_steam = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_steam.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_originium_add = 2
+			goods_input_device_add = 1
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_iron_mine_truck = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_iron_mine_truck.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_truck_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_light_manganese_mine_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 3
+			goods_input_originium_add = 6
+			goods_output_light_manganese_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_light_manganese_mine_device = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_device.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 8
+			goods_output_light_manganese_add = 65
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_light_manganese_mine_originmum = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_originmum.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 10
+			goods_output_light_manganese_add = 90
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_light_manganese_mine_train = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_train.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_light_manganese_mine_steam = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_steam.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_originium_add = 2
+			goods_input_device_add = 1
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_light_manganese_mine_truck = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_light_manganese_mine_truck.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_truck_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_grind_stone_mine_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 3
+			goods_input_originium_add = 6
+			goods_output_grind_stone_add = 40
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_grind_stone_mine_device = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_device.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 8
+			goods_output_grind_stone_add = 65
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_grind_stone_mine_originmum = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_originmum.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_device_add = 4
+			goods_input_originium_add = 10
+			goods_output_grind_stone_add = 90
+		}
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_building_grind_stone_mine_train = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_train.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_transportation_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_grind_stone_mine_steam = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_steam.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_originium_add = 2
+			goods_input_device_add = 1
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_building_grind_stone_mine_truck = {
+	texture = "gfx/interface/icons/production_method_icons/pm_building_grind_stone_mine_truck.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_truck_add = 5
+		}
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}

@@ -1,0 +1,649 @@
+east_terra_anaty={ #泰拉东部阿纳提
+	color={ 244 207 255 }
+	religion = confucian
+	heritage = anaty_heritage
+	language = language_yan
+	traditions = {tradition_yan tradition_higashi}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	ethnicities = {
+		1 = asian
+	}
+	graphics = east_asian
+}
+central_terra_anaty={ #泰拉中部阿纳提
+	color={ 247 208 243 }
+	religion = central_terra_native_belief
+	heritage = anaty_heritage
+	language = language_victoria
+	traditions = {tradition_victoria tradition_leithanien tradition_siracusa}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+west_terra_anaty={ #泰拉西部阿纳提
+	color={ 250 208 232 }
+	religion = occidental_terra_native_belief
+	heritage = anaty_heritage
+	language = language_victoria
+	traditions = {tradition_columbia tradition_bolivar}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+north_terra_anaty={ #泰拉北部阿纳提
+	color={ 252 209 221 }
+	religion = boreal_terra_native_belief
+	heritage = anaty_heritage
+	language = language_ursus
+	traditions = {tradition_ursus tradition_kazimierz tradition_sami}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+south_terra_anaty={ #泰拉南部阿纳提
+	color={ 255 209 209 }
+	religion = austral_terra_native_belief
+	heritage = anaty_heritage
+	language = language_sargon
+	traditions = {tradition_sargon tradition_iberia}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	ethnicities = {
+		1 = arab
+	}
+	graphics = arabic
+}
+
+durin={ #杜林
+	color={ 168 223 255 }
+	religion = primitive_religion
+	heritage = durin_heritage
+	language = language_generic
+	traditions = {tradition_underground}
+	male_common_first_names= {
+		Alejandro Andres Aniceto Arturo Bartolome Basilio Benito Benjamin_2 Bernardo Carlos Albert Alexander
+		Aeneas Andrew Aaron Alton Atlee Asa Ambrose Abner Adrien Alexandre Antoine Auguste
+		Benoit Bernard Charles Christophe Claude Damien Akira Daichi Daisuke Eiji Fumio Haru
+		Haruki Haruto Hayato Hiro Antonio Diego Francisco Fernando Javier Jose Juan Luis
+		Adam Noah Abraham Isaac Jacob Moses David Solomon Peter Paul Aleksander Antoni
+		Agenor Boleslaw Bonawentura Bronislaw Dezydery Edmund Edward Erik Lars Nils Bjorn Anders
+		Sven Gustav Henrik Magnus Oskar Marcus Lucius Gaius Julius Publius Quintus Titus
+		Aulus Decimus Servius Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Franz Alexandros
+		Andreas Antonios Basileios Christos Demetrios Dionysios Georgios Ioannis Konstantinos Jack William James
+		Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan Aapo Eero Ilmari Jari Jukka
+		Kalevi Kari Lauri Matti Mikko Nabu Ninurta Shamash Nergal Marduk Enlil Dumuzi
+		Enki Adad Ashur Giovanni Lorenzo Alessandro Francesco Matteo Marco Giorgio Stefano Riccardo
+		Alexei Dmitri Ivan Nikolai Sergei Vladimir Mikhail Andrei Yuri Boris Henry George
+		Richard John Robert Ah4_Beng1 Ah4_Cai2 Ah4_Chai4 Ah4_Cheng1 Ah4_Chong2 Ah4_Fai3 Ah4_Fei1 Ah4_Feng1 Ah4_Fu2
+		Ah4_Gan1
+	}
+	female_common_first_names= {
+		Alba Amanda Angela Bertha Clementina Consuelo Graciela Juana Julieta Leticia Anna Alice
+		Adaline Adelaide Augusta Antoinette Alida Addie Ariel Adele Adrienne Agnes Aimee Amelie
+		Anais Anne Annette Aiko Akemi Ami Asami Ayaka Ayame Ayane Chie Chika
+		Chinatsu Alicia Ana Andrea Ángeles Beatriz Carmen Catalina Clara Cristina Eve Sarah
+		Rebecca Rachel Leah Miriam Deborah Ruth Esther Mary Barbara Eleonora Elzbieta Emilia
+		Ewelina Franciszka Gertruda Helena Izabela Ingrid Astrid Birgitte Camilla Dagny Elise Frida
+		Greta Helga Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia Marcia Fabia
+		Maria Ursula Erika Brigitte Karin Monika Sabine Agape Anastasia Angeliki Anthe Despoina
+		Eirini Eleni Georgia Ioanna Kalliope Charlotte Olivia Amelia Ava Mia Isla Grace
+		Chloe Harper Ella Aino Anni Eeva Elina Helmi Ilona Kaisa Katri Laura
+		Leena Inanna Ishtar Ereshkigal Ninhursag Ninlil Gula Nisaba Ningal Damkina Tiamat Giulia
+		Francesca Alessandra Martina Chiara Sara Valentina Elena Silvia Olga Tatiana Svetlana Irina
+		Natalia Ekaterina Galina Victoria Elizabeth Catherine Margaret Jane Eleanor Emma A1_Feng1 A1_Hong2
+		A1_Hua2 A1_Juan1 A1_Lan2 A1_Lei2 A1_Li4 A1_Lian2 A1_Lin2 A1_Mei2
+	}
+	noble_last_names= {
+		Barrios Escalon Menendez Morazan Regalado Adams Appleton Boylston Bradlee Cabot Choate Chaffee
+		Crowninshield Cushing Dana Delano de_Beaumont de_Chambord de_Clermont de_Coucy de_Fouquet de_La_Roche de_La_Tour de_Laval
+		de_Montfort de_Montmorency de_Nemours Fujiwara Minamoto Taira Tachibana Tokugawa Ashikaga Hosokawa Oda Toyotomi
+		Date Uesugi de_Castro de_Silva de_Sousa de_Menezes de_Almeida de_Campos de_Cardenas de_Cervantes de_Correa de_Costa
+		de_Cuenca Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean Abramson
+		Bor-Komorowski Brzezinski Chodkiewicz CzetwertyN_ski Dunin Domeyko Glowacki GoL_uchowski Hauke-Boask Horodecki Stenstrøm Bjørnsen
+		Håkansson Lindberg Norberg Eriksson Svensson Gustafsson Henriksen Magnussen Aurelius Cornelius Fabius Flavius
+		Horatius Julius Licinius Lucretius Marcellus Octavius von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen von_Baden von_Oldenburg
+		von_Mecklenburg von_Hannover von_Württemberg von_Thurn_und_Taxis Angelopoulos Argyros Bryennios Choniates Diogenes Doukas Dukas Kantakouzenos
+		Komnenos Laskaris Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders Phillip Parkes
+		Aaltonen Heikkilä Hämäläinen Järvinen Koskinen Laaksonen Lehtinen Mäkinen Nieminen Rantanen Amurru Hammurabi
+		Sargon Nabonidus Naram Ashurbanipal Esarhaddon Sennacherib Tiglath Shalmaneser Medici Borgia Colonna Orsini
+		Sforza Gonzaga Barbarigo Contarini Doria Este Romanov Rurik Golitsyn Sheremetev Yusupov Vorontsov
+		Stroganov Orlov Dolgorukov Menshikov Windsor Tudor Stuart Plantagenet Lancaster York Howard Percy
+		FitzAlan Beaufort Au1 Au4 Chan4 Chen2 Cheong4 Chew2 Chia2 Chiang1 Chin1 Chio2
+	}
+	common_last_names= {
+		Aguilar Andino Araujo Arbenz Barahona Barillas Barrios Cabanas Carrera Castellanos Arthur Abbot
+		Abercrombie Allen Andrews Ayres Armstrong Agassiz Akerman Aldrich Bernard Blanc Bonnet Boucher
+		Bouchet Bourdon Boyer Brun Caron Charpentier Abe Adachi Aizawa Akagi Amano Ando
+		Aoki Arakawa Asano Chiba Alvarez Alves Batista Borges Carvalho Castillo Costa Cruz
+		Delgado Dias Gabriel Michael Raphael Uriel Ariel Seraphim Cherubim Emmanuel Nazarene Galilean
+		Bem Brzoska Bukowicz Baziak Chalasinski Chlaposwski Chlopicki Chrzanowski Dabrowski Dembinski Andersen Berg
+		Dahl Eide Foss Hagen Hansen Haugen Holmen Isaksen Antonius Appius Caecilius Decimus
+		Faustus Gaius Livius Manius Marcus Numerius Müller Schmidt Schneider Fischer Weber Meyer
+		Wagner Becker Hoffmann Schäfer Antoniou Christodoulou Demetriou Economou Georgiou Ioannidis Kallias Leonidou
+		Loukatos Nikolaidis Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+		Aalto Haapala Hakala Hannula Hartikainen Hautala Hietala Hiltunen Hirvonen Hokkanen Akkad Sumer
+		Uruk Kish Lagash Nippur Ur Eridu Larsa Umma Rossi Russo Ferrari Esposito
+		Bianchi Romano Colombo Ricci Marino Greco Ivanov Petrov Sidorov Smirnov Kuznetsov Popov
+		Vasilyev Sokolov Mikhailov Fedorov Davies Robinson Wright Thompson Boo2 Booi2 Cai2 Chai2
+		Chan2 Chang1 Chao2 Chen4 Cheng2 Chi2
+	}
+	male_regal_first_names= {
+		Alexander Benjamin Charles Franklin George Henry Hamilton James Jefferson Thomas William Washington
+		Caroline Flora Georgia Martha Mary Virginia Benedictus Innocentius Gregorius Urbanus Leo Pius
+		Sixtus Bonifatius Clemens Damasus Eusebius Felix Gelasius Hilarius Honorius Linus Paschalis Sergius
+		Sylvester Victor Cecilia Agnes Lucia Helena Felicitas Prisca Sabina Theodora Constantia Marcella
+		Paula Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst Franz Gustav Walter Max
+		Hans Georg Albert Richard Rudolf Eduard Josef Erich Kurt Bruno Peter Victoria
+		Augusta Luise Friederike Charlotte Sophie Marie Elisabeth Alexandra Sargon Hammurabi Gilgamesh Nebuchadnezzar
+		Ashurbanipal Tiglath Sennacherib Cyrus Darius Xerxes Artaxerxes Semiramis Sammuramat Naqia Atossa Parysatis
+		Amytis Mandane Cassandane Artystone Stateira Amestris Cambyses Ardashir Shapur Khosrow Yazdegerd Hormizd
+		Bahram Roxana Vittorio Umberto Emanuele Carlo Filippo Alfonso Federico Francesco Giovanni Antonio
+		Maria Elisabetta Caterina Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Nicholas Paul
+		Ivan Michael Boris Vladimir Dmitri Yaroslav Catherine Elizabeth Sophia Olga Tatiana Natalia
+		Irina Edward John Arthur Alfred Anne Margaret Jane Matilda Adelaide Aethelred Aethelstan
+		Ecgbert Edmund Harold Cnut Edgar Edwin Aethelflaed Eadgyth
+	}
+	female_regal_first_names= {
+		Caroline Flora Georgia Martha Mary Virginia Cecilia Agnes Lucia Helena Felicitas Prisca
+		Sabina Theodora Constantia Marcella Paula Petronilla Monica Perpetua Pulcheria Victoria Augusta Luise
+		Friederike Charlotte Sophie Marie Elisabeth Alexandra Mathilde Adelheid Therese Cecilie Dorothea Pauline
+		Amalie Helene Olga Antonia Henriette Wilhelmine Semiramis Sammuramat Naqia Atossa Parysatis Amytis
+		Mandane Cassandane Artystone Stateira Amestris Roxana Barsine Parmys Apama Zakutu Libbali Iltani
+		Enheduanna Puabi Kubaba Shammuramat Azarmidokht Purandokht Boran Khuranzem Turandokht Maria Elisabetta Caterina
+		Isabella Beatrice Lucrezia Giulia Francesca Anna Eleonora Catherine Elizabeth Sophia Tatiana Natalia
+		Irina Anne Margaret Jane Matilda Adelaide Aethelflaed Eadgyth Aelfgifu Emma Edith Aethelburh
+		Cynewise Seaxburh Guinevere Igraine Morgan Morgause Elaine Isolde Laudine Morgana Euphemia Joan
+		Gwenhwyfar Gwenllian Angharad Nest Gwladys Siwan Morfudd Elen Tangwystl Marged Maeve Gormlaith
+		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
+		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

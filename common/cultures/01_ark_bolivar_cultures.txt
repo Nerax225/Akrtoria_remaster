@@ -1,0 +1,267 @@
+﻿bolivar_perro= { #玻利瓦尔佩洛
+	color= rgb{ 186 177 95 }
+	religion = occidental_terra_native_belief
+	heritage = perro_heritage
+	language = language_bolivar
+	traditions = { tradition_bolivar }
+	male_common_first_names = {
+		Alejandro
+		Andres
+		Aniceto
+		Arturo
+		Bartolome
+		Basilio
+		Benito
+		Benjamin_2
+		Bernardo
+		Carlos
+		Daniel
+		Diego
+		Doroteo
+		Eduardo
+		Eugenio_2
+		Felipe
+		Fermin
+		Fernando
+		Francisco
+		Fruto
+		Felix
+		Jacobo
+		Jesus
+		Joaquin
+		Jorge
+		Jose_Francisco
+		Jose_Maria
+		Juan
+		Juan_Antonio
+		Juan_Pablo
+		Julio
+		Justo
+		Lisandro
+		Lorenzo
+		Manuel
+		Marcelino
+		Maximiliano
+		Maximo
+		Pedro
+		Ponciano
+		Prospero_2
+		Rafael_2
+		Ramon
+		Santiago
+		Sebastian
+		Tiburcio
+		Tomas
+		Toribio
+		Victoriano
+		Oscar_2
+	}
+	female_common_first_names = {
+		Alba
+		Amanda
+		Angela
+		Bertha
+		Clementina
+		Consuelo
+		Graciela
+		Juana
+		Julieta
+		Leticia
+		Lucila
+		Miriam
+		Paula
+		Rigoberta
+	}
+	noble_last_names = {
+		Barrios
+		Escalon
+		Menendez
+		Morazan
+		Regalado
+	}
+	common_last_names = {
+		Aguilar
+		Andino
+		Araujo
+		Arbenz
+		Barahona
+		Barillas
+		Barrios
+		Cabanas
+		Carrera
+		Castellanos
+		Chamorro
+		Chavez
+		Corral
+		Cardenas_2
+		Esquivel
+		Estrada
+		Ezeta
+		Fernandez
+		Ferrera
+		Figueroa
+		Garrigo
+		GU_ell
+		Guzman
+		Hernandez
+		Jerez
+		Jimenez
+		Leiva
+		Lopez
+		Machado
+		Martinez_2
+		Medina
+		Mejia
+		Montes
+		Montiel
+		Palacios
+		Peralta
+		Quiros
+		Rosales
+		Sevilla
+		Sinibaldi
+		Soto
+		Teran
+		Ubico
+		Vasconcelos
+		Vigil
+		Zelaya
+		Zeledon
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian } }
+bolivar_anura= { #玻利瓦尔安努拉
+	color= rgb{ 209 203 148 }
+	religion = occidental_terra_native_belief
+	heritage = anura_heritage
+	language = language_bolivar
+	traditions = { tradition_bolivar }
+	male_common_first_names = {
+		Alejandro
+		Andres
+		Aniceto
+		Arturo
+		Bartolome
+		Basilio
+		Benito
+		Benjamin_2
+		Bernardo
+		Carlos
+		Daniel
+		Diego
+		Doroteo
+		Eduardo
+		Eugenio_2
+		Felipe
+		Fermin
+		Fernando
+		Francisco
+		Fruto
+		Felix
+		Jacobo
+		Jesus
+		Joaquin
+		Jorge
+		Jose_Francisco
+		Jose_Maria
+		Juan
+		Juan_Antonio
+		Juan_Pablo
+		Julio
+		Justo
+		Lisandro
+		Lorenzo
+		Manuel
+		Marcelino
+		Maximiliano
+		Maximo
+		Pedro
+		Ponciano
+		Prospero_2
+		Rafael_2
+		Ramon
+		Santiago
+		Sebastian
+		Tiburcio
+		Tomas
+		Toribio
+		Victoriano
+		Oscar_2
+	}
+	female_common_first_names = {
+		Alba
+		Amanda
+		Angela
+		Bertha
+		Clementina
+		Consuelo
+		Graciela
+		Juana
+		Julieta
+		Leticia
+		Lucila
+		Miriam
+		Paula
+		Rigoberta
+	}
+	noble_last_names = {
+		Barrios
+		Escalon
+		Menendez
+		Morazan
+		Regalado
+	}
+	common_last_names = {
+		Aguilar
+		Andino
+		Araujo
+		Arbenz
+		Barahona
+		Barillas
+		Barrios
+		Cabanas
+		Carrera
+		Castellanos
+		Chamorro
+		Chavez
+		Corral
+		Cardenas_2
+		Esquivel
+		Estrada
+		Ezeta
+		Fernandez
+		Ferrera
+		Figueroa
+		Garrigo
+		GU_ell
+		Guzman
+		Hernandez
+		Jerez
+		Jimenez
+		Leiva
+		Lopez
+		Machado
+		Martinez_2
+		Medina
+		Mejia
+		Montes
+		Montiel
+		Palacios
+		Peralta
+		Quiros
+		Rosales
+		Sevilla
+		Sinibaldi
+		Soto
+		Teran
+		Ubico
+		Vasconcelos
+		Vigil
+		Zelaya
+		Zeledon
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian } 
+}

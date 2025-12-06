@@ -1,0 +1,848 @@
+﻿no_portrait_trigger = {
+	OR = {
+		show_wsg_trigger = yes
+	}
+}
+
+is_wsg_historial_character = {
+	always = no
+}
+
+show_wsg_trigger = {
+	always = yes
+}
+
+upper_class_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		strata = upper
+	}
+}
+
+middle_class_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		strata = middle
+	}
+}
+
+lower_class_trigger = {
+	exists = scope:pop
+	scope:pop = {
+		strata = lower
+	}
+}
+
+is_break_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				OR = {
+					has_trait = senile
+					has_trait = wounded
+					has_trait = syphilis
+					has_trait = opium_addiction
+					has_trait = alcoholic
+					has_trait = shellshocked
+					has_trait = cocaine_addiction
+					has_trait = kidney_stones
+					has_trait = scarred
+					has_trait = sickly
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				OR = {
+					is_pop_type = slaves
+					standard_of_living < 16
+				}
+			}
+		}
+	}
+}
+
+is_female_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				is_female = yes
+			}
+		}
+	}
+}
+
+portrait_locked_trigger = {
+	exists = scope:character
+	scope:character = {
+		is_wsg_historial_character = yes
+	}
+}
+
+has_culture_trigger = {
+	OR = {
+		aegir_culture_trigger = yes
+		anaty_culture_trigger = yes
+		anura_culture_trigger = yes
+		archosauria_culture_trigger = yes
+		caprinae_culture_trigger = yes
+		cautus_culture_trigger = yes
+		cerato_culture_trigger = yes
+		draco_culture_trigger = yes
+		durin_culture_trigger = yes
+		elafia_culture_trigger = yes
+		feline_culture_trigger = yes
+		forte_culture_trigger = yes
+		hippogryph_culture_trigger = yes
+		infected_culture_trigger = yes
+		itra_culture_trigger = yes
+		kuranta_culture_trigger = yes
+		kylin_culture_trigger = yes
+		liberi_culture_trigger = yes
+		lung_culture_trigger = yes
+		lupo_culture_trigger = yes
+		manticore_culture_trigger = yes
+		perro_culture_trigger = yes
+		pilosa_culture_trigger = yes
+		pythia_culture_trigger = yes
+		rebbah_culture_trigger = yes
+		sankta_culture_trigger = yes
+		sarkaz_culture_trigger = yes
+		savra_culture_trigger = yes
+		ursus_culture_trigger = yes
+		vouivre_culture_trigger = yes
+		vulpo_culture_trigger = yes
+		zalak_culture_trigger = yes
+	}
+}
+## Tradition Triggers
+aslan_tradition_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = tradition_aslan
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = tradition_aslan
+				}
+			}
+		}
+	}
+}
+
+sargon_tradition_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = tradition_sargon
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = tradition_sargon
+				}
+			}
+		}
+	}
+}
+
+
+## culture triggers
+aegir_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = aegir_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = aegir_heritage
+				}
+			}
+		}
+	}
+}
+
+anaty_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = anaty_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = anaty_heritage
+				}
+			}
+		}
+	}
+}
+
+anura_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = anura_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = anura_heritage
+				}
+			}
+		}
+	}
+}
+
+archosauria_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = archosauria_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = archosauria_heritage
+				}
+			}
+		}
+	}
+}
+
+caprinae_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = caprinae_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = caprinae_heritage
+				}
+			}
+		}
+	}
+}
+
+cautus_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = cautus_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = cautus_heritage
+				}
+			}
+		}
+	}
+}
+
+cerato_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = cerato_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = cerato_heritage
+				}
+			}
+		}
+	}
+}
+
+draco_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = draco_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = draco_heritage
+				}
+			}
+		}
+	}
+}
+
+durin_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = durin_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = durin_heritage
+				}
+			}
+		}
+	}
+}
+
+elafia_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = elafia_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = elafia_heritage
+				}
+			}
+		}
+	}
+}
+
+feline_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = feline_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = feline_heritage
+				}
+			}
+		}
+	}
+}
+
+forte_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = forte_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = forte_heritage
+				}
+			}
+		}
+	}
+}
+
+hippogryph_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = hippogryph_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = hippogryph_heritage
+				}
+			}
+		}
+	}
+}
+
+infected_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = infected_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = infected_heritage
+				}
+			}
+		}
+	}
+}
+
+itra_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = itra_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = itra_heritage
+				}
+			}
+		}
+	}
+}
+
+kuranta_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = kuranta_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = kuranta_heritage
+				}
+			}
+		}
+	}
+}
+
+kylin_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = kylin_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = kylin_heritage
+				}
+			}
+		}
+	}
+}
+
+liberi_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = liberi_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = liberi_heritage
+				}
+			}
+		}
+	}
+}
+
+lung_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = lung_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = lung_heritage
+				}
+			}
+		}
+	}
+}
+
+lupo_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = lupo_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = lupo_heritage
+				}
+			}
+		}
+	}
+}
+
+manticore_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = manticore_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = manticore_heritage
+				}
+			}
+		}
+	}
+}
+
+perro_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = perro_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = perro_heritage
+				}
+			}
+		}
+	}
+}
+
+pilosa_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = pilosa_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = pilosa_heritage
+				}
+			}
+		}
+	}
+}
+
+pythia_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = pythia_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = pythia_heritage
+				}
+			}
+		}
+	}
+}
+
+rebbah_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = rebbah_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = rebbah_heritage
+				}
+			}
+		}
+	}
+}
+
+sankta_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = sankta_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = sankta_heritage
+				}
+			}
+		}
+	}
+}
+
+sarkaz_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = sarkaz_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = sarkaz_heritage
+				}
+			}
+		}
+	}
+}
+
+savra_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = savra_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = savra_heritage
+				}
+			}
+		}
+	}
+}
+
+ursus_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = ursus_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = ursus_heritage
+				}
+			}
+		}
+	}
+}
+
+vouivre_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = vouivre_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = vouivre_heritage
+				}
+			}
+		}
+	}
+}
+
+vulpo_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = vulpo_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = vulpo_heritage
+				}
+			}
+		}
+	}
+}
+
+zalak_culture_trigger = {
+	OR = {
+		AND = {
+			exists = scope:character
+			scope:character = {
+				culture = {
+					has_discrimination_trait = zalak_heritage
+				}
+			}
+		}
+		AND = {
+			exists = scope:pop
+			scope:pop = {
+				culture = {
+					has_discrimination_trait = zalak_heritage
+				}
+			}
+		}
+	}
+}
+
+# Feline Sargon Combination Trigger
+feline_sargon_culture_trigger = {
+	OR= {
+		AND = {
+		feline_culture_trigger = yes
+		sargon_tradition_trigger = yes
+		}
+		aslan_tradition_trigger = yes
+	}
+
+}

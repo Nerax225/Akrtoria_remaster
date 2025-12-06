@@ -1,0 +1,197 @@
+﻿STATE_WEST_SEA = {
+    id = 10001
+    provinces = { "xA4F7EA" }
+}
+STATE_EAST_SEA = {
+    id = 10002
+    provinces = { "x6C9685" }
+}
+STATE_MEDITERRANEAN_SEA = {
+    id = 10003
+    provinces = { "x805BD4" }
+}
+STATE_IBERIA_SEA = {
+    id = 10004
+    provinces = { "x618CFE" }
+}
+STATE_SOUTH_IBERIA_SEA = {
+    id = 10005
+    provinces = { "x4CCEEB" }
+}
+# trade route states
+STATE_HIGASHI_NORTH_PASS = {
+    id = 20001
+    provinces = { "xCB7075" }
+}
+STATE_URSUS_FAREAST_PASS = {
+    id = 20002
+    provinces = { "xD464CE" }
+}
+STATE_LONGMEN_PASS = {
+    id = 20003
+    provinces = { "xEC8295" }
+}
+STATE_ALEKSANDRO_WAY = {
+    id = 20004
+    provinces = { "xD48969" }
+}
+STATE_NORTH_GREAT_LAKE_INTERSECTION = {
+    id = 20005
+    provinces = { "xE0EC71" }
+}
+STATE_NORTH_KAZDEL_ROAD = {
+    id = 20006
+    provinces = { "xF6E0DF" }
+}
+STATE_EAST_SIRACUSA_CROSS = {
+    id = 20007
+    provinces = { "xD0A967" }
+}
+STATE_SOUTH_KAZDEL_ROAD = {
+    id = 20008
+    provinces = { "xFD7CA8" }
+}
+STATE_SOUTH_LAKE_SHORE_INTERSECTION = {
+    id = 20009
+    provinces = { "xF483A0" }
+}
+STATE_EAST_RABBIT_PASS = {
+    id = 20010
+    provinces = { "xA567F9" }
+}
+STATE_WEST_RABBIT_PASS = {
+    id = 20011
+    provinces = { "xDEC386" }
+}
+STATE_SOUTH_SIRACUSA_CROSS = {
+    id = 20012
+    provinces = { "xD4FAEA" }
+}
+STATE_SOUTH_LEITHANIEN_PASS = {
+    id = 20013
+    provinces = { "xBCA2B8" }
+}
+STATE_LATERANO_INTERSECTION = {
+    id = 20014
+    provinces = { "x8FDFC1" }
+}
+STATE_EAST_VICTORIA_PASS = {
+    id = 20015
+    provinces = { "xFE7969" }
+}
+STATE_NORTH_IBERIA_PASS = {
+    id = 20016
+    provinces = { "x769BB5" }
+}
+STATE_NORTH_SIRACUSA_WAY = {
+    id = 20017
+    provinces = { "x77F7AE" }
+}
+STATE_NORTH_LEITHANIEN_PASS = {
+    id = 20018
+    provinces = { "xE06EA4" }
+}
+STATE_NORTHWEST_LEITHANIEN_TRAIL = {
+    id = 20019
+    provinces = { "x67CE80" }
+}
+STATE_EAST_GRAND_LAKE_SHORE = {
+    id = 20020
+    provinces = { "xF2E4AA" }
+}
+STATE_OLD_GAUL_PASS = {
+    id = 20021
+    provinces = { "x8BF2CC" }
+}
+STATE_SOUTH_GRAND_LAKE_PASS = {
+    id = 20022
+    provinces = { "x76D3DF" }
+}
+STATE_NORTH_VICTORIA_WAY = {
+    id = 20023
+    provinces = { "x80B3FA" }
+}
+STATE_NORTHWEST_HALLWAY = {
+    id = 20024
+    provinces = { "xDED0D9" }
+}
+STATE_SNOW_MOUNTAIN_PASS = {
+    id = 20025
+    provinces = { "xCBCC6A" }
+}
+STATE_WEST_KAZIMIERZ_INTERSECTION = {
+    id = 20026
+    provinces = { "xC3E6A5" }
+}
+STATE_WEST_URSUS_PASS = {
+    id = 20027
+    provinces = { "xE465E5" }
+}
+STATE_NORTH_COLUMBIA_PASS = {
+    id = 20028
+    provinces = { "x6CDC80" }
+}
+STATE_MOUNTAIN_WEST_TRAIL = {
+    id = 20029
+    provinces = { "xA1A5AA" }
+}
+STATE_WEST_VICTORIA_PASS = {
+    id = 20030
+    provinces = { "xD66C9B" }
+}
+STATE_NORTH_MINOS_INTERSECTION = {
+    id = 20031
+    provinces = { "xECDB74" }
+}
+STATE_SOUTHWEST_VICTORIA_PASS = {
+    id = 20032
+    provinces = { "x7BAAFE" }
+}
+STATE_SOUTHSTEPPE_WAY = {
+    id = 20033
+    provinces = { "x6D99D6" }
+}
+STATE_SIESTA_PASS = {
+    id = 20034
+    provinces = { "xA5C675" }
+}
+STATE_EAST_MINOS_WAY = {
+    id = 20035
+    provinces = { "x7592DA" }
+}
+STATE_NORTHEAST_SARGON_WAY = {
+    id = 20036
+    provinces = { "xD6AE9F" }
+}
+STATE_SOUTH_MINOS_WAY = {
+    id = 20037
+    provinces = { "xB789CC" }
+}
+STATE_WEST_MINOS_INTERSECTION = {
+    id = 20038
+    provinces = { "xF06A68" }
+}
+STATE_MID_SARGON_PASS = {
+    id = 20039
+    provinces = { "x7FBAE5" }
+}
+STATE_EXPODITION_WAY = {
+    id = 20040
+    provinces = { "x85BE76" }
+}
+STATE_MID_COLUMBIA_PASS = {
+    id = 20041
+    provinces = { "x7292A6" }
+}
+STATE_WEST_COLUMBIA_PASS = {
+    id = 20042
+    provinces = { "x9E70FE" }
+}
+STATE_EXPLORER_INTERSECTION = {
+    id = 20043
+    provinces = { "x93BEF7" }
+}
+STATE_WEST_SARGON_PASS = {
+    id = 20044
+    provinces = { "xB085AE" }
+}

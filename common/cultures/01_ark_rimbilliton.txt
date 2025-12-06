@@ -1,0 +1,122 @@
+rimbilliton_cautus={ #卡特斯
+	color={ 255 190 0 }
+	religion = austral_terra_native_belief
+	heritage = cautus_heritage
+	language = language_victoria
+	traditions = { tradition_rimbilliton }
+	male_common_first_names={
+	  Jack William James Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan
+	  Noah Alexander Daniel Matthew Luke Ryan Harrison Mason Cooper Levi
+	  Isaac Jacob Dylan Nathan Tyler Oscar Riley Finn Xavier Henry
+	}
+	female_common_first_names = {
+	  Charlotte Olivia Amelia Ava Mia Isla Grace Chloe Harper Ella
+	  Sophie Lily Ruby Zoe Matilda Emily Scarlett Sienna Evie Hannah
+	  Lucy Georgia Willow Ivy Emma Abigail Madison Layla Stella
+	}	
+	noble_last_names = {
+	  Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders
+	  Phillip Parkes Barton Deakin Hughes Curtin Chifley Menzies Holt
+	  Gorton Whitlam Fraser Hawke Keating Howard Rudd Gillard Abbott
+	}
+	common_last_names={
+	  Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
+	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+rimbilliton_savra={ #雷姆必拓萨弗拉
+	color={ 251 154 10 }
+	religion = austral_terra_native_belief
+	traits = {   savra_heritage rimbilliton}
+	male_common_first_names={
+	  Jack William James Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan
+	  Noah Alexander Daniel Matthew Luke Ryan Harrison Mason Cooper Levi
+	  Isaac Jacob Dylan Nathan Tyler Oscar Riley Finn Xavier Henry
+	}
+	female_common_first_names = {
+	  Charlotte Olivia Amelia Ava Mia Isla Grace Chloe Harper Ella
+	  Sophie Lily Ruby Zoe Matilda Emily Scarlett Sienna Evie Hannah
+	  Lucy Georgia Willow Ivy Emma Abigail Madison Layla Stella
+	}	
+	noble_last_names = {
+	  Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders
+	  Phillip Parkes Barton Deakin Hughes Curtin Chifley Menzies Holt
+	  Gorton Whitlam Fraser Hawke Keating Howard Rudd Gillard Abbott
+	}
+	common_last_names={
+	  Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
+	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+rimbilliton_feline={ #雷姆必拓菲林
+	color={ 248 117 20 }
+	religion = austral_terra_native_belief
+	heritage = feline_heritage
+	language = language_victoria
+	traditions = { tradition_rimbilliton }
+	male_common_first_names={
+	  Jack William James Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan
+	  Noah Alexander Daniel Matthew Luke Ryan Harrison Mason Cooper Levi
+	  Isaac Jacob Dylan Nathan Tyler Oscar Riley Finn Xavier Henry
+	}
+	female_common_first_names = {
+	  Charlotte Olivia Amelia Ava Mia Isla Grace Chloe Harper Ella
+	  Sophie Lily Ruby Zoe Matilda Emily Scarlett Sienna Evie Hannah
+	  Lucy Georgia Willow Ivy Emma Abigail Madison Layla Stella
+	}	
+	noble_last_names = {
+	  Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders
+	  Phillip Parkes Barton Deakin Hughes Curtin Chifley Menzies Holt
+	  Gorton Whitlam Fraser Hawke Keating Howard Rudd Gillard Abbott
+	}
+	common_last_names={
+	  Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
+	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+rimbilliton_liberi={ #雷姆必拓黎博利
+	color={ 244 81 30 }
+	religion = austral_terra_native_belief
+	heritage = liberi_heritage
+	language = language_victoria
+	traditions = { tradition_rimbilliton }
+	male_common_first_names={
+	  Jack William James Thomas Joshua Lachlan Samuel Benjamin Oliver Ethan
+	  Noah Alexander Daniel Matthew Luke Ryan Harrison Mason Cooper Levi
+	  Isaac Jacob Dylan Nathan Tyler Oscar Riley Finn Xavier Henry
+	}
+	female_common_first_names = {
+	  Charlotte Olivia Amelia Ava Mia Isla Grace Chloe Harper Ella
+	  Sophie Lily Ruby Zoe Matilda Emily Scarlett Sienna Evie Hannah
+	  Lucy Georgia Willow Ivy Emma Abigail Madison Layla Stella
+	}	
+	noble_last_names = {
+	  Macarthur Wentworth Blaxland Lawson Sturt Mitchell Bass Flinders
+	  Phillip Parkes Barton Deakin Hughes Curtin Chifley Menzies Holt
+	  Gorton Whitlam Fraser Hawke Keating Howard Rudd Gillard Abbott
+	}
+	common_last_names={
+	  Smith Jones Williams Brown Taylor Wilson Johnson White Martin Anderson
+	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
+	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

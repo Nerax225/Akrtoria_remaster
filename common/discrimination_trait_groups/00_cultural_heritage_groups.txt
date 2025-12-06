@@ -1,0 +1,55 @@
+﻿# This list is alphabetically sorted. Please keep it so.
+
+heritage_group_amphibia = {
+	type = heritage
+}
+
+heritage_group_artiodactyla = {
+	type = heritage
+}
+
+heritage_group_aquatic = {
+	type = heritage
+}
+
+heritage_group_aves = {
+	type = heritage
+}
+
+heritage_group_carnivora = {
+	type = heritage
+}
+heritage_group_infected = {
+	type = heritage
+}
+heritage_group_lagomorpha = {
+	type = heritage
+}
+
+heritage_group_mythical = {
+	type = heritage
+}
+
+heritage_group_perissodactyla = {
+	type = heritage
+}
+
+heritage_group_pilosa = {
+	type = heritage
+}
+
+heritage_group_reptilia = {
+	type = heritage
+}
+
+heritage_group_rodentia = {
+	type = heritage
+}
+
+heritage_group_sinicus = {
+	type = heritage
+}
+
+heritage_group_teekaz = {
+	type = heritage
+}

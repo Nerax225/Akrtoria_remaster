@@ -1,0 +1,29 @@
+﻿infectedgen_state = {
+	effect = {
+		if = {
+			every_scope_state = {
+				save_scope_value_as = {
+					name = infected_conversion_rate
+					value = modifier:state_infected_conversion
+				}
+				every_scope_pop = {
+					limit = {
+						AND = {
+							NOT = {
+								has_pop_culture = infected
+							}
+							pop_employment_building = building_originmum_mine					
+						}
+
+					}
+					change_pop_culture = {
+						target = cu:infected
+						value = scope:infected_conversion_rate
+					}
+				}
+								
+			}
+		}
+	}
+}
+

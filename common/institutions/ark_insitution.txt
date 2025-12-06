@@ -1,0 +1,4 @@
+institution_infectors_treatment = {
+	icon = "gfx/interface/icons/institution_icons/infectors_treatment.dds"
+	background_texture = "gfx/interface/illustrations/institutions/infectors_treatment.dds"
+}

@@ -1,0 +1,23 @@
+﻿
+wallpaper = {
+	default = wallpaper_Vanilla
+
+	wallpaper_Vanilla = {
+		#flag = panel_left
+	}
+
+	wallpaper_Lexington = {
+		#flag = panel_right
+		#flag = wallpaper_Lexington
+	}
+
+	wallpaper_AndreaDoria = {
+		#flag = panel_right
+		#flag = wallpaper_AndreaDoria
+	}
+
+	wallpaper_Clemenceau = {
+		#flag = panel_right
+		#flag = wallpaper_AndreaDoria
+	}
+}

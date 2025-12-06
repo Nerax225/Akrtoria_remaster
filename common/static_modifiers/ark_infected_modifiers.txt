@@ -1,0 +1,33 @@
+﻿infected_human_rights_no = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_infected_conversion = 0.0002
+}
+infected_human_rights_excluded = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_infected_conversion = 0.00035
+}
+
+infected_human_rights_ignore = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_negative.dds
+	state_infected_conversion = 0.0004
+}
+
+infected_human_rights_low = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_infected_conversion = 0.0003
+}
+
+infected_human_rights_standard = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_infected_conversion = 0.00025
+}
+
+infected_human_rights_high = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_infected_conversion = 0.00015
+}
+
+infected_human_rights_full = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_fire_positive.dds
+	state_infected_conversion = 0.0001
+}

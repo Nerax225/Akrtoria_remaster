@@ -1,0 +1,898 @@
+﻿COUNTRIES = {
+  c:C01 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C02 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C03 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C04 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C05 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C06 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C07 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C08 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C09 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C10 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C11 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C12 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C13 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C14 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C15 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C16 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C17 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C18 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C19 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C20 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C21 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C22 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C23 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C24 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C25 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:C26 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E01 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E02 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E03 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E04 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E05 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:E06 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:N01 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:N02 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:N03 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:N04 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S01 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S02 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S03 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S04 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S05 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S06 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S07 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S08 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S09 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S10 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S11 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:S12 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W01 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W02 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W03 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W04 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W05 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W06 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W07 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W08 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W09 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W10 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W11 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W12 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W13 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W14 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W15 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+  c:W16 ?= {
+    effect_starting_technology_tier_4_tech = yes
+    
+    		activate_law = law_type:law_monarchy
+    		activate_law = law_type:law_autocracy
+    		activate_law = law_type:law_state_religion
+    		activate_law = law_type:law_national_supremacy
+    		activate_law = law_type:law_mercantilism
+    		activate_law = law_type:law_traditionalism
+    		activate_law = law_type:law_land_based_taxation
+    		activate_law = law_type:law_slave_trade
+    		activate_law = law_type:law_right_of_assembly
+			activate_law = law_type:law_high_infected_rights
+  }
+}

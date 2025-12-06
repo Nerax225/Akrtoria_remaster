@@ -1,0 +1,127 @@
+﻿# If you add religions, and use those tags, do not change them without changing everywhere they are used.
+
+the_law = { #律法
+	icon = "gfx/interface/icons/religion_icons/the_law.dds"
+	heritage = laterano_church
+	color = rgb{255 244 148}
+}
+
+pistole_e_ordine = { #铳与秩序
+	icon = "gfx/interface/icons/religion_icons/pistole_e_ordine.dds"
+	heritage = siracusa_thought
+	color = rgb{165 122 120}
+}
+
+church_of_iberia = {#伊比利亚国教
+	icon = "gfx/interface/icons/religion_icons/church_of_iberia.dds"
+	heritage = iberia_order
+	color = rgb{74 0 92}
+}
+
+church_of_the_deep = { #深海教会
+	icon = "gfx/interface/icons/religion_icons/church_of_the_deep.dds"
+	heritage = seaborn_cult
+	color = rgb{4 102 140}
+}
+
+sargon_native_belief = {#萨尔贡本土信仰
+	icon = "gfx/interface/icons/religion_icons/sargon_native_belief.dds"
+	heritage = terra_native_religion
+	color = rgb{168 197 69}
+}
+
+austral_terra_native_belief = { #泰拉南部本土信仰
+	icon = "gfx/interface/icons/religion_icons/austral_terra_native_belief.dds"
+	heritage = terra_native_religion
+	color = rgb{255 241 118}
+}
+
+sarkaz_folk_religion = { #萨卡兹民间信仰
+	icon = "gfx/interface/icons/religion_icons/sarkaz_folk_religion.dds"
+	heritage = teekaz_religion
+	color = rgb{96 125 139}
+}	
+
+buddhism = {#佛教
+	icon = "gfx/interface/icons/religion_icons/buddhism.dds"
+	heritage = oritenal_religion
+	color = { 0.7 0.35 0.1 }
+}
+
+kjeragandr_belief = {#耶拉冈德信仰
+	icon = "gfx/interface/icons/religion_icons/kjeragandr_belief.dds"
+	heritage = feranmut_religion
+	color = rgb{173 213 247}
+}
+
+oriental_feranmut_cult = { #东方巨兽崇拜
+	icon = "gfx/interface/icons/religion_icons/oriental_feranmut_cult.dds"
+	heritage = feranmut_religion
+	color = rgb{92 0 2}
+}
+
+confucian = { #儒教
+	icon = "gfx/interface/icons/religion_icons/confucian.dds"
+	heritage = oritenal_religion
+	color = { 1 0.65 0.4 }
+}
+
+hero_cult = { #英雄崇拜
+	icon = "gfx/interface/icons/religion_icons/hero_cult.dds"
+	heritage = terra_native_religion
+	color = rgb{239 201 76}
+}
+
+shinto = { #神道教
+	icon = "gfx/interface/icons/religion_icons/shinto.dds"
+	heritage = oritenal_religion
+	color = { 0.4 0.1 0.2 }
+}
+
+occidental_terra_native_belief = {#泰拉西部本土信仰
+	icon = "gfx/interface/icons/religion_icons/occidental_terra_native_belief.dds"
+	heritage = terra_native_religion
+	color = rgb{41 98 255}
+}
+
+sami_feranmut_cult = { #萨米巨兽崇拜
+	icon = "gfx/interface/icons/religion_icons/sami_feranmut_cult.dds"
+	heritage = feranmut_religion
+	color = rgb{172 240 242}
+}
+
+boreal_terra_native_belief = { #泰拉北部本土信仰
+	icon = "gfx/interface/icons/religion_icons/boreal_terra_native_belief.dds"
+	color = rgb{38 166 154}
+	heritage = terra_native_religion
+}
+knight_spirit = { #骑士道
+	icon = "gfx/interface/icons/religion_icons/knight_spirit.dds"
+	color = { 1.0 1.0 1.0 }
+	heritage = business_and_knights
+}
+central_terra_native_belief = { #泰拉中部本土信仰
+	icon = "gfx/interface/icons/religion_icons/central_terra_native_belief.dds"
+	color = rgb{232 202 0}
+	heritage = terra_native_religion
+}
+guldenesgesatz = { #金律乐章
+	icon = "gfx/interface/icons/religion_icons/guldenesgesatz.dds"
+	color = rgb{137 65 0}
+	heritage = leithanien_thought
+}
+witch_king_cult = { #巫王崇拜
+	icon = "gfx/interface/icons/religion_icons/witch_king_cult.dds"
+	color = rgb{38 13 0}
+	heritage = leithanien_thought
+}
+primitive_religion = { #原始宗教
+	icon = "gfx/interface/icons/religion_icons/sami_feranmut_cult.dds"
+	heritage = terra_native_religion
+	color = { 0.6 0.3 0.2 }
+}
+atheist = { #无神论
+	icon = "gfx/interface/icons/religion_icons/atheist.dds"
+	heritage = atheist_thought
+	color = { 1.0 1.0 1.0 }
+}

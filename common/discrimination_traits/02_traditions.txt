@@ -1,0 +1,95 @@
+﻿tradition_aslan = {
+	type = tradition
+}
+
+tradition_bolivar = {
+	type = tradition
+}
+
+tradition_columbia = {
+	type = tradition
+}
+
+tradition_elder = {
+	type = tradition
+}
+
+tradition_gaul = {
+	type = tradition
+}
+
+tradition_higashi = {
+	type = tradition
+}
+
+tradition_iberia = {
+	type = tradition
+}
+
+tradition_infected = {
+	type = tradition
+}
+
+tradition_kazimierz = {
+	type = tradition
+}
+
+tradition_kjerag = {
+	type = tradition
+}
+
+tradition_laterano = {
+	type = tradition
+}
+
+tradition_leithanien = {
+	type = tradition
+}
+
+tradition_minos = {
+	type = tradition
+}
+
+tradition_nightzmoras = {
+	type = tradition
+}
+
+tradition_rimbilliton = {
+	type = tradition
+}
+
+tradition_sami = {
+	type = tradition
+}
+
+tradition_sargon = {
+	type = tradition
+}
+
+tradition_siracusa = {
+	type = tradition
+}
+
+tradition_tara = {
+	type = tradition
+}
+
+tradition_teekaz = {
+	type = tradition
+}
+
+tradition_underground = {
+	type = tradition
+}
+
+tradition_ursus = {
+	type = tradition
+}
+
+tradition_victoria = {
+	type = tradition
+}
+
+tradition_yan = {
+	type = tradition
+}

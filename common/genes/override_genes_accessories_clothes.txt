@@ -1,0 +1,32 @@
+﻿special_genes = {
+	accessory_genes = {
+        misc = {
+            inheritable = no	
+
+            all_misc = {
+                index = 0
+                male = {
+                    1 = male_prop_apron
+
+                }
+                female = {
+                    1 = female_prop_apron
+
+                }
+                boy = male
+                girl = female
+            }  
+            no_misc = {
+                index = 1
+                male = {
+                    1 = empty
+                }
+                female = {
+                    1 = empty
+                }
+                boy = male
+                girl = female
+            }  
+        } 
+    }
+}

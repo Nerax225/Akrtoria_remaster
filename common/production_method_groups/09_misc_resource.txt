@@ -1,0 +1,45 @@
+﻿pmg_base_building_logging_camp = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_base.dds"
+	production_methods = {
+		pm_simple_forestry
+		pm_saw_mills
+		pm_electric_saw_mills
+	}
+}
+
+pmg_equipment = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_no_equipment
+		pm_steam_donkey_building_logging_camp
+		pm_chainsaws
+	}
+}
+
+pmg_transportation_building_logging_camp = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_road_carts
+		pm_rail_transport_building_logging_camp
+		pm_log_carts
+	}
+}
+
+pmg_base_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_refining.dds"
+	production_methods = {
+		pm_open_air_stockyards
+		pm_butchering_tools
+		pm_slaughterhouses
+		pm_mechanized_slaughtering
+	}
+}
+
+pmg_refrigeration_building_livestock_ranch = {
+	texture = "gfx/interface/icons/generic_icons/mixed_icon_automation.dds"
+	production_methods = {
+		pm_unrefrigerated
+		pm_refrigerated_storage_building_livestock_ranch
+		pm_refrigerated_rail_cars_building_livestock_ranch
+	}
+}

@@ -1,0 +1,20 @@
+﻿NGame = {
+	START_DATE = "1039.1.1"
+	END_DATE = "1150.1.1"
+}
+NCountry = {
+	COUNTRY_FORMATION_CANDIDATE_MIN_RANK = 5
+}
+NPolitics = {
+	DEFAULT_LAW_ACTIVATION_DATE = "1039.1.1"
+}
+NPops = {
+	LOYALTIES_GAIN_GRACE_PERIOD_SHORT = "1140.1.1"		# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied if the Short game rule is applied
+	LOYALTIES_GAIN_GRACE_PERIOD_LONG = "1145.1.1"		# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied if the Long game rule is applied
+	LOYALTIES_GAIN_GRACE_PERIOD_EXTRA_LONG = "1150.1.1"	# Until this date, only a scaling part of the Radicals and Loyalists gained from SOL changes will be applied if the Extra Long game rule is applied
+
+	ALLOW_ASSIMILATION_ACROSS_HERITAGES = no 	# Can pops assimilate into pops of a different heritage?
+
+	CASTERS_POP_TYPE = "casters"	# Pop type used for casters
+	MAX_ACCEPTANCE_VALUE = 140
+}

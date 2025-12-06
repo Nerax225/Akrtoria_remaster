@@ -1,0 +1,11 @@
+﻿object={
+	name="edgeofworld_papermap"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=no
+	layer="papermap_layer"
+	pdxmesh="edgeofworld_papermap_mesh"
+	count=2
+	transform="4096.000000 -150.000000 11480.000000 0.000000 0.000000 0.000000 1.000000 10.000000 10.000000 10.000000
+4096.000000 -150.000000 -7800.000000 0.000000 0.000000 0.000000 1.000000 10.000000 10.000000 10.000000
+"}

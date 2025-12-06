@@ -1,0 +1,899 @@
+﻿# Auto-generated — Culture Standard of Living modifier type definitions
+# Place this file under: common/modifier_type_definitions/
+
+state_bolivar_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_traits_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_male_common_first_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_female_common_first_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_noble_last_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_common_last_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ethnicities_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_bolivar_anura_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_zalak_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_color_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_male_regal_first_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_female_regal_first_names_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_vouivre_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_columbia_sarkaz_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_gaul_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_higashi_aegir_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_higashi_vulpo_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_higashi_oni_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_iberia_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_iberia_aegir_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_infected_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sarkaz_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_vampire_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_wendigo_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_banshee_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_gargoyle_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_nachzehrer_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_damazti_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_diablo_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_lich_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_cyclops_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_djall_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_goliath_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_kuranta_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kazimierz_zalak_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kjerag_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kjerag_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kjerag_zalak_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kjerag_ursus_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_kjerag_itra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_laterano_sankta_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_laterano_fallen_sankta_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_laterano_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_leithanien_caprinae_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_leithanien_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_leithanien_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_minos_forte_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_rimbilliton_cautus_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_rimbilliton_savra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_rimbilliton_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_rimbilliton_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sami_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sami_itra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_archosauria_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_pythia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_forte_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_caprinae_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_manticore_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_pilosa_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_cerato_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_anura_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_rebbah_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_savra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_vouivre_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_aslan_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_nightzmoras_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_sargon_kuranta_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_siracusa_lupo_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_siracusa_vulpo_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_ursus_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_itra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_hippogryph_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_ursus_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_victoria_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_victoria_aslan_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_victoria_draco_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_victoria_vouivre_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_victoria_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_tara_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_tara_draco_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_aegir_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_elafia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_pythia_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_feline_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_forte_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_liberi_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_lung_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_perro_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_kylin_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_anasa_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_ursus_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_itra_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_yan_zalak_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_east_terra_anaty_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_central_terra_anaty_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_west_terra_anaty_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_north_terra_anaty_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_south_terra_anaty_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+
+state_durin_standard_of_living_add = {
+  decimals = 1
+  color = good
+  game_data = {
+    ai_value = 0
+  }
+}
+

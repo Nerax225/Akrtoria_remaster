@@ -1,0 +1,47 @@
+﻿seaborn_cult = {
+	type = heritage
+	trait_group = heritage_group_cult
+}
+teekaz_religion = {
+	type = heritage
+	trait_group = heritage_group_naturalistic
+}
+terra_native_religion = {
+	type = heritage
+	trait_group = heritage_group_naturalistic
+}
+laterano_church = {
+	type = heritage
+	trait_group = heritage_group_lateranic
+}
+siracusa_thought = {
+	type = heritage
+	trait_group = heritage_group_lateranic
+}
+
+iberia_order = {
+	type = heritage
+	trait_group = heritage_group_lateranic
+}
+leithanien_thought = {
+	type = heritage
+	trait_group = heritage_group_non_spiritual
+}
+business_and_knights = {
+	type = heritage
+	trait_group = heritage_group_non_spiritual
+}
+atheist_thought = {
+	type = heritage
+	trait_group = heritage_group_non_spiritual
+}
+
+oritenal_religion = {
+	type = heritage
+	trait_group = heritage_group_eastern
+}
+feranmut_religion = {
+	type = heritage
+	trait_group = heritage_group_naturalistic
+}
+

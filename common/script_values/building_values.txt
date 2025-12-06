@@ -1,0 +1,24 @@
+﻿# 1.4及以前版本
+#construction_cost_canal = 2000
+#construction_cost_monument = 1000
+#construction_cost_very_high = 600	#400
+#construction_cost_high = 450		#300
+#construction_cost_medium = 300	#200
+#construction_cost_low = 150		#100
+#construction_cost_very_low = 50
+
+#max_autoexpand_queue_weeks = 26
+
+# 1.5.7版本
+construction_cost_canal = 5000
+construction_cost_monument = 2500
+construction_cost_very_high = 800
+construction_cost_high = 600
+construction_cost_medium = 400
+construction_cost_low = 200
+construction_cost_very_low = 100
+
+# 这里没有特殊语法。为一个变量赋值后，在读取这个变量时，自然就能读到被赋予的值
+# 通过下面这种方法，就可以使用变量来赋予建造力数值。下面这段唯一的问题是，使用的变量缺乏辨识度，你无法直接看出“a”是什么意思，但你能直接看出“construction_cost_very_low”大致是什么意思
+# script_value: a=300
+# buildings: required_construction = a

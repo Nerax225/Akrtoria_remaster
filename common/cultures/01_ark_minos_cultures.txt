@@ -1,0 +1,105 @@
+minos_forte={ #米诺斯丰蹄
+	color={ 119 140 254 }
+	religion = hero_cult
+	heritage = forte_heritage
+	language = language_minos
+	traditions = { tradition_minos }
+	male_common_first_names={
+		Alexandros
+		Andreas
+		Antonios
+		Basileios
+		Christos
+		Demetrios
+		Dionysios
+		Georgios
+		Ioannis
+		Konstantinos
+		Leonidas
+		Loukas
+		Nikolaos
+		Panagiotis
+		Petros
+		Spyridon
+		Stefanos
+		Theodoros
+		Vasileios
+		Xenophon
+	}
+	female_common_first_names={
+		Agape
+		Anastasia
+		Angeliki
+		Anthe
+		Despoina
+		Eirini
+		Eleni
+		Georgia
+		Ioanna
+		Kalliope
+		Konstantina
+		Maria
+		Melina
+		Panagiota
+		Paraskevi
+		Sofia
+		Styliani
+		Theodora
+		Vasiliki
+		Zoe
+	}
+	noble_last_names={
+		Angelopoulos
+		Argyros
+		Bryennios
+		Choniates
+		Diogenes
+		Doukas
+		Dukas
+		Kantakouzenos
+		Komnenos
+		Laskaris
+		Makrinos
+		Melissenos
+		Palaiologos
+		Phokas
+		Sgouros
+		Skleros
+		Tornikes
+		Tzimiskes
+		Vatatzes
+		Xiphilinos
+	}
+	common_last_names={
+		Antoniou
+		Christodoulou
+		Demetriou
+		Economou
+		Georgiou
+		Ioannidis
+		Kallias
+		Leonidou
+		Loukatos
+		Nikolaidis
+		Papadopoulos
+		Panagiotou
+		Pappas
+		Petrou
+		Spyridonos
+		Stefanidis
+		Stylianou
+		Theodorou
+		Vasileiou
+		Xenopoulos
+	}
+	male_regal_first_names = {
+
+	}
+	female_regal_first_names = {
+
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

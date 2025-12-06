@@ -1,0 +1,138 @@
+﻿laterano_sankta={ #萨科塔
+	color={ 255 242 194 }
+	religion = the_law
+	heritage = sankta_heritage
+	language = language_laterano
+	traditions = { tradition_laterano }
+	male_common_first_names={
+	Marcus Lucius Gaius Julius Publius Quintus Titus Aulus Decimus
+	Servius Sextus Spurius Appius Agrippa Caeso Manius Numerius
+	Vibius Faustus Flavius Maximus Valerius Antonius Cornelius
+	Cassius Fabius Horatius Marcellus Octavius Paulus
+	}
+	female_common_first_names = {
+	Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia
+	Marcia Fabia Horatia Paulina Faustina Agrippina Domitia
+	Aurelia Calpurnia Caecilia Lucretia Licinia Aemilia
+	Tullia Servilia Porcia Prisca Sabina
+	}	
+	noble_last_names = {
+	Aurelius Cornelius Fabius Flavius Horatius Julius
+	Licinius Lucretius Marcellus Octavius Paulus
+	Quintilius Servilius Tullius Valerius
+	Cassius Domitius Calpurnius
+	}
+	common_last_names={
+	Antonius Appius Caecilius Decimus Faustus Gaius
+	Livius Manius Marcus Numerius Publius Sabinus
+	Sextus Spurius Titus Vibius
+	}
+	male_regal_first_names = {
+	Benedictus Innocentius Gregorius Urbanus Leo Pius
+	Sixtus Bonifatius Clemens Damasus Eusebius
+	Felix Gelasius Hilarius Honorius Linus
+	Paschalis Sergius Sylvester Victor
+	}
+	female_regal_first_names = {
+	Cecilia Agnes Lucia Helena Felicitas
+	Prisca Sabina Theodora Constantia
+	Marcella Paula Petronilla
+	Monica Perpetua Pulcheria
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+laterano_fallen_sankta={ #堕天使
+	color={ 102 97 78 }
+	religion = the_law
+	heritage = sankta_heritage
+	language = language_laterano
+	traditions = { tradition_laterano tradition_teekaz}
+	male_common_first_names={
+	Marcus Lucius Gaius Julius Publius Quintus Titus Aulus Decimus
+	Servius Sextus Spurius Appius Agrippa Caeso Manius Numerius
+	Vibius Faustus Flavius Maximus Valerius Antonius Cornelius
+	Cassius Fabius Horatius Marcellus Octavius Paulus
+	}
+	female_common_first_names = {
+	Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia
+	Marcia Fabia Horatia Paulina Faustina Agrippina Domitia
+	Aurelia Calpurnia Caecilia Lucretia Licinia Aemilia
+	Tullia Servilia Porcia Prisca Sabina
+	}	
+	noble_last_names = {
+	Aurelius Cornelius Fabius Flavius Horatius Julius
+	Licinius Lucretius Marcellus Octavius Paulus
+	Quintilius Servilius Tullius Valerius
+	Cassius Domitius Calpurnius
+	}
+	common_last_names={
+	Antonius Appius Caecilius Decimus Faustus Gaius
+	Livius Manius Marcus Numerius Publius Sabinus
+	Sextus Spurius Titus Vibius
+	}
+	male_regal_first_names = {
+	Benedictus Innocentius Gregorius Urbanus Leo Pius
+	Sixtus Bonifatius Clemens Damasus Eusebius
+	Felix Gelasius Hilarius Honorius Linus
+	Paschalis Sergius Sylvester Victor
+	}
+	female_regal_first_names = {
+	Cecilia Agnes Lucia Helena Felicitas
+	Prisca Sabina Theodora Constantia
+	Marcella Paula Petronilla
+	Monica Perpetua Pulcheria
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+laterano_liberi={ #拉特兰黎博利
+	color={ 255 246 214 }
+	religion = the_law
+	heritage = liberi_heritage
+	language = language_laterano
+	traditions = { tradition_laterano }
+	male_common_first_names={
+	Marcus Lucius Gaius Julius Publius Quintus Titus Aulus Decimus
+	Servius Sextus Spurius Appius Agrippa Caeso Manius Numerius
+	Vibius Faustus Flavius Maximus Valerius Antonius Cornelius
+	Cassius Fabius Horatius Marcellus Octavius Paulus
+	}
+	female_common_first_names = {
+	Julia Livia Cornelia Antonia Flavia Claudia Valeria Octavia
+	Marcia Fabia Horatia Paulina Faustina Agrippina Domitia
+	Aurelia Calpurnia Caecilia Lucretia Licinia Aemilia
+	Tullia Servilia Porcia Prisca Sabina
+	}	
+	noble_last_names = {
+	Aurelius Cornelius Fabius Flavius Horatius Julius
+	Licinius Lucretius Marcellus Octavius Paulus
+	Quintilius Servilius Tullius Valerius
+	Cassius Domitius Calpurnius
+	}
+	common_last_names={
+	Antonius Appius Caecilius Decimus Faustus Gaius
+	Livius Manius Marcus Numerius Publius Sabinus
+	Sextus Spurius Titus Vibius
+	}
+	male_regal_first_names = {
+	Benedictus Innocentius Gregorius Urbanus Leo Pius
+	Sixtus Bonifatius Clemens Damasus Eusebius
+	Felix Gelasius Hilarius Honorius Linus
+	Paschalis Sergius Sylvester Victor
+	}
+	female_regal_first_names = {
+	Cecilia Agnes Lucia Helena Felicitas
+	Prisca Sabina Theodora Constantia
+	Marcella Paula Petronilla
+	Monica Perpetua Pulcheria
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

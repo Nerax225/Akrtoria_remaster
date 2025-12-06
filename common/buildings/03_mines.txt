@@ -1,0 +1,97 @@
+﻿building_originmum_mine = { #源石矿
+	building_group = bg_originmum_fields
+	icon = "gfx/interface/icons/building_icons/building_originmum_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+	
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_building_originmum_mine_base
+		pmg_building_originmum_mine_orirock
+		pmg_building_originmum_mine_automation
+		pmg_building_originmum_mine_management
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}
+building_RMA_mine = { #RMA矿
+	building_group = bg_RMA
+	icon = "gfx/interface/icons/building_icons/building_RMA_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_building_RMA_mine_base
+		pmg_building_RMA_mine_automation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}
+building_iron_mine = { #铁矿
+	building_group = bg_iron_mining
+	icon = "gfx/interface/icons/building_icons/building_iron_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_building_iron_mine_base
+		pmg_building_iron_mine_automation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}
+building_light_manganese_mine = { #轻锰矿
+	building_group = bg_light_manganese
+	icon = "gfx/interface/icons/building_icons/building_light_manganese_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_building_light_manganese_mine_base
+		pmg_building_light_manganese_mine_automation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}
+building_grind_stone_mine = { #研磨石矿
+	building_group = bg_grind_stone
+	icon = "gfx/interface/icons/building_icons/building_grind_stone_mine.dds"
+	city_type = mine
+	levels_per_mesh = 5
+	terrain_manipulator = mining
+
+	unlocking_technologies = {
+		prospecting
+	}
+
+	production_method_groups = {
+		pmg_building_grind_stone_mine_base
+		pmg_building_grind_stone_mine_automation
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
+}

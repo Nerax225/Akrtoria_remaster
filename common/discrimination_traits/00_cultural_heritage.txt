@@ -1,0 +1,128 @@
+﻿aegir_heritage = {
+	type = heritage
+	trait_group = heritage_group_aquatic
+}
+anaty_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+anura_heritage = {
+	type = heritage
+	trait_group = heritage_group_amphibia
+}
+archosauria_heritage = {
+	type = heritage
+	trait_group = heritage_group_reptilia
+}
+caprinae_heritage = {
+	type = heritage
+	trait_group = heritage_group_artiodactyla
+}
+cautus_heritage = {
+	type = heritage
+	trait_group = heritage_group_lagomorpha
+}
+cerato_heritage = {
+	type = heritage
+	trait_group = heritage_group_perissodactyla
+}
+draco_heritage = {
+	type = heritage
+	trait_group = heritage_group_reptilia
+}
+durin_heritage = {
+	type = heritage
+	trait_group = heritage_group_mythical
+}
+elafia_heritage = {
+	type = heritage
+	trait_group = heritage_group_artiodactyla
+}
+feline_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+forte_heritage = {
+	type = heritage
+	trait_group = heritage_group_artiodactyla
+}
+hippogryph_heritage = {
+	type = heritage
+	trait_group = heritage_group_mythical
+}
+infected_heritage = {
+	type = heritage
+	trait_group = heritage_group_infected
+}
+itra_heritage = {
+	type = heritage
+	trait_group = heritage_group_artiodactyla
+}
+kuranta_heritage = {
+	type = heritage
+	trait_group = heritage_group_perissodactyla
+}
+kylin_heritage = {
+	type = heritage
+	trait_group = heritage_group_sinicus
+}
+liberi_heritage = {
+	type = heritage
+	trait_group = heritage_group_aves
+}
+lung_heritage = {
+	type = heritage
+	trait_group = heritage_group_sinicus
+}
+lupo_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+manticore_heritage = {
+	type = heritage
+	trait_group = heritage_group_mythical
+}
+perro_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+pilosa_heritage = {
+	type = heritage
+	trait_group = heritage_group_pilosa
+}
+pythia_heritage = {
+	type = heritage
+	trait_group = heritage_group_reptilia
+}
+rebbah_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+sankta_heritage = {
+	type = heritage
+	trait_group = heritage_group_teekaz
+}
+savra_heritage = {
+	type = heritage
+	trait_group = heritage_group_reptilia
+}
+sarkaz_heritage = {
+	type = heritage
+	trait_group = heritage_group_teekaz
+}
+ursus_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+vouivre_heritage = {
+	type = heritage
+	trait_group = heritage_group_reptilia
+}
+vulpo_heritage = {
+	type = heritage
+	trait_group = heritage_group_carnivora
+}
+zalak_heritage = {
+	type = heritage
+	trait_group = heritage_group_rodentia
+}

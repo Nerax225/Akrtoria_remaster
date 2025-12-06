@@ -1,0 +1,521 @@
+﻿# goods types, organized by category (clean regrouped version)
+# prestige_factor: Base prestige for occupying the rank MIN_PRESTIGE_AWARD spot on the goods production leaderboard (x2 per rank above).
+
+############
+# MILITARY #
+############
+
+artillery = { #火炮
+    texture = "gfx/interface/icons/goods_icons/artillery.dds"
+    cost = 200
+    category = military
+    traded_quantity = 10
+    prestige_factor = 5
+    convoy_cost_multiplier = 1.5
+}
+heavy_armored_vehicle = { #重型装甲载具
+    texture = "gfx/interface/icons/goods_icons/heavy_armored_vehicle.dds"
+    cost = 80
+    category = military
+    traded_quantity = 5
+    prestige_factor = 8
+    convoy_cost_multiplier = 2.0
+}
+land_ships = { #陆行舰
+    texture = "gfx/interface/icons/goods_icons/land_ships.dds"
+    cost = 200
+    category = military
+    prestige_factor = 8
+    traded_quantity = 1
+    convoy_cost_multiplier = 0.25
+    consumption_tax_cost = 100
+}
+personal_ration = { #单兵补给
+    texture = "gfx/interface/icons/goods_icons/personal_ration.dds"
+    cost = 40
+    category = military
+    traded_quantity = 20
+    prestige_factor = 3
+}
+small_arms = { #个人武器装备
+    texture = "gfx/interface/icons/goods_icons/small_arms.dds"
+    cost = 100
+	category = military
+    traded_quantity = 15
+    prestige_factor = 5
+    consumption_tax_cost = 100
+}
+
+##########
+# STAPLE #
+##########
+
+clothes = { #服装
+    texture = "gfx/interface/icons/goods_icons/clothes.dds"
+    cost = 30
+    category = staple
+    prestige_factor = 4
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.5
+    consumption_tax_cost = 300
+}
+electricity = { #电力
+	texture = "gfx/interface/icons/goods_icons/electricity.dds"
+	cost = 30
+	category = staple
+	local = yes
+	consumption_tax_cost = 200
+}
+fish = { #鱼类
+    texture = "gfx/interface/icons/goods_icons/fish.dds"
+    cost = 20
+    category = staple
+    prestige_factor = 3
+    traded_quantity = 30
+    convoy_cost_multiplier = 0.75
+    consumption_tax_cost = 200
+}
+furniture_parts = { #家具零件
+    texture = "gfx/interface/icons/goods_icons/furniture_parts.dds"
+    cost = 40
+    category = staple
+    prestige_factor = 7
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.75
+    consumption_tax_cost = 200
+}
+grain = { #谷物
+    texture = "gfx/interface/icons/goods_icons/grain.dds"
+    cost = 20
+    category = staple
+    prestige_factor = 4
+    traded_quantity = 40
+    convoy_cost_multiplier = 0.25
+    consumption_tax_cost = 500
+}
+
+housing = { #住房
+    texture = "gfx/interface/icons/goods_icons/housing.dds"
+    cost = 100
+    category = staple
+    prestige_factor = 5
+    traded_quantity = 1
+    convoy_cost_multiplier = 0.75
+    local = yes
+}
+medicine = { #药物
+    texture = "gfx/interface/icons/goods_icons/medicine.dds"
+    cost = 60
+    category = staple
+    prestige_factor = 5
+    traded_quantity = 5
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 400
+}
+paper = { #纸张
+	texture = "gfx/interface/icons/goods_icons/paper.dds"
+	cost = 30
+	category = staple
+
+	prestige_factor = 4
+
+	traded_quantity = 7 # 210
+	convoy_cost_multiplier = 0.5
+
+	consumption_tax_cost = 200
+}
+services = { #服务
+	texture = "gfx/interface/icons/goods_icons/services.dds"
+	cost = 60
+	category = staple
+	prestige_factor = 3
+	consumption_tax_cost = 200
+	local = yes
+}
+transportation = {
+	texture = "gfx/interface/icons/goods_icons/transportation.dds"
+	cost = 30
+	category = staple
+	local = yes
+
+	consumption_tax_cost = 200
+}
+wood = { #木材
+    texture = "gfx/interface/icons/goods_icons/wood.dds"
+    cost = 20
+    category = staple
+	prestige_factor = 3
+    traded_quantity = 40
+    convoy_cost_multiplier = 0.25
+    consumption_tax_cost = 300
+}
+
+##############
+# INDUSTRIAL #
+##############
+
+kohl = { #醇
+    texture = "gfx/interface/icons/goods_icons/kohl.dds" # mapped per request ("醇" -> kohl)
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+    convoy_cost_multiplier = 1
+}
+bipolar_nanoflake = { #双极纳米片
+    texture = "gfx/interface/icons/goods_icons/bipolar_nanoflake.dds"
+    cost = 140
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+carbon_brick = { # 碳素
+    texture = "gfx/interface/icons/goods_icons/carbon_brick.dds"
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+carbon_stick = { #碳
+    texture = "gfx/interface/icons/goods_icons/carbon_stick.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 200
+}
+chemical_solution = { #化学溶液
+	texture = "gfx/interface/icons/goods_icons/chemical_solution.dds"
+	cost = 30
+	category = industrial
+	prestige_factor = 5
+	traded_quantity = 15
+}
+
+crystalline_circuit = { #晶体电路
+    texture = "gfx/interface/icons/goods_icons/crystalline_circuit.dds"
+    cost = 80
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+crystalline_component = { #晶体元件
+    texture = "gfx/interface/icons/goods_icons/crystalline_component.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+crystalline_unit = { #晶体单元
+    texture = "gfx/interface/icons/goods_icons/crystalline_unit.dds"
+    cost = 160
+    category = industrial
+    prestige_factor = 10
+    traded_quantity = 1
+}
+device = { #装置
+	texture = "gfx/interface/icons/goods_icons/device.dds"
+	cost = 60
+	category = industrial
+	traded_quantity = 5
+	prestige_factor = 5
+	convoy_cost_multiplier = 1
+}
+drone = { #无人机
+    texture = "gfx/interface/icons/goods_icons/drone.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 4
+    traded_quantity = 1
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 200
+}
+
+engines = { #引擎 (Plan A: 指向 engines.dds, 请在 goods_icons 下提供 engines.dds 文件)
+    texture = "gfx/interface/icons/goods_icons/engines.dds"
+    cost = 60
+    category = industrial
+    traded_quantity = 8
+    convoy_cost_multiplier = 2.0
+}
+ester = { #酯
+    texture = "gfx/interface/icons/goods_icons/ester.dds"
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+    consumption_tax_cost = 100
+}
+grind_stone = { #研磨石
+    texture = "gfx/interface/icons/goods_icons/grind_stone.dds"
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+iron = { #铁
+    texture = "gfx/interface/icons/goods_icons/iron.dds"
+    cost = 40
+    category = industrial
+}
+ketone = { #酮
+    texture = "gfx/interface/icons/goods_icons/ketone.dds"
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+
+light_manganese = { #轻锰
+    texture = "gfx/interface/icons/goods_icons/light_manganese.dds"
+    cost = 50
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+originite_prime = { #至纯源石
+    texture = "gfx/interface/icons/goods_icons/originite_prime.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 15
+    traded_quantity = 1
+}
+originium = { #源石
+    texture = "gfx/interface/icons/goods_icons/originium.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 10
+    traded_quantity = 1
+    consumption_tax_cost = 200
+}
+originium_ingot = { #源石锭
+    texture = "gfx/interface/icons/goods_icons/originium_ingot.dds"
+    cost = 40
+    category = industrial
+
+	tradeable = no
+	fixed_price = yes
+    prestige_factor = 10
+    traded_quantity = 20
+}
+orirock = { #源岩
+    texture = "gfx/interface/icons/goods_icons/orirock.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+
+oriron = { #异铁
+    texture = "gfx/interface/icons/goods_icons/oriron.dds"
+    cost = 60
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+orundum = { #合成玉
+    texture = "gfx/interface/icons/goods_icons/orundum.dds"
+    cost = 40
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+RMA = { #RMA
+    texture = "gfx/interface/icons/goods_icons/RMA.dds"
+    cost = 60
+    category = industrial
+    prestige_factor = 5
+    traded_quantity = 1
+}
+steel = { #钢
+    texture = "gfx/interface/icons/goods_icons/steel.dds"
+    cost = 50
+    category = industrial
+}
+truck = { #卡车
+    texture = "gfx/interface/icons/goods_icons/truck.dds"
+    cost = 100
+    category = industrial
+    prestige_factor = 6
+    traded_quantity = 1
+}
+
+urban_space = { #城市用地
+    texture = "gfx/interface/icons/goods_icons/urban_space.dds"
+    cost = 100
+    category = industrial
+	local = yes
+}
+merchant_landships = { #商用陆行舰
+    texture = "gfx/interface/icons/goods_icons/merchant_landships.dds"
+    cost = 300
+    category = industrial
+    prestige_factor = 12
+    traded_quantity = 1
+    convoy_cost_multiplier = 0.05
+}
+##########
+# LUXURY #
+##########
+
+automobiles = { #汽车
+    texture = "gfx/interface/icons/goods_icons/automobiles.dds"
+    cost = 100
+    category = luxury
+    obsession_chance = 1.0
+    traded_quantity = 8
+	prestige_factor = 10
+}
+business_product = { #商务产品
+    texture = "gfx/interface/icons/goods_icons/business_product.dds"
+    cost = 100
+    category = luxury
+    prestige_factor = 3
+    traded_quantity = 40
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 300
+    obsession_chance = 1.0
+}
+coffee = { #咖啡
+    texture = "gfx/interface/icons/goods_icons/coffee.dds"
+    cost = 50
+    category = luxury
+    obsession_chance = 1.5
+    convoy_cost_multiplier = 0.75
+}
+consumer_electronics = { #消费电子
+	texture = "gfx/interface/icons/goods_icons/consumer_electronics.dds"
+    cost = 100
+    category = luxury
+    prestige_factor = 5
+    traded_quantity = 20
+    convoy_cost_multiplier = 1.0
+    consumption_tax_cost = 200
+}
+fine_art = { #艺术品
+    texture = "gfx/interface/icons/goods_icons/fine_art.dds"
+    cost = 200
+    category = luxury
+    obsession_chance = 1.0
+    traded_quantity = 5
+}
+
+fruit = { #水果
+	texture = "gfx/interface/icons/goods_icons/fruit.dds"
+    cost = 30
+    category = luxury
+    obsession_chance = 1.0
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.75
+    consumption_tax_cost = 200
+}
+groceries = { #加工食品
+    texture = "gfx/interface/icons/goods_icons/groceries.dds"
+    cost = 30
+    category = luxury
+    prestige_factor = 4
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.5
+    consumption_tax_cost = 300
+    obsession_chance = 1.0
+}
+liquor = { #烈酒
+    texture = "gfx/interface/icons/goods_icons/liquor.dds"
+    cost = 30
+    category = luxury
+    obsession_chance = 2.0
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.75
+}
+luxury_items = { #奢侈品
+    texture = "gfx/interface/icons/goods_icons/luxury_items.dds"
+    cost = 2000
+    category = luxury
+    prestige_factor = 15
+    traded_quantity = 20
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 100
+}
+animal_product = { #动物产品
+    texture = "gfx/interface/icons/goods_icons/animal_product.dds"
+    cost = 30
+    category = luxury
+    prestige_factor = 3
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.75
+    consumption_tax_cost = 200
+    obsession_chance = 1.0
+}
+
+online_product = { #网络产品
+	texture = "gfx/interface/icons/goods_icons/online_product.dds"
+    cost = 50
+    category = luxury
+    prestige_factor = 10
+    traded_quantity = 500
+    convoy_cost_multiplier = 0.01
+    consumption_tax_cost = 200
+    obsession_chance = 1.0
+}
+opium = { #鸦片
+    texture = "gfx/interface/icons/goods_icons/opium.dds"
+    cost = 50
+    category = luxury
+    obsession_chance = 2.0
+    convoy_cost_multiplier = 0.75
+}
+precision_wear = { #精密穿戴
+    texture = "gfx/interface/icons/goods_icons/precision_wear.dds"
+    cost = 60
+    category = luxury
+    prestige_factor = 10
+    traded_quantity = 1
+    convoy_cost_multiplier = 0.75
+    consumption_tax_cost = 100
+}
+small_appliances = { #小型家电
+    texture = "gfx/interface/icons/goods_icons/small_appliances.dds"
+    cost = 30
+    category = luxury
+    prestige_factor = 5
+    traded_quantity = 5
+    convoy_cost_multiplier = 1
+    consumption_tax_cost = 200
+    obsession_chance = 1.0
+}
+sugar = { #糖
+    texture = "gfx/interface/icons/goods_icons/sugar.dds"
+    cost = 30
+    category = luxury
+    obsession_chance = 1.5
+    traded_quantity = 15
+    convoy_cost_multiplier = 0.75
+}
+
+tea = { #茶
+    texture = "gfx/interface/icons/goods_icons/tea.dds"
+    cost = 50
+    category = luxury
+    obsession_chance = 1.5
+    convoy_cost_multiplier = 0.75
+}
+tobacco = { #烟草
+    texture = "gfx/interface/icons/goods_icons/tobacco.dds"
+    cost = 40
+    category = luxury
+    obsession_chance = 2.0
+    convoy_cost_multiplier = 0.75
+}
+wine = { #葡萄酒
+    texture = "gfx/interface/icons/goods_icons/wine.dds"
+    cost = 50
+    category = luxury
+    obsession_chance = 2.0
+    convoy_cost_multiplier = 0.75
+}
+
+
+##############
+# END FILE   #
+##############

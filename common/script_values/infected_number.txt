@@ -1,0 +1,4 @@
+﻿sample_infected_rate = { #5%
+	add = 5
+	divide = 100
+}

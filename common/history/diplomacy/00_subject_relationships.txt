@@ -1,0 +1,57 @@
+﻿DIPLOMACY ?= {
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:RBT
+			type = chartered_company
+		}
+	}
+
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:CST
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:GDN
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:WLT
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:WDM
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:NMD
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:ABC
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:FIF
+			type = puppet
+		}
+	}
+	c:VIC ?= {
+		create_diplomatic_pact = {
+			country = c:ASW
+			type = puppet
+		}
+	}
+}

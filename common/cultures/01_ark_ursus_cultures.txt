@@ -1,0 +1,866 @@
+ursus_ursus={ #乌萨斯
+	color={ 51 105 30 }
+	religion = boreal_terra_native_belief
+	heritage = ursus_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+ursus_itra={ #乌萨斯依特拉
+	color={ 49 115 51 }
+	religion = boreal_terra_native_belief
+	heritage = itra_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+ursus_hippogryph={ #乌萨斯骏鹰
+	color={ 47 125 71 }
+	religion = boreal_terra_native_belief
+	heritage = hippogryph_heritage
+	language = language_ursus
+	traditions = { tradition_ursus tradition_elder }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+ursus_liberi={ #乌萨斯黎博利
+	color={ 45 136 92 }
+	religion = boreal_terra_native_belief
+	heritage = liberi_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+ursus_elafia={ #乌萨斯埃拉菲亚
+	color={ 42 146 113 }
+	religion = boreal_terra_native_belief
+	heritage = elafia_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+ursus_perro={ #乌萨斯佩洛
+	color={ 40 156 133 }
+	religion = boreal_terra_native_belief
+	heritage = perro_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+
+ursus_feline={ #乌萨斯菲林
+	color={ 38 166 154 }
+	religion = boreal_terra_native_belief
+	heritage = feline_heritage
+	language = language_ursus
+	traditions = { tradition_ursus }
+	male_common_first_names={
+		Alexei
+		Dmitri
+		Ivan
+		Nikolai
+		Sergei
+		Vladimir
+		Mikhail
+		Andrei
+		Yuri
+		Boris
+		Oleg
+		Vadim
+		Igor
+		Pavel
+		Konstantin
+		Roman
+		Artem
+		Maxim
+		Viktor
+		Leonid
+	}
+	female_common_first_names = {
+		Anna
+		Elena
+		Maria
+		Olga
+		Tatiana
+		Svetlana
+		Irina
+		Natalia
+		Ekaterina
+		Galina
+		Ludmila
+		Valentina
+		Nina
+		Marina
+		Yulia
+		Vera
+		Larisa
+		Tamara
+		Zinaida
+		Lyudmila
+	}	
+	noble_last_names = {
+		Romanov
+		Rurik
+		Golitsyn
+		Sheremetev
+		Yusupov
+		Vorontsov
+		Stroganov
+		Orlov
+		Dolgorukov
+		Menshikov
+		Baryatinsky
+		Kochubey
+		Kurakin
+		Trubetskoy
+		Shuvalov
+		Gagarin
+		Lopukhin
+		Obolensky
+		Saltykov
+		Uvarov
+	}
+	common_last_names={
+		Ivanov
+		Petrov
+		Sidorov
+		Smirnov
+		Kuznetsov
+		Popov
+		Vasilyev
+		Sokolov
+		Mikhailov
+		Fedorov
+		Morozov
+		Volkov
+		Alekseev
+		Lebedev
+		Novikov
+		Stepanov
+		Pavlov
+		Bogdanov
+		Nikolaev
+		Dmitriev
+	}
+	male_regal_first_names = {
+		Alexander
+		Nicholas
+		Peter
+		Paul
+		Ivan
+		Michael
+		Boris
+		Vladimir
+		Dmitri
+		Yaroslav
+	}
+	female_regal_first_names = {
+		Catherine
+		Elizabeth
+		Anna
+		Maria
+		Sophia
+		Alexandra
+		Olga
+		Tatiana
+		Natalia
+		Irina
+	}
+	ethnicities = {
+		1 = slavic
+	}
+	graphics = european
+}
+

@@ -1,0 +1,81 @@
+﻿objective_central_valley = {
+	enabled_background = "gfx/interface/icons/objectives/central_valley_illu.dds"
+	icon = "gfx/interface/icons/objectives/central_valley.dds"
+
+	recommended_tags = { VIC LTH SRC STA LAT}
+
+	objective_subgoals = {
+
+	}
+
+	final_subgoal = sg_strong_market
+
+	on_start = {
+		start_tutorial_lesson = { tutorial_lesson = economic_dominance }
+	}
+}
+
+objective_east_mandate = {
+	enabled_background = "gfx/interface/icons/objectives/east_mandate_illu.dds"
+	icon = "gfx/interface/icons/objectives/east_mandate.dds"
+
+	recommended_tags = { YAN HGS KZD}
+
+	objective_subgoals = {
+	}
+
+	final_subgoal = sg_strong_market
+
+	on_start = {
+		start_tutorial_lesson = { tutorial_lesson = hegemon }
+	}
+}
+
+objective_northern_wind = {
+	enabled_background = "gfx/interface/icons/objectives/northern_wind_illu.dds"
+	icon = "gfx/interface/icons/objectives/northern_wind.dds"
+
+	recommended_tags = { URS KZM SMI }
+
+	objective_subgoals = {
+	}
+
+	final_subgoal = sg_strong_market
+
+	on_start = {
+	}
+}
+
+objective_southern_wave = {
+	enabled_background = "gfx/interface/icons/objectives/southern_wave_illu.dds"
+	icon = "gfx/interface/icons/objectives/southern_wave.dds"
+
+	recommended_tags = { RBT IBR SRG MIN }
+	available_for_all_countries = no
+
+	objective_subgoals = {
+	}
+
+	final_subgoal = sg_strong_market
+
+	on_start = {
+
+	}
+}
+
+objective_west_grand_game = {
+	enabled_background = "gfx/interface/icons/objectives/west_grand_game_illu.dds"
+	icon = "gfx/interface/icons/objectives/west_grand_game.dds"
+
+	recommended_tags = { CLB BLV KJG }
+	available_for_all_countries = no
+
+	objective_subgoals = {
+	}
+
+	final_subgoal = sg_strong_market
+
+	on_start = {
+
+	}
+}

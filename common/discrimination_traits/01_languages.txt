@@ -1,0 +1,95 @@
+﻿language_aegir = {
+	type = language
+	trait_group = language_group_deepsea
+}
+
+language_bolivar = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_gaul = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_higashi = {
+	type = language
+	trait_group = language_group_cangjie
+}
+
+language_iberia = {
+	type = language
+	trait_group = language_group_romance
+}
+
+language_kazimierz = {
+	type = language
+	trait_group = language_group_traditus
+}
+
+language_kjerag = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_laterano= {
+	type = language
+	trait_group = language_group_teekaz
+}
+
+language_leithanien = {
+	type = language
+	trait_group = language_group_eligere
+}
+
+language_minos = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_sami = {
+	type = language
+	trait_group = language_group_traditus
+}
+
+language_sarkaz = {
+	type = language
+	trait_group = language_group_teekaz
+}
+
+language_sargon = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_siracusa = {
+	type = language
+	trait_group = language_group_eligere
+}
+
+language_tara = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_ursus = {
+	type = language
+	trait_group = language_group_traditus
+}
+
+language_victoria = {
+	type = language
+	trait_group = language_group_panthera
+}
+
+language_yan = {
+	type = language
+	trait_group = language_group_cangjie
+}
+
+language_generic = {
+	type = language
+	trait_group = language_group_dryland
+}
+

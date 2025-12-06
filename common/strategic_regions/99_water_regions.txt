@@ -1,0 +1,148 @@
+﻿#
+region_west_sea = {
+	states = { STATE_WEST_SEA }
+}
+region_east_sea = {
+	states = { STATE_EAST_SEA }
+}
+region_mediterranean_sea = {
+	states = { STATE_MEDITERRANEAN_SEA }
+}
+region_iberia_sea = {
+	states = { STATE_IBERIA_SEA }
+}
+region_south_iberia_sea = {
+	states = { STATE_SOUTH_IBERIA_SEA }
+}
+region_higashi_north_pass = {
+	states = { STATE_HIGASHI_NORTH_PASS }
+}
+region_ursus_fareast_pass = {
+	states = { STATE_URSUS_FAREAST_PASS }
+}
+region_longmen_pass = {
+	states = { STATE_LONGMEN_PASS }
+}
+region_aleksandro_way = {
+	states = { STATE_ALEKSANDRO_WAY }
+}
+region_north_great_lake_intersection = {
+	states = { STATE_NORTH_GREAT_LAKE_INTERSECTION }
+}
+region_north_kazdel_road = {
+	states = { STATE_NORTH_KAZDEL_ROAD }
+}
+region_east_siracusa_cross = {
+	states = { STATE_EAST_SIRACUSA_CROSS }
+}
+region_south_kazdel_road = {
+	states = { STATE_SOUTH_KAZDEL_ROAD }
+}
+region_south_lake_shore_intersection = {
+	states = { STATE_SOUTH_LAKE_SHORE_INTERSECTION }
+}
+region_east_rabbit_pass = {
+	states = { STATE_EAST_RABBIT_PASS }
+}
+region_west_rabbit_pass = {
+	states = { STATE_WEST_RABBIT_PASS }
+}
+region_south_siracusa_cross = {
+	states = { STATE_SOUTH_SIRACUSA_CROSS }
+}
+region_south_leithanien_pass = {
+	states = { STATE_SOUTH_LEITHANIEN_PASS }
+}
+region_laterano_intersection = {
+	states = { STATE_LATERANO_INTERSECTION }
+}
+region_east_victoria_pass = {
+	states = { STATE_EAST_VICTORIA_PASS }
+}
+region_north_iberia_pass = {
+	states = { STATE_NORTH_IBERIA_PASS }
+}
+region_north_siracusa_way = {
+	states = { STATE_NORTH_SIRACUSA_WAY }
+}
+region_north_leithanien_pass = {
+	states = { STATE_NORTH_LEITHANIEN_PASS }
+}
+region_northwest_leithanien_trail = {
+	states = { STATE_NORTHWEST_LEITHANIEN_TRAIL }
+}
+region_east_grand_lake_shore = {
+	states = { STATE_EAST_GRAND_LAKE_SHORE }
+}
+region_old_gaul_pass = {
+	states = { STATE_OLD_GAUL_PASS }
+}
+region_south_grand_lake_pass = {
+	states = { STATE_SOUTH_GRAND_LAKE_PASS }
+}
+region_north_victoria_way = {
+	states = { STATE_NORTH_VICTORIA_WAY }
+}
+region_northwest_hallway = {
+	states = { STATE_NORTHWEST_HALLWAY }
+}
+region_snow_mountain_pass = {
+	states = { STATE_SNOW_MOUNTAIN_PASS }
+}
+region_west_kazimierz_intersection = {
+	states = { STATE_WEST_KAZIMIERZ_INTERSECTION }
+}
+region_west_ursus_pass = {
+	states = { STATE_WEST_URSUS_PASS }
+}
+region_north_columbia_pass = {
+	states = { STATE_NORTH_COLUMBIA_PASS }
+}
+region_mountain_west_trail = {
+	states = { STATE_MOUNTAIN_WEST_TRAIL }
+}
+region_west_victoria_pass = {
+	states = { STATE_WEST_VICTORIA_PASS }
+}
+region_north_minos_intersection = {
+	states = { STATE_NORTH_MINOS_INTERSECTION }
+}
+region_southwest_victoria_pass = {
+	states = { STATE_SOUTHWEST_VICTORIA_PASS }
+}
+region_southsteppe_way = {
+	states = { STATE_SOUTHSTEPPE_WAY }
+}
+region_siesta_pass = {
+	states = { STATE_SIESTA_PASS }
+}
+region_east_minos_way = {
+	states = { STATE_EAST_MINOS_WAY }
+}
+region_northeast_sargon_way = {
+	states = { STATE_NORTHEAST_SARGON_WAY }
+}
+region_south_minos_way = {
+	states = { STATE_SOUTH_MINOS_WAY }
+}
+region_west_minos_intersection = {
+	states = { STATE_WEST_MINOS_INTERSECTION }
+}
+region_mid_sargon_pass = {
+	states = { STATE_MID_SARGON_PASS }
+}
+region_expodition_way = {
+	states = { STATE_EXPODITION_WAY }
+}
+region_mid_columbia_pass = {
+	states = { STATE_MID_COLUMBIA_PASS }
+}
+region_west_columbia_pass = {
+	states = { STATE_WEST_COLUMBIA_PASS }
+}
+region_explorer_intersection = {
+	states = { STATE_EXPLORER_INTERSECTION }
+}
+region_west_sargon_pass = {
+	states = { STATE_WEST_SARGON_PASS }
+}

@@ -1,0 +1,147 @@
+leithanien_caprinae={ #莱塔尼亚卡普里尼
+	color={ 124 47 14 }
+	religion = guldenesgesatz
+	heritage = caprinae_heritage
+	language = language_leithanien
+	traditions = { tradition_leithanien }
+	male_common_first_names={
+	Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Paul
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Ludwig Josef Erich Kurt Bruno Peter
+	Dieter Klaus Uwe Wolfgang Andreas
+	}
+	female_common_first_names = {
+	Anna Maria Ursula Ingrid Helga Erika Brigitte Karin
+	Monika Sabine Petra Claudia Gisela Renate Ilse
+	Edith Margarete Christa Eva Gertrud Hannelore
+	Marianne Angelika Doris Sigrid Heike
+	}	
+	noble_last_names = {
+	von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen
+	von_Baden von_Oldenburg von_Mecklenburg von_Hannover
+	von_Württemberg von_Thurn_und_Taxis von_Habsburg
+	von_Holstein von_Nassau von_Reuss von_Schwarzburg
+	von_Stolberg von_Waldeck von_Lippe von_Schaumburg
+	von_Leiningen von_Isenburg von_Solms
+	}
+	common_last_names={
+	Müller Schmidt Schneider Fischer Weber Meyer Wagner
+	Becker Hoffmann Schäfer Koch Bauer Richter Klein
+	Wolf Schröder Neumann Schwarz Zimmermann Braun
+	Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz
+	Krause Lehmann Schmid Schulz Maier Köhler Herrmann
+	}
+	male_regal_first_names = {
+	Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Josef Erich Kurt Bruno Peter
+	}
+	female_regal_first_names = {
+	Victoria Augusta Luise Friederike Charlotte Sophie
+	Marie Elisabeth Alexandra Mathilde Adelheid Therese
+	Cecilie Dorothea Pauline Amalie Helene Olga
+	Antonia Henriette Wilhelmine Caroline
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+leithanien_elafia={ #莱塔尼亚埃拉菲亚
+	color={ 131 73 28 }
+	religion = guldenesgesatz
+	heritage = elafia_heritage
+	language = language_leithanien
+	traditions = { tradition_leithanien }
+	male_common_first_names={
+	Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Paul
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Ludwig Josef Erich Kurt Bruno Peter
+	Dieter Klaus Uwe Wolfgang Andreas
+	}
+	female_common_first_names = {
+	Anna Maria Ursula Ingrid Helga Erika Brigitte Karin
+	Monika Sabine Petra Claudia Gisela Renate Ilse
+	Edith Margarete Christa Eva Gertrud Hannelore
+	Marianne Angelika Doris Sigrid Heike
+	}	
+	noble_last_names = {
+	von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen
+	von_Baden von_Oldenburg von_Mecklenburg von_Hannover
+	von_Württemberg von_Thurn_und_Taxis von_Habsburg
+	von_Holstein von_Nassau von_Reuss von_Schwarzburg
+	von_Stolberg von_Waldeck von_Lippe von_Schaumburg
+	von_Leiningen von_Isenburg von_Solms
+	}
+	common_last_names={
+	Müller Schmidt Schneider Fischer Weber Meyer Wagner
+	Becker Hoffmann Schäfer Koch Bauer Richter Klein
+	Wolf Schröder Neumann Schwarz Zimmermann Braun
+	Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz
+	Krause Lehmann Schmid Schulz Maier Köhler Herrmann
+	}
+	male_regal_first_names = {
+	Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Josef Erich Kurt Bruno Peter
+	}
+	female_regal_first_names = {
+	Victoria Augusta Luise Friederike Charlotte Sophie
+	Marie Elisabeth Alexandra Mathilde Adelheid Therese
+	Cecilie Dorothea Pauline Amalie Helene Olga
+	Antonia Henriette Wilhelmine Caroline
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}
+leithanien_perro={ #莱塔尼亚佩洛
+	color={ 137 99 41 }
+	religion = guldenesgesatz
+	heritage = perro_heritage
+	language = language_leithanien
+	traditions = { tradition_leithanien }
+	male_common_first_names={
+	Heinrich Wilhelm Karl Otto Friedrich Ernst Hermann Paul
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Ludwig Josef Erich Kurt Bruno Peter
+	Dieter Klaus Uwe Wolfgang Andreas
+	}
+	female_common_first_names = {
+	Anna Maria Ursula Ingrid Helga Erika Brigitte Karin
+	Monika Sabine Petra Claudia Gisela Renate Ilse
+	Edith Margarete Christa Eva Gertrud Hannelore
+	Marianne Angelika Doris Sigrid Heike
+	}	
+	noble_last_names = {
+	von_Hohenzollern von_Wittelsbach von_Sachsen von_Preußen
+	von_Baden von_Oldenburg von_Mecklenburg von_Hannover
+	von_Württemberg von_Thurn_und_Taxis von_Habsburg
+	von_Holstein von_Nassau von_Reuss von_Schwarzburg
+	von_Stolberg von_Waldeck von_Lippe von_Schaumburg
+	von_Leiningen von_Isenburg von_Solms
+	}
+	common_last_names={
+	Müller Schmidt Schneider Fischer Weber Meyer Wagner
+	Becker Hoffmann Schäfer Koch Bauer Richter Klein
+	Wolf Schröder Neumann Schwarz Zimmermann Braun
+	Krüger Hofmann Hartmann Lange Schmitt Werner Schmitz
+	Krause Lehmann Schmid Schulz Maier Köhler Herrmann
+	}
+	male_regal_first_names = {
+	Friedrich Wilhelm Ludwig Karl Otto Heinrich Ernst
+	Franz Gustav Walter Max Hans Georg Albert Richard
+	Rudolf Eduard Josef Erich Kurt Bruno Peter
+	}
+	female_regal_first_names = {
+	Victoria Augusta Luise Friederike Charlotte Sophie
+	Marie Elisabeth Alexandra Mathilde Adelheid Therese
+	Cecilie Dorothea Pauline Amalie Helene Olga
+	Antonia Henriette Wilhelmine Caroline
+	}
+	graphics = european
+	ethnicities = {
+		1 = caucasian
+	}
+}

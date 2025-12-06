@@ -1,0 +1,686 @@
+﻿building_carbon_extractor = { #碳提取厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_carbon_extractor.dds"
+
+	city_type = city
+	levels_per_mesh = 50
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_solution_types_carbon_extractor
+		pmg_catalyst_types_carbon_extractor
+		pmg_organic_replacement_carbon_extractor
+		pmg_automation_carbon_extractor
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 5000 #carbon is the fundamental resource of almost everything.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_carbon_bricks_synthesizer_factory = { #碳素合成厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_carbon_bricks_synthesizer_factory.dds"
+
+	city_type = city
+	levels_per_mesh = 50
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_building_carbon_bricks_factory
+		pmg_side_production_carbon_bricks_factory
+		pmg_automation_carbon_bricks_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #carbon bricks are a very important building material.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_sugar_refinery = { #糖精炼厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_sugar_refinery.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_sugar_refinery
+		pmg_catalyst_types_sugar_refinery
+		pmg_organic_replacement_sugar_refinery
+		pmg_automation_sugar_refinery
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #sugar is a very important foodstuff.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_ester_synthesizer = { #酯合成厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_ester_synthesizer.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_ester_synthesizer
+		pmg_catalyst_types_ester_synthesizer
+		pmg_automation_ester_synthesizer
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #ester is a very important chemical.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_alcohol_synthesizer = { #醇合成厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_alcohol_synthesizer.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_alcohol_synthesizer
+		pmg_catalyst_types_alcohol_synthesizer
+		pmg_automation_alcohol_synthesizer
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #alcohol is a very important chemical.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_ketone_synthesizer = { #酮合成厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_ketone_synthesizer.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_ketone_synthesizer
+		pmg_catalyst_types_ketone_synthesizer
+		pmg_automation_ketone_synthesizer
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #ketone is a very important chemical.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_clothing_factory = { #服装厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_clothing_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_clothing_factory
+		pmg_precision_wear_clothing_factory
+		pmg_automation_clothing_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #clothing is a very important consumer good.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_furniture_factory = { #家具厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_furniture_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_furniture_factory
+		pmg_automation_furniture_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #furniture is a very important consumer good.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_steel_mill = { #钢铁厂
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/building_steel_mill.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_steel_mill
+		pmg_side_production_steel_mill
+		pmg_automation_steel_mill
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 5000 #steel is the fundamental resource of almost everything.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_crystal_component_factory = { # 晶体元件厂
+	building_group = bg_high_tech_industry
+	icon = "gfx/interface/icons/building_icons/building_crystal_component_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_crystal_component_factory
+		pmg_sub_material_crystal_component_factory
+		pmg_automation_crystal_component_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #crystal components are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_high_tech_industry.dds"
+}
+
+building_crystal_circuit_factory = { #晶体电路厂
+	building_group = bg_high_tech_industry
+	icon = "gfx/interface/icons/building_icons/building_crystal_circuit_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_crystal_circuit_factory
+		pmg_sub_material_crystal_circuit_factory
+		pmg_automation_crystal_circuit_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #crystal circuits are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_high_tech_industry.dds"
+}
+
+building_crystal_unit_factory = { #晶体单元厂
+	building_group = bg_high_tech_industry
+	icon = "gfx/interface/icons/building_icons/building_crystal_unit_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_crystal_unit_factory
+		pmg_automation_crystal_unit_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #crystal units are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_high_tech_industry.dds"
+}
+
+building_electronics_factory = { #民用电子厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_electronics_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+	ai_nationalization_desire = 0.5	
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_electronics_factory
+		pmg_automation_electronics_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #electronics are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_device_factory = { #装置厂
+	building_group = bg_high_tech_industry
+	icon = "gfx/interface/icons/building_icons/building_device_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_device_factory
+		pmg_cutting_fluid_device_factory
+		pmg_automation_device_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #devices are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_high_tech_industry.dds"
+}
+
+building_bipolar_nanoflake_factory = { #双极纳米片厂
+	building_group = bg_high_tech_industry
+	icon = "gfx/interface/icons/building_icons/building_bipolar_nanoflake_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_bipolar_nanoflake_factory
+		pmg_automation_bipolar_nanoflake_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #bipolar nanoflakes are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_high_tech_industry.dds"
+}
+
+building_food_factory = { #食品厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_food_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_food_factory
+		pmg_ration_production_food_factory
+		pmg_liquor_production_food_factory
+		pmg_automation_food_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #food is a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_armory_production_complex = { #军械生产综合体
+	building_group = bg_military_industry
+	icon = "gfx/interface/icons/building_icons/building_armory_production_complex.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_armory_production_complex
+		pmg_artillery_armory_production_complex
+		pmg_automation_armory_production_complex
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 5000 #military products are very important.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_military_industry.dds"
+}
+
+building_shipyard = { # 陆行舰组装厂
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/building_shipyard.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_shipyard
+		pmg_heavy_armed_vehicle_shipyard
+		pmg_automation_shipyard
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #ships are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_engine_factory = { #引擎厂
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/building_engine_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_engine_factory
+		pmg_automation_engine_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #engines are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_pharmaceutical_factory = { #药厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_pharmaceutical_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_pharmaceutical_factory
+		pmg_automation_pharmaceutical_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #pharmaceuticals are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_chemical_solution_factory = { #化学溶液厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_chemical_solution_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_chemical_solution_factory
+		pmg_automation_chemical_solution_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #chemical solutions are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_automobile_factory = { # 汽车厂
+	building_group = bg_heavy_industry
+	icon = "gfx/interface/icons/building_icons/building_automobile_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_automobile_factory
+		pmg_truck_production_automobile_factory
+		pmg_automation_automobile_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #automobiles are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_heavy_industry.dds"
+}
+
+building_drone_assembly_plant = { # 无人机组装厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_drone_assembly_plant.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_drone_assembly_plant
+		pmg_automation_drone_assembly_plant
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #drones are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_originite_refinery = { #源石粗炼厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_originite_refinery.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_originite_refinery
+		pmg_automation_originite_refinery
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #originite is a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_appliance_factory = { #家电厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_appliance_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_appliance_factory
+		pmg_automation_appliance_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #appliances are a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_orundum_processing_factory = {#合成玉加工厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_orundum_processing_factory.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_orundum_processing_factory
+		pmg_automation_orundum_processing_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #orundum is a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+} 
+
+building_originite_prime_refinery = { #源石精炼厂
+	building_group = bg_chemical_industry
+	icon = "gfx/interface/icons/building_icons/building_originite_prime_refinery.dds"
+	levels_per_mesh = 50
+	city_type = city
+
+	ai_nationalization_desire = 0.5
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	production_method_groups = {
+		pmg_base_originite_prime_refinery
+		pmg_automation_originite_prime_refinery
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+	ai_value = 3000 #originium is a very important high-tech product.
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_chemical_industry.dds"
+}
+
+building_paper_mill = { #造纸厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_paper_mill.dds"
+
+	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize government goods
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_building_paper_mill
+		pmg_automation_building_paper_mill
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}
+
+building_luxury_factory = { #奢侈品厂
+	building_group = bg_light_industry
+	icon = "gfx/interface/icons/building_icons/building_luxury_factory.dds"
+
+	ai_nationalization_desire = 0.25 # AI is a bit reluctant to privatize government goods
+
+	unlocking_technologies = {
+		manufacturies
+	}
+
+	city_type = city
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_building_luxury_factory
+	}
+
+	required_construction = construction_cost_high
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_light_industry.dds"
+}

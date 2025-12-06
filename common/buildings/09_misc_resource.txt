@@ -1,0 +1,42 @@
+﻿building_logging_camp = { #伐木营地
+	building_group = bg_logging
+	icon = "gfx/interface/icons/building_icons/building_logging_camp.dds"
+	city_type = wood
+	required_construction = construction_cost_low
+	terrain_manipulator = forestry
+	levels_per_mesh = 50
+
+	production_method_groups = {
+		pmg_base_building_logging_camp
+		pmg_equipment
+		pmg_transportation_building_logging_camp
+	}
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}
+
+building_livestock_ranch = { #畜牧场
+	building_group = bg_livestock_ranches
+
+	icon = "gfx/interface/icons/building_icons/building_livestock_ranch.dds"
+
+	city_type = farm
+	levels_per_mesh = 50
+
+	unlocking_technologies = {
+		enclosure
+	}
+
+	production_method_groups = {
+		pmg_base_building_livestock_ranch
+		pmg_refrigeration_building_livestock_ranch
+	}
+
+	required_construction = construction_cost_low
+
+	terrain_manipulator = pasture
+	ownership_type = self
+
+	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
+}

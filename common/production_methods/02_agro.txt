@@ -1,0 +1,1065 @@
+﻿pm_sugar_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_sugar_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_sugar_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_sugar_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_sugar_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_sugar_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_tobacco_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_tobacco_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_tobacco_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_tobacco_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_tobacco_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_tobacco_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_tea_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_tea_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_tea_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_tea_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_tea_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_tea_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_coffee_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_coffee_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_coffee_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_coffee_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_coffee_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_coffee_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_wine_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_wine_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wine_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_wine_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_wine_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_wine_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_opium_plantation_base = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_opium_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_opium_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_opium_plantation_automatic = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_opium_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_opium_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_fruit_plantation_base = {
+	texture = "gfx/interface/icons/production_method_icons/pm_fruit_plantation_base.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_fruit_add = 30
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_fruit_plantation_automatic = {
+	texture = "gfx/interface/icons/production_method_icons/pm_fruit_plantation_automatic.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 5
+		}
+	}
+
+	unlocking_technologies = {
+		pumpjacks
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_device_add = 5
+			goods_output_fruit_add = 60
+		}
+
+		level_scaled = {
+			# profit
+			building_employment_laborers_add = 4000
+		}
+	}
+}
+pm_road_carts = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_road_carts.dds"
+}
+
+pm_rail_transport = { 
+	texture = "gfx/interface/icons/production_method_icons/pm_rail_transport.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		railways
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_transportation_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+pm_grain_farm_simple_farming = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_grain_add = 20
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_grain_farm_soil_enriching_farming = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_soil_enriching_farming.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 10
+
+			# output goods
+			goods_output_grain_add = 60
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_grain_farm_fertilization = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_fertilization.dds"
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.05
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 25
+
+			# output goods
+			goods_output_grain_add = 150
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_grain_farm_chemical = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_chemical.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 45
+
+			# output goods
+			goods_output_grain_add = 200
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_grain_farm_genetically = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_genetically.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 60
+
+			# output goods
+			goods_output_grain_add = 300
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_grain_farm_no_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_no_kohl.dds"
+}
+
+pm_grain_farm_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_kohl.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -20
+			goods_output_kohl_add = 15
+		}
+	}
+}
+
+pm_grain_farm_twist_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_twist_kohl.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -50
+			goods_input_device_add = 4
+			goods_output_kohl_add = 35
+		}
+	}
+}
+pm_grain_farm_tools_disabled = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_tools_disabled.dds"
+}
+
+pm_grain_farm_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+
+pm_grain_farm_originium_threshers = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_originium_threshers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+			goods_input_originite_prime_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+	}
+}
+
+pm_grain_farm_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 2
+			goods_input_originite_prime_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}
+
+pm_grain_farm_originium_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_originium_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 2
+			goods_input_originite_prime_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+	}
+}
+pm_grain_farm_combine_harvester = {
+	texture = "gfx/interface/icons/production_method_icons/pm_grain_farm_combine_harvester.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 4
+			goods_input_originite_prime_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -4000
+		}
+	}
+}
+pm_grain_farm_drone = {
+	texture = "gfx/interface/icons/production_method_icons/pm_drone.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 30
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 4
+			goods_input_originite_prime_add = 4
+			goods_input_crystalline_circuit_add = 8
+			goods_input_drone_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -4500
+		}
+	}
+}
+pm_potato_farm_simple_farming = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_simple_farming.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_grain_add = 20 
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_potato_farm_soil_enriching_farming = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_soil_enriching_farming.dds"
+
+	unlocking_technologies = {
+		intensive_agriculture
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 10
+
+			# output goods
+			goods_output_grain_add = 80
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_potato_farm_fertilization = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_fertilization.dds"
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.05
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 25
+
+			# output goods
+			goods_output_grain_add = 140
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+
+pm_potato_farm_chemical = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_chemical.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 45
+
+			# output goods
+			goods_output_grain_add = 180
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_potato_farm_genetically = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_genetically.dds"
+	unlocking_technologies = {
+		nitrogen_fixation
+	}
+
+	state_modifiers = {
+		unscaled = {
+			state_harvest_condition_drought_impact_mult = 0.1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_chemical_solution_add = 60
+
+			# output goods
+			goods_output_grain_add = 300
+		}
+
+		level_scaled = {
+			# earnings
+			building_employment_laborers_add = 5000
+		}
+	}
+}
+pm_potato_farm_no_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_no_kohl.dds"
+}
+
+pm_potato_farm_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_kohl.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -40
+			goods_output_kohl_add = 20
+		}
+	}
+}
+
+pm_potato_farm_twist_kohl = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_twist_kohl.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_output_grain_add = -80
+			goods_input_device_add = 4
+			goods_output_kohl_add = 50
+		}
+	}
+}
+pm_potato_farm_tools_disabled = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_tools_disabled.dds"
+}
+
+pm_potato_farm_tools = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1000
+		}
+	}
+}
+
+pm_potato_farm_originium_threshers = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_originium_threshers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+			goods_input_originite_prime_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -1500
+		}
+	}
+}
+
+pm_potato_farm_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 15
+		}
+	}
+
+	unlocking_technologies = {
+		mechanized_farming
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 2
+			goods_input_originite_prime_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -2500
+		}
+	}
+}
+
+pm_potato_farm_originium_tractors = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_originium_tractors.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 20
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 2
+			goods_input_originite_prime_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -3000
+		}
+	}
+}
+pm_potato_farm_combine_harvester = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_combine_harvester.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 25
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 4
+			goods_input_originite_prime_add = 4
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -4000
+		}
+	}
+}
+pm_potato_farm_drone = {
+	texture = "gfx/interface/icons/production_method_icons/pm_drone.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 30
+		}
+	}
+
+	
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 4
+			goods_input_originite_prime_add = 4
+			goods_input_crystalline_circuit_add = 8
+			goods_input_drone_add = 2
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = -4500
+		}
+	}
+}
+pm_nomadic_village_base_freeman = {
+	texture = "gfx/interface/icons/production_method_icons/subsistence_farming.dds"
+	
+	building_modifiers = {
+		workforce_scaled = { # 55
+			goods_output_grain_add = 1.0 # 20
+			goods_output_animal_product_add = 0.5 # 10
+			goods_output_wood_add = 0.5 # 10
+			goods_output_services_add = 0.5 # 15
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 5000
+		}
+	}
+}
+pm_nomadic_village_fertilization = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_fertilization.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_grain_add = 20
+			goods_input_chemical_solution_add = 10
+			goods_output_animal_product_add = 0.5 # 10
+			goods_output_wood_add = 0.5 # 10
+			goods_output_services_add = 0.5 # 15
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = 5000
+		}
+	}
+}
+pm_nomadic_village_not = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_not.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+		}
+		unscaled = {
+			building_subsistence_output_add = 1
+		}
+
+		level_scaled = {
+		}
+	}
+}
+pm_nomadic_village_low = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_low.dds"
+	
+	unlocking_production_methods = {	
+		pm_nomadic_village_fertilization
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -0.5
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = 1
+			goods_output_grain_add = 2
+		}
+		unscaled = {
+			building_subsistence_output_add = 0
+		}
+
+	}
+}
+pm_nomadic_village_medium = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_medium.dds"
+	
+	unlocking_production_methods = {	
+		pm_nomadic_village_fertilization
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -1
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = 2
+			goods_output_grain_add = 4
+		}
+		unscaled = {
+			building_subsistence_output_add = -1
+		}
+
+	}
+}
+pm_nomadic_village_high = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_high.dds"
+
+	unlocking_production_methods = {	
+		pm_nomadic_village_fertilization
+	}
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_tax_capacity_add = -2
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_output_wood_add = 2
+			goods_output_grain_add = 8
+		}
+		unscaled = {
+			building_subsistence_output_add = -2
+		}
+	}
+}
+pm_nomadic_village_mode_mobility_0 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_high.dds"
+	building_modifiers = {
+	}
+}
+pm_nomadic_village_mode_mobility_1 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_nomadic_village_high.dds"
+	building_modifiers = {
+		workforce_scaled = {
+			# output goods
+			goods_input_animal_product_add = 0.2
+		}
+	}
+}
+pm_nomadic_village_harvesting_0 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_tools_disabled.dds"
+}
+pm_nomadic_village_harvesting_1 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_tools.dds"
+
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = -1000
+		}
+	}
+}
+pm_nomadic_village_harvesting_2 = {
+	texture = "gfx/interface/icons/production_method_icons/pm_potato_farm_originium_threshers.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_pollution_generation_add = 10
+		}
+	}
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	building_modifiers = {
+		workforce_scaled = {
+			# input goods
+			goods_input_device_add = 1
+			goods_input_originite_prime_add = 1
+		}
+
+		level_scaled = {
+			building_employment_peasants_add = -1500
+		}
+	}
+}

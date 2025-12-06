@@ -1,0 +1,321 @@
+﻿law_no_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/no_infected_rights.dds"
+
+	progressiveness = 0
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 2
+		country_institution_cost_institution_infectors_treatment_mult = -0.5
+		country_infected_cultural_acceptance_add=-100
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_no
+				duration = -1
+			}
+		}
+
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_no }
+				remove_modifier = infected_human_rights_no
+			}
+		}
+	}
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = 0.002
+		interest_group_ig_infectors_pop_attraction_mult = 0.75
+		building_group_bg_mining_throughput_add = 0.10
+		building_group_bg_mining_mortality_mult = 0.10
+		interest_group_ig_infectors_pol_str_mult = -0.25
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_excluded_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/excluded_infected_rights.dds"
+
+	progressiveness = 10
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 2
+		country_institution_cost_institution_infectors_treatment_mult = -0.25
+		country_infected_cultural_acceptance_add=-25
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_excluded
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_excluded }
+				remove_modifier = infected_human_rights_excluded
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = 0.002
+		interest_group_ig_infectors_pop_attraction_mult = 0.5
+		building_group_bg_mining_throughput_add = 0.05
+		building_group_bg_mining_mortality_mult = 0.05
+		interest_group_ig_infectors_pol_str_mult = -0.1
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_ignored_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/ignored_infected_rights.dds"
+
+	progressiveness = 10
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = -1
+		country_institution_cost_institution_infectors_treatment_mult = -1
+		country_infected_cultural_acceptance_add=-10
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_ignore
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_ignore }
+				remove_modifier = infected_human_rights_ignore
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = 0.001
+		interest_group_ig_infectors_pop_attraction_mult = 0.25
+		interest_group_ig_infectors_pol_str_mult=-0.1
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_low_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/low_infected_rights.dds"
+
+	progressiveness = 25
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 2
+		country_infected_cultural_acceptance_add=10
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_low
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_low }
+				remove_modifier = infected_human_rights_low
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = -0.001
+		interest_group_ig_infectors_pop_attraction_mult = 0.10
+		interest_group_ig_infectors_pol_str_mult = 0.10
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_standard_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/standard_infected_rights.dds"
+
+	progressiveness = 50
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 3
+		country_infected_cultural_acceptance_add=25
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_standard
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_standard }
+				remove_modifier = infected_human_rights_standard
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = -0.002
+		interest_group_ig_infectors_pop_attraction_mult = 0.05
+		interest_group_ig_infectors_pol_str_mult = 0.15
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_high_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/high_infected_rights.dds"
+
+	progressiveness = 75
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 5
+		country_infected_cultural_acceptance_add=75
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_high
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_high }
+				remove_modifier = infected_human_rights_high
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = -0.003
+		interest_group_ig_infectors_pop_attraction_mult = -0.1
+		interest_group_ig_infectors_pol_str_mult = 0.20
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}
+
+law_full_infected_rights = {
+	group = lawgroup_infected_rights
+	icon = "gfx/interface/icons/law_icons/full_infected_rights.dds"
+
+	progressiveness = 75
+
+	modifier = {
+		country_institution_infectors_treatment_max_investment_add = 5
+		country_infected_cultural_acceptance_add=100
+	}
+	on_activate = {
+		every_scope_state = {
+			add_modifier = {
+				name = infected_human_rights_full
+				duration = -1
+			}
+		}
+	}
+
+	on_deactivate = {
+		every_scope_state = {
+			if = {
+				limit = { has_modifier = infected_human_rights_full }
+				remove_modifier = infected_human_rights_full
+			}
+		}
+	}
+
+	institution = institution_infectors_treatment
+	institution_modifier = {
+		state_mortality_mult = -0.005
+		state_birth_rate_mult = 0.002
+		state_infected_standard_of_living_add = 3
+		interest_group_ig_infectors_pop_attraction_mult = -0.3
+	}
+
+	ai_enact_weight_modifier = { #Petitions
+		value = 0
+
+		if = {
+			limit = { ai_has_enact_weight_modifier_journal_entries = yes }
+			add = 750
+		}
+	}
+}

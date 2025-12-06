@@ -1,0 +1,615 @@
+﻿l_simp_chinese:
+ # ==============================================
+ # 按商品分组（每组8条：产出加/乘，消耗加/乘 及各自描述）
+ # 在 @good!后补充中文名，方便检索与调试
+ # ==============================================
+
+ # --- 火炮 artillery ---
+ goods_output_artillery_add: "@artillery!火炮产出"
+ goods_output_artillery_add_desc: "建筑产出的@artillery!火炮数量"
+ goods_output_artillery_mult: "建筑@artillery!火炮产出"
+ goods_output_artillery_mult_desc: "对建筑产出的@artillery!火炮数量的增益或惩罚"
+ goods_input_artillery_add: "@artillery!火炮投入"
+ goods_input_artillery_add_desc: "建筑消费的@artillery!火炮数量"
+ goods_input_artillery_mult: "建筑@artillery!火炮投入"
+ goods_input_artillery_mult_desc: "对建筑消费的@artillery!火炮数量的增益或惩罚"
+
+ # --- 重型装甲载具 heavy_armored_vehicle ---
+ goods_output_heavy_armored_vehicle_add: "@heavy_armored_vehicle!重型装甲载具产出"
+ goods_output_heavy_armored_vehicle_add_desc: "建筑产出的@heavy_armored_vehicle!重型装甲载具数量"
+ goods_output_heavy_armored_vehicle_mult: "建筑@heavy_armored_vehicle!重型装甲载具产出"
+ goods_output_heavy_armored_vehicle_mult_desc: "对建筑产出的@heavy_armored_vehicle!重型装甲载具数量的增益或惩罚"
+ goods_input_heavy_armored_vehicle_add: "@heavy_armored_vehicle!重型装甲载具投入"
+ goods_input_heavy_armored_vehicle_add_desc: "建筑消费的@heavy_armored_vehicle!重型装甲载具数量"
+ goods_input_heavy_armored_vehicle_mult: "建筑@heavy_armored_vehicle!重型装甲载具投入"
+ goods_input_heavy_armored_vehicle_mult_desc: "对建筑消费的@heavy_armored_vehicle!重型装甲载具数量的增益或惩罚"
+
+ # --- 陆行舰 land_ships ---
+ goods_output_land_ships_add: "@land_ships!陆行舰产出"
+ goods_output_land_ships_add_desc: "建筑产出的@land_ships!陆行舰数量"
+ goods_output_land_ships_mult: "建筑@land_ships!陆行舰产出"
+ goods_output_land_ships_mult_desc: "对建筑产出的@land_ships!陆行舰数量的增益或惩罚"
+ goods_input_land_ships_add: "@land_ships!陆行舰投入"
+ goods_input_land_ships_add_desc: "建筑消费的@land_ships!陆行舰数量"
+ goods_input_land_ships_mult: "建筑@land_ships!陆行舰投入"
+ goods_input_land_ships_mult_desc: "对建筑消费的@land_ships!陆行舰数量的增益或惩罚"
+
+ # --- 单兵补给 personal_ration ---
+ goods_output_personal_ration_add: "@personal_ration!单兵补给产出"
+ goods_output_personal_ration_add_desc: "建筑产出的@personal_ration!单兵补给数量"
+ goods_output_personal_ration_mult: "建筑@personal_ration!单兵补给产出"
+ goods_output_personal_ration_mult_desc: "对建筑产出的@personal_ration!单兵补给数量的增益或惩罚"
+ goods_input_personal_ration_add: "@personal_ration!单兵补给投入"
+ goods_input_personal_ration_add_desc: "建筑消费的@personal_ration!单兵补给数量"
+ goods_input_personal_ration_mult: "建筑@personal_ration!单兵补给投入"
+ goods_input_personal_ration_mult_desc: "对建筑消费的@personal_ration!单兵补给数量的增益或惩罚"
+
+ # --- 个人武器装备 small_arms ---
+ goods_output_small_arms_add: "@small_arms!个人武器装备产出"
+ goods_output_small_arms_add_desc: "建筑产出的@small_arms!个人武器装备数量"
+ goods_output_small_arms_mult: "建筑@small_arms!个人武器装备产出"
+ goods_output_small_arms_mult_desc: "对建筑产出的@small_arms!个人武器装备数量的增益或惩罚"
+ goods_input_small_arms_add: "@small_arms!个人武器装备投入"
+ goods_input_small_arms_add_desc: "建筑消费的@small_arms!个人武器装备数量"
+ goods_input_small_arms_mult: "建筑@small_arms!个人武器装备投入"
+ goods_input_small_arms_mult_desc: "对建筑消费的@small_arms!个人武器装备数量的增益或惩罚"
+
+ # --- 服装 clothes ---
+ goods_output_clothes_add: "@clothes!服装产出"
+ goods_output_clothes_add_desc: "建筑产出的@clothes!服装数量"
+ goods_output_clothes_mult: "建筑@clothes!服装产出"
+ goods_output_clothes_mult_desc: "对建筑产出的@clothes!服装数量的增益或惩罚"
+ goods_input_clothes_add: "@clothes!服装投入"
+ goods_input_clothes_add_desc: "建筑消费的@clothes!服装数量"
+ goods_input_clothes_mult: "建筑@clothes!服装投入"
+ goods_input_clothes_mult_desc: "对建筑消费的@clothes!服装数量的增益或惩罚"
+
+ # --- 电力 electricity ---
+ goods_output_electricity_add: "@electricity!电力产出"
+ goods_output_electricity_add_desc: "建筑产出的@electricity!电力数量"
+ goods_output_electricity_mult: "建筑@electricity!电力产出"
+ goods_output_electricity_mult_desc: "对建筑产出的@electricity!电力数量的增益或惩罚"
+ goods_input_electricity_add: "@electricity!电力投入"
+ goods_input_electricity_add_desc: "建筑消费的@electricity!电力数量"
+ goods_input_electricity_mult: "建筑@electricity!电力投入"
+ goods_input_electricity_mult_desc: "对建筑消费的@electricity!电力数量的增益或惩罚"
+
+ # --- 鱼类 fish ---
+ goods_output_fish_add: "@fish!鱼类产出"
+ goods_output_fish_add_desc: "建筑产出的@fish!鱼类数量"
+ goods_output_fish_mult: "建筑@fish!鱼类产出"
+ goods_output_fish_mult_desc: "对建筑产出的@fish!鱼类数量的增益或惩罚"
+ goods_input_fish_add: "@fish!鱼类投入"
+ goods_input_fish_add_desc: "建筑消费的@fish!鱼类数量"
+ goods_input_fish_mult: "建筑@fish!鱼类投入"
+ goods_input_fish_mult_desc: "对建筑消费的@fish!鱼类数量的增益或惩罚"
+
+ # --- 家具零件 furniture_parts ---
+ goods_output_furniture_parts_add: "@furniture_parts!家具零件产出"
+ goods_output_furniture_parts_add_desc: "建筑产出的@furniture_parts!家具零件数量"
+ goods_output_furniture_parts_mult: "建筑@furniture_parts!家具零件产出"
+ goods_output_furniture_parts_mult_desc: "对建筑产出的@furniture_parts!家具零件数量的增益或惩罚"
+ goods_input_furniture_parts_add: "@furniture_parts!家具零件投入"
+ goods_input_furniture_parts_add_desc: "建筑消费的@furniture_parts!家具零件数量"
+ goods_input_furniture_parts_mult: "建筑@furniture_parts!家具零件投入"
+ goods_input_furniture_parts_mult_desc: "对建筑消费的@furniture_parts!家具零件数量的增益或惩罚"
+
+ # --- 谷物 grain ---
+ goods_output_grain_add: "@grain!谷物产出"
+ goods_output_grain_add_desc: "建筑产出的@grain!谷物数量"
+ goods_output_grain_mult: "建筑@grain!谷物产出"
+ goods_output_grain_mult_desc: "对建筑产出的@grain!谷物数量的增益或惩罚"
+ goods_input_grain_add: "@grain!谷物投入"
+ goods_input_grain_add_desc: "建筑消费的@grain!谷物数量"
+ goods_input_grain_mult: "建筑@grain!谷物投入"
+ goods_input_grain_mult_desc: "对建筑消费的@grain!谷物数量的增益或惩罚"
+
+ # --- 住房 housing ---
+ goods_output_housing_add: "@housing!住房产出"
+ goods_output_housing_add_desc: "建筑产出的@housing!住房数量"
+ goods_output_housing_mult: "建筑@housing!住房产出"
+ goods_output_housing_mult_desc: "对建筑产出的@housing!住房数量的增益或惩罚"
+ goods_input_housing_add: "@housing!住房投入"
+ goods_input_housing_add_desc: "建筑消费的@housing!住房数量"
+ goods_input_housing_mult: "建筑@housing!住房投入"
+ goods_input_housing_mult_desc: "对建筑消费的@housing!住房数量的增益或惩罚"
+
+ # --- 药物 medicine ---
+ goods_output_medicine_add: "@medicine!药物产出"
+ goods_output_medicine_add_desc: "建筑产出的@medicine!药物数量"
+ goods_output_medicine_mult: "建筑@medicine!药物产出"
+ goods_output_medicine_mult_desc: "对建筑产出的@medicine!药物数量的增益或惩罚"
+ goods_input_medicine_add: "@medicine!药物投入"
+ goods_input_medicine_add_desc: "建筑消费的@medicine!药物数量"
+ goods_input_medicine_mult: "建筑@medicine!药物投入"
+ goods_input_medicine_mult_desc: "对建筑消费的@medicine!药物数量的增益或惩罚"
+
+ # --- 服务 services ---
+ goods_output_services_add: "@services!服务产出"
+ goods_output_services_add_desc: "建筑产出的@services!服务数量"
+ goods_output_services_mult: "建筑@services!服务产出"
+ goods_output_services_mult_desc: "对建筑产出的@services!服务数量的增益或惩罚"
+ goods_input_services_add: "@services!服务投入"
+ goods_input_services_add_desc: "建筑消费的@services!服务数量"
+ goods_input_services_mult: "建筑@services!服务投入"
+ goods_input_services_mult_desc: "对建筑消费的@services!服务数量的增益或惩罚"
+
+ # --- 运力 transportation ---
+ goods_output_transportation_add: "@transportation!运力产出"
+ goods_output_transportation_add_desc: "建筑产出的@transportation!运力数量"
+ goods_output_transportation_mult: "建筑@transportation!运力产出"
+ goods_output_transportation_mult_desc: "对建筑产出的@transportation!运力数量的增益或惩罚"
+ goods_input_transportation_add: "@transportation!运力投入"
+ goods_input_transportation_add_desc: "建筑消费的@transportation!运力数量"
+ goods_input_transportation_mult: "建筑@transportation!运力投入"
+ goods_input_transportation_mult_desc: "对建筑消费的@transportation!运力数量的增益或惩罚"
+
+ # --- 木材 wood ---
+ goods_output_wood_add: "@wood!木材产出"
+ goods_output_wood_add_desc: "建筑产出的@wood!木材数量"
+ goods_output_wood_mult: "建筑@wood!木材产出"
+ goods_output_wood_mult_desc: "对建筑产出的@wood!木材数量的增益或惩罚"
+ goods_input_wood_add: "@wood!木材投入"
+ goods_input_wood_add_desc: "建筑消费的@wood!木材数量"
+ goods_input_wood_mult: "建筑@wood!木材投入"
+ goods_input_wood_mult_desc: "对建筑消费的@wood!木材数量的增益或惩罚"
+
+ # --- 醇 kohl ---
+ goods_output_kohl_add: "@kohl!醇产出"
+ goods_output_kohl_add_desc: "建筑产出的@kohl!醇数量"
+ goods_output_kohl_mult: "建筑@kohl!醇产出"
+ goods_output_kohl_mult_desc: "对建筑产出的@kohl!醇数量的增益或惩罚"
+ goods_input_kohl_add: "@kohl!醇投入"
+ goods_input_kohl_add_desc: "建筑消费的@kohl!醇数量"
+ goods_input_kohl_mult: "建筑@kohl!醇投入"
+ goods_input_kohl_mult_desc: "对建筑消费的@kohl!醇数量的增益或惩罚"
+
+ # --- 双极纳米片 bipolar_nanoflake ---
+ goods_output_bipolar_nanoflake_add: "@bipolar_nanoflake!双极纳米片产出"
+ goods_output_bipolar_nanoflake_add_desc: "建筑产出的@bipolar_nanoflake!双极纳米片数量"
+ goods_output_bipolar_nanoflake_mult: "建筑@bipolar_nanoflake!双极纳米片产出"
+ goods_output_bipolar_nanoflake_mult_desc: "对建筑产出的@bipolar_nanoflake!双极纳米片数量的增益或惩罚"
+ goods_input_bipolar_nanoflake_add: "@bipolar_nanoflake!双极纳米片投入"
+ goods_input_bipolar_nanoflake_add_desc: "建筑消费的@bipolar_nanoflake!双极纳米片数量"
+ goods_input_bipolar_nanoflake_mult: "建筑@bipolar_nanoflake!双极纳米片投入"
+ goods_input_bipolar_nanoflake_mult_desc: "对建筑消费的@bipolar_nanoflake!双极纳米片数量的增益或惩罚"
+
+ # --- 碳素 carbon_brick ---
+ goods_output_carbon_brick_add: "@carbon_brick!碳素产出"
+ goods_output_carbon_brick_add_desc: "建筑产出的@carbon_brick!碳素数量"
+ goods_output_carbon_brick_mult: "建筑@carbon_brick!碳素产出"
+ goods_output_carbon_brick_mult_desc: "对建筑产出的@carbon_brick!碳素数量的增益或惩罚"
+ goods_input_carbon_brick_add: "@carbon_brick!碳素投入"
+ goods_input_carbon_brick_add_desc: "建筑消费的@carbon_brick!碳素数量"
+ goods_input_carbon_brick_mult: "建筑@carbon_brick!碳素投入"
+ goods_input_carbon_brick_mult_desc: "对建筑消费的@carbon_brick!碳素数量的增益或惩罚"
+
+ # --- 碳 carbon_stick ---
+ goods_output_carbon_stick_add: "@carbon_stick!碳产出"
+ goods_output_carbon_stick_add_desc: "建筑产出的@carbon_stick!碳数量"
+ goods_output_carbon_stick_mult: "建筑@carbon_stick!碳产出"
+ goods_output_carbon_stick_mult_desc: "对建筑产出的@carbon_stick!碳数量的增益或惩罚"
+ goods_input_carbon_stick_add: "@carbon_stick!碳投入"
+ goods_input_carbon_stick_add_desc: "建筑消费的@carbon_stick!碳数量"
+ goods_input_carbon_stick_mult: "建筑@carbon_stick!碳投入"
+ goods_input_carbon_stick_mult_desc: "对建筑消费的@carbon_stick!碳数量的增益或惩罚"
+
+ # --- 化学溶液 chemical_solution ---
+ goods_output_chemical_solution_add: "@chemical_solution!化学溶液产出"
+ goods_output_chemical_solution_add_desc: "建筑产出的@chemical_solution!化学溶液数量"
+ goods_output_chemical_solution_mult: "建筑@chemical_solution!化学溶液产出"
+ goods_output_chemical_solution_mult_desc: "对建筑产出的@chemical_solution!化学溶液数量的增益或惩罚"
+ goods_input_chemical_solution_add: "@chemical_solution!化学溶液投入"
+ goods_input_chemical_solution_add_desc: "建筑消费的@chemical_solution!化学溶液数量"
+ goods_input_chemical_solution_mult: "建筑@chemical_solution!化学溶液投入"
+ goods_input_chemical_solution_mult_desc: "对建筑消费的@chemical_solution!化学溶液数量的增益或惩罚"
+
+ # --- 晶体电路 crystalline_circuit ---
+ goods_output_crystalline_circuit_add: "@crystalline_circuit!晶体电路产出"
+ goods_output_crystalline_circuit_add_desc: "建筑产出的@crystalline_circuit!晶体电路数量"
+ goods_output_crystalline_circuit_mult: "建筑@crystalline_circuit!晶体电路产出"
+ goods_output_crystalline_circuit_mult_desc: "对建筑产出的@crystalline_circuit!晶体电路数量的增益或惩罚"
+ goods_input_crystalline_circuit_add: "@crystalline_circuit!晶体电路投入"
+ goods_input_crystalline_circuit_add_desc: "建筑消费的@crystalline_circuit!晶体电路数量"
+ goods_input_crystalline_circuit_mult: "建筑@crystalline_circuit!晶体电路投入"
+ goods_input_crystalline_circuit_mult_desc: "对建筑消费的@crystalline_circuit!晶体电路数量的增益或惩罚"
+
+ # --- 晶体元件 crystalline_component ---
+ goods_output_crystalline_component_add: "@crystalline_component!晶体元件产出"
+ goods_output_crystalline_component_add_desc: "建筑产出的@crystalline_component!晶体元件数量"
+ goods_output_crystalline_component_mult: "建筑@crystalline_component!晶体元件产出"
+ goods_output_crystalline_component_mult_desc: "对建筑产出的@crystalline_component!晶体元件数量的增益或惩罚"
+ goods_input_crystalline_component_add: "@crystalline_component!晶体元件投入"
+ goods_input_crystalline_component_add_desc: "建筑消费的@crystalline_component!晶体元件数量"
+ goods_input_crystalline_component_mult: "建筑@crystalline_component!晶体元件投入"
+ goods_input_crystalline_component_mult_desc: "对建筑消费的@crystalline_component!晶体元件数量的增益或惩罚"
+
+ # --- 晶体单元 crystalline_unit ---
+ goods_output_crystalline_unit_add: "@crystalline_unit!晶体单元产出"
+ goods_output_crystalline_unit_add_desc: "建筑产出的@crystalline_unit!晶体单元数量"
+ goods_output_crystalline_unit_mult: "建筑@crystalline_unit!晶体单元产出"
+ goods_output_crystalline_unit_mult_desc: "对建筑产出的@crystalline_unit!晶体单元数量的增益或惩罚"
+ goods_input_crystalline_unit_add: "@crystalline_unit!晶体单元投入"
+ goods_input_crystalline_unit_add_desc: "建筑消费的@crystalline_unit!晶体单元数量"
+ goods_input_crystalline_unit_mult: "建筑@crystalline_unit!晶体单元投入"
+ goods_input_crystalline_unit_mult_desc: "对建筑消费的@crystalline_unit!晶体单元数量的增益或惩罚"
+
+ # --- 装置 device ---
+ goods_output_device_add: "@device!装置产出"
+ goods_output_device_add_desc: "建筑产出的@device!装置数量"
+ goods_output_device_mult: "建筑@device!装置产出"
+ goods_output_device_mult_desc: "对建筑产出的@device!装置数量的增益或惩罚"
+ goods_input_device_add: "@device!装置投入"
+ goods_input_device_add_desc: "建筑消费的@device!装置数量"
+ goods_input_device_mult: "建筑@device!装置投入"
+ goods_input_device_mult_desc: "对建筑消费的@device!装置数量的增益或惩罚"
+
+ # --- 无人机 drone ---
+ goods_output_drone_add: "@drone!无人机产出"
+ goods_output_drone_add_desc: "建筑产出的@drone!无人机数量"
+ goods_output_drone_mult: "建筑@drone!无人机产出"
+ goods_output_drone_mult_desc: "对建筑产出的@drone!无人机数量的增益或惩罚"
+ goods_input_drone_add: "@drone!无人机投入"
+ goods_input_drone_add_desc: "建筑消费的@drone!无人机数量"
+ goods_input_drone_mult: "建筑@drone!无人机投入"
+ goods_input_drone_mult_desc: "对建筑消费的@drone!无人机数量的增益或惩罚"
+
+ # --- 引擎 engines ---
+ goods_output_engines_add: "@engines!引擎产出"
+ goods_output_engines_add_desc: "建筑产出的@engines!引擎数量"
+ goods_output_engines_mult: "建筑@engines!引擎产出"
+ goods_output_engines_mult_desc: "对建筑产出的@engines!引擎数量的增益或惩罚"
+ goods_input_engines_add: "@engines!引擎投入"
+ goods_input_engines_add_desc: "建筑消费的@engines!引擎数量"
+ goods_input_engines_mult: "建筑@engines!引擎投入"
+ goods_input_engines_mult_desc: "对建筑消费的@engines!引擎数量的增益或惩罚"
+
+ # --- 酯 ester ---
+ goods_output_ester_add: "@ester!酯产出"
+ goods_output_ester_add_desc: "建筑产出的@ester!酯数量"
+ goods_output_ester_mult: "建筑@ester!酯产出"
+ goods_output_ester_mult_desc: "对建筑产出的@ester!酯数量的增益或惩罚"
+ goods_input_ester_add: "@ester!酯投入"
+ goods_input_ester_add_desc: "建筑消费的@ester!酯数量"
+ goods_input_ester_mult: "建筑@ester!酯投入"
+ goods_input_ester_mult_desc: "对建筑消费的@ester!酯数量的增益或惩罚"
+
+ # --- 研磨石 grind_stone ---
+ goods_output_grind_stone_add: "@grind_stone!研磨石产出"
+ goods_output_grind_stone_add_desc: "建筑产出的@grind_stone!研磨石数量"
+ goods_output_grind_stone_mult: "建筑@grind_stone!研磨石产出"
+ goods_output_grind_stone_mult_desc: "对建筑产出的@grind_stone!研磨石数量的增益或惩罚"
+ goods_input_grind_stone_add: "@grind_stone!研磨石投入"
+ goods_input_grind_stone_add_desc: "建筑消费的@grind_stone!研磨石数量"
+ goods_input_grind_stone_mult: "建筑@grind_stone!研磨石投入"
+ goods_input_grind_stone_mult_desc: "对建筑消费的@grind_stone!研磨石数量的增益或惩罚"
+
+ # --- 铁 iron ---
+ goods_output_iron_add: "@iron!铁产出"
+ goods_output_iron_add_desc: "建筑产出的@iron!铁数量"
+ goods_output_iron_mult: "建筑@iron!铁产出"
+ goods_output_iron_mult_desc: "对建筑产出的@iron!铁数量的增益或惩罚"
+ goods_input_iron_add: "@iron!铁投入"
+ goods_input_iron_add_desc: "建筑消费的@iron!铁数量"
+ goods_input_iron_mult: "建筑@iron!铁投入"
+ goods_input_iron_mult_desc: "对建筑消费的@iron!铁数量的增益或惩罚"
+
+ # --- 酮 ketone ---
+ goods_output_ketone_add: "@ketone!酮产出"
+ goods_output_ketone_add_desc: "建筑产出的@ketone!酮数量"
+ goods_output_ketone_mult: "建筑@ketone!酮产出"
+ goods_output_ketone_mult_desc: "对建筑产出的@ketone!酮数量的增益或惩罚"
+ goods_input_ketone_add: "@ketone!酮投入"
+ goods_input_ketone_add_desc: "建筑消费的@ketone!酮数量"
+ goods_input_ketone_mult: "建筑@ketone!酮投入"
+ goods_input_ketone_mult_desc: "对建筑消费的@ketone!酮数量的增益或惩罚"
+
+ # --- 轻锰 light_manganese ---
+ goods_output_light_manganese_add: "@light_manganese!轻锰产出"
+ goods_output_light_manganese_add_desc: "建筑产出的@light_manganese!轻锰数量"
+ goods_output_light_manganese_mult: "建筑@light_manganese!轻锰产出"
+ goods_output_light_manganese_mult_desc: "对建筑产出的@light_manganese!轻锰数量的增益或惩罚"
+ goods_input_light_manganese_add: "@light_manganese!轻锰投入"
+ goods_input_light_manganese_add_desc: "建筑消费的@light_manganese!轻锰数量"
+ goods_input_light_manganese_mult: "建筑@light_manganese!轻锰投入"
+ goods_input_light_manganese_mult_desc: "对建筑消费的@light_manganese!轻锰数量的增益或惩罚"
+
+ # --- 至纯源石 originite_prime ---
+ goods_output_originite_prime_add: "@originite_prime!至纯源石产出"
+ goods_output_originite_prime_add_desc: "建筑产出的@originite_prime!至纯源石数量"
+ goods_output_originite_prime_mult: "建筑@originite_prime!至纯源石产出"
+ goods_output_originite_prime_mult_desc: "对建筑产出的@originite_prime!至纯源石数量的增益或惩罚"
+ goods_input_originite_prime_add: "@originite_prime!至纯源石投入"
+ goods_input_originite_prime_add_desc: "建筑消费的@originite_prime!至纯源石数量"
+ goods_input_originite_prime_mult: "建筑@originite_prime!至纯源石投入"
+ goods_input_originite_prime_mult_desc: "对建筑消费的@originite_prime!至纯源石数量的增益或惩罚"
+
+ # --- 源石 originium ---
+ goods_output_originium_add: "@originium!源石产出"
+ goods_output_originium_add_desc: "建筑产出的@originium!源石数量"
+ goods_output_originium_mult: "建筑@originium!源石产出"
+ goods_output_originium_mult_desc: "对建筑产出的@originium!源石数量的增益或惩罚"
+ goods_input_originium_add: "@originium!源石投入"
+ goods_input_originium_add_desc: "建筑消费的@originium!源石数量"
+ goods_input_originium_mult: "建筑@originium!源石投入"
+ goods_input_originium_mult_desc: "对建筑消费的@originium!源石数量的增益或惩罚"
+
+ # --- 源石锭 originium_ingot ---
+ goods_output_originium_ingot_add: "@originium_ingot!源石锭产出"
+ goods_output_originium_ingot_add_desc: "建筑产出的@originium_ingot!源石锭数量"
+ goods_output_originium_ingot_mult: "建筑@originium_ingot!源石锭产出"
+ goods_output_originium_ingot_mult_desc: "对建筑产出的@originium_ingot!源石锭数量的增益或惩罚"
+ goods_input_originium_ingot_add: "@originium_ingot!源石锭投入"
+ goods_input_originium_ingot_add_desc: "建筑消费的@originium_ingot!源石锭数量"
+ goods_input_originium_ingot_mult: "建筑@originium_ingot!源石锭投入"
+ goods_input_originium_ingot_mult_desc: "对建筑消费的@originium_ingot!源石锭数量的增益或惩罚"
+
+ # --- 源岩 orirock ---
+ goods_output_orirock_add: "@orirock!源岩产出"
+ goods_output_orirock_add_desc: "建筑产出的@orirock!源岩数量"
+ goods_output_orirock_mult: "建筑@orirock!源岩产出"
+ goods_output_orirock_mult_desc: "对建筑产出的@orirock!源岩数量的增益或惩罚"
+ goods_input_orirock_add: "@orirock!源岩投入"
+ goods_input_orirock_add_desc: "建筑消费的@orirock!源岩数量"
+ goods_input_orirock_mult: "建筑@orirock!源岩投入"
+ goods_input_orirock_mult_desc: "对建筑消费的@orirock!源岩数量的增益或惩罚"
+
+ # --- 异铁 oriron ---
+ goods_output_oriron_add: "@oriron!异铁产出"
+ goods_output_oriron_add_desc: "建筑产出的@oriron!异铁数量"
+ goods_output_oriron_mult: "建筑@oriron!异铁产出"
+ goods_output_oriron_mult_desc: "对建筑产出的@oriron!异铁数量的增益或惩罚"
+ goods_input_oriron_add: "@oriron!异铁投入"
+ goods_input_oriron_add_desc: "建筑消费的@oriron!异铁数量"
+ goods_input_oriron_mult: "建筑@oriron!异铁投入"
+ goods_input_oriron_mult_desc: "对建筑消费的@oriron!异铁数量的增益或惩罚"
+
+ # --- 合成玉 orundum ---
+ goods_output_orundum_add: "@orundum!合成玉产出"
+ goods_output_orundum_add_desc: "建筑产出的@orundum!合成玉数量"
+ goods_output_orundum_mult: "建筑@orundum!合成玉产出"
+ goods_output_orundum_mult_desc: "对建筑产出的@orundum!合成玉数量的增益或惩罚"
+ goods_input_orundum_add: "@orundum!合成玉投入"
+ goods_input_orundum_add_desc: "建筑消费的@orundum!合成玉数量"
+ goods_input_orundum_mult: "建筑@orundum!合成玉投入"
+ goods_input_orundum_mult_desc: "对建筑消费的@orundum!合成玉数量的增益或惩罚"
+
+ # --- RMA RMA ---
+ goods_output_RMA_add: "@RMA!RMA产出"
+ goods_output_RMA_add_desc: "建筑产出的@RMA!RMA数量"
+ goods_output_RMA_mult: "建筑@RMA!RMA产出"
+ goods_output_RMA_mult_desc: "对建筑产出的@RMA!RMA数量的增益或惩罚"
+ goods_input_RMA_add: "@RMA!RMA投入"
+ goods_input_RMA_add_desc: "建筑消费的@RMA!RMA数量"
+ goods_input_RMA_mult: "建筑@RMA!RMA投入"
+ goods_input_RMA_mult_desc: "对建筑消费的@RMA!RMA数量的增益或惩罚"
+
+ # --- 钢 steel ---
+ goods_output_steel_add: "@steel!钢产出"
+ goods_output_steel_add_desc: "建筑产出的@steel!钢数量"
+ goods_output_steel_mult: "建筑@steel!钢产出"
+ goods_output_steel_mult_desc: "对建筑产出的@steel!钢数量的增益或惩罚"
+ goods_input_steel_add: "@steel!钢投入"
+ goods_input_steel_add_desc: "建筑消费的@steel!钢数量"
+ goods_input_steel_mult: "建筑@steel!钢投入"
+ goods_input_steel_mult_desc: "对建筑消费的@steel!钢数量的增益或惩罚"
+
+ # --- 卡车 truck ---
+ goods_output_truck_add: "@truck!卡车产出"
+ goods_output_truck_add_desc: "建筑产出的@truck!卡车数量"
+ goods_output_truck_mult: "建筑@truck!卡车产出"
+ goods_output_truck_mult_desc: "对建筑产出的@truck!卡车数量的增益或惩罚"
+ goods_input_truck_add: "@truck!卡车投入"
+ goods_input_truck_add_desc: "建筑消费的@truck!卡车数量"
+ goods_input_truck_mult: "建筑@truck!卡车投入"
+ goods_input_truck_mult_desc: "对建筑消费的@truck!卡车数量的增益或惩罚"
+
+ # --- 城市用地 urban_space ---
+ goods_output_urban_space_add: "@urban_space!城市用地产出"
+ goods_output_urban_space_add_desc: "建筑产出的@urban_space!城市用地数量"
+ goods_output_urban_space_mult: "建筑@urban_space!城市用地产出"
+ goods_output_urban_space_mult_desc: "对建筑产出的@urban_space!城市用地数量的增益或惩罚"
+ goods_input_urban_space_add: "@urban_space!城市用地投入"
+ goods_input_urban_space_add_desc: "建筑消费的@urban_space!城市用地数量"
+ goods_input_urban_space_mult: "建筑@urban_space!城市用地投入"
+ goods_input_urban_space_mult_desc: "对建筑消费的@urban_space!城市用地数量的增益或惩罚"
+
+ # --- 商船陆行舰 merchant_landships ---
+ goods_output_merchant_landships_add: "@merchant_landships!商船陆行舰产出"
+ goods_output_merchant_landships_add_desc: "建筑产出的@merchant_landships!商船陆行舰数量"
+ goods_output_merchant_landships_mult: "建筑@merchant_landships!商船陆行舰产出"
+ goods_output_merchant_landships_mult_desc: "对建筑产出的@merchant_landships!商船陆行舰数量的增益或惩罚"
+ goods_input_merchant_landships_add: "@merchant_landships!商船陆行舰投入"
+ goods_input_merchant_landships_add_desc: "建筑消费的@merchant_landships!商船陆行舰数量"
+ goods_input_merchant_landships_mult: "建筑@merchant_landships!商船陆行舰投入"
+ goods_input_merchant_landships_mult_desc: "对建筑消费的@merchant_landships!商船陆行舰数量的增益或惩罚"
+
+ # --- 汽车 automobiles ---
+ goods_output_automobiles_add: "@automobiles!汽车产出"
+ goods_output_automobiles_add_desc: "建筑产出的@automobiles!汽车数量"
+ goods_output_automobiles_mult: "建筑@automobiles!汽车产出"
+ goods_output_automobiles_mult_desc: "对建筑产出的@automobiles!汽车数量的增益或惩罚"
+ goods_input_automobiles_add: "@automobiles!汽车投入"
+ goods_input_automobiles_add_desc: "建筑消费的@automobiles!汽车数量"
+ goods_input_automobiles_mult: "建筑@automobiles!汽车投入"
+ goods_input_automobiles_mult_desc: "对建筑消费的@automobiles!汽车数量的增益或惩罚"
+
+ # --- 商务产品 business_product ---
+ goods_output_business_product_add: "@business_product!商务产品产出"
+ goods_output_business_product_add_desc: "建筑产出的@business_product!商务产品数量"
+ goods_output_business_product_mult: "建筑@business_product!商务产品产出"
+ goods_output_business_product_mult_desc: "对建筑产出的@business_product!商务产品数量的增益或惩罚"
+ goods_input_business_product_add: "@business_product!商务产品投入"
+ goods_input_business_product_add_desc: "建筑消费的@business_product!商务产品数量"
+ goods_input_business_product_mult: "建筑@business_product!商务产品投入"
+ goods_input_business_product_mult_desc: "对建筑消费的@business_product!商务产品数量的增益或惩罚"
+
+ # --- 咖啡 coffee ---
+ goods_output_coffee_add: "@coffee!咖啡产出"
+ goods_output_coffee_add_desc: "建筑产出的@coffee!咖啡数量"
+ goods_output_coffee_mult: "建筑@coffee!咖啡产出"
+ goods_output_coffee_mult_desc: "对建筑产出的@coffee!咖啡数量的增益或惩罚"
+ goods_input_coffee_add: "@coffee!咖啡投入"
+ goods_input_coffee_add_desc: "建筑消费的@coffee!咖啡数量"
+ goods_input_coffee_mult: "建筑@coffee!咖啡投入"
+ goods_input_coffee_mult_desc: "对建筑消费的@coffee!咖啡数量的增益或惩罚"
+
+ # --- 消费电子 consumer_electronics ---
+ goods_output_consumer_electronics_add: "@consumer_electronics!消费电子产出"
+ goods_output_consumer_electronics_add_desc: "建筑产出的@consumer_electronics!消费电子数量"
+ goods_output_consumer_electronics_mult: "建筑@consumer_electronics!消费电子产出"
+ goods_output_consumer_electronics_mult_desc: "对建筑产出的@consumer_electronics!消费电子数量的增益或惩罚"
+ goods_input_consumer_electronics_add: "@consumer_electronics!消费电子投入"
+ goods_input_consumer_electronics_add_desc: "建筑消费的@consumer_electronics!消费电子数量"
+ goods_input_consumer_electronics_mult: "建筑@consumer_electronics!消费电子投入"
+ goods_input_consumer_electronics_mult_desc: "对建筑消费的@consumer_electronics!消费电子数量的增益或惩罚"
+
+ # --- 艺术品 fine_art ---
+ goods_output_fine_art_add: "@fine_art!艺术品产出"
+ goods_output_fine_art_add_desc: "建筑产出的@fine_art!艺术品数量"
+ goods_output_fine_art_mult: "建筑@fine_art!艺术品产出"
+ goods_output_fine_art_mult_desc: "对建筑产出的@fine_art!艺术品数量的增益或惩罚"
+ goods_input_fine_art_add: "@fine_art!艺术品投入"
+ goods_input_fine_art_add_desc: "建筑消费的@fine_art!艺术品数量"
+ goods_input_fine_art_mult: "建筑@fine_art!艺术品投入"
+ goods_input_fine_art_mult_desc: "对建筑消费的@fine_art!艺术品数量的增益或惩罚"
+
+ # --- 水果 fruit ---
+ goods_output_fruit_add: "@fruit!水果产出"
+ goods_output_fruit_add_desc: "建筑产出的@fruit!水果数量"
+ goods_output_fruit_mult: "建筑@fruit!水果产出"
+ goods_output_fruit_mult_desc: "对建筑产出的@fruit!水果数量的增益或惩罚"
+ goods_input_fruit_add: "@fruit!水果投入"
+ goods_input_fruit_add_desc: "建筑消费的@fruit!水果数量"
+ goods_input_fruit_mult: "建筑@fruit!水果投入"
+ goods_input_fruit_mult_desc: "对建筑消费的@fruit!水果数量的增益或惩罚"
+
+ # --- 加工食品 groceries ---
+ goods_output_groceries_add: "@groceries!加工食品产出"
+ goods_output_groceries_add_desc: "建筑产出的@groceries!加工食品数量"
+ goods_output_groceries_mult: "建筑@groceries!加工食品产出"
+ goods_output_groceries_mult_desc: "对建筑产出的@groceries!加工食品数量的增益或惩罚"
+ goods_input_groceries_add: "@groceries!加工食品投入"
+ goods_input_groceries_add_desc: "建筑消费的@groceries!加工食品数量"
+ goods_input_groceries_mult: "建筑@groceries!加工食品投入"
+ goods_input_groceries_mult_desc: "对建筑消费的@groceries!加工食品数量的增益或惩罚"
+
+ # --- 烈酒 liquor ---
+ goods_output_liquor_add: "@liquor!烈酒产出"
+ goods_output_liquor_add_desc: "建筑产出的@liquor!烈酒数量"
+ goods_output_liquor_mult: "建筑@liquor!烈酒产出"
+ goods_output_liquor_mult_desc: "对建筑产出的@liquor!烈酒数量的增益或惩罚"
+ goods_input_liquor_add: "@liquor!烈酒投入"
+ goods_input_liquor_add_desc: "建筑消费的@liquor!烈酒数量"
+ goods_input_liquor_mult: "建筑@liquor!烈酒投入"
+ goods_input_liquor_mult_desc: "对建筑消费的@liquor!烈酒数量的增益或惩罚"
+
+ # --- 奢侈品 luxury_items ---
+ goods_output_luxury_items_add: "@luxury_items!奢侈品产出"
+ goods_output_luxury_items_add_desc: "建筑产出的@luxury_items!奢侈品数量"
+ goods_output_luxury_items_mult: "建筑@luxury_items!奢侈品产出"
+ goods_output_luxury_items_mult_desc: "对建筑产出的@luxury_items!奢侈品数量的增益或惩罚"
+ goods_input_luxury_items_add: "@luxury_items!奢侈品投入"
+ goods_input_luxury_items_add_desc: "建筑消费的@luxury_items!奢侈品数量"
+ goods_input_luxury_items_mult: "建筑@luxury_items!奢侈品投入"
+ goods_input_luxury_items_mult_desc: "对建筑消费的@luxury_items!奢侈品数量的增益或惩罚"
+
+ # --- 动物产品 animal_product ---
+ goods_output_animal_product_add: "@animal_product!动物产品产出"
+ goods_output_animal_product_add_desc: "建筑产出的@animal_product!动物产品数量"
+ goods_output_animal_product_mult: "建筑@animal_product!动物产品产出"
+ goods_output_animal_product_mult_desc: "对建筑产出的@animal_product!动物产品数量的增益或惩罚"
+ goods_input_animal_product_add: "@animal_product!动物产品投入"
+ goods_input_animal_product_add_desc: "建筑消费的@animal_product!动物产品数量"
+ goods_input_animal_product_mult: "建筑@animal_product!动物产品投入"
+ goods_input_animal_product_mult_desc: "对建筑消费的@animal_product!动物产品数量的增益或惩罚"
+
+ # --- 网络产品 online_product ---
+ goods_output_online_product_add: "@online_product!网络产品产出"
+ goods_output_online_product_add_desc: "建筑产出的@online_product!网络产品数量"
+ goods_output_online_product_mult: "建筑@online_product!网络产品产出"
+ goods_output_online_product_mult_desc: "对建筑产出的@online_product!网络产品数量的增益或惩罚"
+ goods_input_online_product_add: "@online_product!网络产品投入"
+ goods_input_online_product_add_desc: "建筑消费的@online_product!网络产品数量"
+ goods_input_online_product_mult: "建筑@online_product!网络产品投入"
+ goods_input_online_product_mult_desc: "对建筑消费的@online_product!网络产品数量的增益或惩罚"
+
+ # --- 鸦片 opium ---
+ goods_output_opium_add: "@opium!鸦片产出"
+ goods_output_opium_add_desc: "建筑产出的@opium!鸦片数量"
+ goods_output_opium_mult: "建筑@opium!鸦片产出"
+ goods_output_opium_mult_desc: "对建筑产出的@opium!鸦片数量的增益或惩罚"
+ goods_input_opium_add: "@opium!鸦片投入"
+ goods_input_opium_add_desc: "建筑消费的@opium!鸦片数量"
+ goods_input_opium_mult: "建筑@opium!鸦片投入"
+ goods_input_opium_mult_desc: "对建筑消费的@opium!鸦片数量的增益或惩罚"
+
+ # --- 精密穿戴 precision_wear ---
+ goods_output_precision_wear_add: "@precision_wear!精密穿戴产出"
+ goods_output_precision_wear_add_desc: "建筑产出的@precision_wear!精密穿戴数量"
+ goods_output_precision_wear_mult: "建筑@precision_wear!精密穿戴产出"
+ goods_output_precision_wear_mult_desc: "对建筑产出的@precision_wear!精密穿戴数量的增益或惩罚"
+ goods_input_precision_wear_add: "@precision_wear!精密穿戴投入"
+ goods_input_precision_wear_add_desc: "建筑消费的@precision_wear!精密穿戴数量"
+ goods_input_precision_wear_mult: "建筑@precision_wear!精密穿戴投入"
+ goods_input_precision_wear_mult_desc: "对建筑消费的@precision_wear!精密穿戴数量的增益或惩罚"
+
+ # --- 小型家电 small_appliances ---
+ goods_output_small_appliances_add: "@small_appliances!小型家电产出"
+ goods_output_small_appliances_add_desc: "建筑产出的@small_appliances!小型家电数量"
+ goods_output_small_appliances_mult: "建筑@small_appliances!小型家电产出"
+ goods_output_small_appliances_mult_desc: "对建筑产出的@small_appliances!小型家电数量的增益或惩罚"
+ goods_input_small_appliances_add: "@small_appliances!小型家电投入"
+ goods_input_small_appliances_add_desc: "建筑消费的@small_appliances!小型家电数量"
+ goods_input_small_appliances_mult: "建筑@small_appliances!小型家电投入"
+ goods_input_small_appliances_mult_desc: "对建筑消费的@small_appliances!小型家电数量的增益或惩罚"
+
+ # --- 糖 sugar ---
+ goods_output_sugar_add: "@sugar!糖产出"
+ goods_output_sugar_add_desc: "建筑产出的@sugar!糖数量"
+ goods_output_sugar_mult: "建筑@sugar!糖产出"
+ goods_output_sugar_mult_desc: "对建筑产出的@sugar!糖数量的增益或惩罚"
+ goods_input_sugar_add: "@sugar!糖投入"
+ goods_input_sugar_add_desc: "建筑消费的@sugar!糖数量"
+ goods_input_sugar_mult: "建筑@sugar!糖投入"
+ goods_input_sugar_mult_desc: "对建筑消费的@sugar!糖数量的增益或惩罚"
+
+ # --- 茶 tea ---
+ goods_output_tea_add: "@tea!茶产出"
+ goods_output_tea_add_desc: "建筑产出的@tea!茶数量"
+ goods_output_tea_mult: "建筑@tea!茶产出"
+ goods_output_tea_mult_desc: "对建筑产出的@tea!茶数量的增益或惩罚"
+ goods_input_tea_add: "@tea!茶投入"
+ goods_input_tea_add_desc: "建筑消费的@tea!茶数量"
+ goods_input_tea_mult: "建筑@tea!茶投入"
+ goods_input_tea_mult_desc: "对建筑消费的@tea!茶数量的增益或惩罚"
+
+ # --- 烟草 tobacco ---
+ goods_output_tobacco_add: "@tobacco!烟草产出"
+ goods_output_tobacco_add_desc: "建筑产出的@tobacco!烟草数量"
+ goods_output_tobacco_mult: "建筑@tobacco!烟草产出"
+ goods_output_tobacco_mult_desc: "对建筑产出的@tobacco!烟草数量的增益或惩罚"
+ goods_input_tobacco_add: "@tobacco!烟草投入"
+ goods_input_tobacco_add_desc: "建筑消费的@tobacco!烟草数量"
+ goods_input_tobacco_mult: "建筑@tobacco!烟草投入"
+ goods_input_tobacco_mult_desc: "对建筑消费的@tobacco!烟草数量的增益或惩罚"
+
+ # --- 葡萄酒 wine ---
+ goods_output_wine_add: "@wine!葡萄酒产出"
+ goods_output_wine_add_desc: "建筑产出的@wine!葡萄酒数量"
+ goods_output_wine_mult: "建筑@wine!葡萄酒产出"
+ goods_output_wine_mult_desc: "对建筑产出的@wine!葡萄酒数量的增益或惩罚"
+ goods_input_wine_add: "@wine!葡萄酒投入"
+ goods_input_wine_add_desc: "建筑消费的@wine!葡萄酒数量"
+ goods_input_wine_mult: "建筑@wine!葡萄酒投入"
+ goods_input_wine_mult_desc: "对建筑消费的@wine!葡萄酒数量的增益或惩罚"
+
+ # --- 纸张 paper ---
+ goods_output_paper_add: "@paper!纸张产出"
+ goods_output_paper_add_desc: "建筑产出的@paper!纸张数量"
+ goods_output_paper_mult: "建筑@paper!纸张产出"
+ goods_output_paper_mult_desc: "对建筑产出的@paper!纸张数量的增益或惩罚"
+ goods_input_paper_add: "@paper!纸张投入"
+ goods_input_paper_add_desc: "建筑消费的@paper!纸张数量"
+ goods_input_paper_mult: "建筑@paper!纸张投入"
+ goods_input_paper_mult_desc: "对建筑消费的@paper!纸张数量的增益或惩罚"

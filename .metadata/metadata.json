@@ -1,0 +1,32 @@
+{
+  "name":"Arktoria_remaster",
+  "id":"",
+  "version":"",
+  "supported_game_version":"1.11.*",
+  "short_description":"",
+  "tags":[],
+  "relationships":[],
+  "game_custom_data":{
+    "multiplayer_synchronized":true,
+    "replace_paths":[
+      "common/country_creation",
+      "common/country_definitions",
+      "common/country_formation",
+      "common/cultures",
+      "common/buildings",
+      "common/customizable_localization",
+      "common/decisions",
+      "common/journal_entries",
+      "common/history",
+      "common/history/pops",
+      "common/history/countries",
+      "common/history/buildings",
+      "common/strategic_regions",
+      "common/production_method_groups",
+      "common/production_methods",
+      "common/scripted_buttons",
+      "map_data/state_regions",
+      "gfx/map/city_data/city_types"
+    ]
+  }
+}

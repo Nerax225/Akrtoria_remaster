@@ -1,0 +1,597 @@
+﻿l_simp_chinese:
+ bg_chemical_industry: "化工业"
+ bg_high_tech_industry: "高科技工业"
+ bg_real_estate: "房地产"
+ bg_nomandic_city_structure: "移动城市结构"
+ pm_automation_disabled: "无自动化"
+ pm_no_catalyst: "无催化剂"
+ #== 碳提取厂 ===
+ building_carbon_extractor: "碳提取厂"
+
+ pmg_solution_types_carbon_extractor: "溶剂类别"
+ pm_base_solution: "原始溶剂"
+ pm_semi_natural_solution: "半合成溶剂"
+ pm_refined_solution: "精炼溶剂"
+ 
+ pmg_catalyst_types_carbon_extractor: "催化剂类别"
+ pm_light_manganese_catalyst_carbon_extractor: "轻锰催化剂"
+ pm_trihydrate_manganese_catalyst_carbon_extractor: "三水化锰催化剂"
+
+ pmg_organic_replacement_carbon_extractor: "有机替代法"
+ pm_full_wood_replacement: "全木质替代"
+ pm_half_wood_replacement: "半木质替代"
+ pm_no_wood_replacement: "无木质替代"
+
+ pmg_automation_carbon_extractor: "自动化"
+ pm_watertube_boiler_carbon_extractor: "水管锅炉"
+ pm_orginium_engine_carbon_extractor: "源石引擎"
+ pm_assembly_lines_carbon_extractor: "装配线"
+ pm_self_control_system_carbon_extractor: "自控系统"
+ pm_orginium_network_carbon_extractor: "源石网络"
+
+ #=== 碳素合成厂 ===
+ building_carbon_bricks_synthesizer_factory: "碳素合成厂"
+ 
+ pmg_base_building_carbon_bricks_factory: "生产类型"
+ pm_carbon_bricks_basic: "基础碳素"
+ pm_carbon_bricks_group: "碳素组"
+ pm_basic_construction_carbon_bricks: "基础建筑碳素"
+ pm_advanced_construction_carbon_bricks: "高级建筑碳素"
+ pm_high_strength_construction_carbon_bricks: "高强度建筑碳素"
+
+ pmg_side_production_carbon_bricks_factory: "副产品"
+ pm_transsalt_side_production_carbon_bricks: "转质盐"
+ pm_transsalt_group_side_production_carbon_bricks: "转质盐组"
+
+ pmg_automation_carbon_bricks_factory: "自动化"
+ pm_watertube_boiler_carbon_bricks_factory: "水管锅炉"
+ pm_orginium_engine_carbon_bricks_factory: "源石引擎"
+ pm_assembly_lines_carbon_bricks_factory: "装配线"
+ pm_self_control_system_carbon_bricks_factory: "自控系统"
+ pm_orginium_network_carbon_bricks_factory: "源石网络"
+
+ #=== 糖精炼厂 ===
+ building_sugar_refinery: "糖精炼厂"
+
+ pmg_base_sugar_refinery: "生产类型"
+ pm_sugar_subsitute: "代糖"
+ pm_sugar_basic: "糖"
+ pm_sugar_pack: "糖组"
+ pm_sugar_lump: "糖聚块"
+
+ pmg_catalyst_types_sugar_refinery: "催化剂类别"
+ pm_light_manganese_catalyst_sugar_refinery: "轻锰催化剂"
+ pm_trihydrate_manganese_catalyst_sugar_refinery: "三水化锰催化剂"
+
+ pmg_organic_replacement_sugar_refinery: "有机替代法"
+ pm_no_grain_replacement: "无谷物替代"
+ pm_half_grain_replacement: "半谷物替代"
+ pm_full_grain_replacement: "全谷物替代"
+
+ pmg_automation_sugar_refinery: "自动化"
+ pm_watertube_boiler_sugar_refinery: "水管锅炉"
+ pm_orginium_engine_sugar_refinery: "源石引擎"
+ pm_assembly_lines_sugar_refinery: "装配线"
+ pm_self_control_system_sugar_refinery: "自控系统"
+ pm_orginium_network_sugar_refinery: "源石网络"
+ 
+ #=== 酯合成厂 ===
+ building_ester_synthesizer: "酯合成厂"
+
+ pmg_base_ester_synthesizer: "生产类型"
+ pm_ester_basic: "酯"
+ pm_polyester: "聚酸酯"
+ pm_polyester_pack: "聚酸酯组"
+ pm_polyester_lump: "聚酸酯块"
+
+ pmg_catalyst_types_ester_synthesizer: "催化剂类别"
+ pm_light_manganese_catalyst_ester_synthesizer: "轻锰催化剂"
+ pm_trihydrate_manganese_catalyst_ester_synthesizer: "三水化锰催化剂"
+
+ pmg_automation_ester_synthesizer: "自动化"
+ pm_watertube_boiler_ester_synthesizer: "水管锅炉"
+ pm_orginium_engine_ester_synthesizer: "源石引擎"
+ pm_assembly_lines_ester_synthesizer: "装配线"
+ pm_self_control_system_ester_synthesizer: "自控系统"
+ pm_orginium_network_ester_synthesizer: "源石网络"
+
+ #=== 醇合成厂 ===
+ building_alcohol_synthesizer: "醇合成厂"
+
+ pmg_base_alcohol_synthesizer: "生产类型"
+ pm_crude_alcohol: "粗醇"
+ pm_distilled_alcohol: "蒸馏醇"
+ pm_refined_alcohol: "精制醇"
+ pm_industrial_alcohol: "工业醇"
+
+ pmg_catalyst_types_alcohol_synthesizer: "催化剂类别"
+ pm_light_manganese_catalyst_alcohol_synthesizer: "轻锰催化剂"
+ pm_trihydrate_manganese_catalyst_alcohol_synthesizer: "三水化锰催化剂"
+
+ pmg_automation_alcohol_synthesizer: "自动化"
+ pm_watertube_boiler_alcohol_synthesizer: "水管锅炉"
+ pm_orginium_engine_alcohol_synthesizer: "源石引擎"
+ pm_assembly_lines_alcohol_synthesizer: "装配线"
+ pm_self_control_system_alcohol_synthesizer: "自控系统"
+ pm_orginium_network_alcohol_synthesizer: "源石网络"
+
+ #=== 酮合成厂 ===
+ building_ketone_synthesizer: "酮合成厂"
+ pmg_base_ketone_synthesizer: "生产类型"
+ pm_ketone_basic: "双酮"
+ pm_polyketone: "酮凝集"
+ pm_aketone: "酮凝集组"
+ pm_ketone_colloid: "酮阵列"
+
+ pmg_catalyst_types_ketone_synthesizer: "催化剂类别"
+ pm_light_manganese_catalyst_ketone_synthesizer: "轻锰催化剂"
+ pm_trihydrate_manganese_catalyst_ketone_synthesizer: "三水化锰催化剂"
+
+ pmg_automation_ketone_synthesizer: "自动化"
+ pm_watertube_boiler_ketone_synthesizer: "水管锅炉"
+ pm_orginium_engine_ketone_synthesizer: "源石引擎"
+ pm_assembly_lines_ketone_synthesizer: "装配线"
+ pm_self_control_system_ketone_synthesizer: "自控系统"
+ pm_orginium_network_ketone_synthesizer: "源石网络"
+  
+ #=== 服装厂 ===
+ building_clothing_factory: "服装厂"
+
+ pmg_base_clothing_factory: "生产类型"
+ pm_handmade_clothing: "手工服装"
+ pm_dye_workshop: "染坊"
+ pm_sewing_machine: "缝纫机"
+ pm_polyester_technology: "聚酯技术"
+ pm_improved_polyester_technology: "改良聚酯技术"
+ pm_advanced_polyester_technology: "高级聚酯技术"
+
+ pmg_precision_wear_clothing_factory: "精密服装"
+ pm_precision_wear_no: "无精密服装"
+ pm_precision_wear_small_polymer: "小型聚合物精密服装"
+ pm_precision_wear_large_polymer: "大型聚合物精密服装"
+
+ pmg_automation_clothing_factory: "自动化"
+ pm_watertube_boiler_clothing_factory: "水管锅炉"
+ pm_orginium_engine_clothing_factory: "源石引擎"
+ pm_assembly_lines_clothing_factory: "装配线"
+ pm_self_control_system_clothing_factory: "自控系统"
+ pm_orginium_network_clothing_factory: "源石网络"
+
+ #=== 家具厂 ===
+ building_furniture_factory: "家具厂"
+
+ pmg_base_furniture_factory: "生产类型"
+ pm_handmade_furniture: "手工工具"
+ pm_lathe_furniture: "车床加工"
+ pm_mechanized_workshop_furniture: "机械化车间"
+ pm_carbon_stick_furniture: "碳加工"
+ pm_carbon_brick_furniture: "碳素加工"
+
+ pmg_automation_furniture_factory: "自动化"
+ pm_watertube_boiler_furniture_factory: "水管锅炉"
+ pm_orginium_engine_furniture_factory: "源石引擎"
+ pm_assembly_lines_furniture_factory: "装配线"
+ pm_self_control_system_furniture_factory: "自控系统"
+ pm_orginium_network_furniture_factory: "源石网络"
+
+ #=== 炼钢厂 ===
+ building_steel_mill: "炼钢厂"
+
+ pmg_base_steel_mill: "生产类型"
+ pm_steelmaking_mill: "泡钢钢法"
+ pm_converter_steelmaking_steel_mill: "转炉炼钢法"
+ pm_open_hearth_furnace_process_steel_mill: "平炉炼钢法"
+ pm_oxygen_blowing_steel_mill: "氧气顶吹法"
+ pm_bottom_blowing_steel_mill: "底吹法"
+ pm_electric_arc_furnace_steel_mill: "电弧炉炼钢法"
+
+ pmg_side_production_steel_mill: "副产品"
+ pm_oriron_fregement_side_production_steel_mill: "异铁碎片"
+ pm_oriron_side_production_steel_mill: "异铁"
+ pm_oriron_group_side_production_steel_mill: "异铁组"
+ pm_oriron_chunk_side_production_steel_mill: "异铁块"
+
+ pmg_automation_steel_mill: "自动化"
+ pm_orginium_engine_steel_mill: "源石引擎"
+ pm_self_control_system_steel_mill: "自控系统"
+ pm_orginium_network_steel_mill: "源石网络"
+
+ #=== 晶体元件厂 ===
+ building_crystal_component_factory: "晶体元件厂"
+
+ pmg_base_crystal_component_factory: "生产类型"
+ pm_sintered_nucleus_crystal_crystal_components: "烧结核晶"
+ pm_gel_crystal_components: "凝胶"
+ pm_polymer_gel_crystal_components: "聚合凝胶"
+
+ pmg_sub_material_crystal_component_factory: "副原料"
+ pm_sub_material_crystal_component_aka_alloy: "赤合金"
+ pm_sub_material_crystal_component_aka_alloy_chunk: "赤合金块"
+
+ pmg_automation_crystal_component_factory: "自动化"
+ pm_orginium_engine_crystal_component_factory: "源石引擎"
+ pm_self_control_system_crystal_component_factory: "自控系统"
+ pm_orginium_network_crystal_component_factory: "源石网络"
+
+ #=== 晶体电路厂 ===
+ building_crystal_circuit_factory: "晶体电路厂"
+
+ pmg_base_crystal_circuit_factory: "生产类型"
+ pm_sintered_nucleus_circuit: "烧结核晶"
+ pm_gel_circuit: "凝胶"
+ pm_polymer_gel_circuit: "聚合凝胶"
+
+ pmg_sub_material_crystal_circuit_factory: "副原料"
+ pm_sub_material_circuit_aka_alloy: "赤合金"
+ pm_sub_material_circuit_aka_alloy_chunk: "赤合金块"
+
+ pmg_automation_crystal_circuit_factory: "自动化"
+ pm_orginium_engine_crystal_circuit_factory: "源石引擎"
+ pm_self_control_system_crystal_circuit_factory: "自控系统"
+ pm_orginium_network_crystal_circuit_factory: "源石网络"
+
+ #=== 晶体单元厂 ===
+ building_crystal_unit_factory: "晶体单元厂"
+
+ pmg_base_crystal_unit_factory: "生产类型"
+ pm_standard_method_crystal_unit: "标准法"
+ pm_electroplating_red_alloy_crystal_unit: "电镀赤合金"
+ pm_electroplating_fine_red_alloy_crystal_unit: "电镀精制赤合金"
+
+ pmg_automation_crystal_unit_factory: "自动化"
+ pm_orginium_engine_crystal_unit_factory: "源石引擎"
+ pm_self_control_system_crystal_unit_factory: "自控系统"
+ pm_orginium_network_crystal_unit_factory: "源石网络"
+
+ #=== 电子厂 ===
+ building_electronics_factory: "民用电子厂"
+
+ pmg_base_electronics_factory: "生产类型"
+ pm_early_electronics_assembly: "早期电子"
+ pm_carbonated_electronics_assembly: "碳化电子"
+ pm_modern_electronics_assembly: "现代电子"
+ pm_advanced_electronics_assembly: "先进电子"
+
+ pmg_automation_electronics_factory: "自动化"
+ pm_orginium_engine_electronics_factory: "源石引擎"
+ pm_self_control_system_electronics_factory: "自控系统"
+ pm_orginium_network_electronics_factory: "源石网络"
+
+ #=== 装置厂 ===
+ building_device_factory: "装置厂"
+
+ pmg_base_device_factory: "生产类型"
+ pm_crude_device: "粗制装置"
+ pm_cast_iron_device: "铸铁装置"
+ pm_steel_device: "钢制装置"
+ pm_mechanized_device: "机械化装置"
+ pm_new_device: "新型装置"
+ pm_improved_device: "改良装置"
+
+ pmg_cutting_fluid_device_factory: "切削液"
+ pm_no_cutting_fluid_device: "无切削液"
+ pm_chemical_cutting_fluid_device: "化学切削液"
+ pm_pure_cutting_fluid_device: "切削原液"
+
+ pmg_automation_device_factory: "自动化"
+ pm_watertube_boiler_device_factory: "水管锅炉"
+ pm_orginium_engine_device_factory: "源石引擎"
+ pm_assembly_lines_device_factory: "装配线"
+ pm_self_control_system_device_factory: "自控系统"
+ pm_orginium_network_device_factory: "源石网络"
+
+ #=== 双极纳米片厂 ===
+ building_bipolar_nanoflake_factory: "双极纳米片厂"
+
+ pmg_base_bipolar_nanoflake_factory: "生产类型"
+ pm_bipolar_nanoflake_basic: "基础工艺"
+ pm_bipolar_nanoflake_advanced: "维多利亚工艺"
+ pm_bipolar_nanoflake_highly_advanced: "哥伦比亚工艺"
+
+ pmg_automation_bipolar_nanoflake_factory: "自动化"
+ pm_self_control_system_bipolar_nanoflake_factory: "自控系统"
+ pm_orginium_network_bipolar_nanoflake_factory: "源石网络"
+
+ #房地产
+ building_real_estate: "房地产"
+
+ pmg_real_estate: "房产类型"
+ pm_low_rent_housing: "廉租房"
+ pm_basic_housing: "基础住宅"
+ pm_improved_housing: "改进住宅"
+ pm_modern_housing: "现代化住宅"
+ pm_high_end_housing: "高档住宅"
+ pm_luxury_housing: "豪华住宅"
+
+ #城市中心
+ building_urban_center: "城市中心"
+
+ pmg_intercity_network: "城际网络"
+ pm_no_intercity_network: "无城际网络"
+ pm_intercity_network: "城际网络"
+ pm_intracity_network: "城内网络"
+
+ pmg_public_transport: "公共交通"
+ pm_no_public_transport: "无公共交通"
+ pm_public_trolley: "有轨电车"
+ pm_public_bus: "公交车"
+ pm_public_metro: "地铁"
+
+ pmg_nomandic_city_structure: "移动城市结构"
+ pm_no_nomandic_city_structure: "无移动城市结构"
+ pm_early_nomandic_city_structure: "早期移动城市结构"
+ pm_improved_nomandic_city_structure: "改进移动城市结构"
+ pm_advanced_nomandic_city_structure: "先进移动城市结构"
+ pm_modern_nomandic_city_structure: "现代移动城市结构"
+
+ pmg_urban_clergy: "教堂"
+ pm_state_urban_clergy: "国教教堂"
+ pm_free_urban_clergy: "自由教堂"
+ pm_no_urban_clergy: "无教堂"
+
+ #食品厂
+ building_food_factory: "食品厂"
+
+ pmg_base_food_factory: "生产类型"
+ pm_food_factory_bakery: "烘焙食品"
+ pm_food_factory_sweetener: "甜味剂"
+ pm_food_factory_canned_food: "罐头食品"
+ pm_food_factory_fast_food: "快餐食品"
+ pm_food_factory_prepared_food: "预制食品"
+
+ pmg_ration_production_food_factory: "口粮生产"
+ pm_no_ration_production: "无口粮生产"
+ pm_basic_ration_production: "基础口粮生产"
+ pm_high_ration_production: "高效口粮生产"
+ pm_massive_ration_production: "大规模口粮生产"
+
+ pmg_liquor_production_food_factory: "烈酒生产"
+ pm_no_liquor_production: "无烈酒生产"
+ pm_grain_based_liquor_production: "谷基烈酒生产"
+ pm_kohl_based_liquor_production: "醇基烈酒生产"
+
+ pmg_automation_food_factory: "自动化"
+ pm_assembly_lines_food_factory: "装配线"
+ pm_self_control_system_food_factory: "自控系统"
+ pm_orginium_network_food_factory: "源石网络"
+
+ # 军械生产综合体
+ building_armory_production_complex: "军械生产综合体"
+
+ pmg_base_armory_production_complex: "生产类型"
+ pm_traditional_weapon_armory_production: "传统武器"
+ pm_semi_traditional_weapon_armory_production: "半传统武器"
+ pm_post_revolution_weapon_armory_production: "后革命时代武器"
+ pm_mechanized_weapon_armory_production: "机械化武器"
+ pm_modern_weapon_armory_production: "现代武器"
+ pm_energy_powered_weapon_armory_production: "能量武器"
+
+ pmg_artillery_armory_production_complex: "火炮"
+ pm_no_artillery: "无火炮"
+ pm_field_artillery: "野战火炮"
+ pm_heavy_artillery: "重型火炮"
+ pm_rocket_artillery: "火箭炮"
+
+ pmg_automation_armory_production_complex: "自动化"
+ pm_orginium_engine_armory_production_complex: "源石引擎"
+ pm_assembly_lines_armory_production_complex: "装配线"
+ pm_self_control_system_armory_production_complex: "自控系统"
+ pm_orginium_network_armory_production_complex: "源石网络"
+ #商业移动地块
+ building_commercial_nomandic_district: "商业移动地块"
+ pmg_commercial_city_structure: "商业城市结构"
+ pm_market_stalls: "集市摊位"
+ pm_market_squares: "集市广场"
+ pm_covered_markets: "室内广场"
+ pm_arcade: "购物拱廊"
+ pm_supermarkets: "超市"
+ pm_shopping_malls: "购物中心"
+ 
+ #通用移动地块
+ building_generic_nomandic_district: "通用移动地块"
+ pmg_generic_city_structure: "通用城市结构"
+ pm_single_deck_generic_city_structure: "单层结构"
+ pm_double_deck_generic_city_structure: "双层结构"
+ pm_triple_deck_generic_city_structure: "三层结构"
+
+ #陆行舰停泊位
+ building_port: "陆行舰停泊位"
+ pmg_base_building_port: "停泊位类型"
+ pm_anchorage: "锚地"
+ pm_basic_port: "基础港口"
+ pm_industrial_port: "工业港口"
+ pm_modern_port: "现代港口"
+
+ #陆行舰组装厂
+ building_shipyard: "陆行舰造船厂"
+
+ pmg_base_shipyard: "造船类型"
+ pm_landship: "陆行舰"
+ pm_welded_landship: "焊接陆行舰"
+ pm_segmented_landship: "分段陆行舰"
+ pm_modern_landship: "现代陆行舰"
+
+ pmg_heavy_armed_vehicle_shipyard: "重型装甲载具"
+ pm_no_heavy_armed_vehicle: "无重型装甲载具"
+ pm_land_light_cruiser: "陆行轻巡"
+ pm_land_heavy_cruiser: "陆行重巡"
+ pm_land_battleship: "陆行战列舰"
+ pm_land_dreadnought: "陆行无畏舰"
+
+ pmg_automation_shipyard: "自动化"
+ pm_orginium_engine_shipyard: "源石引擎"
+ pm_assembly_lines_shipyard: "装配线"
+ pm_self_control_system_shipyard: "自控系统"
+ pm_orginium_network_shipyard: "源石网络"
+
+  #引擎厂
+ building_engine_factory: "引擎厂"
+
+ pmg_base_engine_factory: "生产类型"
+ pm_orginium_steam_engine: "源石蒸汽机"
+ pm_orginium_internal_combustion_engine: "源石内燃机"
+ pm_orginium_turbine_engine: "源石涡轮机"
+ pm_orginium_electric_motor: "源石电动机"
+
+ pmg_automation_engine_factory: "自动化"
+
+ # 建设
+ building_construction_sector: "建设部门"
+ pmg_base_building_construction_sector: "建设类型"
+ pm_wooden_buildings: "木结构"
+ pm_iron_frame_buildings: "铁结构"
+ pm_steel_frame_buildings: "钢结构"
+ pm_arc_welded_buildings: "弧焊"
+ pm_prefab_panels_buildings: "预制板"
+ pm_carbon_bricks_buildings: "碳素"
+ pm_drone_assisted_construction_buildings: "无人机辅助"
+
+ # 制药厂
+ building_pharmaceutical_factory: "制药厂"
+ pmg_base_pharmaceutical_factory: "生产类型"
+ pm_basic_pharmaceuticals: "基础药品"
+ pm_advanced_pharmaceuticals: "先进药品"
+ pm_synthetic_pharmaceuticals: "合成药品"
+ pmg_automation_pharmaceutical_factory: "自动化"
+ pm_assembly_lines_pharmaceutical_factory: "装配线"
+ pm_self_control_system_pharmaceutical_factory: "自控系统"
+ pm_orginium_network_pharmaceutical_factory: "源石网络"
+
+ # 化学溶剂厂
+ building_chemical_solution_factory: "化学溶剂厂"
+ pmg_base_chemical_solution_factory: "生产类型"
+ pm_primal_chemical_solution: "原始化学溶剂"
+ pm_semi_natural_chemical_solution: "半合成化学溶剂"
+ pm_refined_chemical_solution: "精炼化学溶剂"
+ pmg_automation_chemical_solution_factory: "自动化"
+ pm_watertube_boiler_chemical_solution_factory: "水管锅炉"
+ pm_orginium_engine_chemical_solution_factory: "源石引擎"
+ pm_assembly_lines_chemical_solution_factory: "装配线"
+ pm_self_control_system_chemical_solution_factory: "自控系统"
+ pm_orginium_network_chemical_solution_factory: "源石网络"
+ 
+ # 汽车厂
+ building_automobile_factory: "汽车厂"
+ 
+ pmg_base_automobile_factory: "生产类型"
+ pm_primal_automobile_factory: "原始汽车"
+ pm_early_era_automobile_factory: "早期汽车"
+ pm_basic_automobile_factory: "基础汽车"
+ pm_advanced_automobile_factory: "先进汽车"
+ pm_modern_automobile_factory: "现代汽车"
+
+ pmg_truck_production_automobile_factory: "卡车生产"
+ pm_no_truck_production_automobile_factory: "无卡车生产"
+ pm_light_truck_production_automobile_factory: "轻型卡车生产"
+ pm_heavy_truck_production_automobile_factory: "重型卡车生产"
+ pm_semi_truck_production_automobile_factory: "半挂卡车生产"
+
+ pmg_automation_automobile_factory: "自动化"
+ pm_watertube_boiler_automobile_factory: "水管锅炉"
+ pm_orginium_engine_automobile_factory: "源石引擎"
+ pm_assembly_lines_automobile_factory: "装配线"
+ pm_self_control_system_automobile_factory: "自控系统"
+ pm_orginium_network_automobile_factory: "源石网络"
+
+ # 无人机组装厂
+ building_drone_assembly_plant: "无人机组装厂"
+ pmg_base_drone_assembly_plant: "生产类型"
+ pm_basic_drone_assembly_plant: "基础无人机"
+ pm_advanced_drone_assembly_plant: "先进无人机"
+ pm_modern_drone_assembly_plant: "现代无人机"
+ pmg_automation_drone_assembly_plant: "自动化"
+ pm_assembly_lines_drone_assembly_plant: "装配线"
+ pm_self_control_system_drone_assembly_plant: "自控系统"
+ pm_orginium_network_drone_assembly_plant: "源石网络"
+
+ # 源石粗炼厂
+ building_originite_refinery: "源石粗炼厂"
+
+ pmg_base_originite_refinery: "生产类型"
+ pm_cupellation_originite_refinery: "熔炼法"
+ pm_salination_process_originite_refinery: "盐析法"
+ pm_furnace_smelting_originite_refinery: "炉熔法"
+ pm_acid_roasting_originite_refinery: "酸浸法"
+ pm_cascade_extraction_originite_refinery: "级联萃取法"
+
+ pmg_automation_originite_refinery: "自动化"
+ pm_watertube_boiler_originite_refinery: "水管锅炉"
+ pm_orginium_engine_originite_refinery: "源石引擎"
+ pm_assembly_lines_originite_refinery: "装配线"
+ pm_self_control_system_originite_refinery: "自控系统"
+ pm_orginium_network_originite_refinery: "源石网络"
+
+  # 家电厂
+ building_appliance_factory: "家电厂"
+
+ pmg_base_appliance_factory: "生产类型"
+ pm_basic_functional_appliance_factory: "基础功能型"
+ pm_functional_expansion_appliance_factory: "功能扩展型"
+ pm_practical_optimization_appliance_factory: "实用优化型"
+ pm_basic_intelligence_appliance_factory: "基础智能型"
+ pm_experience_upgrade_appliance_factory: "体验升级型"
+ pm_modern_appliance_factory: "现代型"
+ 
+ pmg_automation_appliance_factory: "自动化"
+ pm_assembly_lines_appliance_factory: "装配线"
+ pm_self_control_system_appliance_factory: "自控系统"
+ pm_orginium_network_appliance_factory: "源石网络"
+
+ #合成玉加工厂
+ building_orundum_processing_factory: "合成玉加工厂"
+
+ pmg_base_orundum_processing_factory: "生产类型"
+ pm_cupellation_orundum_processing_factory: "熔炼法"
+ pm_salination_process_orundum_processing_factory: "盐析法"
+ pm_furnace_smelting_orundum_processing_factory: "炉熔法"
+ pm_acid_roasting_orundum_processing_factory: "酸浸法"
+ pm_cascade_extraction_orundum_processing_factory: "级联萃取法"
+
+ pmg_automation_orundum_processing_factory: "自动化"
+ pm_watertube_boiler_orundum_processing_factory: "水管锅炉"
+ pm_orginium_engine_orundum_processing_factory: "源石引擎"
+ pm_assembly_lines_orundum_processing_factory: "装配线"
+ pm_self_control_system_orundum_processing_factory: "自控系统"
+ pm_orginium_network_orundum_processing_factory: "源石网络"
+
+ #源石精炼厂
+ building_originite_prime_refinery: "源石精炼厂"
+
+ pmg_base_originite_prime_refinery: "生产类型"
+ pm_cupellation_originite_prime_refinery: "熔炼法"
+ pm_salination_process_originite_prime_refinery: "盐析法"
+ pm_furnace_smelting_originite_prime_refinery: "炉熔法"
+ pm_acid_roasting_originite_prime_refinery: "酸浸法"
+ pm_cascade_extraction_originite_prime_refinery: "级联萃取法"
+
+ pmg_automation_originite_prime_refinery: "自动化"
+ pm_watertube_boiler_originite_prime_refinery: "水管锅炉"
+ pm_orginium_engine_originite_prime_refinery: "源石引擎"
+ pm_assembly_lines_originite_prime_refinery: "装配线"
+ pm_self_control_system_originite_prime_refinery: "自控系统"
+ pm_orginium_network_originite_prime_refinery: "源石网络"
+ 
+ #造纸厂
+ building_paper_mill: "造纸厂"
+ pmg_base_building_paper_mill: "生产类型"
+ pm_pulp_pressing: "纸浆压制"
+ pm_sulfite_pulping: "亚硫酸盐法"
+ pm_bleached_paper: "漂白纸"
+
+ pmg_automation_building_paper_mill: "自动化"
+ pm_watertube_boiler_building_paper_mill: "水管锅炉"
+ pm_orginium_engine_originite_paper_mill: "源石引擎"
+ pm_assembly_lines_originite_paper_mill: "装配线"
+ pm_self_control_system_originite_paper_mill: "自控系统"
+ pm_orginium_network_originite_paper_mill: "源石网络"
+
+ pm_early_originite_power_plant: "早期源石电厂"
+ pm_late_originite_power_plant: "后期源石电厂"
+
+ #奢侈品厂
+ building_luxury_factory: "奢侈品厂"
+ pmg_base_building_luxury_factory: "生产类型"
+ pm_handcrafted_workshop: "手工工坊"
+ pm_personal_customization: "个性化定制"
+ pm_high_end_customization: "高端定制"
+ pm_brand_customization: "品牌定制"

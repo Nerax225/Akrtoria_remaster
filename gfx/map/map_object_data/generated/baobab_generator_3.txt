@@ -1,0 +1,37 @@
+﻿object={
+	name="baobab_generator_3_0"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_high"
+	pdxmesh="tree_baobab_01_mesh"
+	count=0
+}
+object={
+	name="baobab_generator_3_1"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_high"
+	pdxmesh="tree_baobab_02_mesh"
+	count=1
+	transform="6071.542480 0.000000 2621.411133 0.000000 0.740605 0.000000 0.671941 0.198388 0.198388 0.198388
+"}
+object={
+	name="baobab_generator_3_2"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_high"
+	pdxmesh="tree_baobab_03_mesh"
+	count=0
+}
+object={
+	name="baobab_generator_3_3"
+	clamp_to_water_level=no
+	render_under_water=no
+	generated_content=yes
+	layer="semidynamic_high"
+	pdxmesh="tree_baobab_04_mesh"
+	count=0
+}

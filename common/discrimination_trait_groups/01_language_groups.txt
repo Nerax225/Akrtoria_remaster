@@ -1,0 +1,33 @@
+﻿# This list is alphabetically sorted. Please keep it so.
+
+language_group_deepsea = {
+	type = language
+}
+
+language_group_dryland= {
+	type = language
+}
+
+language_group_teekaz= {
+	type = language
+}
+
+language_group_panthera= {
+	type = language
+}
+
+language_group_romance= {
+	type = language
+}
+
+language_group_eligere= {
+	type = language
+}
+
+language_group_traditus= {
+	type = language
+}
+
+language_group_cangjie= {
+	type = language
+}

@@ -1,0 +1,11 @@
+﻿country_infected_cultural_acceptance_add = {
+	decimals = 0
+	color = good
+	percent = no
+}
+
+country_infected_cultural_acceptance_mult = {
+	decimals = 0
+	color = good
+	percent = yes
+}

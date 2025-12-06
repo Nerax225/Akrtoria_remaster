@@ -1,0 +1,1412 @@
+﻿hm_portrait = {
+	usage = game
+	# generic portraits
+	generic_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = generic_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				has_culture_trigger = no
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	generic_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = generic_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				has_culture_trigger = no
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# aegir portraits
+	aegir_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = aegir_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				aegir_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	aegir_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = aegir_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				aegir_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# anaty portraits
+	anaty_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = anaty_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				anaty_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	anaty_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = anaty_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				anaty_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# anura portraits
+	anura_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = anura_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				anura_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	anura_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = anura_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				anura_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# archosauria portraits
+	archosauria_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = archosauria_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				archosauria_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	archosauria_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = archosauria_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				archosauria_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# caprinae portraits
+	caprinae_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = caprinae_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				caprinae_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	caprinae_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = caprinae_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				caprinae_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# cautus portraits
+	cautus_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = cautus_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				cautus_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	cautus_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = cautus_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				cautus_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# cerato portraits
+	cerato_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = cerato_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				cerato_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	cerato_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = cerato_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				cerato_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# draco portraits
+	draco_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = draco_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				draco_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	draco_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = draco_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				draco_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# durin portraits
+	durin_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = durin_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				durin_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	durin_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = durin_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				durin_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# elafia portraits
+	elafia_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = elafia_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				elafia_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	elafia_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = elafia_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				elafia_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# feline portraits
+	feline_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				feline_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 200
+				feline_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	
+	# Feline Sargon Variant Portraits
+	feline_female_sargon_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_female_sargon_high
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				upper_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_male_sargon_high = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_male_sargon_high
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				upper_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_female_sargon_mid = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_female_sargon_mid
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				middle_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_male_sargon_mid = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_male_sargon_mid
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				middle_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_female_sargon_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_female_sargon_low
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				lower_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	feline_male_sargon_low = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = feline_male_sargon_low
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 20000
+				feline_sargon_culture_trigger = yes
+				lower_class_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# forte portraits
+	forte_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = forte_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				forte_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	forte_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = forte_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				forte_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# hippogryph portraits
+	hippogryph_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = hippogryph_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				hippogryph_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	hippogryph_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = hippogryph_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				hippogryph_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# infected portraits
+	infected_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = infected_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				infected_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	infected_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = infected_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				infected_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# itra portraits
+	itra_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = itra_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				itra_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	itra_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = itra_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				itra_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# kuranta portraits
+	kuranta_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = kuranta_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				kuranta_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	kuranta_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = kuranta_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				kuranta_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# kylin portraits
+	kylin_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = kylin_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				kylin_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	kylin_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = kylin_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				kylin_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# liberi portraits
+	liberi_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = liberi_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				liberi_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	liberi_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = liberi_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				liberi_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# lung portraits
+	lung_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = lung_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				lung_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	lung_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = lung_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				lung_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# lupo portraits
+	lupo_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = lupo_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				lupo_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	lupo_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = lupo_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				lupo_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# manticore portraits
+	manticore_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = manticore_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				manticore_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	manticore_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = manticore_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				manticore_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# perro portraits
+	perro_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = perro_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				perro_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	perro_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = perro_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				perro_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# pilosa portraits
+	pilosa_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = pilosa_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				pilosa_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	pilosa_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = pilosa_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				pilosa_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# pythia portraits
+	pythia_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = pythia_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				pythia_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	pythia_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = pythia_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				pythia_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# rebbah portraits
+	rebbah_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = rebbah_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				rebbah_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	rebbah_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = rebbah_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				rebbah_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# sankta portraits
+	sankta_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = sankta_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				sankta_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	sankta_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = sankta_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				sankta_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# sarkaz portraits
+	sarkaz_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = sarkaz_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				sarkaz_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	sarkaz_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = sarkaz_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				sarkaz_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# savra portraits
+	savra_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = savra_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				savra_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	savra_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = savra_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				savra_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# ursus portraits
+	ursus_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = ursus_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				ursus_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	ursus_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = ursus_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				ursus_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# vouivre portraits
+	vouivre_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = vouivre_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				vouivre_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	vouivre_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = vouivre_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				vouivre_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# vulpo portraits
+	vulpo_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = vulpo_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				vulpo_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	vulpo_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = vulpo_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				vulpo_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	# zalak portraits
+	zalak_female = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = zalak_female
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				zalak_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+	zalak_male = {
+		dna_modifiers = {
+			accessory = {
+				mode = replace
+				gene = hmprops_1
+				template = zalak_male
+				value = 0.5
+			}
+		}
+		weight = {
+			base = 0
+			modifier = {
+				add = 10000
+				zalak_culture_trigger = yes
+				no_portrait_trigger = yes
+				portrait_locked_trigger = no
+			}
+		}
+	}
+}

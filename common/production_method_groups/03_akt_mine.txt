@@ -1,0 +1,99 @@
+pmg_building_originmum_mine_base = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_originmum_mine_base.dds"
+	production_methods = {
+		pm_building_originmum_mine_fragment
+ 		pm_building_originmum_mine_mine
+ 		pm_building_originmum_mine_crystal
+ 		pm_building_originmum_mine_prime
+	}
+}
+pmg_building_originmum_mine_orirock = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_originmum_mine_orirock.dds"
+	production_methods = {
+		pm_building_originmum_mine_no_orirock
+		pm_building_originmum_mine_excavate_orirock
+ 		pm_building_originmum_mine_fixed_orirock
+ 		pm_building_originmum_mine_combination_orirock
+ 		pm_building_originmum_mine_purify_orirock
+	}
+}
+pmg_building_originmum_mine_automation = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_originmum_mine_automation.dds"
+	production_methods = {
+		pm_building_originmum_mine_train
+		pm_building_originmum_mine_steam
+		pm_building_originmum_mine_truck
+	}
+}
+pmg_building_originmum_mine_management = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_originmum_mine_automation.dds"
+	production_methods = {
+		pm_building_originmum_mine_management_1#8
+		pm_building_originmum_mine_management_2#12
+		pm_building_originmum_mine_management_3#16
+	}
+}
+pmg_building_RMA_mine_base = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_RMA_mine_base.dds"
+	production_methods = {
+		pm_building_RMA_mine_tools
+ 		pm_building_RMA_mine_device
+ 		pm_building_RMA_mine_originmum
+	}
+}
+pmg_building_RMA_mine_automation = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_RMA_mine_automation.dds"
+	production_methods = {
+		pm_building_RMA_mine_train
+		pm_building_RMA_mine_steam
+		pm_building_RMA_mine_truck
+	}
+}
+pmg_building_iron_mine_base = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_iron_mine_base.dds"
+	production_methods = {
+		pm_building_iron_mine_tools
+ 		pm_building_iron_mine_device
+ 		pm_building_iron_mine_originmum
+	}
+}
+pmg_building_iron_mine_automation = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_iron_mine_automation.dds"
+	production_methods = {
+		pm_building_iron_mine_train
+		pm_building_iron_mine_steam
+		pm_building_iron_mine_truck
+	}
+}
+pmg_building_light_manganese_mine_base = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_light_manganese_mine_base.dds"
+	production_methods = {
+		pm_building_light_manganese_mine_tools
+ 		pm_building_light_manganese_mine_device
+ 		pm_building_light_manganese_mine_originmum
+	}
+}
+pmg_building_light_manganese_mine_automation = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_light_manganese_mine_automation.dds"
+	production_methods = {
+		pm_building_light_manganese_mine_train
+		pm_building_light_manganese_mine_steam
+		pm_building_light_manganese_mine_truck
+	}
+}
+pmg_building_grind_stone_mine_base = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_grind_stone_mine_base.dds"
+	production_methods = {
+		pm_building_grind_stone_mine_tools
+ 		pm_building_grind_stone_mine_device
+ 		pm_building_grind_stone_mine_originmum
+	}
+}
+pmg_building_grind_stone_mine_automation = {
+	texture = "gfx/interface/icons/generic_icons/pmg_building_grind_stone_mine_automation.dds"
+	production_methods = {
+		pm_building_grind_stone_mine_train
+		pm_building_grind_stone_mine_steam
+		pm_building_grind_stone_mine_truck
+	}
+}
