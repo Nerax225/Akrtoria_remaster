@@ -2,6 +2,17 @@
 	s:STATE_WOLUMONDE = {
 		region_state:LTH={
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -10,6 +21,7 @@
 					}
 				}
 				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_generic_nomandic_district"
@@ -37,6 +49,36 @@
 					country={
 						country="c:LTH"
 						levels=20
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_steel_mill"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=7
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_device_factory"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=12
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_engine_factory"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=2
 					}
 				}
 				reserves=1
@@ -46,6 +88,17 @@
 	s:STATE_BOCKSTADT = {
 		region_state:LTH={
 			create_building={
+				building="building_logging_camp"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=5
+					}
+				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" }
+			}
+			create_building={
 				building="building_government_administration"
 				add_ownership={
 					country={
@@ -54,6 +107,7 @@
 					}
 				}
 				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_generic_nomandic_district"
@@ -81,6 +135,46 @@
 					country={
 						country="c:LTH"
 						levels=20
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_livestock_ranch"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=10
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_food_factory"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=4
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_clothing_factory"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=6
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_furniture_factory"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=8
 					}
 				}
 				reserves=1
@@ -152,7 +246,7 @@
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=9
+						levels=11
 					}
 				}
 				reserves=1
@@ -162,9 +256,11 @@
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=10
+						levels=9
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" }
 			}
 			create_building={
 				building="building_commercial_nomandic_district"
@@ -185,7 +281,7 @@
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=5
+						levels=7
 					}
 				}
 				reserves=1
@@ -201,61 +297,11 @@
 				reserves=1
 			}
 			create_building={
-				building="building_clothing_factory"
-				add_ownership={
-					country={
-						country="c:LTH"
-						levels=2
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_furniture_factory"
-				add_ownership={
-					country={
-						country="c:LTH"
-						levels=2
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_steel_mill"
-				add_ownership={
-					country={
-						country="c:LTH"
-						levels=2
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_device_factory"
-				add_ownership={
-					country={
-						country="c:LTH"
-						levels=10
-					}
-				}
-				reserves=1
-			}
-			create_building={
-				building="building_engine_factory"
-				add_ownership={
-					country={
-						country="c:LTH"
-						levels=1
-					}
-				}
-				reserves=1
-			}
-			create_building={
 				building="building_chemical_solution_factory"
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=2
+						levels=6
 					}
 				}
 				reserves=1
@@ -275,7 +321,7 @@
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=13
+						levels=18
 					}
 				}
 				reserves=1
@@ -288,6 +334,8 @@
 						levels=20
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_vertical_filing_cabinets" }
 			}
 			create_building={
 				building="building_originite_refinery"
@@ -297,6 +345,7 @@
 						levels=1
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_pharmaceutical_factory"
@@ -306,24 +355,27 @@
 						levels=2
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_shipyard"
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=1
+						levels=2
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_generic_nomandic_district"
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=2
+						levels=3
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_carbon_extractor"
@@ -333,15 +385,17 @@
 						levels=4
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_sugar_refinery"
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=2
+						levels=4
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_commercial_nomandic_district"
@@ -351,6 +405,7 @@
 						levels=3
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_port"
@@ -360,6 +415,7 @@
 						levels=1
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_logging_camp"
@@ -369,15 +425,18 @@
 						levels=3
 					}
 				}
+				reserves=1
+				activate_production_methods={ "pm_saw_mills" }
 			}
 			create_building={
 				building="building_alcohol_synthesizer"
 				add_ownership={
 					country={
 						country="c:LTH"
-						levels=3
+						levels=5
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_trade_center"
@@ -387,6 +446,7 @@
 						levels=20
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_construction_sector"
@@ -396,6 +456,7 @@
 						levels=10
 					}
 				}
+				reserves=1
 			}
 			create_building={
 				building="building_university"
@@ -403,6 +464,16 @@
 					country={
 						country="c:LTH"
 						levels=30
+					}
+				}
+				reserves=1
+			}
+			create_building={
+				building="building_grain_farm"
+				add_ownership={
+					country={
+						country="c:LTH"
+						levels=20
 					}
 				}
 				reserves=1

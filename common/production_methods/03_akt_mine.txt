@@ -18,7 +18,6 @@ pm_building_originmum_mine_mine = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 4
-			goods_input_transportation_add = 5
 			goods_output_originium_add = 40
 		}
 		level_scaled = {
@@ -32,7 +31,6 @@ pm_building_originmum_mine_crystal = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 8
-			goods_input_transportation_add = 5
 			goods_output_originium_add = 60
 		}
 		level_scaled = {
@@ -46,7 +44,6 @@ pm_building_originmum_mine_prime = {
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 16
-			goods_input_transportation_add = 5
 			goods_output_originium_add = 100
 		}
 		level_scaled = {

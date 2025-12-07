@@ -3270,7 +3270,7 @@ pm_improved_nomandic_city_structure = {
 			goods_input_land_ships_add = 2
 			goods_input_crystalline_circuit_add = 1
 			goods_input_engines_add = 2
-			goods_output_housing_add = 3
+			goods_output_housing_add = 4
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3300,7 +3300,7 @@ pm_advanced_nomandic_city_structure = {
 			goods_input_land_ships_add = 4
 			goods_input_crystalline_circuit_add = 2
 			goods_input_engines_add = 4
-			goods_output_housing_add = 4
+			goods_output_housing_add = 5
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -3330,7 +3330,7 @@ pm_modern_nomandic_city_structure = {
 			goods_input_land_ships_add = 4
 			goods_input_crystalline_circuit_add = 3
 			goods_input_engines_add = 6
-			goods_output_housing_add = 5
+			goods_output_housing_add = 10
 		}
 		level_scaled = {
 			building_employment_shopkeepers_add = 500
@@ -6037,4 +6037,3 @@ pm_brand_customization = {
 		}
 	}
 }
-
