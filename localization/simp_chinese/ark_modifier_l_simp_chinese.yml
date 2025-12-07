@@ -1,9 +1,5 @@
 ﻿l_simp_chinese:
- state_infected_conversion:0 "感染者转换率"
- state_infected_conversion_desc:0 "该州每月有一定比例的人口会转变为感染者。"
- infected_human_rights_no:0 "感染者无人权"
- infected_human_rights_ignored:0 "忽视感染者权利"
- infected_human_rights_low:0 "低感染者权利"
- infected_human_rights_standard:0 "标准感染者权利"
- infected_human_rights_high:0 "高度感染者权利"
- infected_human_rights_full:0 "完全感染者权利"
+ state_infected_conversion_add:0 "省份感染者转换率"
+ state_infected_conversion_add_desc:0 "由于缺乏安全措施或者意外，该州每月有一定比例的人口会转变为感染者。"
+ catastrophe_infected_conversion:0 "天灾感染者转换率"
+ catastrophe_infected_conversion_desc:0 "在天灾期间，由于大规模的破坏和混乱，该州每月有更高比例的人口会转变为感染者。"

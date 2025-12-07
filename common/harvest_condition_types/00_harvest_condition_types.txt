@@ -40,7 +40,7 @@ drought = {
 
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.025
-		state_infected_conversion = 0.0025 
+		catastrophe_infected_conversion = 0.0025 
 	}
 
 	intensity = {
@@ -114,7 +114,7 @@ flood = {
 		#Subsistence
 		state_peasants_consumption_multiplier_add = 0.025
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -193,7 +193,7 @@ frost = {
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -280,7 +280,7 @@ wildfire = {
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -352,7 +352,7 @@ hailstorm = {
 		building_group_bg_ranching_throughput_add = -0.05
 		building_group_bg_logging_throughput_add = -0.05
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -432,7 +432,7 @@ locust_swarm = {
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -486,7 +486,7 @@ heatwave = {
 		building_group_bg_rubber_throughput_add = -0.05
 		building_group_bg_logging_throughput_add = -0.05
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -543,7 +543,7 @@ disease_outbreak = {
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -654,7 +654,7 @@ extreme_winds = {
 		building_group_bg_agriculture_throughput_add = -0.05
 		building_group_bg_plantations_throughput_add = -0.05
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -710,7 +710,7 @@ torrential_rains = {
 		#Infra
 		state_infrastructure_mult = -0.1
 
-		state_infected_conversion = 0.0025
+		catastrophe_infected_conversion = 0.0025
 	}
 
 	intensity = {
