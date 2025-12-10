@@ -5,9 +5,13 @@
 		workforce_scaled = {
 			goods_input_device_add = 2
 			goods_output_originium_add = 20
+
+			state_originium_dust_add = 10
+
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
+
 		}
 	}
 }
@@ -19,9 +23,12 @@ pm_building_originmum_mine_mine = {
 		workforce_scaled = {
 			goods_input_device_add = 4
 			goods_output_originium_add = 40
+
+           	state_originium_dust_add = 20
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
+
 		}
 	}
 }
@@ -32,6 +39,9 @@ pm_building_originmum_mine_crystal = {
 		workforce_scaled = {
 			goods_input_device_add = 8
 			goods_output_originium_add = 60
+
+			
+			state_originium_dust_add = 40
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
@@ -45,6 +55,8 @@ pm_building_originmum_mine_prime = {
 		workforce_scaled = {
 			goods_input_device_add = 16
 			goods_output_originium_add = 100
+
+			state_originium_dust_add = 80
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
@@ -479,3 +491,4 @@ pm_building_grind_stone_mine_truck = {
 		}
 	}
 }
+
