@@ -40,7 +40,6 @@ drought = {
 
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.025
-		state_infected_conversion = 0.0025 
 	}
 
 	intensity = {
@@ -431,8 +430,6 @@ locust_swarm = {
 
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
-
-		state_infected_conversion = 0.0025
 	}
 
 	intensity = {
@@ -542,8 +539,6 @@ disease_outbreak = {
 
 		#Subsistence
 		state_peasants_consumption_multiplier_add= 0.03
-
-		state_infected_conversion = 0.0025
 	}
 
 	intensity = {
