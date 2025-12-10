@@ -1,12 +1,44 @@
 ﻿infectedgen_state = {
 	effect = {
-		if = {
-			every_scope_state = {
-				save_scope_value_as = {
-					name = infected_conversion_rate
-					value = modifier:state_infected_conversion
+		every_scope_state = {
+			if = {
+				limit = {
+					OR = {
+						has_harvest_condition = flood
+						has_harvest_condition = frost
+						has_harvest_condition = wildfire
+						has_harvest_condition = hailstorm
+						has_harvest_condition = heatwave
+						has_harvest_condition = extreme_winds
+						has_harvest_condition = torrential_rains
+					}
 				}
-				every_scope_pop = {
+				save_scope_value_as = {
+					name = catastrophe_infected_conversion_add_rate
+					value = modifier:catastrophe_infected_conversion_add
+				}
+				if = {
+					limit = {
+						NOT = {
+							has_pop_culture = infected
+						}					
+					}
+					change_pop_culture = {
+						target = cu:infected
+						value = scope:catastrophe_infected_conversion_add_rate
+					}
+				}
+			}
+			save_scope_value_as = {
+				name = infected_conversion_rate
+				value = modifier:state_infected_conversion_add
+			}
+			save_scope_value_as = {
+				name = state_originium_dust_conversion
+				value = modifier:dust_infected_conversion_add
+			}
+			every_scope_pop = {
+				if = {
 					limit = {
 						AND = {
 							NOT = {
@@ -21,9 +53,20 @@
 						value = scope:infected_conversion_rate
 					}
 				}
-								
+				if = {
+					limit = {
+						AND = {
+							NOT = {
+								has_pop_culture = infected
+							}					
+						}
+
+					}
+					change_pop_culture = {
+						target = cu:infected
+						value = scope:state_originium_dust_conversion
+					}
+				}									
 			}
 		}
 	}
-}
-
