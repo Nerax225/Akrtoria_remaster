@@ -1,11 +1,36 @@
-﻿state_infected_conversion = {
+﻿state_infected_conversion_add = {
 	color=bad
 	percent = yes
-	decimals=2
+	decimals=4
 	game_data={
 		ai_value=0
 	}
 }
+state_originium_dust_add = {
+	decimals=1
+	color=bad
+	percent = no
+	game_data={
+		ai_value=10
+	}
+}
+
+dust_infected_conversion_add = {
+	color=bad
+	percent = yes
+	decimals=4
+	game_data={
+		ai_value=0
+	}
+}
+
+catastrophe_infected_conversion_add = {
+	color=bad
+	percent = yes
+	decimals=4
+	game_data={
+		ai_value=0
+	}
 
 country_institution_infectors_treatment_max_investment_add={
 	decimals=0
