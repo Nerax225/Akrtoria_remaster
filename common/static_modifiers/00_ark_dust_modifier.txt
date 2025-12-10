@@ -1,0 +1,5 @@
+﻿state_originium_dust_impact = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
+	state_non_homeland_mortality_mult = 0.1
+	dust_infected_conversion_add = 0.0001
+}
