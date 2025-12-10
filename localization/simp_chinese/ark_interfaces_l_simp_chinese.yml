@@ -1,3 +1,5 @@
 ﻿l_simp_chinese:
  INFECTED_POP: "矿石病患者人口"
  POP_INFECTOR_EXCLUSION_RULE: "矿石病患者被排挤"
+ STATE_ORIGINIUM_DUST_AIR_CONCENTRATION: "[concept_originium_dust_air_concentration]\n$STATE_ORIGINIUM_DUST_AIR_CONCENTRATION_CONDENSED$"
+ STATE_ORIGINIUM_DUST_AIR_CONCENTRATION_CONDENSED: "[State.MakeScope.ScriptValue('state_originium_dust_number')]/[State.MakeScope.ScriptValue('state_originium_dust_bonus')]%"
