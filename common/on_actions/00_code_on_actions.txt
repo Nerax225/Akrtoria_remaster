@@ -321,9 +321,28 @@ on_five_year_pulse_character = {}
 on_decade_pulse_character = {}
 
 # Root = State
+dust_conversion_on_monthly_pulse_state = {
+	effect = {
+		originium_dust_conversion_monthly_check = yes
+	}
+}
+
 on_monthly_pulse_state = {
 	on_actions = {
-		infectedgen_harvest_condition
+		dust_conversion_on_monthly_pulse_state
+	}
+	effect ={
+		if = {
+			limit = {
+				state_region = {
+					has_harvest_condition = disease_outbreak
+					NOT = { has_variable = had_disease_outbreak_recently }
+				}
+			}
+			state_region = {
+				set_variable = { name = had_disease_outbreak_recently days = 365 }
+			}
+		}
 	}
 }
 
