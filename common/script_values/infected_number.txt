@@ -1,7 +1,16 @@
-﻿state_originium_dust_percentage = {
-	add = modifier:state_originium_dust_add
+﻿state_originium_dust_number = {
+	add = modifier:dust_infected_conversion_add
+}
+
+state_originium_dust_bonus = {
+	add = var:dust_number
 	add = 100
-	divide = divide_arable_land
+	divide = {
+		value = 0
+		add = square_root_arable_land
+		multiply = 1.5
+		add = 50
+	}
 	divide = 2.55
 	max = 100
 	min = 0

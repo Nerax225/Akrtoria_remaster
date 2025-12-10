@@ -1,5 +1,7 @@
 ﻿l_simp_chinese:
  state_infected_conversion_add:0 "省份感染者转换率"
  state_infected_conversion_add_desc:0 "由于缺乏安全措施或者意外，该州每月有一定比例的人口会转变为感染者。"
- catastrophe_infected_conversion:0 "天灾感染者转换率"
- catastrophe_infected_conversion_desc:0 "在天灾期间，由于大规模的破坏和混乱，该州每月有更高比例的人口会转变为感染者。"
+ catastrophe_infected_conversion_add:0 "天灾感染者转换率"
+ catastrophe_infected_conversion_add_desc:0 "在天灾期间，由于大规模的破坏和混乱，该州每月有更高比例的人口会转变为感染者。"
+ dust_infected_conversion_add:0 "源石粉尘感染者转换率"
+ dust_infected_conversion_add_desc:0 "由于源石粉尘的影响，该州每月有显著比例的人口会转变为感染者。"

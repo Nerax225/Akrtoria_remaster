@@ -7,19 +7,27 @@
 	}
 }
 state_originium_dust_add = {
+	decimals=1
 	color=bad
 	percent = no
-	decimals = 1
+	game_data={
+		ai_value=10
+	}
+}
+
+dust_infected_conversion_add = {
+	color=bad
+	percent = yes
+	decimals=4
 	game_data={
 		ai_value=0
 	}
 }
 
-
-catastrophe_infected_conversion = {
+catastrophe_infected_conversion_add = {
 	color=bad
 	percent = yes
-	decimals=2
+	decimals=4
 	game_data={
 		ai_value=0
 	}

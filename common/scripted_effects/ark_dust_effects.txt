@@ -1,0 +1,18 @@
+﻿originium_dust_conversion_monthly_check = {
+	save_scope_as = checked_state
+
+	set_variable = {
+		name = dust_number
+		value = 0
+	}
+	change_variable = {
+		name = dust_number
+		add = modifier:dust_infected_conversion_add
+	}
+
+	remove_modifier = state_originium_dust_impact
+	add_modifier = {
+		name = state_originium_dust_impact
+		multiplier = state_originium_dust_bonus
+	}	
+}
