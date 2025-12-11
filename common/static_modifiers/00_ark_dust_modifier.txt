@@ -1,5 +1,22 @@
-﻿state_originium_dust_impact = {
+state_originium_dust_impact = {
 	icon = gfx/interface/icons/timed_modifier_icons/modifier_coins_negative.dds
-	state_non_homeland_mortality_mult = 0.1
-	dust_infected_conversion_add = 0.0001
+	state_non_homeland_mortality_mult = 0.25
+	state_standard_of_living_add = -6
+	dust_infected_conversion_add = 0.0005
+}
+
+# Scales with pollution impact, reduced by state_pollution_reduction_health_mult
+# Effect = state_region_pollution_health * impact
+
+# Effect = state_region_pollution_health * impact
+state_originium_dust_general = {
+	icon = gfx/interface/icons/timed_modifier_icons/modifier_gear_negative.dds
+	state_migration_pull_mult = -0.25
+	state_harvest_condition_flood_impact_mult = 0.5
+	state_harvest_condition_frost_impact_mult = 0.5
+	state_harvest_condition_wildfire_impact_mult = 0.5
+	state_harvest_condition_hailstorm_impact_mult = 0.5
+	state_harvest_condition_heatwave_impact_mult = 0.5
+	state_harvest_condition_extreme_winds_impact_mult = 0.5
+	state_harvest_condition_torrential_rains_impact_mult = 0.5
 }
