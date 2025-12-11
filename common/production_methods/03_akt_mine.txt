@@ -1,13 +1,16 @@
 ﻿pm_building_originmum_mine_fragment = {
 	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_fragment.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_originium_dust_add = 10
+		}
+	}
 	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 2
 			goods_output_originium_add = 20
-
-			state_originium_dust_add = 10
-
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
@@ -19,12 +22,16 @@
 pm_building_originmum_mine_mine = {
 	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_mine.dds"
 
+	state_modifiers = {
+		workforce_scaled = {
+			state_originium_dust_add = 20
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 4
 			goods_output_originium_add = 40
-
-           	state_originium_dust_add = 20
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
@@ -35,13 +42,16 @@ pm_building_originmum_mine_mine = {
 pm_building_originmum_mine_crystal = {
 	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_crystal.dds"
 
+	state_modifiers = {
+		workforce_scaled = {
+			state_originium_dust_add = 40
+		}
+	}
+
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_device_add = 8
 			goods_output_originium_add = 60
-
-			
-			state_originium_dust_add = 40
 		}
 		level_scaled = {
 			building_employment_laborers_add = 10000
@@ -50,6 +60,12 @@ pm_building_originmum_mine_crystal = {
 }
 pm_building_originmum_mine_prime = {
 	texture = "gfx/interface/icons/production_method_icons/pm_building_originmum_mine_prime.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_originium_dust_add = 80
+		}
+	}
 
 	building_modifiers = {
 		workforce_scaled = {
@@ -491,4 +507,5 @@ pm_building_grind_stone_mine_truck = {
 		}
 	}
 }
+
 
