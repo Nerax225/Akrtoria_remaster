@@ -1,18 +1,29 @@
-﻿state_originium_dust_number = {
+state_originium_dust_number = {
 	add = modifier:dust_infected_conversion_add
+}
+
+state_infected_conversion_add = {
+	add = modifier:dust_infected_conversion_add
+	add = modifier:catastrophe_infected_conversion_add
+}
+
+state_originium_dust_value = {
+	add = modifier:state_originium_dust_add
+	add = 2000
+	min = 0.01
 }
 
 state_originium_dust_bonus = {
 	add = var:dust_number
-	add = 100
+	add = 2000
 	divide = {
 		value = 0
 		add = square_root_arable_land
 		multiply = 1.5
 		add = 50
 	}
-	divide = 2.55
-	max = 100
+	divide = 255
+	max = 1
 	min = 0
 }
 
@@ -28,3 +39,4 @@ divide_arable_land = {
 	multiply = 1.5
 	add = 50
 }
+
