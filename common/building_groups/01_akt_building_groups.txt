@@ -34,7 +34,7 @@ bg_potato_farm = {
 
 	cash_reserves_max = 25000
 }
-bg_nomadic_village = {
+ = {
 	parent_group = bg_agriculture
 
 	default_building = building_nomadic_village

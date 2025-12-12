@@ -72,8 +72,8 @@
 	building_government_administration = {"arabic_city_govadmin_01_mesh"}
 	building_trade_center = {"arabic_city_tradecenter_01_mesh"}
 	building_university = {"arabic_city_university_01_mesh"}
-	building_arts_academy = {"arabic_city_academy_01_mesh"}
-	building_barracks = {"arabic_city_barracks_01_mesh"}
+	building_art_academy = {"arabic_city_academy_01_mesh"}
+	building_barrack = {"arabic_city_barracks_01_mesh"}
 	building_financial_district = {"arabic_city_tradecenter_01_mesh"}
 	building_company_headquarter = {"generic_companyhq_01_mesh"}
 	building_company_regional_headquarter = {"generic_regionalcompanyhq_01_mesh"}

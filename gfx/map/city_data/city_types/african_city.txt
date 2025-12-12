@@ -66,8 +66,8 @@
 	building_government_administration = {"african_city_govadmin_01_mesh"}
 	building_trade_center = {"african_city_tradecenter_01_mesh"}
 	building_university = {"african_city_university_01_mesh"}
-	building_arts_academy = {"african_city_academy_01_mesh"}
-	building_barracks = {"african_city_barracks_01_mesh"}
+	building_art_academy = {"african_city_academy_01_mesh"}
+	building_barrack = {"african_city_barracks_01_mesh"}
 	building_financial_district = {"african_city_financialdistrict_01_mesh"}
 	building_company_headquarter = {"generic_companyhq_01_mesh"}
 	building_company_regional_headquarter = {"generic_regionalcompanyhq_01_mesh"}

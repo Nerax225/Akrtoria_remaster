@@ -1,4 +1,4 @@
-l_simp_chinese:
+﻿l_simp_chinese:
  INFECTED_POP: "矿石病患者人口"
  POP_INFECTOR_EXCLUSION_RULE: "矿石病患者被排挤"
  STATE_ORIGINIUM_DUST_AIR_CONCENTRATION: "[concept_originium_powder_impact]\n$STATE_ORIGINIUM_DUST_AIR_CONCENTRATION_CONDENSED$"
@@ -20,4 +20,5 @@ l_simp_chinese:
  state_originium_dust_reduction_health_mult_desc: "提高或降低[concept_originium_powder_impact]对你的人口健康的效果"
  state_originium_dust_general: "源石粉尘浓度影响"
  mm_originium_dust: "源石粉尘浓度影响"
-
+ ERROR_PRTS: "#italic 预言家，我们有#!#bold [ErrorDeer.NumberOrErrors|v]个#!#italic 错误。我会一直看着你修复的#!"
+ ERROR_PRTS_TOOLTIP: "#header 阅读手册！#!\n#instruction 左键点击#!打开错误日志\n#instruction 右键点击#!让它消失（直到你与小动物们玩腻了）"

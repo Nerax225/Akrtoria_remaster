@@ -188,28 +188,4 @@ building_potato_farm = { #土豆农场
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
 }
-#building_nomadic_village = { #半游牧村庄
-#	building_group = bg_nomadic_village
 
-#	icon = "gfx/interface/icons/building_icons/building_nomadic_village.dds"
-
-#	city_type = farm
-#	levels_per_mesh = 50
-
-#	unlocking_technologies = {
-#		enclosure
-#	}
-
-#	production_method_groups = {
-#		pmg_nomadic_village_base 
-#		pmg_nomadic_village_management
-#		pmg_nomadic_village_mode_mobility
-#	}
-#
-#	required_construction = 100
-#
-#	terrain_manipulator = farmland_wheat
-#	ownership_type = self
-#
-#	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_farming.dds"
-#}
