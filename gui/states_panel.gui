@@ -1696,6 +1696,18 @@ types state_panel_types
 			}
 
 			state_panel_status_item_small = {
+				tooltip = "STATE_originium_powder_concentration"
+
+				blockoverride "texture" {
+					texture = "gfx/interface/icons/state_status_icons/pollution.dds"
+				}
+
+				blockoverride "name" {
+					text = "STATE_ORIGINIUM_DUST_AIR_CONCENTRATION"
+				}
+			}
+
+			state_panel_status_item_small = {
 				visible = "[GreaterThan_CFixedPoint(State.GetStateRegion.GetPollutionImpact, '(CFixedPoint)0')]"
 				datacontext = "[State.GetStateRegion]"
 				tooltip = "STATE_POLLUTION"
@@ -2076,20 +2088,6 @@ types state_panel_types
 					text = "TOOLTIP_CLAIMS"
 				}
 			}
-
-			# 源石空气浓度
-			state_panel_status_item_small = {
-				tooltip = "STATE_ORIGINIUM_DUST_AIR_CONCENTRATION_DESC"
-				alwaystransparent = no
-
-				blockoverride "texture" {
-					texture = "gfx/interface/icons/state_status_icons/state_adventuring_coverage.dds"
-				}
-
-				blockoverride "name" {
-					text = "STATE_ORIGINIUM_DUST_AIR_CONCENTRATION"
-				}
-			}			
 
 			datamodel = "[State.AccessStateRegion.AccessTraits]"
 

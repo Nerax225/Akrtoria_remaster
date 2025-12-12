@@ -3,12 +3,12 @@
 
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 60
+			state_infrastructure_add = 0
 		}
 	}
 	building_modifiers = {
 		workforce_scaled = {
-			goods_output_services_add = 75
+			goods_output_services_add = 30
 			
 		}
 
@@ -23,13 +23,13 @@ pm_market_squares = {
 	texture = "gfx/interface/icons/production_method_icons/market_squares.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 80
+			state_infrastructure_add = 5
 		}
 	}
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_wood_add = 10
-			goods_output_services_add = 100
+			goods_output_services_add = 50
 		}
 
 		level_scaled = {
@@ -43,14 +43,14 @@ pm_covered_markets = {
 	texture = "gfx/interface/icons/production_method_icons/covered_markets.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 100
+			state_infrastructure_add = 10
 		}
 	}	
 	building_modifiers = {
 		workforce_scaled = {
 			goods_input_ketone_add = 15
 			goods_input_steel_add = 10
-			goods_output_services_add = 125
+			goods_output_services_add = 65
 		}
 
 		level_scaled = {
@@ -64,7 +64,7 @@ pm_arcades = {
 	texture = "gfx/interface/icons/production_method_icons/arcades.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 120
+			state_infrastructure_add = 12
 		}
 	}
 	building_modifiers = {
@@ -72,7 +72,7 @@ pm_arcades = {
 			goods_input_ketone_add = 20
 			goods_input_steel_add = 15
 			goods_input_electricity_add = 5
-			goods_output_services_add = 150
+			goods_output_services_add = 75
 		}
 
 		level_scaled = {
@@ -88,7 +88,7 @@ pm_supermarkets = {
 	texture = "gfx/interface/icons/production_method_icons/supermarkets.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 150
+			state_infrastructure_add = 15
 		}
 	}
 	building_modifiers = {
@@ -96,7 +96,7 @@ pm_supermarkets = {
 			goods_input_ketone_add = 25
 			goods_input_steel_add = 20
 			goods_input_electricity_add = 10
-			goods_output_services_add = 200
+			goods_output_services_add = 100
 		}
 
 		level_scaled = {
@@ -112,7 +112,7 @@ pm_shopping_malls = {
 	texture = "gfx/interface/icons/production_method_icons/shopping_malls.dds"
 	state_modifiers = {
 		workforce_scaled = {
-			state_infrastructure_add = 200
+			state_infrastructure_add = 20
 		}
 	}
 	building_modifiers = {
@@ -120,7 +120,7 @@ pm_shopping_malls = {
 			goods_input_ketone_add = 30
 			goods_input_steel_add = 25
 			goods_input_electricity_add = 15
-			goods_output_services_add = 250
+			goods_output_services_add = 125
 		}
 
 		level_scaled = {
@@ -131,6 +131,81 @@ pm_shopping_malls = {
 	}
 
 	required_input_goods = electricity
+}
+
+pm_single_deck_generic_city_structure_0 = {
+	texture = "gfx/interface/icons/production_method_icons/single_deck_generic_city_structure.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 60
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 20
+			goods_input_device_add = 2
+			goods_input_originite_prime_add = 2
+			goods_input_engines_add = 1
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 200
+			building_employment_engineers_add = 50
+			building_employment_machinists_add = 50
+		}
+	}
+}
+
+pm_double_deck_generic_city_structure_1 = {
+	texture = "gfx/interface/icons/production_method_icons/double_deck_generic_city_structure.dds"
+
+    state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 120
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 30
+			goods_input_device_add = 5
+			goods_input_originite_prime_add = 5
+			goods_input_engines_add = 3
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 100
+			building_employment_engineers_add = 100
+			building_employment_machinists_add = 100
+		}
+	}
+}
+
+pm_triple_deck_generic_city_structure_2 = {
+	texture = "gfx/interface/icons/production_method_icons/triple_deck_generic_city_structure.dds"
+
+	state_modifiers = {
+		workforce_scaled = {
+			state_infrastructure_add = 180
+		}
+	}
+
+	building_modifiers = {
+		workforce_scaled = {
+			goods_input_steel_add = 50
+			goods_input_device_add = 15
+			goods_input_originite_prime_add = 8
+			goods_input_engines_add = 5
+		}
+
+		level_scaled = {
+			building_employment_laborers_add = 50
+			building_employment_engineers_add = 125
+			building_employment_machinists_add = 125
+		}
+	}
 }
 
 pm_single_deck_generic_city_structure = {

@@ -16,6 +16,7 @@
 		pmg_building_originmum_mine_management
 	}
 	ownership_type = self
+	required_construction = construction_cost_medium
 
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }

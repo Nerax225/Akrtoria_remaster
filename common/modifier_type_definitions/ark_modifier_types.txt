@@ -31,7 +31,6 @@ catastrophe_infected_conversion_add = {
 	game_data={
 		ai_value=0
 	}
-}
 
 country_institution_infectors_treatment_max_investment_add={
 	decimals=0
