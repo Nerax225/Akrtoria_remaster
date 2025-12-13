@@ -119,7 +119,7 @@ ursus_ursus={ #乌萨斯
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 ursus_itra={ #乌萨斯依特拉
 	color={ 49 115 51 }
@@ -242,7 +242,7 @@ ursus_itra={ #乌萨斯依特拉
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 
 ursus_hippogryph={ #乌萨斯骏鹰
@@ -366,7 +366,7 @@ ursus_hippogryph={ #乌萨斯骏鹰
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 ursus_liberi={ #乌萨斯黎博利
 	color={ 45 136 92 }
@@ -489,7 +489,7 @@ ursus_liberi={ #乌萨斯黎博利
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 
 ursus_elafia={ #乌萨斯埃拉菲亚
@@ -613,7 +613,7 @@ ursus_elafia={ #乌萨斯埃拉菲亚
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 
 ursus_perro={ #乌萨斯佩洛
@@ -737,7 +737,7 @@ ursus_perro={ #乌萨斯佩洛
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 
 ursus_feline={ #乌萨斯菲林
@@ -861,6 +861,6 @@ ursus_feline={ #乌萨斯菲林
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
+	graphics = north_terra
 }
 

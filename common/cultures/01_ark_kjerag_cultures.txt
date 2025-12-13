@@ -31,7 +31,7 @@ kjerag_liberi={ #谢拉格黎博利
 	Simonsen Solberg Strand Sørensen Thomassen Torgersen
 	Viken Østby Ås
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -69,7 +69,7 @@ kjerag_feline={ #谢拉格菲林
 	Simonsen Solberg Strand Sørensen Thomassen Torgersen
 	Viken Østby Ås
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -107,7 +107,7 @@ kjerag_zalak={ #谢拉格扎拉克
 	Simonsen Solberg Strand Sørensen Thomassen Torgersen
 	Viken Østby Ås
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -145,7 +145,7 @@ kjerag_ursus={ #谢拉格乌萨斯
 		Simonsen Solberg Strand Sørensen Thomassen Torgersen
 		Viken Østby Ås
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -183,7 +183,7 @@ kjerag_itra={ #谢拉格依特拉
 	Simonsen Solberg Strand Sørensen Thomassen Torgersen
 	Viken Østby Ås
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

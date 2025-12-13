@@ -260,7 +260,7 @@ kazimierz_elafia={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = central_terra
 }
 
 kazimierz_feline={
@@ -349,7 +349,7 @@ kazimierz_feline={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = central_terra
 }
 
 kazimierz_perro={
@@ -438,7 +438,7 @@ kazimierz_perro={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = central_terra
 }
 
 kazimierz_zalak={
@@ -527,5 +527,5 @@ kazimierz_zalak={
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = central_terra
 }

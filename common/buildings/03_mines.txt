@@ -1,5 +1,5 @@
 ﻿building_originmum_mine = { #源石矿
-	building_group = bg_originmum_fields
+	building_group = bg_mining
 	icon = "gfx/interface/icons/building_icons/building_originmum_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -21,7 +21,7 @@
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 building_RMA_mine = { #RMA矿
-	building_group = bg_RMA
+	building_group = bg_mining
 	icon = "gfx/interface/icons/building_icons/building_RMA_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -40,7 +40,7 @@ building_RMA_mine = { #RMA矿
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 building_iron_mine = { #铁矿
-	building_group = bg_iron_mining
+	building_group = bg_mining
 	icon = "gfx/interface/icons/building_icons/building_iron_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -59,7 +59,7 @@ building_iron_mine = { #铁矿
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 building_light_manganese_mine = { #轻锰矿
-	building_group = bg_light_manganese
+	building_group = bg_mining
 	icon = "gfx/interface/icons/building_icons/building_light_manganese_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5
@@ -78,7 +78,7 @@ building_light_manganese_mine = { #轻锰矿
 	background = "gfx/interface/icons/building_icons/backgrounds/building_panel_bg_mining.dds"
 }
 building_grind_stone_mine = { #研磨石矿
-	building_group = bg_grind_stone
+	building_group = bg_mining
 	icon = "gfx/interface/icons/building_icons/building_grind_stone_mine.dds"
 	city_type = mine
 	levels_per_mesh = 5

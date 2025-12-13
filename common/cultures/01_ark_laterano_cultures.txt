@@ -39,7 +39,7 @@
 	Marcella Paula Petronilla
 	Monica Perpetua Pulcheria
 	}
-	graphics = european
+	graphics = sankta
 	ethnicities = {
 		1 = caucasian
 	}
@@ -85,7 +85,7 @@ laterano_fallen_sankta={ #堕天使
 	Marcella Paula Petronilla
 	Monica Perpetua Pulcheria
 	}
-	graphics = european
+	graphics = sankta
 	ethnicities = {
 		1 = caucasian
 	}
@@ -131,7 +131,7 @@ laterano_liberi={ #拉特兰黎博利
 	Marcella Paula Petronilla
 	Monica Perpetua Pulcheria
 	}
-	graphics = european
+	graphics = sankta
 	ethnicities = {
 		1 = caucasian
 	}

@@ -116,7 +116,7 @@ siracusa_lupo={ #鲁帕
 		Anna
 		Eleonora
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -239,7 +239,7 @@ siracusa_vulpo={ #叙拉古沃尔珀
 		Anna
 		Eleonora
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

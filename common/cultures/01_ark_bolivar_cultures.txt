@@ -128,7 +128,7 @@
 		Zelaya
 		Zeledon
 	}
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian } }
 bolivar_anura= { #玻利瓦尔安努拉
@@ -261,7 +261,7 @@ bolivar_anura= { #玻利瓦尔安努拉
 		Zelaya
 		Zeledon
 	}
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian } 
 }

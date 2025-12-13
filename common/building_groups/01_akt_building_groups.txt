@@ -1,10 +1,4 @@
-bg_originmum_fields = {
-	parent_group = bg_mining
 
-	default_building = building_originmum_mine
-
-	can_use_slaves = yes
-}
 bg_fruit_plantation = {
 	parent_group = bg_plantations
 
@@ -34,41 +28,7 @@ bg_potato_farm = {
 
 	cash_reserves_max = 25000
 }
- = {
-	parent_group = bg_agriculture
 
-	default_building = building_nomadic_village
-
-	cash_reserves_max = 25000
-}
-bg_RMA = {
-	parent_group = bg_mining
-
-	default_building = building_RMA_mine
-
-	can_use_slaves = yes
-}
-bg_iron_mining = {
-	parent_group = bg_mining
-
-	default_building = building_iron_mine
-
-	can_use_slaves = yes
-}
-bg_light_manganese = {
-	parent_group = bg_mining
-
-	default_building = building_light_manganese_mine
-
-	can_use_slaves = yes
-}
-bg_grind_stone = {
-	parent_group = bg_mining
-
-	default_building = building_grind_stone_mine
-
-	can_use_slaves = yes
-}
 
 bg_livestock_ranches = {
 	parent_group = bg_ranching

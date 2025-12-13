@@ -1,0 +1,17 @@
+﻿north_terra = {}
+
+east_terra = {}
+
+west_terra = {}
+
+central_terra = {}
+
+south_terra = {}
+
+south_west_terra = {}
+
+infected = {}
+
+sarkaz = {}
+
+sankta = {}

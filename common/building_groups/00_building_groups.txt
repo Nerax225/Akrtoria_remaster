@@ -334,6 +334,8 @@ bg_mining = {
 
 	lens = mine
 
+	can_use_slaves = yes
+
 	urbanization = 10
 	infrastructure_usage_per_level = 2
 

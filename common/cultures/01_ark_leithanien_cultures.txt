@@ -42,7 +42,7 @@ leithanien_caprinae={ #莱塔尼亚卡普里尼
 	Cecilie Dorothea Pauline Amalie Helene Olga
 	Antonia Henriette Wilhelmine Caroline
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -91,7 +91,7 @@ leithanien_elafia={ #莱塔尼亚埃拉菲亚
 	Cecilie Dorothea Pauline Amalie Helene Olga
 	Antonia Henriette Wilhelmine Caroline
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -140,7 +140,7 @@ leithanien_perro={ #莱塔尼亚佩洛
 	Cecilie Dorothea Pauline Amalie Helene Olga
 	Antonia Henriette Wilhelmine Caroline
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

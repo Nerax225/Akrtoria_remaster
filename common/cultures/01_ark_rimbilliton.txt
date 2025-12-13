@@ -24,7 +24,7 @@ rimbilliton_cautus={ #卡特斯
 	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
 	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -53,7 +53,7 @@ rimbilliton_savra={ #雷姆必拓萨弗拉
 	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
 	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -84,7 +84,7 @@ rimbilliton_feline={ #雷姆必拓菲林
 	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
 	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -115,7 +115,7 @@ rimbilliton_liberi={ #雷姆必拓黎博利
 	  Thompson Harris Clark Lewis Walker Hall Allen Young King Wright
 	  Scott Green Baker Adams Nelson Carter Mitchell Moore Hill Wood
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}

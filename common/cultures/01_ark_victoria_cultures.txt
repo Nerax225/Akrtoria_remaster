@@ -121,7 +121,7 @@ victoria_feline={ #维多利亚菲林
 		Adelaide
 		Caroline
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -244,7 +244,7 @@ victoria_aslan={ #阿斯兰
 		Cynewise
 		Seaxburh
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -367,7 +367,7 @@ victoria_draco={ #维多利亚德拉克
 		Laudine
 		Morgana
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -490,7 +490,7 @@ victoria_vouivre={ #维多利亚瓦伊凡
 		Anne
 		Catherine
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -613,7 +613,7 @@ victoria_liberi={ #维多利亚黎博利
 		Tangwystl
 		Marged
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -736,7 +736,7 @@ tara_feline={ #塔拉菲林
 		Sadhbh
 		Etain
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -859,7 +859,7 @@ tara_draco={ #塔拉德拉克
 		Goewin
 		Olwen
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

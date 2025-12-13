@@ -318,7 +318,7 @@ iberia_liberi={ #伊比利亚黎博利
  Villa
  Zamora
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -643,7 +643,7 @@ iberia_aegir={ #伊比利亚阿戈尔
  Villa
  Zamora
 	}
-	graphics = european
+	graphics = south_terra
 	ethnicities = {
 		1 = caucasian
 	}

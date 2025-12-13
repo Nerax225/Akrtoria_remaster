@@ -62,7 +62,7 @@ yan_aegir={ #炎阿戈尔
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_elafia={ #炎埃拉菲亚
 	color={ 200 26 13 }
@@ -137,7 +137,7 @@ yan_elafia={ #炎埃拉菲亚
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 
 yan_pythia={ #炎斐迪亚
@@ -214,7 +214,7 @@ yan_pythia={ #炎斐迪亚
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_feline={ #炎菲林
 	color={ 209 49 11 }
@@ -290,7 +290,7 @@ yan_feline={ #炎菲林
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_forte={ #炎丰蹄
 	color={ 213 60 9 }
@@ -366,7 +366,7 @@ yan_forte={ #炎丰蹄
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_liberi={ #炎黎博利
 	color={ 218 71 8 }
@@ -442,7 +442,7 @@ yan_liberi={ #炎黎博利
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_lung={ #龙
 	color={ 223 93 7 }
@@ -518,7 +518,7 @@ yan_lung={ #龙
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_perro={ #炎佩洛
 	color={ 227 94 6 }
@@ -594,7 +594,7 @@ yan_perro={ #炎佩洛
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_kylin={ #麒麟
 	color={ 232 105 5 }
@@ -670,7 +670,7 @@ yan_kylin={ #麒麟
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_anasa={ #阿纳萨
 	color={ 236 116 4 }
@@ -746,7 +746,7 @@ yan_anasa={ #阿纳萨
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_ursus={ #炎乌萨斯
 	color={ 241 128 2 }
@@ -822,7 +822,7 @@ yan_ursus={ #炎乌萨斯
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_itra={ #炎依特拉
 	color={ 245 139 1 }
@@ -898,7 +898,7 @@ yan_itra={ #炎依特拉
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 yan_zalak={ #炎扎拉克
 	color={ 250 150 0 }
@@ -974,5 +974,5 @@ yan_zalak={ #炎扎拉克
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }

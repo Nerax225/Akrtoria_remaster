@@ -119,7 +119,7 @@ columbia_zalak={ #哥伦比亚扎拉克
 		Virginia
 	}
 
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -244,7 +244,7 @@ columbia_liberi={ #哥伦比亚黎博利
 		Martha Mary
 		Virginia
 	}
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -370,7 +370,7 @@ columbia_feline={ #哥伦比亚菲林
 		Virginia
 	}
 
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -496,7 +496,7 @@ columbia_perro={ #哥伦比亚佩洛
 		Virginia
 	}
 
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -622,7 +622,7 @@ columbia_vouivre={ #哥伦比亚瓦伊凡
 		Virginia
 	}
 
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -748,7 +748,7 @@ columbia_sarkaz={ #哥伦比亚萨卡兹
 		Virginia
 	}
 
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}

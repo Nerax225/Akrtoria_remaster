@@ -1,3 +1,7 @@
-﻿concept_originium_dust_air_concentration  = {
-	is_loading_tip = yes
+﻿concept_generated_originium_powdern = {
+    is_loading_tip = yes
+}
+
+concept_originium_powder_impact = {
+    is_loading_tip = yes
 }

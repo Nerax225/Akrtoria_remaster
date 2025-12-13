@@ -263,7 +263,7 @@ common_last_names={
 	Weber
 	Zimmermann
 }
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

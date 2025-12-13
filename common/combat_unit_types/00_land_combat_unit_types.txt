@@ -24,49 +24,70 @@ combat_unit_type_irregular_infantry = {
 
     combat_unit_image = {
         trigger = {
-			has_culture_graphics = decentralised_americas
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_decentralised_americas_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = polynesian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_decentralised_polynesian_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/infantry_eu_irregular.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
 	upgrades = {
@@ -78,7 +99,7 @@ combat_unit_type_irregular_infantry = {
 	}
 }
 
-combat_unit_type_line_infantry = {
+combat_unit_type_armed_militia = {
     group = combat_unit_group_infantry
 	max_manpower = 1000
 
@@ -98,35 +119,70 @@ combat_unit_type_line_infantry = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_line.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_line.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_line.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_line.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/infantry_eu_line.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
 	upgrades = {
@@ -155,39 +211,73 @@ combat_unit_type_skirmish_infantry = {
 
 	unlocking_technologies = { general_staff }
 
-    combat_unit_image = {
+     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_skirmish.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_skirmish.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_skirmish.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_skirmish.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/infantry_eu_skirmish.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
-
 	upgrades = {
 		combat_unit_type_trench_infantry
         combat_unit_type_squad_infantry
@@ -195,7 +285,7 @@ combat_unit_type_skirmish_infantry = {
 	}
 }
 
-combat_unit_type_trench_infantry = {
+combat_unit_type_regular_infantry = {
     group = combat_unit_group_infantry
 	max_manpower = 1000
 
@@ -216,35 +306,70 @@ combat_unit_type_trench_infantry = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_trench.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_trench.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_trench.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_trench.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/infantry_eu_trench.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -275,35 +400,70 @@ combat_unit_type_squad_infantry = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_squad.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_squad.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_squad.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_squad.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/infantry_eu_squad.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -334,35 +494,70 @@ combat_unit_type_mechanized_infantry = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/infantry_east_asian_mechanized.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/infantry_south_asian_mechanized.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/infantry_african_mechanized.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/infantry_arabic_mechanized.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/infantry_eu_mechanized.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 }
 
@@ -393,35 +588,70 @@ combat_unit_type_cannon_artillery = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/artillery_east_asian_cannon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/artillery_south_asian_cannon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/artillery_african_cannon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/artillery_arabic_cannon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/artillery_eu_cannon.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -456,35 +686,70 @@ combat_unit_type_mobile_artillery = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/artillery_east_asian_mobile.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/artillery_south_asian_mobile.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/artillery_african_mobile.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/artillery_arabic_mobile.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/artillery_eu_mobile.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -519,35 +784,70 @@ combat_unit_type_shrapnel_artillery = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/artillery_east_asian_shrapnel.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/artillery_south_asian_shrapnel.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/artillery_african_shrapnel.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/artillery_arabic_shrapnel.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/artillery_eu_shrapnel.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -582,35 +882,70 @@ combat_unit_type_siege_artillery = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/artillery_east_asian_siege.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/artillery_south_asian_siege.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/artillery_african_siege.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/artillery_arabic_siege.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/artillery_eu_siege.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 }
 
@@ -643,7 +978,7 @@ combat_unit_type_heavy_tank = {
 	unlocking_technologies = { mobile_armor }
 
     combat_unit_image = {
-        texture = "gfx/unit_illustrations/artillery_heavy_tank.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 }
 
@@ -672,35 +1007,70 @@ combat_unit_type_hussars = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_east_asian_hussar.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_south_asian_hussar.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_african_hussar.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_arabic_hussar.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/cavalry_eu_hussar.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -731,35 +1101,70 @@ combat_unit_type_dragoons = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_east_asian_dragoon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_south_asian_dragoon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_african_dragoon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_arabic_dragoon.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/cavalry_eu_dragoon.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -788,35 +1193,70 @@ combat_unit_type_cuirassiers = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_east_asian_cuirassier.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_south_asian_cuirassier.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_african_cuirassier.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_arabic_cuirassier.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/cavalry_eu_cuirassier.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -848,35 +1288,70 @@ combat_unit_type_lancers = {
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = east_asian
+			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_east_asian_lancer.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = south_asian
+            has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_south_asian_lancer.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = african
+            has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_african_lancer.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
         trigger = {
-            has_culture_graphics = arabic
+            has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/cavalry_arabic_lancer.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     combat_unit_image = {
-        # fallback
-        texture = "gfx/unit_illustrations/cavalry_eu_lancer.dds"
+        trigger = {
+            has_culture_graphics = south_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = south_west_terra
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = infected
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sarkaz
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+        trigger = {
+            has_culture_graphics = sankta
+        }
+        texture = "gfx/unit_illustrations/placeholder.dds"
+    }
+
+    combat_unit_image = {
+		# fallback
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 
     upgrades = {
@@ -912,6 +1387,6 @@ combat_unit_type_light_tanks = {
 	unlocking_technologies = { mobile_armor }
 
     combat_unit_image = {
-        texture = "gfx/unit_illustrations/cavalry_light_tank.dds"
+        texture = "gfx/unit_illustrations/placeholder.dds"
     }
 }

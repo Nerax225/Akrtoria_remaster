@@ -9,7 +9,7 @@
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_iron_mine = 20
     }
 }
@@ -24,7 +24,7 @@ STATE_MONTEVERDE = {
     arable_land = 60
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 13
+        building_logging_camp = 13
         building_originmum_mine = 30
     }
 }
@@ -39,7 +39,7 @@ STATE_CORDILIA = {
     arable_land = 80
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_originmum_mine = 20
     }
 }
@@ -54,7 +54,7 @@ STATE_LASELVA = {
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 16
+        building_logging_camp = 16
         building_light_manganese_mine = 30
     }
 }
@@ -69,7 +69,7 @@ STATE_SOLANO = {
     arable_land = 66
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 18
+        building_logging_camp = 18
         building_light_manganese_mine = 20
     }
 }
@@ -84,7 +84,7 @@ STATE_VALDESOL = {
     arable_land = 70
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 22
+        building_logging_camp = 22
         building_light_manganese_mine = 30
         building_grind_stone_mine = 20
     }
@@ -100,7 +100,7 @@ STATE_SANCARORA = {
     arable_land = 77
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_originmum_mine = 50
         building_grind_stone_mine = 15
     }
@@ -116,7 +116,7 @@ STATE_ALTAMIRA = {
     arable_land = 68
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_originmum_mine = 15
     }
 }
@@ -131,7 +131,7 @@ STATE_MARIPOSA = {
     arable_land = 80
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
         building_originmum_mine = 25
     }
 }
@@ -146,7 +146,7 @@ STATE_SANTACLARA = {
     arable_land = 60
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
         building_originmum_mine = 45
         building_iron_mine = 30
         building_light_manganese_mine = 10
@@ -163,7 +163,7 @@ STATE_DOMINGO = {
     arable_land = 70
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 12
+        building_logging_camp = 12
         building_originmum_mine = 50
         building_iron_mine = 16
     }
@@ -179,7 +179,7 @@ STATE_RIOJULIANA = {
     arable_land = 50
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_iron_mine = 21
         building_grind_stone_mine = 25
     }
@@ -197,7 +197,7 @@ STATE_ORONEGRO = {
     naval_exit_id = 20042
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
         building_grind_stone_mine = 40
     }
 }
@@ -212,7 +212,7 @@ STATE_UNIONDISTRICT = {
     arable_land = 100
     arable_resources = { "building_grain_farm" }
     capped_resources = {
-        bg_logging = 10
+        building_logging_camp = 10
         building_originmum_mine = 30
         building_iron_mine = 20
     }
@@ -228,7 +228,7 @@ STATE_DRAVEN = {
     arable_land = 180
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 23
+        building_logging_camp = 23
         building_originmum_mine = 80
         building_grind_stone_mine = 50
         building_iron_mine = 120
@@ -247,7 +247,7 @@ STATE_BELMONT = {
     naval_exit_id = 20041
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 20
+        building_logging_camp = 20
         building_light_manganese_mine = 60
     }
 }
@@ -262,7 +262,7 @@ STATE_LOCKHAVEN = {
     arable_land = 100
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
         building_originmum_mine = 25
         building_iron_mine = 40
         building_light_manganese_mine = 20
@@ -280,7 +280,7 @@ STATE_WICKLYND = {
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 6
+        building_logging_camp = 6
         building_originmum_mine = 20
         building_light_manganese_mine = 40
     }
@@ -296,7 +296,7 @@ STATE_RAYWOOD = {
     arable_land = 100
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
         building_originmum_mine = 20
         building_iron_mine = 15
     }
@@ -312,7 +312,7 @@ STATE_BRANCROSS = {
     arable_land = 180
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_originmum_mine = 20
         building_iron_mine = 32
     }
@@ -328,7 +328,7 @@ STATE_ALDENRIDGE = {
     arable_land = 180
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 25
+        building_logging_camp = 25
         building_grind_stone_mine = 30
     }
 }
@@ -343,7 +343,7 @@ STATE_NEWCUMBRIA = {
     arable_land = 300
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_originmum_mine = 60
     }
 }
@@ -358,7 +358,7 @@ STATE_NOVALEON = {
     arable_land = 80
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 9
+        building_logging_camp = 9
     }
 }
 STATE_MADISONIA = {
@@ -374,7 +374,7 @@ STATE_MADISONIA = {
     naval_exit_id = 20028
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 6
+        building_logging_camp = 6
         building_originmum_mine = 15
         building_iron_mine = 15
     }
@@ -390,7 +390,7 @@ STATE_HARRISON = {
     arable_land = 180
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_originmum_mine = 120
         building_light_manganese_mine = 60
     }
@@ -406,7 +406,7 @@ STATE_SPRUCE = {
     arable_land = 200
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 20
+        building_logging_camp = 20
         building_originmum_mine = 70
         building_iron_mine = 65
     }
@@ -422,7 +422,7 @@ STATE_NOVACORAZON = {
     arable_land = 180
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 18
+        building_logging_camp = 18
         building_originmum_mine = 80
         building_light_manganese_mine = 45
     }
@@ -438,7 +438,7 @@ STATE_GRANNOCK = {
     arable_land = 150
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 18
+        building_logging_camp = 18
         building_iron_mine = 35
     }
 }
@@ -453,7 +453,7 @@ STATE_ADENVALE = {
     arable_land = 300
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 16
+        building_logging_camp = 16
         building_iron_mine = 60
     }
 }
@@ -468,7 +468,7 @@ STATE_THORNLAND = {
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 5
+        building_logging_camp = 5
         building_iron_mine = 30
     }
 }
@@ -485,7 +485,7 @@ STATE_AURELIAN = {
     naval_exit_id = 20029
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 13
+        building_logging_camp = 13
         building_originmum_mine = 35
         building_iron_mine = 20
     }
@@ -501,7 +501,7 @@ STATE_KENTAKEY = {
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
         building_iron_mine = 20
     }
 }
@@ -516,7 +516,7 @@ STATE_SYLVENFORD = {
     arable_land = 100
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 5
+        building_logging_camp = 5
     }
 }
 STATE_KUSARIKAWA = {
@@ -809,7 +809,7 @@ STATE_KRESY = {
     arable_land = 45
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 22
+        building_logging_camp = 22
         building_light_manganese_mine = 20
     }
 }
@@ -824,7 +824,7 @@ STATE_MAZOVIA = {
     arable_land = 30
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 5
+        building_logging_camp = 5
         building_grind_stone_mine = 20
     }
 }
@@ -839,7 +839,7 @@ STATE_PODLASIE = {
     arable_land = 55
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 25
+        building_logging_camp = 25
         building_originmum_mine = 60
         building_iron_mine = 80
     }
@@ -855,7 +855,7 @@ STATE_SILESKIE = {
     arable_land = 45
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 30
+        building_logging_camp = 30
     }
 }
 STATE_BIALOMIERZ = {
@@ -869,7 +869,7 @@ STATE_BIALOMIERZ = {
     arable_land = 40
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 13
+        building_logging_camp = 13
         building_iron_mine = 8
     }
 }
@@ -884,7 +884,7 @@ STATE_LUBLIN = {
     arable_land = 34
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
     }
 }
 STATE_KRASNOGORA = {
@@ -898,7 +898,7 @@ STATE_KRASNOGORA = {
     arable_land = 40
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_originmum_mine = 45
         building_iron_mine = 20
     }
@@ -914,7 +914,7 @@ STATE_LODZ = {
     arable_land = 90
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 20
+        building_logging_camp = 20
         building_originmum_mine = 50
         building_grind_stone_mine = 8
     }
@@ -930,7 +930,7 @@ STATE_KAWALERIELKI = {
     arable_land = 66
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_originmum_mine = 20
         building_iron_mine = 15
         building_grind_stone_mine = 30
@@ -947,7 +947,7 @@ STATE_DABROWICE = {
     arable_land = 70
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 10
+        building_logging_camp = 10
         building_originmum_mine = 28
     }
 }
@@ -964,7 +964,7 @@ STATE_KUTNO = {
     naval_exit_id = 20022
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 9
+        building_logging_camp = 9
         building_iron_mine = 11
     }
 }
@@ -979,7 +979,7 @@ STATE_STADNICA = {
     arable_land = 80
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_grind_stone_mine = 15
     }
 }
@@ -994,7 +994,7 @@ STATE_ZREBINOW = {
     arable_land = 70
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 16
+        building_logging_camp = 16
         building_iron_mine = 11
     }
 }
@@ -1009,7 +1009,7 @@ STATE_TABORZYN = {
     arable_land = 120
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 32
+        building_logging_camp = 32
         building_originmum_mine = 40
     }
 }
@@ -1024,7 +1024,7 @@ STATE_RUMACZYN = {
     arable_land = 105
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 28
+        building_logging_camp = 28
         building_originmum_mine = 55
     }
 }
@@ -1039,7 +1039,7 @@ STATE_CICHEPOLE = {
     arable_land = 40
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 10
+        building_logging_camp = 10
         building_originmum_mine = 20
     }
 }
@@ -1054,7 +1054,7 @@ STATE_BYSTRYNOW = {
     arable_land = 50
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 18
+        building_logging_camp = 18
         building_originmum_mine = 15
         building_iron_mine = 5
     }
@@ -1072,7 +1072,7 @@ STATE_SREBRZYNSK = {
     naval_exit_id = 20025
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_iron_mine = 12
     }
 }
@@ -1087,7 +1087,7 @@ STATE_KONIARZEVO = {
     arable_land = 50
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 12
+        building_logging_camp = 12
         building_originmum_mine = 24
     }
 }
@@ -1104,7 +1104,7 @@ STATE_ORSZEL = {
     naval_exit_id = 20025
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 6
+        building_logging_camp = 6
         building_iron_mine = 20
     }
 }
@@ -1121,7 +1121,7 @@ STATE_STEPNICA = {
     naval_exit_id = 20025
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_iron_mine = 55
     }
 }
@@ -1136,7 +1136,7 @@ STATE_KONIEWICE = {
     arable_land = 55
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_iron_mine = 32
     }
 }
@@ -1151,7 +1151,7 @@ STATE_SLIVERASH = {
     arable_land = 30
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_iron_mine = 30
         building_RMA_mine = 25
         building_light_manganese_mine = 23
@@ -1170,7 +1170,7 @@ STATE_BROWNTAIL = {
     arable_land = 20
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
         building_originmum_mine = 10
     }
 }
@@ -1187,7 +1187,7 @@ STATE_PALEROCHE = {
     naval_exit_id = 20025
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
         building_iron_mine = 5
         building_originmum_mine = 14
     }
@@ -1240,7 +1240,7 @@ STATE_VEDUNIEN = {
     arable_land = 141
     arable_resources = { "building_grain_farm" "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 3
+        building_logging_camp = 3
     }
 }
 STATE_BOCKSTADT = {
@@ -1254,7 +1254,7 @@ STATE_BOCKSTADT = {
     arable_land = 96
     arable_resources = { "building_livestock_ranch" "building_grain_farm"}
     capped_resources = {
-        bg_logging = 5
+        building_logging_camp = 5
     }
 }
 STATE_VYSEHEIM = {
@@ -1268,7 +1268,7 @@ STATE_VYSEHEIM = {
     arable_land = 134
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 6
+        building_logging_camp = 6
     }
 }
 STATE_WOLUMONDE = {
@@ -1282,7 +1282,7 @@ STATE_WOLUMONDE = {
     arable_land = 168
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 5
+        building_logging_camp = 5
     }
 }
 STATE_RABEMAUS = {
@@ -1296,7 +1296,7 @@ STATE_RABEMAUS = {
     arable_land = 174
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
     }
 }
 STATE_DUNKELWALD = {
@@ -1312,7 +1312,7 @@ STATE_DUNKELWALD = {
     arable_land = 64
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
     }
 }
 STATE_EISENTAL = {
@@ -1326,7 +1326,7 @@ STATE_EISENTAL = {
     arable_land = 86
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 16
+        building_logging_camp = 16
         building_iron_mine = 52
     }
 }
@@ -1343,7 +1343,7 @@ STATE_SILBERTHAL = {
     arable_land = 98
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 19
+        building_logging_camp = 19
     }
 }
 STATE_ALPENCHOR = {
@@ -1359,7 +1359,7 @@ STATE_ALPENCHOR = {
     arable_land = 47
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 23
+        building_logging_camp = 23
         building_originmum_mine = 71
     }
 }
@@ -1374,7 +1374,7 @@ STATE_SAITENAU = {
     arable_land = 47
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 9
+        building_logging_camp = 9
     }
 }
 STATE_SCHAFERFELD = {
@@ -1390,7 +1390,7 @@ STATE_SCHAFERFELD = {
     arable_land = 156
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 2
+        building_logging_camp = 2
     }
 }
 STATE_NOTENAU = {
@@ -1404,7 +1404,7 @@ STATE_NOTENAU = {
     arable_land = 59
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
         building_originmum_mine = 66
     }
 }
@@ -1428,7 +1428,7 @@ STATE_GEIBRAIN = {
     arable_land = 52
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
         building_iron_mine = 43
     }
 }
@@ -1445,7 +1445,7 @@ STATE_ZIEGENAU = {
     arable_land = 204
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 2
+        building_logging_camp = 2
     }
 }
 STATE_WALZERHEIM = {
@@ -1461,7 +1461,7 @@ STATE_WALZERHEIM = {
     arable_land = 223
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 3
+        building_logging_camp = 3
     }
 }
 STATE_SINFONIENBURG = {
@@ -1477,7 +1477,7 @@ STATE_SINFONIENBURG = {
     arable_land = 103
     arable_resources = { "building_grain_farm" "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_originmum_mine = 52
     }
 }
@@ -1492,7 +1492,7 @@ STATE_RAVENSTEIN = {
     arable_land = 12
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
     }
     
 }
@@ -1507,7 +1507,7 @@ STATE_TAKTBERG = {
     arable_land = 107
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 14
+        building_logging_camp = 14
         building_originmum_mine = 61
     }
 }
@@ -1522,7 +1522,7 @@ STATE_WIDDERRODE = {
     arable_land = 127
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
         building_originmum_mine = 71
         building_iron_mine = 57
     }
@@ -1537,7 +1537,7 @@ STATE_WIDDERRODE = {
 #    arable_land = 33
 #    arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
 #    capped_resources = {
-#        bg_logging = 13
+#        building_logging_camp = 13
 #        building_iron_mine = 57
 #    }
 #}
@@ -1552,7 +1552,7 @@ STATE_FELSENBURG = {
     arable_land = 185
     arable_resources = { }
     capped_resources = {
-        bg_logging = 4
+        building_logging_camp = 4
     }
 }
 #STATE_ZICKELREUTH = {
@@ -1565,7 +1565,7 @@ STATE_FELSENBURG = {
 #    arable_land = 76
 #    arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
 #    capped_resources = {
-#        bg_logging = 6
+#        building_logging_camp = 6
 #    }
 #}
 STATE_HOLZBURG = {
@@ -1579,7 +1579,7 @@ STATE_HOLZBURG = {
     arable_land = 142
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_originmum_mine = 55
     }
 }
@@ -1594,7 +1594,7 @@ STATE_WALDORF = {
     arable_land = 94
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 17
+        building_logging_camp = 17
         building_originmum_mine = 77
     }
 }
@@ -1609,7 +1609,7 @@ STATE_LAMMBURG = {
     arable_land = 104
     arable_resources = {  }
     capped_resources = {
-        bg_logging = 21
+        building_logging_camp = 21
     }
 }
 STATE_SINFONWALD = {
@@ -1632,7 +1632,7 @@ STATE_FICHTENAU = {
     arable_land = 52
     arable_resources = { "building_grain_farm"  "building_livestock_ranch" }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
         building_originmum_mine = 84
     }
 }
@@ -1655,7 +1655,7 @@ STATE_OROTHERA = {
     arable_land = 50
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 13
+        building_logging_camp = 13
         building_originmum_mine = 20
         building_light_manganese_mine = 18
     }
@@ -1673,7 +1673,7 @@ STATE_AGROCHORA = {
     naval_exit_id = 20038
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 9
+        building_logging_camp = 9
         building_iron_mine = 20
         building_originmum_mine = 10
     }
@@ -1691,7 +1691,7 @@ STATE_NIKEPHORA = {
     naval_exit_id = 20038
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
         building_originmum_mine = 40
     }
 }
@@ -1706,7 +1706,7 @@ STATE_MYRINASSA = {
     arable_land = 45
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 15
+        building_logging_camp = 15
     }
 }
 STATE_ZENOPOLIS = {
@@ -1722,7 +1722,7 @@ STATE_ZENOPOLIS = {
     naval_exit_id = 20035
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 8
+        building_logging_camp = 8
         building_originmum_mine = 16
     }
 }
@@ -2428,7 +2428,7 @@ STATE_SIESTACORE = {
     arable_land = 40
     arable_resources = { "building_grain_farm" }
     capped_resources = {
-        bg_logging = 4
+        building_logging_camp = 4
         building_iron_mine = 10
         building_originmum_mine = 15
         building_light_manganese_mine = 60
@@ -2447,7 +2447,7 @@ STATE_OUTTERSIESTA = {
     naval_exit_id = 20034
     arable_resources = { "building_grain_farm" }
     capped_resources = {
-        bg_logging = 20
+        building_logging_camp = 20
         building_light_manganese_mine = 40
         building_grind_stone_mine = 15
     }
@@ -3157,7 +3157,7 @@ STATE_NORFOLKRIDGE = {
     capped_resources = {
         building_originmum_mine = 20
         building_light_manganese_mine = 15
-        bg_logging = 12
+        building_logging_camp = 12
     }
 }
 STATE_LONDINIUM = {
@@ -3174,7 +3174,7 @@ STATE_LONDINIUM = {
         building_originmum_mine = 55
         building_iron_mine = 30
         building_light_manganese_mine = 30
-        bg_logging = 11
+        building_logging_camp = 11
     }
 }
 STATE_CUMBRIA = {
@@ -3190,7 +3190,7 @@ STATE_CUMBRIA = {
     capped_resources = {
         building_originmum_mine = 35
         building_iron_mine = 10
-        bg_logging = 9
+        building_logging_camp = 9
     }
 }
 STATE_COVENRIDGE = {
@@ -3207,7 +3207,7 @@ STATE_COVENRIDGE = {
         building_originmum_mine = 45
         building_iron_mine = 20
         building_grind_stone_mine = 20
-        bg_logging = 14
+        building_logging_camp = 14
     }
 }
 STATE_GRAFTON = {
@@ -3222,7 +3222,7 @@ STATE_GRAFTON = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_originmum_mine = 110
-        bg_logging = 24
+        building_logging_camp = 24
     }
 }
 STATE_DRASTON = {
@@ -3240,8 +3240,7 @@ STATE_DRASTON = {
     capped_resources = {
         building_originmum_mine = 35
         building_light_manganese_mine = 60
-        bg_logging = 14
-        bg_fishing = 5
+        building_logging_camp = 14
     }
 }
 STATE_MORWICK = {
@@ -3257,7 +3256,7 @@ STATE_MORWICK = {
     capped_resources = {
         building_originmum_mine = 30
         building_iron_mine = 55
-        bg_logging = 7
+        building_logging_camp = 7
     }
 }
 STATE_GREENHOLLOW = {
@@ -3272,8 +3271,7 @@ STATE_GREENHOLLOW = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_originmum_mine = 45
-        bg_logging = 15
-        bg_fishing = 6
+        building_logging_camp = 15
     }
 }
 STATE_THORNWELL = {
@@ -3289,7 +3287,7 @@ STATE_THORNWELL = {
     naval_exit_id = 20032
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 12
+        building_logging_camp = 12
     }
 }
 STATE_ALDWICH = {
@@ -3307,7 +3305,7 @@ STATE_ALDWICH = {
     capped_resources = {
         building_originmum_mine = 30
         building_iron_mine = 40
-        bg_logging = 12
+        building_logging_camp = 12
     }
 }
 STATE_TORON = {
@@ -3323,7 +3321,7 @@ STATE_TORON = {
     naval_exit_id = 20030
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 11
+        building_logging_camp = 11
     }
 }
 STATE_GLAMORGAN = {
@@ -3339,8 +3337,7 @@ STATE_GLAMORGAN = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_grind_stone_mine = 25
-        bg_logging = 11
-        bg_fishing = 8
+        building_logging_camp = 11
     }
 }
 STATE_TIRCONNELL = {
@@ -3356,8 +3353,7 @@ STATE_TIRCONNELL = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_grind_stone_mine = 5
-        bg_logging = 9
-        bg_fishing = 6
+        building_logging_camp = 9
     }
 }
 STATE_HILLROCK = {
@@ -3375,8 +3371,7 @@ STATE_HILLROCK = {
         building_originmum_mine = 45
         building_iron_mine = 30
         building_grind_stone_mine = 40
-        bg_logging = 16
-        bg_fishing = 11
+        building_logging_camp = 16
     }
 }
 STATE_CHESHIREVALE = {
@@ -3389,8 +3384,7 @@ STATE_CHESHIREVALE = {
         building_originmum_mine = 60
         building_iron_mine = 30
         building_grind_stone_mine = 10
-        bg_logging = 15
-        bg_fishing = 8
+        building_logging_camp = 15
     }
     port = "xC7E99E"
     city = "x806DCF"
@@ -3407,8 +3401,7 @@ STATE_WORSENDALE = {
     capped_resources = {
         building_originmum_mine = 15
         building_iron_mine = 30
-        bg_logging = 23
-        bg_fishing = 6
+        building_logging_camp = 23
     }
     city = "xA48DA9"
     port = "xF6A292"
@@ -3431,7 +3424,7 @@ STATE_ASCARAT = {
         building_originmum_mine = 55
         building_iron_mine = 45
         building_grind_stone_mine = 18
-        bg_logging = 20
+        building_logging_camp = 20
     }
 }
 STATE_THORNBURY = {
@@ -3447,7 +3440,7 @@ STATE_THORNBURY = {
     capped_resources = {
         building_originmum_mine = 55
         building_iron_mine = 60
-        bg_logging = 16
+        building_logging_camp = 16
     }
 }
 STATE_GRANTON = {
@@ -3462,7 +3455,7 @@ STATE_GRANTON = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_grind_stone_mine = 30
-        bg_logging = 20
+        building_logging_camp = 20
     }
 }
 STATE_WILBROOK = {
@@ -3476,7 +3469,7 @@ STATE_WILBROOK = {
     arable_land = 100
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 7
+        building_logging_camp = 7
     }
 }
 STATE_CORNWORTH = {
@@ -3492,7 +3485,7 @@ STATE_CORNWORTH = {
     capped_resources = {
         building_originmum_mine = 50
         building_iron_mine = 80
-        bg_logging = 18
+        building_logging_camp = 18
     }
 }
 STATE_YORKRIDGE = {
@@ -3509,7 +3502,7 @@ STATE_YORKRIDGE = {
         building_originmum_mine = 80
         building_iron_mine = 45
         building_grind_stone_mine = 25
-        bg_logging = 11
+        building_logging_camp = 11
     }
 }
 STATE_WESSEX = {
@@ -3526,7 +3519,7 @@ STATE_WESSEX = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_originmum_mine = 25
-        bg_logging = 12
+        building_logging_camp = 12
     }
 }
 STATE_CAMBRIC = {
@@ -3543,7 +3536,7 @@ STATE_CAMBRIC = {
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
         building_originmum_mine = 36
-        bg_logging = 16
+        building_logging_camp = 16
     }
 }
 STATE_BOURGOGNE = {
@@ -3562,7 +3555,7 @@ STATE_BOURGOGNE = {
         building_originmum_mine = 40
         building_light_manganese_mine = 20
         building_grind_stone_mine = 45
-        bg_logging = 20
+        building_logging_camp = 20
     }
 }
 STATE_AQUITAINE = {
@@ -3582,7 +3575,7 @@ STATE_AQUITAINE = {
         building_iron_mine = 15
         building_light_manganese_mine = 25
         building_grind_stone_mine = 25
-        bg_logging = 8
+        building_logging_camp = 8
     }
 }
 STATE_NORMANDY = {
@@ -3600,7 +3593,7 @@ STATE_NORMANDY = {
         building_iron_mine = 35
         building_light_manganese_mine = 12
         building_grind_stone_mine = 35
-        bg_logging = 13
+        building_logging_camp = 13
     }
 }
 STATE_CORCAIGH = {
@@ -3610,8 +3603,7 @@ STATE_CORCAIGH = {
     arable_land = 40
     arable_resources = { "building_grain_farm"  }
     capped_resources = {
-        bg_logging = 6
-        bg_fishing = 4
+        building_logging_camp = 6
     }
     port = "xF09A6E"
     city = "xF09A6E"

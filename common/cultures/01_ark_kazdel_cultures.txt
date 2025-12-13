@@ -186,7 +186,7 @@ sarkaz={ #萨卡兹
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 vampire={ #血魔
 	color={ 138 138 138 }
@@ -376,7 +376,7 @@ vampire={ #血魔
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 wendigo={ #温迪戈
 	color={ 130 130 130 }
@@ -566,7 +566,7 @@ wendigo={ #温迪戈
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 banshee={ #女妖
 	color={ 122 122 122 }
@@ -756,7 +756,7 @@ banshee={ #女妖
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 gargoyle={ #石翼魔
 	color={ 114 114 114 }
@@ -945,7 +945,7 @@ gargoyle={ #石翼魔
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 nachzehrer={ #食腐者
 	color={ 106 106 106 }
@@ -1134,7 +1134,7 @@ nachzehrer={ #食腐者
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 damazti={ #变形者
 	color={ 98 98 98 }
@@ -1324,7 +1324,7 @@ damazti={ #变形者
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 diablo={ #炎魔
 	color={ 89 89 89 }
@@ -1514,7 +1514,7 @@ diablo={ #炎魔
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 lich={ #巫妖
 	color={ 81 81 81 }
@@ -1704,7 +1704,7 @@ lich={ #巫妖
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 cyclops={ #独眼巨人
 	color={ 73 73 73 }
@@ -1894,7 +1894,7 @@ cyclops={ #独眼巨人
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 djall={ #笞心魔
 	color={ 65 65 65 }
@@ -2084,7 +2084,7 @@ djall={ #笞心魔
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }
 goliath={ #歌利亚
 	color={ 57 57 57 }
@@ -2274,5 +2274,5 @@ goliath={ #歌利亚
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = sarkaz
 }

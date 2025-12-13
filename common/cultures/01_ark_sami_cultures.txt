@@ -216,7 +216,7 @@ sami_elafia={ #萨米埃亚菲亚
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = north_terra
 }
 sami_itra={ #萨米依特拉
 	color={ 191 231 254 }
@@ -436,5 +436,5 @@ sami_itra={ #萨米依特拉
 	ethnicities = {
 		1 = caucasian
 	}
-	graphics = european
+	graphics = north_terra
 }

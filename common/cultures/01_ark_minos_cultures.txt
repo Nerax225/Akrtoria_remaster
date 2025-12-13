@@ -98,7 +98,7 @@ minos_forte={ #米诺斯丰蹄
 	female_regal_first_names = {
 
 	}
-	graphics = european
+	graphics = south_west_terra
 	ethnicities = {
 		1 = caucasian
 	}

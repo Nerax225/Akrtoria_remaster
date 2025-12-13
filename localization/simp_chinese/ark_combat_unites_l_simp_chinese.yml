@@ -1,0 +1,11 @@
+﻿l_simp_chinese:
+ combat_unit_type_irregular_infantry: "非正规步兵"
+ combat_unit_type_irregular_infantry_desc: "非正规步兵是由平民自发组织起来的军事单位。"
+ combat_unit_type_armed_militia: "武装民兵"
+ combat_unit_type_armed_militia_desc: "武装民兵是由地方居民组成的军事力量。"
+ combat_unit_type_regular_infantry: "正规步兵"
+ combat_unit_type_regular_infantry_desc: "正规步兵是经过专业训练和装备的军事单位。"
+ combat_unit_type_squad_infantry: "班级步兵"
+ combat_unit_type_squad_infantry_desc: "班级步兵是小型的军事单位，通常由少数士兵组成。"
+ combat_unit_type_mechanized_infantry: "机械化步兵"
+ combat_unit_type_mechanized_infantry_desc: "机械化步兵配备了装甲车辆和先进的武器系统。"

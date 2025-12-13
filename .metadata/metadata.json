@@ -17,6 +17,7 @@
       "common/customizable_localization",
       "common/decisions",
       "common/journal_entries",
+      "common/combat_unit_types",
       "common/history",
       "common/history/pops",
       "common/history/countries",

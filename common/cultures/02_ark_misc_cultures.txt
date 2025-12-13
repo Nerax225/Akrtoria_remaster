@@ -209,7 +209,7 @@ central_terra_anaty={ #泰拉中部阿纳提
 		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
 		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
 	}
-	graphics = european
+	graphics = east_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -317,7 +317,7 @@ west_terra_anaty={ #泰拉西部阿纳提
 		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
 		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
 	}
-	graphics = european
+	graphics = west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -425,10 +425,10 @@ north_terra_anaty={ #泰拉北部阿纳提
 		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
 		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
 	}
+	graphics = north_terra
 	ethnicities = {
 		1 = slavic
 	}
-	graphics = european
 }
 south_terra_anaty={ #泰拉南部阿纳提
 	color={ 255 209 209 }
@@ -536,7 +536,7 @@ south_terra_anaty={ #泰拉南部阿纳提
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_terra
 }
 
 durin={ #杜林
@@ -642,7 +642,7 @@ durin={ #杜林
 		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
 		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
 	}
-	graphics = european
+	graphics = central_terra
 	ethnicities = {
 		1 = caucasian
 	}

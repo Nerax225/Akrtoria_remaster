@@ -101,6 +101,6 @@
 		Derbforgaill Mor Dubhchobhlaigh Lasairfhiona Bebinn Orlaith Sadhbh Etain Rhiannon Branwen Arianrhod Ceridwen
 		Modron Blodeuwedd Creiddylad Penardun Goewin Olwen
 	}
-	graphics = european
+	graphics = infected
 	ethnicities = { 1 = caucasian }
 }

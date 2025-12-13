@@ -105,3 +105,11 @@ texticon = { icon = wine                iconsize = { texture = "gfx/interface/ic
 
 # =============== Extra (Non-good example already existed) ===============
 # infectors kept from original file.
+texticon = {
+  icon = infectors
+  iconsize = {
+    offset = { 0 7 }
+    texture = "gfx/interface/icons/ig_icons/infectors_30.dds"
+    fontsize = 22
+  }
+}

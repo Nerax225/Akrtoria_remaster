@@ -346,7 +346,7 @@ common_last_names={
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 higashi_vulpo={ #东沃尔珀
 	color={ 255 181 244 }
@@ -696,7 +696,7 @@ common_last_names={
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }
 higashi_oni={ #鬼
 	color={ 255 200 247 }
@@ -1046,5 +1046,5 @@ common_last_names={
 	ethnicities = {
 		1 = asian
 	}
-	graphics = east_asian
+	graphics = east_terra
 }

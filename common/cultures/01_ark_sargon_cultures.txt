@@ -244,7 +244,7 @@ sargon_liberi={ #萨尔贡黎博利
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_feline={ #萨尔贡菲林
 	color={ 36 135 56 }
@@ -492,7 +492,7 @@ sargon_feline={ #萨尔贡菲林
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_archosauria={ #阿达克利斯
 	color={ 49 141 55 }
@@ -738,7 +738,7 @@ sargon_archosauria={ #阿达克利斯
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_pythia={ #萨尔斐迪亚
 	color={ 63 148 53 }
@@ -968,7 +968,7 @@ sargon_pythia={ #萨尔斐迪亚
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_forte={ #萨尔贡丰蹄
 	color={ 77 154 52 }
@@ -1216,7 +1216,7 @@ sargon_forte={ #萨尔贡丰蹄
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_caprinae={ #萨尔贡卡普里尼
 	color={ 91 161 51 }
@@ -1463,7 +1463,7 @@ sargon_caprinae={ #萨尔贡卡普里尼
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_manticore={ #曼提柯
 	color={ 105 167 50 }
@@ -1710,7 +1710,7 @@ sargon_manticore={ #曼提柯
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_pilosa={ #皮洛萨
 	color={ 118 174 49 }
@@ -1956,7 +1956,7 @@ sargon_pilosa={ #皮洛萨
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_cerato={ #塞拉托
 	color={ 132 180 48 }
@@ -2204,7 +2204,7 @@ sargon_cerato={ #塞拉托
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_elafia={ #萨尔贡埃拉菲亚
 	color={ 146 187 46 }
@@ -2450,7 +2450,7 @@ sargon_elafia={ #萨尔贡埃拉菲亚
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_anura={ #萨尔贡安努拉
 	color={ 160 194 45 }
@@ -2696,7 +2696,7 @@ sargon_anura={ #萨尔贡安努拉
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_rebbah={ #瑞柏巴
 	color={ 173 200 44 }
@@ -2942,7 +2942,7 @@ sargon_rebbah={ #瑞柏巴
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_savra={ #萨尔贡萨弗拉
 	color={ 187 207 43 }
@@ -3193,7 +3193,7 @@ sargon_savra={ #萨尔贡萨弗拉
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_vouivre={ #萨尔贡瓦伊凡
 	color={ 201 213 42 }
@@ -3439,7 +3439,7 @@ sargon_vouivre={ #萨尔贡瓦伊凡
 	ethnicities = {
 		1 = arab
 	}
-	graphics = arabic
+	graphics = south_west_terra
 }
 sargon_aslan={ #萨尔贡阿斯兰
 	color={ 215 220 40 }
@@ -3687,7 +3687,7 @@ sargon_aslan={ #萨尔贡阿斯兰
 		Khuranzem
 		Turandokht
 	}
-	graphics = european
+	graphics = south_west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -3938,7 +3938,7 @@ sargon_nightzmoras={ #梦魇
 		Khuranzem
 		Turandokht
 	}
-	graphics = european
+	graphics = south_west_terra
 	ethnicities = {
 		1 = caucasian
 	}
@@ -4189,7 +4189,7 @@ sargon_kuranta={ #萨尔贡库兰塔
 		Khuranzem
 		Turandokht
 	}
-	graphics = european
+	graphics = south_west_terra
 	ethnicities = {
 		1 = caucasian
 	}
