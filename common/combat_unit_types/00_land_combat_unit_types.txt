@@ -91,9 +91,8 @@ combat_unit_type_irregular_infantry = {
     }
 
 	upgrades = {
-		combat_unit_type_line_infantry
-		combat_unit_type_skirmish_infantry
-        combat_unit_type_trench_infantry
+		combat_unit_type_armed_militia
+        combat_unit_type_regular_infantry
         combat_unit_type_squad_infantry
         combat_unit_type_mechanized_infantry
 	}
@@ -121,165 +120,72 @@ combat_unit_type_armed_militia = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/armed_militia.dds"
     }
 
 	upgrades = {
-		combat_unit_type_skirmish_infantry
-        combat_unit_type_trench_infantry
-        combat_unit_type_squad_infantry
-        combat_unit_type_mechanized_infantry
-	}
-}
-
-combat_unit_type_skirmish_infantry = {
-    group = combat_unit_group_infantry
-	max_manpower = 1000
-
-    conscript_peasant_levies = yes
-
-    upkeep_modifier = {
-        goods_input_small_arms_add = 3
-    }
-
-    battle_modifier = {
-        unit_offense_add = 25
-        unit_defense_add = 35
-        unit_morale_loss_add = 10
-    }
-
-	unlocking_technologies = { general_staff }
-
-     combat_unit_image = {
-        trigger = {
-			has_culture_graphics = north_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = east_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = west_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = central_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = south_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = south_west_terra
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = infected
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = sarkaz
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-        trigger = {
-            has_culture_graphics = sankta
-        }
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-
-    combat_unit_image = {
-		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
-    }
-	upgrades = {
-		combat_unit_type_trench_infantry
+		combat_unit_type_regular_infantry
         combat_unit_type_squad_infantry
         combat_unit_type_mechanized_infantry
 	}
@@ -308,68 +214,68 @@ combat_unit_type_regular_infantry = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/regular_infantry.dds"
     }
 
     upgrades = {
@@ -402,68 +308,68 @@ combat_unit_type_squad_infantry = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/squad_infantry.dds"
     }
 
     upgrades = {
@@ -590,68 +496,68 @@ combat_unit_type_cannon_artillery = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     upgrades = {
@@ -688,68 +594,68 @@ combat_unit_type_mobile_artillery = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     upgrades = {
@@ -786,68 +692,68 @@ combat_unit_type_shrapnel_artillery = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     upgrades = {
@@ -884,68 +790,68 @@ combat_unit_type_siege_artillery = {
         trigger = {
 			has_culture_graphics = north_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = east_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = central_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = south_west_terra
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = infected
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sarkaz
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
         trigger = {
             has_culture_graphics = sankta
         }
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 
     combat_unit_image = {
 		# fallback
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 }
 
@@ -978,7 +884,7 @@ combat_unit_type_heavy_tank = {
 	unlocking_technologies = { mobile_armor }
 
     combat_unit_image = {
-        texture = "gfx/unit_illustrations/placeholder.dds"
+        texture = "gfx/unit_illustrations/placeholder_artillery.dds"
     }
 }
 

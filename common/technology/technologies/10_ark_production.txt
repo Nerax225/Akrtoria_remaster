@@ -1,0 +1,1647 @@
+#制造业
+manufacturing  = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/manufacturing.dds"
+	category = production
+	
+	ai_weight = {
+		value = 3
+	}
+}
+
+#竖井开采
+shaft_mining = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/shaft_mining.dds"
+	category = production
+	
+	unlocking_technologies = {
+		manufacturing
+	}
+	ai_weight = {
+		value = 2
+	}
+}
+
+#勘探
+exploration = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/exploration.dds"
+	category = production
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+	ai_weight = {
+		value = 2
+	}
+}
+
+#蒸馏
+distillation = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/distillation.dds"
+	category = production
+
+	unlocking_technologies = {
+		manufacturing
+	}
+	ai_weight = {
+		value = 2
+	}
+}
+
+#车床
+lathe = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/lathe.dds"
+	category = production
+
+	unlocking_technologies = {
+		distillation
+	}
+	ai_weight = {
+		value = 2
+	}
+}
+
+#源石技艺
+originium_arts = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/originium_arts.dds"
+	category = production
+
+	ai_weight = {
+		value = 10
+	}
+}
+
+#手工精炼
+manual_refining = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/manual_refining.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_arts
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#药品
+pharaceuticals = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/pharaceuticals.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_arts
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#源石炼钢
+originium_steelmaking = {
+	era = era_1
+	texture = "gfx/interface/icons/invention_icons/originium_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_arts
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#系统化源石技艺
+systematized_originium_arts = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/systematized_originium_arts.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_arts
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#源石转炉炼钢法
+originium_basic_oxygen_steelmaking = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/originium_basic_oxygen_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_steelmaking
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#源石外燃机
+originium_external_combustion_engine = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/originium_external_combustion_engine.dds"
+	category = production
+
+	unlocking_technologies = {
+		shaft_mining
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+#机械工具
+mechanical_tools = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/mechanical_tools.dds"
+	category = production
+
+	unlocking_technologies = {
+		lathe
+		systematized_originium_arts
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+#分馏
+fractional_distillation = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/fractional_distillation.dds"
+	category = production
+
+	unlocking_technologies = {
+		distillation
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+#集约农业
+intensive_agriculture = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/intensive_agriculture.dds"
+	category = production
+
+	unlocking_technologies = {
+		distillation
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+#不稳定源石炸药
+unstable_originium_explosives = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/unstable_originium_explosives.dds"
+	category = production
+
+	unlocking_technologies = {
+		exploration
+		pharaceuticals
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+#水管锅炉
+water_tube_boiler = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/water_tube_boiler.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_external_combustion_engine
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+#轨道运输
+rail_transportation = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/rail_transportation.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_external_combustion_engine
+		mechanical_tools
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+#灌装机
+bottling_machine = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/bottling_machine.dds"
+	category = production
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+#化学漂白
+chemical_bleaching = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/chemical_bleaching.dds"
+	category = production
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+#机械化工坊
+mechanized_workshop = {
+	era = era_2
+	texture = "gfx/interface/icons/invention_icons/mechanized_workshop.dds"
+	category = production
+
+	unlocking_technologies = {
+		mechanical_tools
+		bottling_machine
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+#辅助蒸汽机
+auxiliary_steam_engine = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/auxiliary_steam_engine.dds"
+	category = production
+
+	unlocking_technologies = {
+		water_tube_boiler
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+#源石火药
+originium_gunpowder = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/originium_gunpowder.dds"
+	category = production
+
+	unlocking_technologies = {
+		unstable_originium_explosives
+		systematized_originium_arts
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+#平炉练钢法
+open_hearth_steelmaking = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/open_hearth_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_basic_oxygen_steelmaking
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+#钢筋混凝土
+reinforced_concrete = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/reinforced_concrete.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_basic_oxygen_steelmaking
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+#旋转阀发动机
+rotary_valve_engine = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/rotary_valve_engine.dds"
+	category = production
+
+	unlocking_technologies = {
+		water_tube_boiler
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#轮班工作
+shift_work = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/shift_work.dds"
+	category = production
+
+	unlocking_technologies = {
+		mechanized_workshop
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#有机反应
+organic_reaction = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/organic_reaction.dds"
+	category = production
+
+	unlocking_technologies = {
+		fractional_distillation
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#源石尘吸收器
+originium_dust_absorption = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/originium_dust_absorption.dds"
+	category = production
+
+	unlocking_technologies = {
+		auxiliary_steam_engine
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#脱粒机
+threshing_machine = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/threshing_machine.dds"
+	category = production
+
+	unlocking_technologies = {
+		auxiliary_steam_engine
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#泵水机
+water_pump = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/water_pump.dds"
+	category = production
+
+	unlocking_technologies = {
+		auxiliary_steam_engine
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#能量扫描法
+energy_scanning = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/energy_scanning.dds"
+	category = production
+
+	unlocking_technologies = {
+		unstable_originium_explosives
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#色泽分类法
+color_sorting = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/color_sorting.dds"
+	category = production
+
+	unlocking_technologies = {
+		reinforced_concrete
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#改良化肥
+improved_fertilizer = {
+	era = era_3
+	texture = "gfx/interface/icons/invention_icons/improved_fertilizer.dds"
+	category = production
+
+	unlocking_technologies = {
+		intensive_agriculture
+		pharaceuticals
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#固氮
+nitrogen_fixation = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/nitrogen_fixation.dds"
+	category = production
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#机械化耕作
+mechanized_farming = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/mechanized_farming.dds"
+	category = production
+
+	unlocking_technologies = {
+		threshing_machine
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#气动工具
+pneumatic_tools = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/pneumatic_tools.dds"
+	category = production
+
+	unlocking_technologies = {
+		rotary_valve_engine
+		reinforced_concrete
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#吹氧炼钢法
+oxygen_blowing_steelmaking = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/oxygen_blowing_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		open_hearth_steelmaking
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#半固化法术
+semi_fixed_spell = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/semi_fixed_spell.dds"
+	category = production
+
+	unlocking_technologies = {
+		color_sorting
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#内燃机
+internal_combustion_engine = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/internal_combustion_engine.dds"
+	category = production
+
+	unlocking_technologies = {
+		rotary_valve_engine
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#传送带
+conveyor_belt = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/conveyor_belt.dds"
+	category = production
+
+	unlocking_technologies = {
+		shift_work
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#巴氏灭菌法
+pasteurization = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/pasteurization.dds"
+	category = production
+
+	unlocking_technologies = {
+		bottling_machine
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#溶液催化加工
+solution_catalytic_processing = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/solution_catalytic_processing.dds"
+	category = production
+
+	unlocking_technologies = {
+		organic_reaction
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#移动城市
+nomadic_city = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/nomadic_city.dds"
+	category = production
+
+	unlocking_technologies = {
+		internal_combustion_engine
+	}
+	ai_weight = {
+		value = 3
+	}
+}
+
+#塑料
+plastics = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/plastics.dds"
+	category = production
+
+	unlocking_technologies = {
+		reinforced_concrete
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#发电
+power_generation = {
+	era = era_4
+	texture = "gfx/interface/icons/invention_icons/power_generation.dds"
+	category = production
+
+	unlocking_technologies = {
+		internal_combustion_engine
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#转质盐
+transmuted_salt = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/transmuted_salt.dds"
+	category = production
+
+	unlocking_technologies = {
+		solution_catalytic_processing
+	}
+	ai_weight = {
+		value = 4
+	}
+}
+
+#无线电
+radio = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/radio.dds"
+	category = production
+
+	unlocking_technologies = {
+		telephone
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#电话
+telephone = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/telephone.dds"
+	category = production
+
+	unlocking_technologies = {
+		power_generation
+		shift_work
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#电容器
+capacitor = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/capacitor.dds"
+	category = production
+
+	unlocking_technologies = {
+		power_generation
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#电气化
+electrification = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/electrification.dds"
+	category = production
+
+	unlocking_technologies = {
+		capacitor
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#蒸汽轮机
+steam_turbine = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/steam_turbine.dds"
+	category = production
+
+	unlocking_technologies = {
+		power_generation
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#回吹炼钢法
+acid_oxygen_steelmaking = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/acid_oxygen_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		oxygen_blowing_steelmaking
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#电弧焊
+electric_arc_welding = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/electric_arc_welding.dds"
+	category = production
+
+	unlocking_technologies = {
+		pneumatic_tools
+		power_generation
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#食品级传送带
+food_grade_conveyor = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/food_grade_conveyor.dds"
+	category = production
+
+	unlocking_technologies = {
+		pasteurization
+		conveyor_belt
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#合成农药
+synthetic_pesticide = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/synthetic_pesticide.dds"
+	category = production
+
+	unlocking_technologies = {
+		improved_fertilizer
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#源石精炼厂
+originium_refining_plant = {
+	era = era_5
+	texture = "gfx/interface/icons/invention_icons/originium_refining_plant.dds"
+	category = production
+
+	unlocking_technologies = {
+		semi_fixed_spell
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#源石滤网
+originium_filter = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/originium_filter.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_dust_absorption
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#压缩点火
+compression_ignition = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/compression_ignition.dds"
+	category = production
+
+	unlocking_technologies = {
+		internal_combustion_engine
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#源石粗炼厂
+originium_basic_refinery = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/originium_basic_refinery.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_refining_plant
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#合成玉厂 orundum
+orundum_plant = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/orundum_plant.dds"
+	category = production
+
+	unlocking_technologies = {
+		originium_basic_refinery
+		originium_refining_plant
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#糖精
+saccharin = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/saccharin.dds"
+	category = production
+
+	unlocking_technologies = {
+		solution_catalytic_processing
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#家用电器
+household_appliances = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/household_appliances.dds"
+	category = production
+
+	unlocking_technologies = {
+		capacitor
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#现代工具
+modern_tools = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/modern_tools.dds"
+	category = production
+
+	unlocking_technologies = {
+		plastics
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#烧结核凝晶
+sintered_core_crystal = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/sintered_core_crystal.dds"
+	category = production
+
+	unlocking_technologies = {
+		capacitor
+		food_grade_conveyor
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#固化法术
+fixed_spell = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/fixed_spell.dds"
+	category = production
+
+	unlocking_technologies = {
+		semi_fixed_spell
+		originium_refining_plant
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#纸回收
+kraft_paper_recycling = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/kraft_paper_recycling.dds"
+	category = production
+
+	unlocking_technologies = {
+		plastics
+		synthetic_pesticide
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#转质盐组
+transmuted_salt_group = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/transmuted_salt_group.dds"
+	category = production
+
+	unlocking_technologies = {
+		transmuted_salt
+		capacitor
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#涤纶技术
+polyester_technology = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/polyester_technology.dds"
+	category = production
+
+	unlocking_technologies = {
+		plastics
+		synthetic_pesticide
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#中央厨房
+central_kitchen = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/central_kitchen.dds"
+	category = production
+
+	unlocking_technologies = {
+		food_grade_conveyor
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#直接还原法
+direct_reduction = {
+	era = era_6
+	texture = "gfx/interface/icons/invention_icons/direct_reduction.dds"
+	category = production
+
+	unlocking_technologies = {
+		acid_oxygen_steelmaking
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#彩色电视
+color_television = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/color_television.dds"
+	category = production
+
+	unlocking_technologies = {
+		radio
+		telephone
+		household_appliances
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#水培法
+hydroponics = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/hydroponics.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_tools
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#凝胶生产
+gel_production = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/gel_production.dds"
+	category = production
+
+	unlocking_technologies = {
+		fixed_spell
+		sintered_core_crystal
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#糖合成
+sugar_synthesis = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/sugar_synthesis.dds"
+	category = production
+
+	unlocking_technologies = {
+		fixed_spell
+		saccharin
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#绿色革命
+green_revolution = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/green_revolution.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_tools
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#现代载具
+modern_vehicles = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/modern_vehicles.dds"
+	category = production
+
+	unlocking_technologies = {
+		internal_combustion_engine
+		compression_ignition
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#快速模块化家具
+rapid_modular_furniture = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/rapid_modular_furniture.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_tools
+		food_grade_conveyor
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#液乳反应
+liquid_milk_reaction = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/liquid_milk_reaction.dds"
+	category = production
+
+	unlocking_technologies = {
+		saccharin
+		originium_refining_plant
+	}
+	ai_weight = {
+		value = 5
+	}
+}
+
+#双纳米片
+bipolar_nanoflake = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/bipolar_nanoflake.dds"
+	category = production
+
+	unlocking_technologies = {
+		transmuted_salt_group
+		direct_reduction
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#创新药
+innovative_drug = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/innovative_drug.dds"
+	category = production
+
+	unlocking_technologies = {
+		synthetic_pesticide
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#碱性转炉练钢法
+basic_oxygen_steelmaking = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/basic_oxygen_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		direct_reduction
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#控制论
+cybernetics = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/cybernetics.dds"
+	category = production
+
+	unlocking_technologies = {
+		digital_device
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#数码设备
+digital_device = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/digital_device.dds"
+	category = production
+
+	unlocking_technologies = {
+		gel_production
+		fixed_spell
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#家庭配送网络
+home_delivery_network = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/home_delivery_network.dds"
+	category = production
+
+	unlocking_technologies = {
+		household_appliances
+		central_kitchen
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#基础加固建材
+basic_reinforced_material = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/basic_reinforced_material.dds"
+	category = production
+
+	unlocking_technologies = {
+		transmuted_salt_group
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#无人机制作
+drone_manufacturing = {
+	era = era_7
+	texture = "gfx/interface/icons/invention_icons/drone_manufacturing.dds"
+	category = production
+
+	unlocking_technologies = {
+		digital_device
+		rapid_modular_furniture
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#现代催化剂
+modern_catalyst = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/modern_catalyst.dds"
+	category = production
+
+	unlocking_technologies = {
+		solution_catalytic_processing
+		transmuted_salt_group
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#快速配送
+fast_delivery = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/fast_delivery.dds"
+	category = production
+
+	unlocking_technologies = {
+		home_delivery_network
+		modern_vehicles
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#现代农业
+modern_agriculture = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/modern_agriculture.dds"
+	category = production
+
+	unlocking_technologies = {
+		green_revolution
+		heavy_vehicles
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#智能手机
+smartphone = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/smartphone.dds"
+	category = production
+
+	unlocking_technologies = {
+		digital_device
+		rapid_modular_furniture
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#改进涤纶技术
+improved_polyester_technology = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/improved_polyester_technology.dds"
+	category = production
+
+	unlocking_technologies = {
+		polyester_technology
+		liquid_milk_reaction
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#电弧熔炉炼钢法
+electric_arc_furnace_steelmaking = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/electric_arc_furnace_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		basic_oxygen_steelmaking
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#糖组
+sugar_group = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/sugar_group.dds"
+	category = production
+
+	unlocking_technologies = {
+		sugar_synthesis
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#高精度芯片制成
+high_precision_chip_manufacturing = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/high_precision_chip_manufacturing.dds"
+	category = production
+
+	unlocking_technologies = {
+		bipolar_nanoflake
+		gel_production
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#重型载具
+heavy_vehicles = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/heavy_vehicles.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_vehicles
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#食品工厂
+food_factory = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/food_factory.dds"
+	category = production
+
+	unlocking_technologies = {
+		central_kitchen
+		home_delivery_network
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#聚合凝胶
+polymer_gel = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/polymer_gel.dds"
+	category = production
+
+	unlocking_technologies = {
+		gel_production
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#小型汽车
+small_car = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/small_car.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_vehicles
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#进阶加固建材
+advanced_reinforced_material = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/advanced_reinforced_material.dds"
+	category = production
+
+	unlocking_technologies = {
+		basic_reinforced_material
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#低能耗家电
+low_energy_household_appliances = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/low_energy_household_appliances.dds"
+	category = production
+
+	unlocking_technologies = {
+		color_television
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#四轴无人机
+quadrotor_drone = {
+	era = era_8
+	texture = "gfx/interface/icons/invention_icons/quadrotor_drone.dds"
+	category = production
+
+	unlocking_technologies = {
+		drone_manufacturing
+		high_precision_chip_manufacturing
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#垂直农业
+vertical_farming = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/vertical_farming.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_agriculture
+		hydroponics
+		smartphone
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#精准农业
+precision_agriculture = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/precision_agriculture.dds"
+	category = production
+
+	unlocking_technologies = {
+		modern_agriculture
+		cybernetics
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#智能穿戴
+smart_wearable = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/smart_wearable.dds"
+	category = production
+
+	unlocking_technologies = {
+		smartphone
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#零排放直接炼钢法
+zero_emission_direct_steelmaking = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/zero_emission_direct_steelmaking.dds"
+	category = production
+
+	unlocking_technologies = {
+		electric_arc_furnace_steelmaking
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#先进制成
+advanced_manufacturing = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/advanced_manufacturing.dds"
+	category = production
+
+	unlocking_technologies = {
+		high_precision_chip_manufacturing
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#电动汽车
+electric_vehicle = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/electric_vehicle.dds"
+	category = production
+
+	unlocking_technologies = {
+		small_car
+		heavy_vehicles
+		electrification
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#人工智能创新药
+ai_innovative_drug = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/ai_innovative_drug.dds"
+	category = production
+
+	unlocking_technologies = {
+		innovative_drug
+		cybernetics
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#智能家居
+smart_home = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/smart_home.dds"
+	category = production
+
+	unlocking_technologies = {
+		low_energy_household_appliances
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#一体化无人机
+integrated_drone = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/integrated_drone.dds"
+	category = production
+
+	unlocking_technologies = {
+		quadrotor_drone
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#碳素家具
+carbon_furniture = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/carbon_furniture.dds"
+	category = production
+
+	unlocking_technologies = {
+		rapid_modular_furniture
+	}
+	ai_weight = {
+		value = 6
+	}
+}
+
+#黑灯工厂
+lights_out_factory = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/lights_out_factory.dds"
+	category = production
+
+	unlocking_technologies = {
+		advanced_manufacturing
+		cybernetics
+	}
+	ai_weight = {
+		value = 9
+	}
+}
+
+#高级加固建材
+advanced_reinforced_material_high = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/advanced_reinforced_material_high.dds"
+	category = production
+
+	unlocking_technologies = {
+		advanced_reinforced_material
+	}
+	ai_weight = {
+		value = 8
+	}
+}
+
+#糖聚块
+sugar_polyblock = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/sugar_polyblock.dds"
+	category = production
+
+	unlocking_technologies = {
+		sugar_group
+		modern_catalyst
+	}
+	ai_weight = {
+		value = 7
+	}
+}
+
+#先进涤纶技术
+advanced_polyester_technology = {
+	era = era_9
+	texture = "gfx/interface/icons/invention_icons/advanced_polyester_technology.dds"
+	category = production
+
+	unlocking_technologies = {
+		improved_polyester_technology
+		plastics
+	}
+	ai_weight = {
+		value = 9
+	}
+}
