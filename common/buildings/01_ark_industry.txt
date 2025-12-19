@@ -8,7 +8,7 @@
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		originium_steelmaking
 	}
 
 	production_method_groups = {
@@ -107,7 +107,7 @@ building_alcohol_synthesizer = { #醇合成厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		distillation
 	}
 
 	production_method_groups = {
@@ -202,7 +202,7 @@ building_steel_mill = { #钢铁厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		originium_steelmaking
 	}
 
 	production_method_groups = {
@@ -462,7 +462,7 @@ building_pharmaceutical_factory = { #药厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		pharaceuticals
 	}
 
 	production_method_groups = {
@@ -485,7 +485,7 @@ building_chemical_solution_factory = { #化学溶液厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		distillation
 	}
 
 	production_method_groups = {
@@ -555,7 +555,7 @@ building_originite_refinery = { #源石粗炼厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		originium_arts
 	}
 
 	production_method_groups = {
@@ -601,7 +601,7 @@ building_orundum_processing_factory = {#合成玉加工厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		manual_refining
 	}
 
 	production_method_groups = {
@@ -624,7 +624,7 @@ building_originite_prime_refinery = { #源石精炼厂
 	ai_nationalization_desire = 0.5
 
 	unlocking_technologies = {
-		manufacturies
+		manual_refining
 	}
 
 	production_method_groups = {

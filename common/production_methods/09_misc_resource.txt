@@ -14,6 +14,9 @@
 }
 pm_saw_mills = {
 	texture = "gfx/interface/icons/production_method_icons/saw_mills.dds"
+	unlocking_technologies = {
+		originium_steelmaking
+	}
 	building_modifiers = {
 		workforce_scaled = {
 			# output goods

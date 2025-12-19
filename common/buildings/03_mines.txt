@@ -6,7 +6,7 @@
 	terrain_manipulator = mining
 	
 	unlocking_technologies = {
-		prospecting
+		originium_arts
 	}
 
 	production_method_groups = {
@@ -28,7 +28,7 @@ building_RMA_mine = { #RMA矿
 	terrain_manipulator = mining
 
 	unlocking_technologies = {
-		prospecting
+		shaft_mining
 	}
 
 	production_method_groups = {
@@ -47,7 +47,7 @@ building_iron_mine = { #铁矿
 	terrain_manipulator = mining
 
 	unlocking_technologies = {
-		prospecting
+		shaft_mining
 	}
 
 	production_method_groups = {

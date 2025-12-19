@@ -1320,7 +1320,9 @@ pm_handmade_clothing = {
 	}
 }
 pm_dye_workshop = {  
-
+	unlocking_technologies = {
+		lathe
+	}
 
 	texture = "gfx/interface/icons/production_method_icons/dye_workshop.dds"
 	building_modifiers = {
@@ -1585,7 +1587,9 @@ pm_handmade_furniture = {
 }
 pm_lathe_furniture = {  
 
-
+	unlocking_technologies = {
+		lathe
+	}
 	texture = "gfx/interface/icons/production_method_icons/lathe_furniture.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -2590,7 +2594,9 @@ pm_crude_device = {
 }
 pm_cast_iron_device = {  
 
-
+	unlocking_technologies = {
+		originium_steelmaking
+	}
 	texture = "gfx/interface/icons/production_method_icons/cast_iron_device.dds"
 	building_modifiers = {
 		workforce_scaled = {
@@ -3519,7 +3525,9 @@ pm_food_factory_bakery = {
 }
 pm_food_factory_sweetener = {  
 
-
+	unlocking_technologies = {
+		distillation
+	}
 	texture = "gfx/interface/icons/production_method_icons/sweetener.dds"
 	building_modifiers = {
 		workforce_scaled = {
