@@ -1,45 +1,53 @@
-MIT License
+# 知识共享 署名-非商业性使用-相同方式共享 4.0 国际许可协议
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
 
-Copyright (c) 2025 Nerax225
+## 1. 协议适用范围（Scope of the License）
+本协议仅适用于本模组（[Mod名称]）中由作者 Nerax225 原创的内容，包括但不限于：
+- 自制美术素材（非明日方舟官方素材）、原创文本/剧情、模组功能脚本/代码、自定义UI逻辑；
+- 上述内容统称为「原创内容」，明日方舟相关美术素材不适用本协议（见下文单独声明）。
 
-Permission is hereby granted, free of charge, to any person obtaining a copy
-of this software and associated documentation files (the "Software"), to deal
-in the Software without restriction, including without limitation the rights
-to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
-copies of the Software, and to permit persons to whom the Software is
-furnished to do so, subject to the following conditions:
+## 2. 核心授权条款（Core License Terms）
+你被授予以下权利，前提是你遵守本协议的所有条款：
+1. 共享（Share）：复制、分发本原创内容的副本；
+2. 改编（Adapt）：修改、转换、基于本原创内容创作衍生作品；
+3. 上述权利适用于全球范围，且无需额外获得作者许可，但必须满足以下条件：
 
-The above copyright notice and this permission notice shall be included in all
-copies or substantial portions of the Software.
+### 署名（Attribution）
+- 你必须清晰标注原作者（Nerax225）的姓名/账号，并注明本原创内容使用本协议授权，不得歪曲作者意图；
+- 标注方式：在衍生作品/分发副本的显著位置注明「本内容基于 Nerax225 的 [Mod名称] 创作，遵循 CC BY-NC-SA 4.0 协议」。
 
-# Notice for Arknights Art Assets
-All Arknights-related art assets in this mod, including but not limited to 
-character portraits, icons, and backgrounds, are copyrighted by Hypergryph 
-Network Technology Co., Ltd. These assets are used solely for non-commercial 
-fan creation and have not obtained commercial authorization. Any commercial 
-use or unauthorized distribution is strictly prohibited.
+### 非商业性使用（NonCommercial）
+- 不得将本原创内容用于任何商业目的，包括但不限于：付费下载、广告变现、众筹、电商销售、线下盈利活动等；
+- 仅允许非商业的同人交流、学习、分享使用。
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
-AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
-LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
-OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
-SOFTWARE.
+### 相同方式共享（ShareAlike）
+- 若你基于本原创内容创作衍生作品，必须采用与本协议完全相同的「CC BY-NC-SA 4.0」协议授权你的衍生作品；
+- 不得修改、删减本协议的核心条款（署名、非商用、相同方式共享）。
 
-MIT 许可证
-版权所有 (c) 2025 Nerax225
-兹免费授予任何获得本软件及相关文档文件（以下简称 “软件”）副本的人，不受限制地处理
-本软件的权利，包括但不限于使用、复制、修改、合并、出版、发行、再许可和 / 或销售
-本软件副本的权利，以及允许向其提供本软件的人做出上述行为，但须符合以下条件：
-上述版权声明和本许可声明应包含在本软件的所有副本或主要部分中。
+## 3. 明日方舟美术素材单独声明（Separate Notice for Arknights Art Assets）
+本模组中所有与明日方舟（Arknights）相关的美术素材（含立绘、图标、背景、Logo等），其著作权均归属于鹰角网络科技有限公司（Hypergryph Network Technology Co., Ltd.）所有：
+1.  该类素材未获得鹰角网络的商业授权，仅用于非商业同人创作，严禁商用；
+2.  鹰角网络有权要求移除相关素材，作者将配合即时处理，联系方式：[你的邮箱/社交账号]；
+3.  明日方舟美术素材不适用上述 CC BY-NC-SA 4.0 协议，仅做版权保留，无任何授权。
 
-明日方舟美术素材声明
-本模组中所有与明日方舟相关的美术素材，包括但不限于角色立绘、图标及背景图等，其著作权
-均归属于鹰角网络科技有限公司。此类素材仅用于非商业性质的同人创作，未获得商业授权。
-严禁将其用于任何商业用途或进行未经授权的分发。
+## 4. 免责声明（Disclaimer）
+本原创内容按「原样」提供，不附带任何明示或暗示的担保，包括但不限于适销性、特定用途适用性及不侵权的担保；
+在任何情况下，作者均不对因使用、修改、分发本内容所产生的任何索赔、损害赔偿或其他责任承担责任，无论该责任基于合同、侵权行为或其他法律依据。
 
-本软件按 “原样” 提供，不附带任何明示或暗示的担保，包括但不限于对适销性、特定用途
-适用性及不侵权的担保。在任何情况下，作者或版权持有人均不对因使用本软件或与本软件
-相关的行为所产生的任何索赔、损害赔偿或其他责任承担责任，无论该责任是基于合同、侵权
-行为或其他法律依据。
+## 5. 协议完整文本
+你可在以下链接查看本协议的完整官方文本：
+- 中文：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode.zh
+- 英文：https://creativecommons.org/licenses/by-nc-sa/4.0/legalcode
+
+# Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License.
+To view a copy of this license, visit http://creativecommons.org/licenses/by-nc-sa/4.0/ or send a letter to Creative Commons, PO Box 1866, Mountain View, CA 94042, USA.
+
+## Separate Notice for Arknights Art Assets
+All Arknights-related art assets in this mod, including but not limited to character portraits, icons, backgrounds, and logos, are copyrighted by Hypergryph Network Technology Co., Ltd.
+1. These assets are used solely for non-commercial fan creation without commercial authorization from Hypergryph; commercial use is strictly prohibited.
+2. Hypergryph has the right to request the removal of relevant assets, and the author will cooperate with immediate processing. Contact: [Your Email/Social Account].
+3. Arknights art assets are not subject to the above CC BY-NC-SA 4.0 License and are only reserved for copyright without any authorization.
+
+## Disclaimer
+THE WORK IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY, FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM, OUT OF OR IN CONNECTION WITH THE WORK OR THE USE OR OTHER DEALINGS IN THE WORK.
